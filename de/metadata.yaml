@@ -1,8 +1,7 @@
 ---
-title: "lernOS Template Leitfaden"
-subtitle: "Dein eigener lernOS Leitfaden in einem Sprint"
-author: [Simon Dückert]
-date: "Version 0.2 (01.01.2022)"
+title: "lernOS Künstliche Intelligenz Leitfaden"
+subtitle: "KI wird den Menschen nicht ersetzen - aber der Mensch mit KI wird den Menschen ohne KI ersetzen"
+date: "Version 0.x (10.08.2023)"
 titlepage: true
 titlepage-color: "ff6600"
 titlepage-text-color: "ffffff"
