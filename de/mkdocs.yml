@@ -1,4 +1,4 @@
-site_name: lernOS Template Leitfaden
+site_name: lernOS KI Leitfaden
 site_url: https://cogneon.github.io/
 docs_dir: src
 site_dir: ../docs/de
@@ -39,13 +39,13 @@ theme:
 extra_css:
   - stylesheets/extra.css
 
-repo_name: 'cogneon/lernos-template'
-repo_url: 'https://github.com/cogneon/lernos-template'
+repo_name: 'cogneon/lernos-ai'
+repo_url: 'https://github.com/cogneon/lernos-ai'
 
 extra:
     social:
-        - icon: fontawesome/brands/twitter
-          link: 'https://twitter.com/lern_os'
+        - icon: fontawesome/brands/mastodon
+          link: 'https://colearn.social/@lernos'
         - icon: fontawesome/brands/linkedin
           link: 'https://www.linkedin.com/showcase/lern-os'
         - icon: fontawesome/brands/github
