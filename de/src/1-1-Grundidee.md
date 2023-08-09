@@ -13,5 +13,3 @@ Ein lernOS Leitfaden steht immer unter der [Creative Commons Namensnennung 4.0 I
 ![Offene Lizenz Creative Commons Namensnennung 4.0 International](./images/CC-BY.png)
 
 Dadurch können lernOS Inhalte für jeden Zweck offen zugegriffen, genutzt, verändert und geteilt werden (auch für kommerzielle Anwendungen). Produkte und Dienstleistungen dürfen allerdings nicht den Begriff "lernOS" im Namen tragen. Dieser Ansatz ist vergleichbar mit dem Browser [Chromium](https://de.wikipedia.org/wiki/Chromium_(Browser)) und den darauf aufsetzenden Produkten [Google Chrome](https://de.wikipedia.org/wiki/Google_Chrome), [Microsoft Edge](https://de.wikipedia.org/wiki/Microsoft_Edge), [Opera](https://de.wikipedia.org/wiki/Opera_(Browser)) und Brave.
-
-# 
