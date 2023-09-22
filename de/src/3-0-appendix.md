@@ -8,9 +8,7 @@ Ein großer Dank an die vielen Projekte und Vorarbeiten, die die Erstellung und 
 
 | Version | Bearbeitet von | Beschreibung Änderung                                                 | Datum      |
 | ------- | -------------- | --------------------------------------------------------------------- | ---------- |
-| 0.3     | Simon Dückert  | Ergänzung Cloud-basierte Produktionskette im Kapitel Produktionskette | 07.08.2023 |
-| 0.2     | Simon Dückert  |                                                                       | 01.01.2022 |
-| 0.1     | Simon Dückert  | Erste Version des Template-Repositories                               | 09.12.2021 |
+| 0.1     | Simon Dückert  | Erste Version des Leitfadens angelegt                               | 22.09.2023 |
 
 ## lernOS Glossar
 
