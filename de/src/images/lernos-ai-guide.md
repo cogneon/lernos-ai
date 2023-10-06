@@ -48,6 +48,7 @@ Chatbots
 ## KI Tools und Dienste
 - Text
     - ChatGPT
+    - Github Copilot
     - LM Studio
     - Bing (GPT-4)
     - DeepL (Übersetzung, Verbesserung)
@@ -65,9 +66,8 @@ Chatbots
 - Video
     - Heygen
     - Synthesia
-- Sonstige
-    - Github Copilot
-    - Microsoft Copilot
+
+[Microsoft 365 Copilot](https://news.microsoft.com/de-de/vorstellung-des-microsoft-365-copilot-early-access-programms-und-neue-funktionen-in-copilot/) (Azure OpenAI, Microsoft Graph, Semantic Index, [Mini-Kurs](https://learn.microsoft.com/en-us/training/modules/examine-microsoft-365-copilot-design/), [The AI-Powered Future of Work](https://cloudpartners.transform.microsoft.com/practices/modern-work/copilot))
 
 Was ist mit VR/Metaverse/Gaming (NPC)
 
