@@ -17,7 +17,7 @@ Diskutiert wird der Verlust von Arbeitsplätzen durch Automatisierung, vor allem
 
 Diskutiert wird die Transparenz der (insbesondere kommerziellen) Modelle und Ihrer Trainingsalgorithmen und die Frage, wo die KI-Anwendungen die Basis die ihre generierten Inhalte her bezieht. Die Transparenz von KI-Systemen ist entscheidend für Vertrauen und Verantwortlichkeit. Was passiert in der Black-Box zwischen einem Prompt in einem Modell und dem Output, insbesondere wenn auf der Basis des Outputs Entscheidungen getroffen werden.
 
-*Reflexionsfragen:
+*Reflexionsfragen*
 - Wie stellt Ihre Organisation die Transparenz und Nachvollziehbarkeit von KI-Systemen sicher?
 - Können wir die Entscheidungsprozesse unserer KI-Systeme verständlich erklären oder sind sie eine Black Box?
 - Wie transparent machen wir die eingesetzten Algorithmus-Modelle und Trainingsdaten gegenüber Kunden und Nutzern?
@@ -26,7 +26,7 @@ Diskutiert wird die Transparenz der (insbesondere kommerziellen) Modelle und Ihr
 - Schulen und trainieren wir unsere Mitarbeitenden, um KI-Systeme kompetent zu überwachen?
 - Wie können wir als Unternehmen zu mehr Transparenz und Verständlichkeit von KI beitragen?
 
-**Verzerrungen und Diskrimierungen
+**Verzerrungen und Diskrimierungen**
 
 KI-Systeme können bestehende Verzerrungen und Diskriminierungen widerspiegeln und verstärken, wenn die zugrundeliegenden Daten unfair sind oder Stereotypen enthalten. Häufig diskutiert wird der Einsatz von KI-Systemen bei der Bewerberauswahl oder im Finanz- und Versicherungsbereich, etwa bei der Kreditgewährung Algorithmische Vorurteile in KI-Systemen können verschiedene Formen annehmen, wie Geschlechterbias, rassistische Vorurteile und Altersdiskriminierung.
 
@@ -37,43 +37,43 @@ KI-Systeme können bestehende Verzerrungen und Diskriminierungen widerspiegeln u
 - Welche Testverfahren gibt es, um Diskriminierungen in KI-Systemen aufzudecken und zu beseitigen?
 - Wie kann mehr Bewusstsein für diese Problematik geschaffen werden?
 
-**Privatsphäre und Datenschutz
+**Privatsphäre und Datenschutz**
 
 Der Einsatz von KI wirft eine Vielzahl von Fragen zum Umgang mit persönlichen Daten auf. Datenschutzverletzungen durch unsachgemäße Handhabung von KI-Systemen können gravierende Folgen haben. 
 
-*Reflexionsfragen:
+*Reflexionsfragen*
 - Welche persönlichen Kundendaten nutzen wir für unsere KI-Systeme? Sind die Daten richtig pseudonymisiert?
 - Wie transparent machen wir die Verwendung von Kundendaten durch KI? Welche Zustimmungen holen wir ein?
 - Wie stellen wir sicher, dass KI-Systeme Daten nicht unkontrolliert für unbeabsichtigte Zwecke verwenden? Welche Konsequenzen hätte es, wenn firmeninterne Daten in öffentlich zugängliche Systeme gelangen würden?
 - Werden Datenschutz-Folgenabschätzungen vor Einsatz von KI-Systemen gemacht?
 - Wie schulen und sensibilisieren wir unsere Mitarbeitenden zum sicheren und verantwortungsvollen Umgang mit Daten?  
 
-**Digitale Abhängigkeit
+**Digitale Abhängigkeit**
 
 Die KI hat das Potenzial, unsere kognitiven Fähigkeiten zu erweitern, Entscheidungsfindungen verbessern, aber auch die Gefahr, Überabhängigkeit zu schaffen. Mit dem Einzug von KI in immer mehr Lebensbereiche wachsen die Sorgen mancher vor einer abnehmenden menschlichen Kompetenz und wachsender Abhängigkeit von Technik. Vereinfacht gesagt: Werden wir schlauer oder dümmer durch KI? Werden wir durch das Verlassen auf die KI in gewissen Umfang entmündigt? 
 
-*Reflexionsfragen:
+*Reflexionsfrage*
 - Welche Fähigkeiten werden in einer von KI geprägten Arbeitswelt an Bedeutung gewinnen? Kreativität, Sozialkompetenz, Problemlösung,...
 - Bieten wir Austauschforen, um Ängste vor KI abzubauen und Souveränität im Umgang mit ihr zu gewinnen?
 - Bleibt der Mensch letzte Entscheidungsinstanz bei kritischen KI-Anwendungen oder überlassen wir wichtige Prozesse vollständig dem Algorithmus?
 - Wie stärken wir die Medienkompetenz, um Fehlentwicklungen zu erkennen und ihnen entgegenzuwirken?
 
-**Ethik und Wertesystem
+**Ethik und Wertesystem**
 
 Die ethische Dimension der KI umfasst verschiedene Bedenken, wie Fairness und Verantwortlichkeit​. Diskutiert wird, wem die KI dienen sollte: dem Wohle aller Menschen und nicht nur weniger Konzerne. Welche Gefahren birgt sie Monopolisierung? Und wer trägt die Verantwortung und ist rechenschaftspflichtig, insbesondere dann,  wenn KI-Systeme - vielleicht sogar - eigenständig - fehlerhafte oder schädliche Entscheidungen treffen? Sollten Hersteller haften? Oder die Nutzer?
 
-*Reflexionsfragen:
+*Reflexionsfragen*
 - Welche ethischen Richtlinien für KI gibt es in meiner Firma? Wer war an ihrer Erstellung beteiligt?
 - Spiegeln die Richtlinien auch meine persönlichen Werte wider wie Gerechtigkeit, Verantwortung und Nachhaltigkeit?
 - Sind Prozesse vorhanden, um ethische Fragen interdisziplinär zu diskutieren?
 - Wie lässt sich die Einhaltung ethischer Prinzipien über den gesamten Entwicklungsprozess von KI-Systemen sicherstellen?
 - Welche Schulungen und Capacity Buildings braucht es, um Bewusstsein und Kompetenzen zu Ethik und KI zu stärken?
 
-**Regulierung
+**Regulierung**
 
 Das Spannungsfeld hier ist der Interessenausgleich zwischen dem Ausschöpfen der Innovationspotenziale und der Risikomimierung. Manche befürchten durch Regulierung eine Behinderung von Innovationen. Andere sehen Risiken für Gesellschaft und Demokratie, wenn KI völlig unreguliert eingesetzt wird. Wichtig in dem Zusammenhang auch die Diskussion um die Ebene, auf der eine mögliche Regulierung stattfinden kann, wenn sie wirksam sein sollte: National, Europäisch, international oder branchenbezogen für besonders sensible Bereiche? Welche Rolle können in dem Zusammenhang freiwillige Selbstverpflichtungen spielen?
 
-*Reflexionsfragen:
+*Reflexionsfragen*
 - Wo könnten in Deinem Unternehmen regulierungsbedürftige Risiken bestehen?
 - Gibt es bereits interne Regeln oder Prinzipien für verantwortungsvolle KI in deiner Firma? Sollte das ausgebaut werden?
 - Wie können hohe KI-Standards und Innovationsfähigkeit gleichzeitig gesichert werden?
