@@ -6,7 +6,7 @@ Idee: Ziel für den Lernpfad ist, mindestens einen Beitrag für Blog/Linkedin zu
 Grundlagenkapitel lesen/verstehen UND/ODER Sprachmodell zu einer Liste von Themen fragen
 
 ## Kata 2
-test
+test => jetzt vesuche ich das auch mal :-)
 
 ## Kata 3
 ## Kata 4
