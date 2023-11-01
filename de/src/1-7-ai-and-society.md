@@ -18,7 +18,7 @@ Diskutiert wird der Verlust von Arbeitsplätzen durch Automatisierung, vor allem
 Diskutiert wird die Transparenz der (insbesondere kommerziellen) Modelle und Ihrer Trainingsalgorithmen und die Frage, woher die KI-Anwendungen die Basis für die generierten Inhalte beziehen. Die Transparenz von KI-Systemen ist entscheidend für Vertrauen und Verantwortlichkeit. Was passiert in der Black-Box zwischen einem Prompt in einem Modell und dem Output, insbesondere wenn auf der Basis des Outputs Entscheidungen getroffen werden?
 
 *Reflexionsfragen*
-- Wie stellt Ihre Organisation die Transparenz und Nachvollziehbarkeit von KI-Systemen sicher?
+- Wie stellt meine Organisation die Transparenz und Nachvollziehbarkeit von KI-Systemen sicher?
 - Können wir die Entscheidungsprozesse unserer KI-Systeme verständlich erklären oder sind sie eine Black Box?
 - Wie transparent machen wir die eingesetzten Algorithmus-Modelle und Trainingsdaten gegenüber Kunden und Nutzern?
 - Welche Überwachungs- und Prüfsysteme gibt es, um Fehlentscheidungen von KI zu erkennen und zu korrigieren?
@@ -50,7 +50,7 @@ Der Einsatz von KI wirft eine Vielzahl von Fragen zum Umgang mit persönlichen D
 
 **Digitale Abhängigkeit**
 
-Die KI hat das Potenzial, unsere kognitiven Fähigkeiten zu erweitern, Entscheidungsfindungen verbessern, aber auch die Gefahr, Überabhängigkeit zu schaffen. Mit dem Einzug von KI in immer mehr Lebensbereiche wachsen die Sorgen mancher vor einer abnehmenden menschlichen Kompetenz und wachsender Abhängigkeit von Technik. Vereinfacht gesagt: Werden wir schlauer oder dümmer durch KI? Werden wir durch das Verlassen auf die KI in gewissen Umfang entmündigt? 
+Die KI hat das Potenzial, unsere kognitiven Fähigkeiten zu erweitern, Entscheidungsfindungen zu verbessern, birgt aber auch die Gefahr, Überabhängigkeit zu schaffen. Mit dem Einzug von KI in immer mehr Lebensbereiche wachsen die Sorgen mancher vor einer abnehmenden menschlichen Kompetenz und wachsender Abhängigkeit von der Technik. Vereinfacht gesagt: Werden wir schlauer oder dümmer durch KI? Werden wir durch das Verlassen auf die KI in gewissen Umfang entmündigt? 
 
 *Reflexionsfrage*
 - Welche Fähigkeiten werden in einer von KI geprägten Arbeitswelt an Bedeutung gewinnen? Kreativität, Sozialkompetenz, Problemlösung,...
@@ -74,7 +74,7 @@ Die ethische Dimension der KI umfasst verschiedene Bedenken, wie Fairness und Ve
 Das Spannungsfeld hier ist der Interessenausgleich zwischen dem Ausschöpfen der Innovationspotenziale und der Risikomimierung. Manche befürchten durch Regulierung eine Behinderung von Innovationen. Andere sehen Risiken für Gesellschaft und Demokratie, wenn KI völlig unreguliert eingesetzt wird. Wichtig in dem Zusammenhang auch die Diskussion um die Ebene, auf der eine mögliche Regulierung stattfinden kann, wenn sie wirksam sein sollte: National, Europäisch, international oder branchenbezogen für besonders sensible Bereiche? Welche Rolle können in dem Zusammenhang freiwillige Selbstverpflichtungen spielen?
 
 *Reflexionsfragen*
-- Wo könnten in Deinem Unternehmen regulierungsbedürftige Risiken bestehen?
-- Gibt es bereits interne Regeln oder Prinzipien für verantwortungsvolle KI in deiner Firma? Sollte das ausgebaut werden?
+- Wo könnten in meinem Unternehmen regulierungsbedürftige Risiken bestehen?
+- Gibt es bereits interne Regeln oder Prinzipien für verantwortungsvolle KI in meiner Firma? Sollte das ausgebaut werden?
 - Wie können hohe KI-Standards und Innovationsfähigkeit gleichzeitig gesichert werden?
 - Sollte es breite gesellschaftliche Debatten zur Regulierung geben? Wie kann man sich konstruktiv einbringen?
