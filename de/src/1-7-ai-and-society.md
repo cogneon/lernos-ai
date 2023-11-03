@@ -52,7 +52,7 @@ Der Einsatz von KI wirft eine Vielzahl von Fragen zum Umgang mit persönlichen D
 
 Die KI hat das Potenzial, unsere kognitiven Fähigkeiten zu erweitern, Entscheidungsfindungen zu verbessern, birgt aber auch die Gefahr, Überabhängigkeit zu schaffen. Mit dem Einzug von KI in immer mehr Lebensbereiche wachsen die Sorgen mancher vor einer abnehmenden menschlichen Kompetenz und wachsender Abhängigkeit von der Technik. Vereinfacht gesagt: Werden wir schlauer oder dümmer durch KI? Werden wir durch das Verlassen auf die KI in gewissen Umfang entmündigt? 
 
-*Reflexionsfrage*
+*Reflexionsfragen*
 - Welche Fähigkeiten werden in einer von KI geprägten Arbeitswelt an Bedeutung gewinnen? Kreativität, Sozialkompetenz, Problemlösung,...
 - Bieten wir Austauschforen, um Ängste vor KI abzubauen und Souveränität im Umgang mit ihr zu gewinnen?
 - Bleibt der Mensch letzte Entscheidungsinstanz bei kritischen KI-Anwendungen oder überlassen wir wichtige Prozesse vollständig dem Algorithmus?
