@@ -5,17 +5,17 @@ In der heutigen digitalen Ära stellt die Künstliche Intelligenz (KI) eine zent
 **Arbeitsplätze und Automatisierung**
 
 KI und Automatisierung werden viele Arbeitsbereiche und Berufsfelder grundlegend verändern. Dies löst sowohl Hoffnungen als auch Ängste aus.
-Diskutiert wird der Verlust von Arbeitsplätzen durch Automatisierung, vor allem für geringer qualifizierte Tätigkeiten, gerade auch im Bürobereich. Andererseits kann die Entlastung von monotonen Teilaufgaben auch Raum für kreativere Aufgaben schaffen. Neue Tätigkeiten und Berufe werden entstehen, im Datenmanagement, im KI-Trainingsbereich.  Insgesamt könnte es jedoch eine neue Polarisierung zwischen den qualifizierten Kräften, die die KI für sich nutzen und einsetzen geben und denen, die durch Nichtnutzung ihren "Marktwert" verlieren.
+Diskutiert wird der Verlust von Arbeitsplätzen durch Automatisierung, vor allem für geringer qualifizierte Tätigkeiten, gerade auch im Bürobereich. Andererseits kann die Entlastung von monotonen Teilaufgaben auch Raum für kreativere Aufgaben schaffen. Die Überlegenheit der KI Systme im Bereich der ärztlichen Diagnostik, im Bereich Umweltmanagement, um nur einige Anwendungen zu nennen, ist bereits vielfach nachgewiesen. Neue Tätigkeiten und Berufe werden entstehen, im Datenmanagement, im KI-Trainingsbereich.  Insgesamt könnte es jedoch eine neue Polarisierung zwischen den qualifizierten Kräften, die die KI für sich nutzen und einsetzen geben und denen, die durch Nichtnutzung ihren "Marktwert" verlieren.
 
 *Reflexionsfragen*
 - Welche konkreten Auswirkungen auf Arbeitsplätze und Tätigkeiten erwartest du in deinem Unternehmen durch KI und Automatisierung?
 - Wie werden die Auswirkungen diskutiert?
 - Welche Chancen bieten KI-unterstützte Assistenzsysteme für die Vereinfachung bestimmter Aufgaben? Welche neuen und kreativen Tätigkeiten könnten entstehen?
-- Wie blickst du selbst auf die Entwicklung von KI? Siehst du eher Chancen oder Risiken für Deine Entwicklung.  Wo möchtest du selbst von KI profitieren und sie einsetzen? Wo bist du zurückhaltend oder skeptisch?  
+- Wie blickst du selbst auf die Entwicklung von KI? Siehst du eher Chancen oder Risiken für Deine Entwicklung. Wo möchtest du selbst von KI profitieren und sie einsetzen? Wo bist du zurückhaltend oder skeptisch?  
 
 **Transparenz und Nachvollziehbarkeit**
 
-Diskutiert wird die Transparenz der (insbesondere kommerziellen) Modelle und Ihrer Trainingsalgorithmen und die Frage, woher die KI-Anwendungen die Basis für die generierten Inhalte beziehen. Die Transparenz von KI-Systemen ist entscheidend für Vertrauen und Verantwortlichkeit. Was passiert in der Black-Box zwischen einem Prompt in einem Modell und dem Output, insbesondere wenn auf der Basis des Outputs Entscheidungen getroffen werden?
+Diskutiert wird die Transparenz der (insbesondere kommerziellen) Modelle und Ihrer Trainingsalgorithmen und die Frage, woher die KI-Anwendungen die Basis für die generierten Inhalte beziehen. Die Transparenz von KI-Systemen ist entscheidend für Vertrauen und Verantwortlichkeit. Was passiert in der Black-Box zwischen einem Prompt und dem Output, insbesondere wenn auf der Basis der KI-Antworten automatisierte Entscheidungen getroffen werden?
 
 *Reflexionsfragen*
 - Wie stellt meine Organisation die Transparenz und Nachvollziehbarkeit von KI-Systemen sicher?
@@ -28,7 +28,7 @@ Diskutiert wird die Transparenz der (insbesondere kommerziellen) Modelle und Ihr
 
 **Verzerrungen und Diskrimierungen**
 
-KI-Systeme können bestehende Verzerrungen und Diskriminierungen widerspiegeln und verstärken, wenn die zugrundeliegenden Daten unfair sind oder Stereotypen enthalten. Häufig diskutiert wird der Einsatz von KI-Systemen bei der Bewerberauswahl oder im Finanz- und Versicherungsbereich, etwa bei der Kreditgewährung Algorithmische Vorurteile in KI-Systemen können verschiedene Formen annehmen, wie Geschlechterbias, rassistische Vorurteile und Altersdiskriminierung.
+KI-Systeme können bestehende Verzerrungen und Diskriminierungen widerspiegeln und verstärken, wenn die zugrundeliegenden Daten unfair sind oder Stereotypen enthalten. Häufig diskutiert wird der Einsatz von KI-Systemen bei der Bewerberauswahl oder im Finanz- und Versicherungsbereich, etwa bei der Kreditgewährung. Algorithmische Vorurteile in KI-Systemen können verschiedene Formen annehmen, wie Geschlechterbias, rassistische Vorurteile und Altersdiskriminierung.
 
 *Reflexionsfragen:
 - Enthalten die Daten, mit denen KI in unserem Unternehmen trainiert wird, möglicherweise versteckte Vorurteile und Verzerrungen?
@@ -45,7 +45,7 @@ Der Einsatz von KI wirft eine Vielzahl von Fragen zum Umgang mit persönlichen D
 - Welche persönlichen Kundendaten nutzen wir für unsere KI-Systeme? Sind die Daten richtig pseudonymisiert?
 - Wie transparent machen wir die Verwendung von Kundendaten durch KI? Welche Zustimmungen holen wir ein?
 - Wie stellen wir sicher, dass KI-Systeme Daten nicht unkontrolliert für unbeabsichtigte Zwecke verwenden? Welche Konsequenzen hätte es, wenn firmeninterne Daten in öffentlich zugängliche Systeme gelangen würden?
-- Werden Datenschutz-Folgenabschätzungen vor Einsatz von KI-Systemen gemacht?
+- Werden Datenschutz-Folgenabschätzungen vor dem Einsatz von KI-Systemen gemacht?
 - Wie schulen und sensibilisieren wir unsere Mitarbeitenden zum sicheren und verantwortungsvollen Umgang mit Daten?  
 
 **Digitale Abhängigkeit**
@@ -60,18 +60,18 @@ Die KI hat das Potenzial, unsere kognitiven Fähigkeiten zu erweitern, Entscheid
 
 **Ethik und Wertesystem**
 
-Die ethische Dimension der KI umfasst verschiedene Bedenken, wie Fairness und Verantwortlichkeit​. Diskutiert wird, wem die KI dienen sollte: dem Wohle aller Menschen und nicht nur weniger Konzerne. Welche Gefahren birgt sie Monopolisierung? Und wer trägt die Verantwortung und ist rechenschaftspflichtig, insbesondere dann,  wenn KI-Systeme - vielleicht sogar - eigenständig - fehlerhafte oder schädliche Entscheidungen treffen? Sollten Hersteller haften? Oder die Nutzer?
+Die ethische Dimension der KI umfasst verschiedene Bedenken, wie Fairness und Verantwortlichkeit​. Diskutiert wird, wem die KI dienen sollte: Dem Wohle aller Menschen und nicht nur weniger Konzerne. Welche Gefahren birgt die Monopolisierung? Und wer trägt die Verantwortung und ist rechenschaftspflichtig, insbesondere dann, wenn KI-Systeme - vielleicht sogar - eigenständig - fehlerhafte oder schädliche Entscheidungen treffen? Sollten Hersteller haften? Oder die Nutzer?
 
 *Reflexionsfragen*
 - Welche ethischen Richtlinien für KI gibt es in meiner Firma? Wer war an ihrer Erstellung beteiligt?
 - Spiegeln die Richtlinien auch meine persönlichen Werte wider wie Gerechtigkeit, Verantwortung und Nachhaltigkeit?
 - Sind Prozesse vorhanden, um ethische Fragen interdisziplinär zu diskutieren?
 - Wie lässt sich die Einhaltung ethischer Prinzipien über den gesamten Entwicklungsprozess von KI-Systemen sicherstellen?
-- Welche Schulungen und Capacity Buildings braucht es, um Bewusstsein und Kompetenzen zu Ethik und KI zu stärken?
+- Welche Schulungen braucht es, um Bewusstsein und Kompetenzen zu Ethik und KI zu stärken?
 
 **Regulierung**
 
-Das Spannungsfeld hier ist der Interessenausgleich zwischen dem Ausschöpfen der Innovationspotenziale und der Risikomimierung. Manche befürchten durch Regulierung eine Behinderung von Innovationen. Andere sehen Risiken für Gesellschaft und Demokratie, wenn KI völlig unreguliert eingesetzt wird. Wichtig in dem Zusammenhang auch die Diskussion um die Ebene, auf der eine mögliche Regulierung stattfinden kann, wenn sie wirksam sein sollte: National, Europäisch, international oder branchenbezogen für besonders sensible Bereiche? Welche Rolle können in dem Zusammenhang freiwillige Selbstverpflichtungen spielen?
+Das Spannungsfeld hier ist der Interessenausgleich zwischen dem Ausschöpfen der Innovationspotenziale und der Risikomimierung. Manche befürchten durch Regulierung eine Behinderung von Innovationen. Andere sehen Risiken für Gesellschaft und Demokratie, wenn KI völlig unreguliert eingesetzt wird. Wichtig ist in dem Zusammenhang auch die Diskussion um die politische Ebene, auf der eine mögliche Regulierung stattfinden kann, wenn sie wirksam sein sollte: National, europäisch, international oder branchenbezogen für besonders sensible Bereiche? Welche Rolle können in dem Zusammenhang die vielfach diskutierten freiwilligen Selbstverpflichtungen von Unternehmen oder Organisationen als Alternative zu Regelungen mit Sanktionen spielen?
 
 *Reflexionsfragen*
 - Wo könnten in meinem Unternehmen regulierungsbedürftige Risiken bestehen?
