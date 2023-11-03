@@ -30,7 +30,7 @@ Diskutiert wird die Transparenz der (insbesondere kommerziellen) Modelle und Ihr
 
 KI-Systeme können bestehende Verzerrungen und Diskriminierungen widerspiegeln und verstärken, wenn die zugrundeliegenden Daten unfair sind oder Stereotypen enthalten. Häufig diskutiert wird der Einsatz von KI-Systemen bei der Bewerberauswahl oder im Finanz- und Versicherungsbereich, etwa bei der Kreditgewährung. Algorithmische Vorurteile in KI-Systemen können verschiedene Formen annehmen, wie Geschlechterbias, rassistische Vorurteile und Altersdiskriminierung.
 
-*Reflexionsfragen:
+*Reflexionsfragen*
 - Enthalten die Daten, mit denen KI in unserem Unternehmen trainiert wird, möglicherweise versteckte Vorurteile und Verzerrungen?
 - Spiegeln die Daten die Vielfalt der Gesellschaft wider oder nur kleine privilegierte Gruppen?
 - Wie divers und interdisziplinär sind die Teams, die KI entwickeln?
