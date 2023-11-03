@@ -8,6 +8,7 @@ KI und Automatisierung werden viele Arbeitsbereiche und Berufsfelder grundlegend
 Diskutiert wird der Verlust von Arbeitsplätzen durch Automatisierung, vor allem für geringer qualifizierte Tätigkeiten, gerade auch im Bürobereich. Andererseits kann die Entlastung von monotonen Teilaufgaben auch Raum für kreativere Aufgaben schaffen. Die Überlegenheit der KI Systme im Bereich der ärztlichen Diagnostik, im Bereich Umweltmanagement, um nur einige Anwendungen zu nennen, ist bereits vielfach nachgewiesen. Neue Tätigkeiten und Berufe werden entstehen, im Datenmanagement, im KI-Trainingsbereich.  Insgesamt könnte es jedoch eine neue Polarisierung zwischen den qualifizierten Kräften, die die KI für sich nutzen und einsetzen geben und denen, die durch Nichtnutzung ihren "Marktwert" verlieren.
 
 *Reflexionsfragen*
+
 - Welche konkreten Auswirkungen auf Arbeitsplätze und Tätigkeiten erwartest du in deinem Unternehmen durch KI und Automatisierung?
 - Wie werden die Auswirkungen diskutiert?
 - Welche Chancen bieten KI-unterstützte Assistenzsysteme für die Vereinfachung bestimmter Aufgaben? Welche neuen und kreativen Tätigkeiten könnten entstehen?
