@@ -4,7 +4,7 @@ Stellen wir uns vor, ein Kind sieht zum ersten Mal einen Hund. Das Kind ist fasz
 
 Dieser Prozess der Erkundung und Anpassung findet sich auch beim maschinellen Lernen wieder. Computerprogramme lernen aus Beispielen, ohne explizit programmiert zu sein. Am Anfang kennen sie die feinen Unterschiede zwischen verschiedenen Kategorien noch nicht. Durch das Analysieren großer Mengen von Daten (das "Training") lernen sie nach und nach, Muster zu erkennen und Daten korrekt einzuordnen.
 
-Der gesamte Prozess kann als Kreislauf von insgesamt 7 Schritten dargestellt werden. Wichtig ist, dass der Lernprozess nicht nach einem Durchlauf nicht abgeschlossen ist, sondern in mehreren Schleifen erfolgt.
+Der gesamte Prozess kann als Kreislauf von insgesamt 6 Schritten dargestellt werden. Wichtig ist, dass der Lernprozess nicht nach einem Durchlauf nicht abgeschlossen ist, sondern in mehreren Schleifen erfolgt.
 
 ![Untitled](https://github.com/cogneon/lernos-ai/assets/103177958/c6f99baf-f369-46a9-89ba-9d926cead4b6)
 
@@ -32,7 +32,8 @@ Nehmen wir ein konkretes Beispiel: Ein Programm soll lernen, Bilder von Hunden u
     Mit jedem durchlaufenen Trainingsbild verbessert das KI-Modell seine Erkennungsfähigkeit für charakteristische Merkmale wie die Beschaffenheit des Fells, die Form der Ohren und die Beschaffenheit des Schwanzes. Es optimiert seine Vorhersagegenauigkeit, indem es relevante Muster hervorhebt und weniger wichtige vernachlässigt. Diese schrittweise Verfeinerung seiner Erkennungsleistung gleicht dem Lernprozess eines Kindes, das durch ständiges Ausprobieren und die daraus resultierenden Korrekturen lernt.
     
 3. **Training**
-    
+   ![4Training](https://github.com/cogneon/lernos-ai/assets/103177958/a019a565-dea9-46f8-9b50-4c92f9fb0ba5)
+ 
     Das Kind lernt durch Wiederholung und Rückmeldung der Eltern. Wenn es einen Hund als Katze bezeichnet, wird es korrigiert. So verfeinert das Kind mit jeder Korrektur sein inneres Modell.
     
     In der KI gibt es zwei grundlegende Arten des Trainings:
@@ -43,7 +44,8 @@ Nehmen wir ein konkretes Beispiel: Ein Programm soll lernen, Bilder von Hunden u
     So wie ein Kind durch Wiederholung und Korrektur seine Unterscheidungsfähigkeit verbessert, optimiert das KI-Modell seine Leistung iterativ durch viele Trainingsdurchläufe und Anpassungen. Nach genügend Training kann es dann auch neue Daten zuverlässig klassifizieren.
     
 4. **Validierung**
-    
+ ![4Training-2](https://github.com/cogneon/lernos-ai/assets/103177958/1ac42e19-89ae-4448-b6a8-c607bc97167b)
+   
     Ähnlich wie ein Kind lernen muss, Hunde und Katzen auch in neuen Situationen richtig zu erkennen, muss ein KI-Modell beweisen, dass es in der Lage ist, Daten zu generalisieren und nicht nur auswendig gelernt hat. Dazu werden neue Testdaten verwendet, um die Fähigkeit des Modells zur korrekten Klassifikation zu überprüfen. Wenn die Ergebnisse unzureichend sind, muss das Modell verbessert werden, um die zugrunde liegenden Regeln zu verstehen und nicht nur einzelne Merkmale auswendig zu lernen. So wie Eltern ein Kind herausfordern und bei Bedarf korrigieren, hilft die Validierung dabei, das KI-Modell zu testen und zu verbessern. Dieses Konzept ist entscheidend beim maschinellen Lernen und ermöglicht es dem Modell, seine Leistung kontinuierlich zu verbessern.
     
 5. **Anwendung**
