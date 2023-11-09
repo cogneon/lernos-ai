@@ -4,6 +4,10 @@ Stellen wir uns vor, ein Kind sieht zum ersten Mal einen Hund. Das Kind ist fasz
 
 Dieser Prozess der Erkundung und Anpassung findet sich auch beim maschinellen Lernen wieder. Computerprogramme lernen aus Beispielen, ohne explizit programmiert zu sein. Am Anfang kennen sie die feinen Unterschiede zwischen verschiedenen Kategorien noch nicht. Durch das Analysieren großer Mengen von Daten (das "Training") lernen sie nach und nach, Muster zu erkennen und Daten korrekt einzuordnen.
 
+Der gesamte Prozess kann als Kreislauf von insgesamt 7 Schritten dargestellt werden. Wichtig ist, dass der Lernprozess nicht nach einem Durchlauf nicht abgeschlossen ist, sondern in mehreren Schleifen erfolgt.
+
+![Untitled](https://github.com/cogneon/lernos-ai/assets/103177958/c6f99baf-f369-46a9-89ba-9d926cead4b6)
+
 Nehmen wir ein konkretes Beispiel: Ein Programm soll lernen, Bilder von Hunden und Katzen zu unterscheiden.
 
 1. **Problemdefinition**
