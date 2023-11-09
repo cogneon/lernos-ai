@@ -18,13 +18,15 @@ Nehmen wir ein konkretes Beispiel: Ein Programm soll lernen, Bilder von Hunden u
     Übertragen auf die KI heißt das, dass sie Bilder klassifizieren soll.
     
 1. **Datensammlung**
+![2Datensammlung](https://github.com/cogneon/lernos-ai/assets/103177958/523890b5-0afa-4ae3-b4a0-2b9207b419be)
     
     In der realen Welt sieht das Kind viele verschiedene Hunde und Katzen. Es erkennt Tiere, wenn sie 4 Beine haben und einen Schwanz und sagt "Wau wau". Die Eltern helfen dem Kind, indem sie auf die Tiere zeigen und diese benennen. So verbindet das Kind die Bilder und Laute der Tiere mit den richtigen Begriffen.
     
     Für die KI werden Tausende von Bildern von Hunden und Katzen gesammelt und entsprechend gekennzeichnet. Diese Daten müssen eventuell bereinigt werden, um Fehler oder irrelevante Informationen zu entfernen.
     
 2. **Modellauswahl**
-    
+    ![3Modellauswahl](https://github.com/cogneon/lernos-ai/assets/103177958/d61764b2-6c47-4560-8bc0-4c33d5347d07)
+
     Im Kopf des Kindes bilden sich durch Wiederholung und Korrektur feste neuronale Verbindungen, was zu einer klareren Unterscheidung zwischen Hunden und Katzen führt. Dieser Prozess ist ähnlich der Art und Weise, wie ein neuronales Netz im KI-Training gestärkt wird. Es ist besonders geschickt darin, in unstrukturierten Daten Muster zu erkennen und aus diesen zu lernen.
     
     Mit jedem durchlaufenen Trainingsbild verbessert das KI-Modell seine Erkennungsfähigkeit für charakteristische Merkmale wie die Beschaffenheit des Fells, die Form der Ohren und die Beschaffenheit des Schwanzes. Es optimiert seine Vorhersagegenauigkeit, indem es relevante Muster hervorhebt und weniger wichtige vernachlässigt. Diese schrittweise Verfeinerung seiner Erkennungsleistung gleicht dem Lernprozess eines Kindes, das durch ständiges Ausprobieren und die daraus resultierenden Korrekturen lernt.
