@@ -4,18 +4,18 @@ Stellen wir uns vor, ein Kind sieht zum ersten Mal einen Hund. Das Kind ist fasz
 
 Dieser Prozess der Erkundung und Anpassung findet sich auch beim maschinellen Lernen wieder. Computerprogramme lernen aus Beispielen, ohne explizit programmiert zu sein. Am Anfang kennen sie die feinen Unterschiede zwischen verschiedenen Kategorien noch nicht. Durch das Analysieren großer Mengen von Daten (das "Training") lernen sie nach und nach, Muster zu erkennen und Daten korrekt einzuordnen.
 
-Der gesamte Prozess kann als Kreislauf von insgesamt 6 Schritten dargestellt werden. Wichtig ist, dass der Lernprozess nicht nach einem Durchlauf nicht abgeschlossen ist, sondern in mehreren Schleifen erfolgt.
+Der gesamte Prozess kann als Kreislauf von insgesamt 7 Schritten dargestellt werden. Wichtig ist, dass der Lernprozess nach einem Durchlauf nicht abgeschlossen ist, sondern in mehreren Schleifen erfolgt. Auch das ist eine Gemeimsamkeit zwischen dem menschlichen und dem maschinellen Lernen.
 
 ![Untitled](https://github.com/cogneon/lernos-ai/assets/103177958/c6f99baf-f369-46a9-89ba-9d926cead4b6)
 
-Nehmen wir ein konkretes Beispiel: Ein Programm soll lernen, Bilder von Hunden und Katzen zu unterscheiden.
+Nehmen wir zur Erläuterung des gesamten Lernprozesses ein konkretes Beispiel: Eine KI-Anwendung soll lernen, Bilder von Hunden und Katzen zu unterscheiden.
 
 1. **Problemdefinition**
 ![1Problemdefinition](https://github.com/cogneon/lernos-ai/assets/103177958/e2168005-5088-4823-9cbc-ff1edde95549)
 
-    Bei Kindern ist die "Problemdefinition" nicht so explizit wie in einem KI-Projekt, sondern eher eine intrinsische Motivation oder ein von der Umwelt stimulierter Lernanreiz. Kinder sind neugierig und wollen die Welt um sich herum verstehen. Im konkreten Beispiel möchte ein Kind lernen, die Unterschiede zwischen einem Hund und einer Katze zu erkennen.
+    Bei Kindern ist die "Problemdefinition" nicht so explizit wie in einem KI-Projekt, sondern eher durch eine intrinsische Motivation ausgelöst oder durch ein von der Umwelt stimulierter Lernanreiz. Kinder sind neugierig und wollen die Welt um sich herum verstehen. Im unserem konkreten Beispiel möchte ein Kind lernen, die Unterschiede zwischen einem Hund und einer Katze zu erkennen.
     
-    Übertragen auf die KI heißt das, dass sie Bilder klassifizieren soll.
+    Generalisiert übertragen auf die KI heißt das, dass sie Bilder klassifizieren soll.
     
 1. **Datensammlung**
 ![2Datensammlung](https://github.com/cogneon/lernos-ai/assets/103177958/523890b5-0afa-4ae3-b4a0-2b9207b419be)
@@ -27,7 +27,7 @@ Nehmen wir ein konkretes Beispiel: Ein Programm soll lernen, Bilder von Hunden u
 2. **Modellauswahl**
     ![3Modellauswahl](https://github.com/cogneon/lernos-ai/assets/103177958/d61764b2-6c47-4560-8bc0-4c33d5347d07)
 
-    Im Kopf des Kindes bilden sich durch Wiederholung und Korrektur feste neuronale Verbindungen, was zu einer klareren Unterscheidung zwischen Hunden und Katzen führt. Dieser Prozess ist ähnlich der Art und Weise, wie ein neuronales Netz im KI-Training gestärkt wird. Es ist besonders geschickt darin, in unstrukturierten Daten Muster zu erkennen und aus diesen zu lernen.
+    Im Kopf des Kindes bilden sich durch Wiederholung und Korrektur feste neuronale Verbindungen, was zu einer klareren Unterscheidung zwischen Hunden und Katzen führt. Dieser Prozess ist ähnlich der Art und Weise, wie ein **neuronales Netz** (vgl. das Kapitel....in diesem Leitfaden) im KI-Training gestärkt wird. Es ist besonders geschickt darin, in unstrukturierten Daten Muster zu erkennen und aus diesen zu lernen.
     
     Mit jedem durchlaufenen Trainingsbild verbessert das KI-Modell seine Erkennungsfähigkeit für charakteristische Merkmale wie die Beschaffenheit des Fells, die Form der Ohren und die Beschaffenheit des Schwanzes. Es optimiert seine Vorhersagegenauigkeit, indem es relevante Muster hervorhebt und weniger wichtige vernachlässigt. Diese schrittweise Verfeinerung seiner Erkennungsleistung gleicht dem Lernprozess eines Kindes, das durch ständiges Ausprobieren und die daraus resultierenden Korrekturen lernt.
     
@@ -38,22 +38,25 @@ Nehmen wir ein konkretes Beispiel: Ein Programm soll lernen, Bilder von Hunden u
     
     In der KI gibt es zwei grundlegende Arten des Trainings:
     
-    - Beim überwachten Lernen bekommt das Modell zu allen Trainingsdaten die korrekte Klassifikation. Anhand dieser Labels lernt es die relevanten Merkmale. In diese Kategorie gehören neuronale Netze.
-    - Beim unüberwachten Lernen erhält das Modell nur die Daten ohne Labels. Es muss selbst Ähnlichkeiten erkennen und die Daten gruppieren. So entdeckt es eigenständig Muster und Strukturen. Das unüberwachte Lernen kann als ergänzende Methode beim Training eingesetzt werden, um dem Modell noch tiefergehendes Verständnis zu ermöglichen. Es hilft dem Modell, latente Merkmale und Zusammenhänge zwischen den Daten zu erfassen, die möglicherweise nicht durch das überwachte Lernen allein erfasst werden könnten.
+    - Beim überwachten Lernen (**Supervised Learning**) bekommt das Modell zu allen Trainingsdaten die korrekte Klassifikation. Anhand dieser Labels lernt es die relevanten Merkmale. In diese Lernkategorie gehören auch neuronale Netze.
+    - Beim unüberwachten Lernen (**Unsupervised Learning**) erhält das Modell nur die Daten ohne Labels. Es muss selbst Ähnlichkeiten erkennen und die Daten gruppieren. So entdeckt es eigenständig Muster und Strukturen. Das unüberwachte Lernen kann als ergänzende Methode beim Training eingesetzt werden, um dem Modell noch tiefergehendes Verständnis zu ermöglichen. Es hilft dem Modell, latente Merkmale und Zusammenhänge zwischen den Daten zu erfassen, die möglicherweise nicht durch das überwachte Lernen allein erfasst werden könnten.
+      
+Die Ergänzung bzw. die Kombination von neuronalen Netzen mit dem überwachten Lernen nennt man **Deep Learning**, ein Begriff der auch häufig in der KI-Diskussion auftaucht.
     
     So wie ein Kind durch Wiederholung und Korrektur seine Unterscheidungsfähigkeit verbessert, optimiert das KI-Modell seine Leistung iterativ durch viele Trainingsdurchläufe und Anpassungen. Nach genügend Training kann es dann auch neue Daten zuverlässig klassifizieren.
+   
     
-4. **Validierung**
+5. **Validierung**
  ![4Training-2](https://github.com/cogneon/lernos-ai/assets/103177958/1ac42e19-89ae-4448-b6a8-c607bc97167b)
    
     Ähnlich wie ein Kind lernen muss, Hunde und Katzen auch in neuen Situationen richtig zu erkennen, muss ein KI-Modell beweisen, dass es in der Lage ist, Daten zu generalisieren und nicht nur auswendig gelernt hat. Dazu werden neue Testdaten verwendet, um die Fähigkeit des Modells zur korrekten Klassifikation zu überprüfen. Wenn die Ergebnisse unzureichend sind, muss das Modell verbessert werden, um die zugrunde liegenden Regeln zu verstehen und nicht nur einzelne Merkmale auswendig zu lernen. So wie Eltern ein Kind herausfordern und bei Bedarf korrigieren, hilft die Validierung dabei, das KI-Modell zu testen und zu verbessern. Dieses Konzept ist entscheidend beim maschinellen Lernen und ermöglicht es dem Modell, seine Leistung kontinuierlich zu verbessern.
     
-5. **Anwendung**
+6. **Anwendung**
 ![6Element%201](https://github.com/cogneon/lernos-ai/assets/103177958/6e6a7d42-3dec-44bb-8d59-b14ef51c4811)
     
     Nach dem Training kann das KI-Modell sein gelerntes Wissen anwenden, ähnlich wie ein Kind sein Wissen nutzt, um neue Tiere draußen korrekt zu erkennen und zu benennen. Das trainierte Modell kann in verschiedenen Anwendungen eingesetzt werden, wie z.B. einer Bildanalyse-App oder einem Empfehlungssystem. Es wendet sein gelerntes Wissen auf neue Daten an und ermöglicht es, nützliche Aufgaben zu lösen. Genau wie ein Kind verschiedene Tiere erkennt und dieses Wissen praktisch anwendet, findet ein trainiertes KI-Modell Anwendung in realen Systemen.
     
-6. **Feedback**
+7. **Feedback**
 ![7Element%201](https://github.com/cogneon/lernos-ai/assets/103177958/62da92d4-ceb0-436a-b897-167b3c9d5ec2)
     
     Regelmäßiges Feedback ist für das Kind unerlässlich, um zu lernen und sich weiterzuentwickeln. So wird es beispielsweise durch Spiele, die die Unterscheidung von Farben und Formen fördern, oder durch interaktive Bildungstools, die spielerisch Wissen vermitteln, weiter gefordert und unterstützt. Gleiches gilt für ein KI-Modell, das durch die kontinuierliche Analyse von Nutzerinteraktionen in einer Foto-Sortier-App oder durch die Einbeziehung neuer, vielfältiger Bilddatensätze stetig verfeinert wird. So wie ein Kind durch den Besuch eines Zoos oder durch das Blättern in einem Tierbuch neue Tierarten kennenlernt und sein Wissen vertieft, erweitert das KI-Modell seine Erkennungsfähigkeiten durch die Einführung zusätzlicher, unterschiedlicher Bilder oder durch Feedback von Benutzern, die Fehlklassifikationen melden. Diese fortlaufende Interaktion, sei es durch menschliche Rückmeldung oder durch neue Dateninputs, ermöglicht es dem Modell, adaptiv zu bleiben und sich an die sich wandelnde Welt anzupassen.
