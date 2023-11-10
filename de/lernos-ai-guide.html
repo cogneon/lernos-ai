@@ -199,7 +199,19 @@ class="toc-section-number">2.4</span> Neuronale Netzwerke</a></li>
 <li><a href="#ki-anwendungsfelder" id="toc-ki-anwendungsfelder"><span
 class="toc-section-number">2.5</span> KI-Anwendungsfelder</a></li>
 <li><a href="#ki-modelle" id="toc-ki-modelle"><span
-class="toc-section-number">2.6</span> KI Modelle</a></li>
+class="toc-section-number">2.6</span> KI Modelle</a>
+<ul>
+<li><a href="#wieso-sprechen-wir-von-modellen"
+id="toc-wieso-sprechen-wir-von-modellen"><span
+class="toc-section-number">2.6.1</span> Wieso sprechen wir von
+Modellen?</a></li>
+<li><a href="#überblick-zu-modellen-generativer-ki"
+id="toc-überblick-zu-modellen-generativer-ki"><span
+class="toc-section-number">2.6.2</span> Überblick zu Modellen
+generativer KI</a></li>
+<li><a href="#hinweis" id="toc-hinweis"><span
+class="toc-section-number">2.6.3</span> Hinweis</a></li>
+</ul></li>
 <li><a href="#ki-tools-und--dienste"
 id="toc-ki-tools-und--dienste"><span
 class="toc-section-number">2.7</span> KI-Tools und -Dienste</a></li>
@@ -689,43 +701,192 @@ ein vereinfachtes Modell ableiten</li>
 <p>Simon: fände eine Infografik in diesem Stil cool.</p>
 <h2 data-number="2.6" id="ki-modelle"><span
 class="header-section-number">2.6</span> KI Modelle</h2>
-<p>Anbieter (Stability AI, Google, Meta, OpenAI etc.)</p>
+<p>Das Kapitel gibt einen Überblick über KI-Modelle und unterteilt sie
+in verschiedene generative Lösungen und Anwendungen. Dies lässt besser
+verstehen, wie diese Modelle in bestimmten Szenarien eingesetzt werden.
+Es ist eine Hilfe, wenn für eigene Projekte oder geschäftliche
+Anforderungen das am besten geeignete Modell zu wählen ist.</p>
+<h3 data-number="2.6.1" id="wieso-sprechen-wir-von-modellen"><span
+class="header-section-number">2.6.1</span> Wieso sprechen wir von
+Modellen?</h3>
+<p>Für das Ergebnis von Anwendungen, die mit generativer KI arbeiten,
+ist das zugrunde liegende so genannte Modell wichtig. Es ist ein Modell,
+eine Abstraktion, ein aus Trainingsdaten “gelerntes” Regelwerk von
+Strukturen, Regelmäßigkeiten und Wahrscheinlichkeiten. Eine Sprache
+beispielsweise umfassend formal zu erlernen, ist für eine zeitnahe
+Verarbeitung in Dialogen (noch) deutlich zu komplex. So ist zu
+verstehen, wie stark die Interpretationen der Eingaben von Nutzer:innen
+und die darauf angewandte Entwicklung von Antworten oder Ergebnissen von
+den Modellen und diese wiederum auf den ausgewählten Daten in der
+Trainingsphase abhängen.</p>
+<p>Warum ist es wichtig, das Modell der KI zu kennen? Nun, es ist ein
+Modell. Ein Modell stellt immer eine Vereinfachung, eine Näherung
+dar. </p>
+<blockquote>
+<p>“ChatGPT Is a Blurry JPEG of the Web”</p>
+</blockquote>
+<p><em>Science Fiction-Autor Ted Chiang in “The New Yorker”</em></p>
+<p>Ein guter Vergleich, wenn wir an den Qualitätsverlust von Grafik-,
+Audio- oder Video-Daten durch Kompressionsformate wie JPG, MP3 oder MPEG
+denken. Die Abstraktion der Originaldaten wird durch Unschärfen oder
+blechernen Klang spürbar. Dieser Vergleich ist ein wichtiger Merkposten,
+wenn eine generative KI-Anwendung grammatikalisch und stilistisch
+perfekt klingende Texte kreiert. Es bleibt eine unscharfe Annäherung,
+wir beobachten so genannte “Halluzinationen” mit inhaltlich unsinnigen
+Antworten auf sachliche Fragen.</p>
+<p>Nehmen wir als Beispiel KI-Anwendungen, die Texte verstehen und
+generieren. Die technische Grundlage dieser Lösungen sind Sprachmodelle,
+die ein lernendes System auf der Basis angebotener Texte in sehr großer
+Menge entwickelt hat. Dazu wurde mit Software-Algorithmen aus dem Gebiet
+des Natural Language Processing gearbeitet, denn diese sind geübt in
+statistischen Vorhersagen von möglichen nächsten Worten für einen
+stimmigen Text. Ihnen wurde eine Sprache nicht “beigebracht”, sondern
+sie haben die Inhalte entsprechend ausgewertet, um Semantik, Grammatik,
+Regeln und Regelmäßigkeiten einer Sprache zu erkennen.</p>
+<p>Ein Beispiel zur Erkennung von Objekten: Wird eine KI zur Erkennung
+von Katzen in Fotos trainiert, werden dazu viele Bilder von Katzen
+bereitgestellt, um sie selbstlernend auf Regelmäßigkeiten und Regeln zu
+analysieren. Sind das nun Katzenfotos, die immer die gleiche gelbe
+Augenfarbe haben, wird das sehr wahrscheinlich als eine Regel zur
+Unterscheidung von anderen Tierfotos gespeichert. Zeigen wir der KI dann
+in der Praxis das Foto einer Katze mit blauen Augen, wird sie diese
+nicht erkennen.</p>
+<h3 data-number="2.6.2" id="überblick-zu-modellen-generativer-ki"><span
+class="header-section-number">2.6.2</span> Überblick zu Modellen
+generativer KI</h3>
+<p>Diese Übersicht zeigt beispielhaft einige KI-Modelle und ihre
+Anwendungen. Derzeit sind die Instruktionen und Bewertungsmodelle, die
+in den meisten KI-Modellen verwendet werden, urheberrechtlich geschützt
+und nicht für die Öffentlichkeit einsehbar. Auch entwickeln und
+trainieren die verschiedenen Anbietenden ihre KIs weiter. Daher ist die
+Versionsbezeichnung der jeweiligen Modelle essentiell für die
+qualitative Einschätzung der generierten Inhalte. Insbesondere wenn der
+Umfang der Trainingsdaten erheblich vergrößert wird.</p>
+<p>Bei der Einteilung von KI-Modellen auf der Grundlage ihrer
+generativen Verwendungszwecke können wir die Texterstellung inklusive
+Code-Generierung, die Bilderstellung und die Audio-/Videoerstellung als
+unterschiedliche Kategorien betrachten. </p>
+<p><strong>Modelle zur Textgenerierung / Code</strong></p>
+<p>KI-Modelle können eingegebene Texte (oder gesprochene Sprache)
+verstehen und daraufhin neue Texte generieren, die einem von Menschen
+geschriebenen Inhalt ähneln. Das können Sprachübersetzungen,
+Textverbesserungen, Chatbot-Dialoge, Stilübertragungen oder die
+Generierung von Inhalten wie Gliederungen, Blogbeiträgen, Artikeln,
+Kursfragen sein. Genauso schreiben entsprechend trainierte KIs auch
+Software-Code.</p>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Large_language_model">Große
-Sprachmodelle</a> (Large Language Models, LLMs)
-<ul>
-<li><a href="https://github.com/facebookresearch/codellama">Code
-Llama</a> (Software-Quelltext)</li>
-<li><a href="https://falconllm.tii.ae/">Falcon</a></li>
-<li><a href="https://openai.com/gpt-4">GPT</a> (Generative Pre-trained
-Transformer)</li>
-<li><a href="https://en.wikipedia.org/wiki/GPT-J">GPT-J</a></li>
-<li><a href="https://ai.meta.com/llama/">LLaMa</a></li>
-<li><a href="https://www.mosaicml.com/blog/mpt-7b">MPT</a></li>
-<li><a href="https://arxiv.org/abs/2306.02707">Orca</a></li>
-<li><a href="https://ai.google/discover/palm2/">PaLM</a></li>
-</ul></li>
-<li><a
-href="https://en.wikipedia.org/wiki/Diffusion_model">Diffusionsmodelle</a>
-(Diffusion Models)
-<ul>
-<li><a href="https://openai.com/dall-e-2">DALL-E</a></li>
-<li><a href="https://www.midjourney.com/">Midjourney</a></li>
-<li><a href="https://stablediffusionweb.com/">Stable Diffusion</a>
-(civitai.com)</li>
-</ul></li>
-<li><a href="https://en.wikipedia.org/wiki/Acoustic_model">Akkustik
-Modelle</a> (Audio)
-<ul>
-<li><a href="https://audiocraft.metademolab.com/">AudioCraft</a>?</li>
-<li><a href="https://vall-e.pro/">VALL-E</a></li>
-<li><a href="https://openai.com/research/whisper">Whisper</a></li>
-</ul></li>
+<li><strong><a
+href="https://docs.aleph-alpha.com/docs/introduction/luminous/">Luminous</a></strong>
+von Aleph Alpha ist ein in fünf europäischen Sprachen trainiertes
+Sprachmodell: Deutsch, Englisch, Französisch, Italienisch und Spanisch.
+Als Eingabe zur Textentwicklung kann mit Text oder kombiniert mit
+Bildern erfolgen.</li>
+<li><strong><a href="https://openai.com/gpt-4">GPT-4</a></strong>
+(Generative Pre-trained Transformer) von OpenAI ist das bekannteste
+Modell für Dialoge, Textgenerierung oder auch Code-Entwicklung. Die
+Eingabe kann mit Text oder Bildmaterial erfolgen. Das Sprachmodell wird
+iterativ durch Verstärkungslernen mit menschlichem Feedback
+(Reinforcement Learning from Human Feedback, RLHF) verbessert. </li>
+<li><strong><a href="https://bard.google.com/chat">BARD</a></strong> ist
+Googles experimentelles Sprachmodell mit den Varianten <em>LaMDA</em>
+(Language Models for Dialog Applications; Fokus auf Dialoge) und
+<em>PaLM 2</em> (Pathways Language Model; spezialisiert auf
+anspruchsvolle logische Aufgaben einschließlich Programmierung und
+Mathematik, Klassifizierung und Beantwortung von Fragen, Übersetzung und
+Mehrsprachigkeit sowie zur Generierung natürlicher Sprache).</li>
+<li><strong><a href="https://ai.meta.com/llama/">Llama 2</a></strong>
+von Meta mit den Modellvarianten <em>Llama Chat</em>, ein Sprachmodell,
+das iterativ durch Verstärkungslernen mit menschlichem Feedback (RLHF)
+für Dialoge verfeinert wird, und <em>Code Llama</em>, ein Sprachmodell,
+das mit code-spezifischen Datensätzen für die Softwareentwicklung
+trainiert wird, um Code zu schreiben, zu vervollständigen oder das
+Debugging zu unterstützen.</li>
+<li><strong><a href="https://leam.ai/">LEAM</a></strong> (Large European
+AI Models) in Entwicklung befindliche KI-Modelle, die  europäische Werte
+und hohe Anforderungen in Bezug auf Datenschutz, Transparenz und
+Voreingenommenheit widerspiegeln. Gleichzeitig soll die Gestaltung des
+Trainings von KI-Modellen nachhaltiger werden.</li>
+<li><strong><a
+href="https://laion.ai/blog-de/leo-lm/">LeoLM</a></strong>
+(Linguistically Enhanced Open Language Model), erste umfassende Suite
+deutschsprachiger Sprachmodelle.</li>
+<li><strong><a
+href="https://platform.openai.com/docs/models/whisper">Whisper</a></strong>:
+Universell einsetzbares Modell von Open AI, das die mehrsprachige
+Erkennung von Sprache in Audiodateien bietet und das Ergebnis als Text
+oder übersetzten Text ausgibt.</li>
 </ul>
-<p>Wie bringen wir Refiner, <a
-href="https://arxiv.org/abs/2106.09685">LORA</a> rein? Idee: Lizenzen
-und damit Nutzungsszenarien hinzufügen</p>
-<p>Frage: was machen wir mit Audio-Modellen, wie z.B. AudioLab.</p>
+<p><strong>Modelle zur Bilderzeugung</strong></p>
+<p>KI-Modelle können auf der Basis von Texteingaben (zum Teil auch
+Bilddateien) neue Bilder erzeugen, die realen Objekten oder Szenen
+ähneln. Dazu gehören Aufgaben wie Bildsynthese, Stilübertragung, oder
+Bildverbesserung (Superresolution).</p>
+<p>Sie nutzen die so genannte Diffusion, was die Verteilung von
+Partikeln im Raum beschreibt. Diesem ähnlich verändert die KI einzelne
+Pixel in einem Bild fortlaufend und in Interaktion miteinander basierend
+auf gelernten Informationen, um neue Inhalte zu erzeugen. </p>
+<ul>
+<li><strong><a
+href="https://platform.openai.com/docs/models/dall-e">DALL•E</a></strong>
+von Open AI versteht Beschreibungen in natürlicher Sprache, um daraufhin
+real wirkende Fotos und Kunstwerke zu erstellen. Die Version <em>DALL-E
+2</em> bietet die Option, ein bestehendes Bild zu bearbeiten oder
+Variationen eines bereitgestellten Bildes zu erstellen. <em>DALL•E 2 und
+3</em> bilden in verschiedenen Anwendungen die KI-Basis.</li>
+<li><strong><a href="https://firefly.adobe.com">Firefly Image
+1</a></strong> von Adobe setzt nach eigenen Angaben auf lizenzierte
+Fotos der eigenen Bilddatenbank und gemeinfreies Bildmaterial. Für die
+Version 2 ist das individuelle Trainieren mit eigenen Werken in der
+Entwicklung.</li>
+<li><strong>LoRA Stable Diffusion</strong> (Learn On Reconstruction and
+Attention) ist eine Kombination von Algorithmen für das Fine-Tuning von
+Bildern und Bildstil-Training. Nach Training mit ausgewählten Bildern
+erkennt die KI einen bestimmten Stil, um diesen dann auf andere
+Bilddaten anzuwenden. </li>
+<li><strong><a href="https://stablediffusionweb.com/">Stable
+Diffusion</a></strong> ist eine der wenigen KI-Anwendungen, die Methoden
+und Trainingsdaten öffentlich frei zugänglich machen. Die
+Bildgenerator-KI nutzt <em><a
+href="https://laion.ai/">LAION-5B</a></em>, der mit fast 6 Milliarden
+Verweisen auf Bilder mit Beschreibung im Internet (LAION - Large-scale
+Artificial Intelligence Open Network, 5B - 5 billion text-image pairs)
+größte öffentlich zugängliche Trainingsdatensatz (Du kannst hier suchen,
+ob deine Fotos ebenfalls für Trainings verwendet wurden: <a
+href="https://haveibeentrained.com/">Have I Been Trained?</a>)</li>
+</ul>
+<p><strong>Modelle zu Audio-/Videogenerierung</strong></p>
+<p>Solche KI-Modelle machen es Anwendungen möglich, natürlich wirkende
+Sprache zu synthetisieren, Musik zu komponieren, Videos oder Deepfakes
+zu generieren. Künstlich erzeugte Sprachausgaben gibt es schon lange,
+sie klingen selten wie eine Sprechstimme. Nun wird die Spachsynthese
+durch KI auf ein neues Niveau gebracht: </p>
+<ul>
+<li><strong><a
+href="https://platform.openai.com/docs/models/tts/">TTS</a></strong>:
+Text-to-Speech-KI-Modell von Open AI, das nach Texteingabe natürlich
+klingende Sprache ausgibt. Die Variante <em>tts-1</em> wurde für
+Anwendungsfälle in Echtzeit optimiert. Für <em>tts-1-hd</em> wird der
+Fokus auf Qualität gelegt.</li>
+<li><strong><a
+href="https://elevenlabs.io/docs/speech-synthesis/models/">English
+v1</a></strong>: Englisches Sprachsynthese-Modell von ElevenLabs.</li>
+<li><strong><a
+href="https://elevenlabs.io/docs/speech-synthesis/models/">Multilingual
+v2</a></strong>: Sprachsynthese-Modell von ElevenLabs für 28
+Sprachen.</li>
+</ul>
+<h3 data-number="2.6.3" id="hinweis"><span
+class="header-section-number">2.6.3</span> Hinweis</h3>
+<p>Bitte habe diese Diskussionen zu Modellen und ihren Trainingsdaten im
+Blick: </p>
+<ul>
+<li>Es wurden Rechtsklagen eingereicht von Kunstschaffenden gegen
+Stability AI oder Midjourney, weil diese urheberrechtlich geschützte
+Werke im Training genutzt haben. </li>
+<li>Softwareentwickler klagen gegen Unternehmen wie GitHub, Microsoft
+oder OpenAI, weil diese ihren Open-Source-Code als Trainingsdaten für
+die KI-Entwicklung hernehmen.</li>
+</ul>
 <h2 data-number="2.7" id="ki-tools-und--dienste"><span
 class="header-section-number">2.7</span> KI-Tools und -Dienste</h2>
 <ul>
