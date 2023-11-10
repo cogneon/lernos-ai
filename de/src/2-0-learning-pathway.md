@@ -54,7 +54,7 @@ Lese Dir das [Kapitel 1.2](1-2-ai-machine-learning.md) durch + Übung dazu.
 
 ## Woche 4
 
-❗ Boxenstopp 1
+Boxenstopp 1
 
 ## Woche 5
 
@@ -64,7 +64,7 @@ Lese Dir das [Kapitel 1.2](1-2-ai-machine-learning.md) durch + Übung dazu.
 
 ## Woche 8
 
-❗ Boxenstopp 2
+Boxenstopp 2
 
 ## Woche 9
 
