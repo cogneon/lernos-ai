@@ -1,6 +1,6 @@
 ## Anwendungsfelder für Künstliche Intelligenz
 
-Auf der Plattform Hugging Face gibt es mit der [Klassifizierung von Modellen](https://huggingface.co/models) eine Kategorisierung von Anwendungsfeldern der Künstlichen Intelligenz. Dieses Listet sehr detailliert, in welchen Bereichen KI eingesetzt werden kann:
+Für die generative KI gibt es leider noch kein schönes Schaubild ähnlich der [AI Landscape der Association for the Advancement of Artificial Intelligence](https://ojs.aaai.org/aimagazine/index.php/aimagazine/article/view/2168) (AAAI) das zeigt, in welchen Bereichen unseres Lebens und unserer Arbeit die KI eine Rolle spielt oder spielen kann. Auf der Plattform Hugging Face gibt es mit der [Klassifizierung von Modellen](https://huggingface.co/models) aber schon eine Kategorisierung von Anwendungsfeldern der Künstlichen Intelligenz. Dieses listet sehr detailliert, in welchen Bereichen KI eingesetzt werden kann:
 
 **Multimodal:**
 
