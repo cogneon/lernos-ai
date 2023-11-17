@@ -2,79 +2,79 @@
 
 Auf der Plattform Hugging Face gibt es mit der [Klassifizierung von Modellen]([Models - Hugging Face](https://huggingface.co/models)) eine Kategorisierung von Anwendungsfeldern der Künstlichen Intelligenz. Dieses Listet sehr detailliert, in welchen Bereichen KI eingesetzt werden kann:
 
-- **Multimodal**
-  
-  - Feature Extraction
-  
-  - Text-to-Image
-  
-  - Image-to-Text
-  
-  - Text-to-Video
-  
-  - Visual Question Answering
-  
-  - Document Question Answering
-  
-  - Graph Machine Learning
+**Multimodal:**
 
-- **Computer Vision**
-  
-  - Depth Estimation
-  
-  - Image Classification
-  
-  - Object Detection
-  
-  - Image Segmentation
-  
-  - Image-to-Image
-  
-  - Unconditional Image Generation
-  
-  - Video Classification
-  
-  - Zero-Shot Image Classification
+- Feature Extraction
 
-- **Natural Language Processing**
-  
-  - Text Classification
-  
-  - Token Classification
-  
-  - Table Question Answering
-  
-  - Question Answering
-  
-  - Zero-Shot Classification
-  
-  - Translation
-  
-  - Summarization
-  
-  - Conversational
-  
-  - Text Generation
-  
-  - Text-to-Text Generation
-  
-  - Fill-Mask
-  
-  - Sentence Similarity
+- Text-to-Image
 
-- **Audio**
-  
-  - Text-to-Speech
-  
-  - Text-to-Audio
-  
-  - Automatic Speech Recognition
-  
-  - Audio-to-Audio
-  
-  - Audio Classification
-  
-  - Voice Activity Detection
+- Image-to-Text
+
+- Text-to-Video
+
+- Visual Question Answering
+
+- Document Question Answering
+
+- Graph Machine Learning
+
+**Computer Vision:**
+
+- Depth Estimation
+
+- Image Classification
+
+- Object Detection
+
+- Image Segmentation
+
+- Image-to-Image
+
+- Unconditional Image Generation
+
+- Video Classification
+
+- Zero-Shot Image Classification
+
+**Natural Language Processing:**
+
+- Text Classification
+
+- Token Classification
+
+- Table Question Answering
+
+- Question Answering
+
+- Zero-Shot Classification
+
+- Translation
+
+- Summarization
+
+- Conversational
+
+- Text Generation
+
+- Text-to-Text Generation
+
+- Fill-Mask
+
+- Sentence Similarity
+
+**Audio:**
+
+- Text-to-Speech
+
+- Text-to-Audio
+
+- Automatic Speech Recognition
+
+- Audio-to-Audio
+
+- Audio Classification
+
+- Voice Activity Detection
 
 Etwas vereinfacht können die Anwendungsfelder so zusammengefasst werden:
 
