@@ -102,7 +102,7 @@ Wenn du keine persönliche Wissenslandkarte mit einer Übersicht deiner Tätigke
 
 4. Dokumentieren
 
-5. Ausbildn
+5. Ausbilden
 
 6. Unterrichten
 
