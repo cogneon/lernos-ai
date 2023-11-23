@@ -5,7 +5,7 @@ In der heutigen digitalen Ära stellt die Künstliche Intelligenz (KI) eine zent
 **Arbeitsplätze und Automatisierung**
 
 KI und Automatisierung werden viele Arbeitsbereiche und Berufsfelder grundlegend verändern. Dies löst sowohl Hoffnungen als auch Ängste aus.
-Diskutiert wird der Verlust von Arbeitsplätzen durch Automatisierung, vor allem für geringer qualifizierte Tätigkeiten, gerade auch im Bürobereich. Andererseits kann die Entlastung von monotonen Teilaufgaben auch Raum für kreativere Aufgaben schaffen. Die Überlegenheit der KI Systme im Bereich der ärztlichen Diagnostik, im Bereich Umweltmanagement, um nur einige Anwendungen zu nennen, ist bereits vielfach nachgewiesen. Neue Tätigkeiten und Berufe werden entstehen, im Datenmanagement, im KI-Trainingsbereich.  Insgesamt könnte es jedoch eine neue Polarisierung zwischen den qualifizierten Kräften, die die KI für sich nutzen und einsetzen geben und denen, die durch Nichtnutzung ihren "Marktwert" verlieren.
+Diskutiert wird der Verlust von Arbeitsplätzen durch Automatisierung, vor allem für geringer qualifizierte Tätigkeiten, gerade auch im Bürobereich. Andererseits kann die Entlastung von monotonen Teilaufgaben auch Raum für kreativere Aufgaben schaffen. In vielen Bereichen wie z.B. der ärztlichen Diagnostik oder auch dem Umweltmanagement zeigt KI bereits heute bei vielen Aufgaben ein Leistungsniveau, das mit dem von Menschen vergleichbar ist. Neue Tätigkeiten und Berufe werden entstehen, im Datenmanagement, im KI-Trainingsbereich. Insgesamt könnte es jedoch eine neue Polarisierung zwischen den qualifizierten Kräften, die die KI für sich nutzen und einsetzen geben und denen, die durch Nichtnutzung ihren "Marktwert" verlieren.
 
 *Reflexionsfragen*
 
@@ -16,7 +16,11 @@ Diskutiert wird der Verlust von Arbeitsplätzen durch Automatisierung, vor allem
 
 **Transparenz und Nachvollziehbarkeit**
 
-Diskutiert wird die Transparenz der (insbesondere kommerziellen) Modelle und Ihrer Trainingsalgorithmen und die Frage, woher die KI-Anwendungen die Basis für die generierten Inhalte beziehen. Die Transparenz von KI-Systemen ist entscheidend für Vertrauen und Verantwortlichkeit. Was passiert in der Black-Box zwischen einem Prompt und dem Output, insbesondere wenn auf der Basis der KI-Antworten automatisierte Entscheidungen getroffen werden?
+Nachvollziehbarkeit spielt bei KI-Systemen auf zwei Ebenen eine wichtige Rolle:
+
+- **Trainingsmaterial**: Es ist nicht immer nachvollziehbar, auf welchem Material eine KI trainiert wurde. Je nach Trainingsmaterial erzeugt eine KI im Analysevorgang Verzerrungen (z.B. bezüglich Geschlecht oder anderen Merkmalen) bis hin zu politischen “Überzeugungen”.
+  
+- **Ergebnisse**: Die Transparenz von KI-Systemen ist entscheidend für Vertrauen und Verantwortlichkeit. Was passiert in der Black Box zwischen einem Prompt und dem Output, insbesondere wenn auf der Basis der KI-Antworten automatisierte Entscheidungen getroffen werden. Bei heutigen KI-Systemen ist nicht nachvollziehbar, wie das Ergebnis zustande kommt. Die Forschung im Bereich [“Explainable AI”](https://de.wikipedia.org/wiki/Explainable_Artificial_Intelligence) verspricht hier Abhilfe zu schaffen.
 
 *Reflexionsfragen*
 
@@ -42,7 +46,7 @@ KI-Systeme können bestehende Verzerrungen und Diskriminierungen widerspiegeln u
 
 **Privatsphäre und Datenschutz**
 
-Der Einsatz von KI wirft eine Vielzahl von Fragen zum Umgang mit persönlichen Daten auf. Datenschutzverletzungen durch unsachgemäße Handhabung von KI-Systemen können gravierende Folgen haben. 
+Der Einsatz von KI wirft eine Vielzahl von Fragen zum Umgang mit persönlichen Daten auf. Datenschutzverletzungen durch unsachgemäße Handhabung von KI-Systemen können gravierende Folgen haben. Es ist daran zu denken, dass viele Anbietende insbesondere kostenloser KI-Tools die Eingaben der Nutzenden für das Training ihrer Modelle verwenden. Das größte Datenschutzrisiko ist dabei, dass vertrauliche Daten aus Eingaben in Prompts unbewußt in das Large Language Modell des Anbietenden gelangen.
 
 *Reflexionsfragen*
 
@@ -54,7 +58,7 @@ Der Einsatz von KI wirft eine Vielzahl von Fragen zum Umgang mit persönlichen D
 
 **Digitale Abhängigkeit**
 
-Die KI hat das Potenzial, unsere kognitiven Fähigkeiten zu erweitern, Entscheidungsfindungen zu verbessern, birgt aber auch die Gefahr, Überabhängigkeit zu schaffen. Mit dem Einzug von KI in immer mehr Lebensbereiche wachsen die Sorgen mancher vor einer abnehmenden menschlichen Kompetenz und wachsender Abhängigkeit von der Technik. Vereinfacht gesagt: Werden wir schlauer oder dümmer durch KI? Werden wir durch das Verlassen auf die KI in gewissen Umfang entmündigt? 
+Die KI hat das Potenzial, unsere kognitiven Fähigkeiten zu erweitern, Entscheidungsfindungen zu verbessern, birgt aber auch die Gefahr, Abhängigkeiten zu schaffen. Mit dem Einzug von KI in immer mehr Lebensbereiche gewinnt der fortschreitende Erwerb spezifischer Kompetenzen der Menschen an Bedeutung, um ihre Souveränität zu erhalten und nicht gegen eine tiefgehende Abhängigkeit von Technik einzutauschen. Vereinfacht gefragt: Werden wir schlauer oder dümmer durch KI? Werden wir durch das Verlassen auf die KI in gewissen Umfang entmündigt? 
 
 *Reflexionsfragen*
 
@@ -77,7 +81,7 @@ Die ethische Dimension der KI umfasst verschiedene Bedenken, wie Fairness und Ve
 
 **Regulierung**
 
-Das Spannungsfeld hier ist der Interessenausgleich zwischen dem Ausschöpfen der Innovationspotenziale und der Risikomimierung. Manche befürchten durch Regulierung eine Behinderung von Innovationen. Andere sehen Risiken für Gesellschaft und Demokratie, wenn KI völlig unreguliert eingesetzt wird. Wichtig ist in dem Zusammenhang auch die Diskussion um die politische Ebene, auf der eine mögliche Regulierung stattfinden kann, wenn sie wirksam sein sollte: National, europäisch, international oder branchenbezogen für besonders sensible Bereiche? Welche Rolle können in dem Zusammenhang die vielfach diskutierten freiwilligen Selbstverpflichtungen von Unternehmen oder Organisationen als Alternative zu Regelungen mit Sanktionen spielen?
+Das Spannungsfeld hier ist der Interessenausgleich zwischen dem Ausschöpfen der Innovationspotenziale und der Risikomimierung. Manche befürchten durch Regulierung eine Behinderung von Innovationen. Andere sehen Risiken für Gesellschaft und Demokratie, wenn KI völlig unreguliert eingesetzt wird. Wichtig in dem Zusammenhang sind die Diskussionen um die Ebene der Regulierung, damit sie wirksam werden kann – national, europäisch, international oder branchenbezogen für besonders sensible Bereiche. In diesem Zusammenhang ist auch die Rolle von freiwilligen Selbstverpflichtungen bzw. Zertifizierungen hervorzuheben als Alternative zu Regulierungen mit Sanktionen.
 
 *Reflexionsfragen*
 
