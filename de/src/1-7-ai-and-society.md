@@ -20,7 +20,7 @@ Nachvollziehbarkeit spielt bei KI-Systemen auf zwei Ebenen eine wichtige Rolle:
 
 - **Trainingsmaterial**: Es ist nicht immer nachvollziehbar, auf welchem Material eine KI trainiert wurde. Je nach Trainingsmaterial erzeugt eine KI im Analysevorgang Verzerrungen (z.B. bezüglich Geschlecht oder anderen Merkmalen) bis hin zu politischen “Überzeugungen”.
   
-- **Ergebnisse**: Die Transparenz von KI-Systemen ist entscheidend für Vertrauen und Verantwortlichkeit. Was passiert in der Black Box zwischen einem Prompt und dem Output, insbesondere wenn auf der Basis der KI-Antworten automatisierte Entscheidungen getroffen werden. Bei heutigen KI-Systemen ist nicht nachvollziehbar, wie das Ergebnis zustande kommt. Die Forschung im Bereich [“Explainable AI”](https://de.wikipedia.org/wiki/Explainable_Artificial_Intelligence) verspricht hier Abhilfe zu schaffen.
+- **Ergebnisse**: Die Transparenz von KI-Systemen ist entscheidend für Vertrauen und Verantwortlichkeit. Was passiert in der Black Box [https://blog.iao.fraunhofer.de/erklaerbare-ki-das-geheimnis-der-blackbox-lueften/]zwischen einem Prompt und dem Output, insbesondere wenn auf der Basis der KI-Antworten automatisierte Entscheidungen getroffen werden. Bei heutigen KI-Systemen ist nicht nachvollziehbar, wie das Ergebnis zustande kommt. Die Forschung im Bereich [“Explainable AI”](https://de.wikipedia.org/wiki/Explainable_Artificial_Intelligence) verspricht hier Abhilfe zu schaffen.
 
 *Reflexionsfragen*
 
