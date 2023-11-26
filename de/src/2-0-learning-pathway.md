@@ -5,6 +5,10 @@ Idee: Ziel für den Lernpfad ist, mindestens einen Beitrag für Blog/Linkedin zu
 ## Woche 0
 
 Die erste Woche dient dem Kennenlernen. Hier findest Du [Woche 0](2-0-Woche-0.md).
+Ergänzende Fragestellungen zum Einstieg
+ - Was bedeutet KI für Dich persönlich und was ist Deine Erwartungshaltung an diesen Lernpfad?
+ - Kurze Beschreibung, was man machen sollte und was noch nicht nötig ist im 1. Schritt.
+ - Optional: Falls schon jemand ein KI-Tool im Einsatz hat, frage die KI, welche Icebreaker zum Kennenlernen sie für Eure Situation empfehlen würde.
 
 ## Woche 1
 
@@ -24,15 +28,14 @@ Für das Treffen in der Gruppe:
 
 - Wähle einen KI-Chatbot aus. Als Hilfestellung kannst Du [Kapitel 1.6](1-6-ai-tools-services.md) nutzen.
   
-  - nutze das Dir bekannte KI-Tool, dass im Unternehmen erlaubt ist
+  - Nutze das Dir bekannte KI-Tool, das im Unternehmen erlaubt ist.
   
-  - Unsere Empfehlungen wäre ChatGPT oder sowas wie LLAMA 2 auf Perplexity Labs
+  - Unsere Empfehlung wäre ChatGPT oder LLAMA 2 auf Perplexity Labs
 
-- Besorge Dir einen Zugang
-
-- Erste Eingabe: "Ich packe meinen ..." -> Koffer
-
+- Besorge Dir einen Zugang zum Tool.
+- Erste Eingabe: "Ich packe meinen ..." -> Koffer - Hintergrund dder Funktionsweise verstehen: Wahrscheinlichkeitsprüfung der KI auf neue nachfolgende Wörter oder Wortgruppen
 - Einstiegs-Scherzfragen: [KI-Einstieg mit ChatGPT-Scherzfragen | eBildungslabor](https://ebildungslabor.de/blog/ki-einstieg-mit-chatgpt-scherzfragen/)
+- ergänzender Hinweis auf Dialogfähigkeit der KI - Probiere Konversationen aus.
 
 ## Woche 3
 
@@ -46,19 +49,26 @@ Lese Dir das [Kapitel 1.2](1-2-ai-machine-learning.md) durch + Übung dazu.
 
 - Lass Dir von einer KI erklären, wie ein KI-Chatbot funktioniert
 
-- Überlege Dir, was für ein KI-Lernprojekt Du machen willst
-  
-  - Entscheide Dich für ein Medium (Text, Bild, ...)
-  
-  - es muss etwas sein, dass von der KI generiert wird
+- Überlege Dir darüber hinaus, was für ein KI-Lernprojekt Du gerne angehen willst. Folgende Beispiele können Dir dabei als Orientierungshilfe dienen:
+  - Vorlage für eine Rede / Skript
+  - Strukturierung von Inhalten für eine Präsentation
+  - Gesprächsleitfäden
+  - Konzepte entwickeln lassen
+  - Brainstorming bezüglich eines Themengebietes
+- Entscheide Dich für ein Medium (Text, Bild, ...).
+- Es soll auf jeden Fall etwas sein, dass von der KI generiert wird.
 
 ## Woche 4
-
-Boxenstopp 1
+(Hintergrund Boxenstopp 1)
+- Reflexions Check-In:
+  - Überlegt Euch, was Ihr aus den letzten 3 Wochen bisher mitnehmen konntet. Fragt die KI, welche Reflexionsmethode sie Euch dafür vorschlagen würde.
+  - Und stellt Euch kurz den Stand Eures KI-Lernprojekts vor, z.B. nach der Woop-Methode (Wish - Options - Obstacles - Plan) - Prof. Oettingen (Hamburg) Quelle: https://woopmylife.org/
 
 ## Woche 5
+KI-Anwendungsfelder in Verbindung mit den Tools - 1. Woche
 
 ## Woche 6
+KI-Anwendungsfelder in Verbindung mit den Tools - 2. Woche
 
 ## Woche 7
 
