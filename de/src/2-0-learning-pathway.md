@@ -29,8 +29,9 @@ Für das Treffen in der Gruppe:
 - Wähle einen KI-Chatbot aus. Als Hilfestellung kannst Du [Kapitel 1.6](1-6-ai-tools-services.md) nutzen.
   
   - Nutze das Dir bekannte KI-Tool, das im Unternehmen erlaubt ist.
-  
   - Unsere Empfehlung wäre ChatGPT oder LLAMA 2 auf Perplexity Labs
+  - Beschäftige Dich einmal mit den unterschiedlichen Arten von KI -> Kapitel-Verweis?
+  - Und mit welcher Art von KI beschäftigen wir uns fokussiert im Rahmen dieses Leitfadens?
 
 - Besorge Dir einen Zugang zum Tool.
 - Erste Eingabe: "Ich packe meinen ..." -> Koffer - Hintergrund dder Funktionsweise verstehen: Wahrscheinlichkeitsprüfung der KI auf neue nachfolgende Wörter oder Wortgruppen
