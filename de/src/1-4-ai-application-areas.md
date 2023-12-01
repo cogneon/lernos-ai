@@ -84,7 +84,7 @@ Etwas vereinfacht können die Anwendungsfelder so zusammengefasst werden:
 
 - **Inhaltsgenerierung**, z.B. Erstellen von Mails, News und Bildern.
 
-- **Eigennamenerkennung** (Named Engtity Recognition, NER), z.B. zur Erkennung von Kunden-/Produktnamen in Texten.
+- **Eigennamenerkennung** (Named Entity Recognition, NER), z.B. zur Erkennung von Kunden-/Produktnamen in Texten.
 
 - **Wissensextraktion**, z.B. die Generierung von Einsichten aus strukturierten oder unstrukturierten Inhalten.
 
