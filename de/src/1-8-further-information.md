@@ -25,13 +25,15 @@ ToDo: für jeden Link einen Begleitsatz erstellen
 
 
 
-Blogs:
+**Blogs:**
 
 - [SCIL Blog Kategorie AI/KI](https://www.scil.ch/tag/ai-ki/), swiss competence centre for innovations in learning (SCIL) / Universität St.Gallen (HSG)
 
 **Podcasts:**
 
-- ...
+- [KI Verstehen](https://www.deutschlandfunk.de/ki-verstehen-102.html) - Podcast des Deutschlandfunk
+
+
 
 **Videos:**
 
