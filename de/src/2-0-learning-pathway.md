@@ -69,17 +69,11 @@ Lese Dir das [Kapitel 1.2](1-2-ai-machine-learning.md) durch + Übung dazu.
 In [Kapitel 1.6]() findest Du eine Übersicht über unterschiedliche Kategorien, denen aktuelle KI-Tools zugeordnet werden können:
 
 1. KI-gestützte Multi-Tools
-  
 2. KI-gestützte Text-Tools
-  
 3. KI-gestützte Codierungshilfen
-  
 4. KI-gestützte Bild-Tools
-  
 5. KI-gestützte Audio-Tools
-  
 6. KI-gestützte Video-Tools
-  
 
 Schaue dir die Kategorien und Tools in Ruhe an und überlege, welche Anwendungsfelder sich für deinen Arbeitsplatz ergeben.
 
