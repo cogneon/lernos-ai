@@ -770,71 +770,125 @@ Intelligence</a> (AAAI) das zeigt, in welchen Bereichen unseres Lebens
 und unserer Arbeit die KI eine Rolle spielt oder spielen kann. Auf der
 Plattform Hugging Face gibt es mit der <a
 href="https://huggingface.co/models">Klassifizierung von Modellen</a>
-aber schon eine Kategorisierung von Anwendungsfeldern der Künstlichen
-Intelligenz. Dieses listet sehr detailliert, in welchen Bereichen KI
-eingesetzt werden kann:</p>
-<p><strong>Multimodal:</strong></p>
-<ul>
-<li><p>Feature Extraction</p></li>
-<li><p>Text-to-Image</p></li>
-<li><p>Image-to-Text</p></li>
-<li><p>Text-to-Video</p></li>
-<li><p>Visual Question Answering</p></li>
-<li><p>Document Question Answering</p></li>
-<li><p>Graph Machine Learning</p></li>
-</ul>
-<p><strong>Computer Vision:</strong></p>
-<ul>
-<li><p>Depth Estimation</p></li>
-<li><p>Image Classification</p></li>
-<li><p>Object Detection</p></li>
-<li><p>Image Segmentation</p></li>
-<li><p>Image-to-Image</p></li>
-<li><p>Unconditional Image Generation</p></li>
-<li><p>Video Classification</p></li>
-<li><p>Zero-Shot Image Classification</p></li>
-</ul>
-<p><strong>Natural Language Processing:</strong></p>
-<ul>
-<li><p>Text Classification</p></li>
-<li><p>Token Classification</p></li>
-<li><p>Table Question Answering</p></li>
-<li><p>Question Answering</p></li>
-<li><p>Zero-Shot Classification</p></li>
-<li><p>Translation</p></li>
-<li><p>Summarization</p></li>
-<li><p>Conversational</p></li>
-<li><p>Text Generation</p></li>
-<li><p>Text-to-Text Generation</p></li>
-<li><p>Fill-Mask</p></li>
-<li><p>Sentence Similarity</p></li>
-</ul>
-<p><strong>Audio:</strong></p>
-<ul>
-<li><p>Text-to-Speech</p></li>
-<li><p>Text-to-Audio</p></li>
-<li><p>Automatic Speech Recognition</p></li>
-<li><p>Audio-to-Audio</p></li>
-<li><p>Audio Classification</p></li>
-<li><p>Voice Activity Detection</p></li>
-</ul>
-<p>Etwas vereinfacht können die Anwendungsfelder so zusammengefasst
-werden:</p>
-<ul>
-<li><p><strong>Assistenten/Chatbots</strong> (Retrival Augmented
-Generation, RAG) für Frage-Antwort-Interfaces und Fragen an
-Dokumente/Content-Pools.</p></li>
-<li><p><strong>Zusammenfassung</strong> von Inhalten, z.B. Dokumente,
-Audios und Videos.</p></li>
-<li><p><strong>Inhaltsgenerierung</strong>, z.B. Erstellen von Mails,
-News und Bildern.</p></li>
-<li><p><strong>Eigennamenerkennung</strong> (Named Entity Recognition,
-NER), z.B. zur Erkennung von Kunden-/Produktnamen in Texten.</p></li>
-<li><p><strong>Wissensextraktion</strong>, z.B. die Generierung von
-Einsichten aus strukturierten oder unstrukturierten Inhalten.</p></li>
-<li><p><strong>Klassifizierung</strong>, z.B. Erkennung von positivem
-oder negativem Feedback in Emails und Formularen.</p></li>
-</ul>
+eine Kategorisierung von Anwendungsfeldern der Künstlichen Intelligenz,
+die allerdings sehr technisch ist. McKinsey beschreibt mögliche
+Anwendungsfelder im Artikel <a
+href="https://www.mckinsey.com/featured-insights/mckinsey-%20explainers/whats-the-future-of-generative-ai-an-early-view-in-15-charts">What’s
+the future of generative AI?</a> anwendungsnäher:</p>
+<table>
+<colgroup>
+<col style="width: 6%" />
+<col style="width: 26%" />
+<col style="width: 67%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Modalität</th>
+<th>Anwendungsfeld</th>
+<th>Beispiel</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Text</strong></td>
+<td>Inhalte erstellen</td>
+<td>Kommunikation: Personalisierte Emails und Posts
+erstellen<br/>Personal: Interview-Fragen und Job-Beschreibungen
+erstellen</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Chatbots und Assistenten</td>
+<td>Kommunikation: Chatbots für Webseiten im Internet und Intranet</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>Suche</td>
+<td>Natürlichsprachige Suche statt Schlagwortsuche</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Analyse und Synthese</td>
+<td>Vertrieb: Kundeninteraktion analysieren<br/>Recht: Gesetze und
+regulatorische Dokumente zusammenfassen</td>
+</tr>
+<tr class="odd">
+<td><strong>Code</strong></td>
+<td>Code erstellen</td>
+<td>IT: Anwendungserstellung<br/>IT: Low-Code und No-Code
+ermöglichen</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Prototypen von Anwendungen und Designs erstellen</td>
+<td>IT: Prototypen und Benutzeroberflächen schnell designen</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>Datensätze generieren</td>
+<td>IT: KI-Modellqualität durch Datensätze verbessern</td>
+</tr>
+<tr class="even">
+<td><strong>Bild</strong></td>
+<td>Bilder erstellen</td>
+<td>Kommunikation: einzigartige Bilder generieren (statt
+Stockfotos)</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>Bilder bearbeiten</td>
+<td>Kommunikation: Bild-Hintergründe entfernen oder verändern</td>
+</tr>
+<tr class="even">
+<td><strong>Audio</strong></td>
+<td>Text-to-Speech generieren</td>
+<td>Training: Voiceover Stimmen erzeugen</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>Sounds generieren</td>
+<td>Medien: Hintergrundgeräusche oder -Musik erzeugen</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Audio bearbeiten</td>
+<td>Kommunikation: Podcasts editieren ohne neue Aufnahme</td>
+</tr>
+<tr class="odd">
+<td><strong>Video</strong></td>
+<td>Video erstellen</td>
+<td>Training: kurze Lernvideos mit AI-Avataren erzeugen</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Video bearbeiten</td>
+<td>Marketing: Standard-Videos personalisieren<br/>Kommunikation:
+Hintergründe von Videos entfernen</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>Sprache übersetzen und anpassen</td>
+<td>Kommunikation: Dubbing, Originalsprache durch Voiceover
+ersetzen<br/>Meetings: Live-Übersetzung in Besprechungen</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Gesichtstausch und Anpassungen vornehmen</td>
+<td>Kommunikation: Übersetzung mit Veränderung der Lippenbewegung für
+andere Sprachen</td>
+</tr>
+<tr class="odd">
+<td><strong>3D &amp; VR</strong></td>
+<td>3D-Objekte generieren</td>
+<td>Videospiele: Charaktere und Objekte erstellen</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Produkte designen und erfahrbar machen</td>
+<td>Produktentwicklung: Entwicklungsprozess beschleunigen</td>
+</tr>
+</tbody>
+</table>
 <p>Wie im HBR-Artikel <a
 href="https://hbr.org/2023/09/where-should-your-company-start-with-genai">Where
 Should Your Company Start with GenAI?</a> beschrieben, sollten
