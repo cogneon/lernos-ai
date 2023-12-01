@@ -1,94 +1,27 @@
 ## Anwendungsfelder für Künstliche Intelligenz
 
-Für die generative KI gibt es leider noch kein schönes Schaubild ähnlich der [AI Landscape der Association for the Advancement of Artificial Intelligence](https://ojs.aaai.org/aimagazine/index.php/aimagazine/article/view/2168) (AAAI) das zeigt, in welchen Bereichen unseres Lebens und unserer Arbeit die KI eine Rolle spielt oder spielen kann. Auf der Plattform Hugging Face gibt es mit der [Klassifizierung von Modellen](https://huggingface.co/models) aber schon eine Kategorisierung von Anwendungsfeldern der Künstlichen Intelligenz. Dieses listet sehr detailliert, in welchen Bereichen KI eingesetzt werden kann:
+Für die generative KI gibt es leider noch kein schönes Schaubild ähnlich der [AI Landscape der Association for the Advancement of Artificial Intelligence](https://ojs.aaai.org/aimagazine/index.php/aimagazine/article/view/2168) (AAAI) das zeigt, in welchen Bereichen unseres Lebens und unserer Arbeit die KI eine Rolle spielt oder spielen kann. Auf der Plattform Hugging Face gibt es mit der [Klassifizierung von Modellen](https://huggingface.co/models) eine Kategorisierung von Anwendungsfeldern der Künstlichen Intelligenz, die allerdings sehr technisch ist. McKinsey beschreibt mögliche Anwendungsfelder im Artikel [What’s the future of generative AI?](https://www.mckinsey.com/featured-insights/mckinsey-%20explainers/whats-the-future-of-generative-ai-an-early-view-in-15-charts) anwendungsnäher:
 
-**Multimodal:**
-
-- Feature Extraction
-
-- Text-to-Image
-
-- Image-to-Text
-
-- Text-to-Video
-
-- Visual Question Answering
-
-- Document Question Answering
-
-- Graph Machine Learning
-
-**Computer Vision:**
-
-- Depth Estimation
-
-- Image Classification
-
-- Object Detection
-
-- Image Segmentation
-
-- Image-to-Image
-
-- Unconditional Image Generation
-
-- Video Classification
-
-- Zero-Shot Image Classification
-
-**Natural Language Processing:**
-
-- Text Classification
-
-- Token Classification
-
-- Table Question Answering
-
-- Question Answering
-
-- Zero-Shot Classification
-
-- Translation
-
-- Summarization
-
-- Conversational
-
-- Text Generation
-
-- Text-to-Text Generation
-
-- Fill-Mask
-
-- Sentence Similarity
-
-**Audio:**
-
-- Text-to-Speech
-
-- Text-to-Audio
-
-- Automatic Speech Recognition
-
-- Audio-to-Audio
-
-- Audio Classification
-
-- Voice Activity Detection
-
-Etwas vereinfacht können die Anwendungsfelder so zusammengefasst werden:
-
-- **Assistenten/Chatbots** (Retrival Augmented Generation, RAG) für Frage-Antwort-Interfaces und Fragen an Dokumente/Content-Pools.
-
-- **Zusammenfassung** von Inhalten, z.B. Dokumente, Audios und Videos.
-
-- **Inhaltsgenerierung**, z.B. Erstellen von Mails, News und Bildern.
-
-- **Eigennamenerkennung** (Named Entity Recognition, NER), z.B. zur Erkennung von Kunden-/Produktnamen in Texten.
-
-- **Wissensextraktion**, z.B. die Generierung von Einsichten aus strukturierten oder unstrukturierten Inhalten.
-
-- **Klassifizierung**, z.B. Erkennung von positivem oder negativem Feedback in Emails und Formularen.
+| Modalität   | Anwendungsfeld                                   | Beispiel |
+| ----------- | ------------------------------------------------ | -------- |
+| **Text**    | Inhalte erstellen                                | ...      |
+|             | Chatbots und Assistenten                         | ...      |
+|             | Suche                                            | ...      |
+|             | Analyse und Synthese                             | ...      |
+| **Code**    | Code erstellen                                   | ...      |
+|             | Prototypen von Anwendungen und Designs erstellen | ...      |
+|             | Datensätze generieren                            | ...      |
+| **Bild**    | Bilder erstellen                                 | ...      |
+|             | Bilder bearbeiten                                | ...      |
+| **Audio**   | Text-to-Speech generieren                        | ...      |
+|             | Sounds generieren                                | ...      |
+|             | Audio bearbeiten                                 | ...      |
+| **Video**   | Video erstellen                                  | ...      |
+|             | Video bearbeiten                                 | ...      |
+|             | Sprache übersetzen und anpassen                  | ...      |
+|             | Gesichtstausch und Anpassungen vornehmen         | ...      |
+| **3D & VR** | 3D-Objekte generieren                            | ...      |
+|             | Produkte designen und erfahrbar machen           | ...      |
 
 Wie im HBR-Artikel [Where Should Your Company Start with GenAI?](https://hbr.org/2023/09/where-should-your-company-start-with-genai) beschrieben, sollten Organisationen aber auch alle einzelnen Wissensarbeiter:innen herausfinden, ob und wie ihre Tätigkeiten von generativer KI betroffen sind. Der Artikel schlägt dafür das WINS-Meme vor, mit du prüfen kannst, wie viel Aufwand der eigenen Tätigkeiten auf Umgang mit Texten (Words), Bildern (Images), Zahlen (Numbers) und Audio (Sounds) entfällt. Je nach Aufwand und Digitalisierungsgrad bei der jeweiligen Tätigkeit ergibt sich der Grad der eigenen Betroffenheit.
 
