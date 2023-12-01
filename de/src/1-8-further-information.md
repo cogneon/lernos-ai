@@ -14,16 +14,12 @@ ToDo: für jeden Link einen Begleitsatz erstellen
   Universität Helsinki und Deutsche Industrie- und Handelskammer (DIHK)
 - [KI für alle](https://www.coursera.org/learn/ai-for-everyone-de) - Kurs von Andrew Ng auf Coursera (kostenlos)
 
-
-
 **Webseiten:**
 
 - [KI Insights](https://www.ki-insights.com/) - ...
 - [Mozilla AI Guide - AI Basics](https://ai-guide.future.mozilla.org/content/ai-basics/)) - ...
 - [Futurepedia](https://www.futurepedia.io/) - The Largest AI Tools Directory (täglich aktualisiert)
 - [Hugging Face Daily Papers](https://huggingface.co/papers) - aktuelle wissenschaftliche Artikel
-
-
 
 **Blogs:**
 
@@ -32,8 +28,6 @@ ToDo: für jeden Link einen Begleitsatz erstellen
 **Podcasts:**
 
 - [KI Verstehen](https://www.deutschlandfunk.de/ki-verstehen-102.html) - Podcast des Deutschlandfunk
-
-
 
 **Videos:**
 
