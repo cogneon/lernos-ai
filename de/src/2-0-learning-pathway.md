@@ -66,10 +66,32 @@ Lese Dir das [Kapitel 1.2](1-2-ai-machine-learning.md) durch + Übung dazu.
   - Und stellt Euch kurz den Stand Eures KI-Lernprojekts vor, z.B. nach der Woop-Methode (Wish - Options - Obstacles - Plan) - Prof. Oettingen (Hamburg) Quelle: https://woopmylife.org/
 
 ## Woche 5
-KI-Anwendungsfelder in Verbindung mit den Tools - 1. Woche
+In [Kapitel 1.6]() findest Du eine Übersicht über unterschiedliche Kategorien, denen aktuelle KI-Tools zugeordnet werden können:
+
+1. KI-gestützte Multi-Tools
+  
+2. KI-gestützte Text-Tools
+  
+3. KI-gestützte Codierungshilfen
+  
+4. KI-gestützte Bild-Tools
+  
+5. KI-gestützte Audio-Tools
+  
+6. KI-gestützte Video-Tools
+  
+
+Schaue dir die Kategorien und Tools in Ruhe an und überlege, welche Anwendungsfelder sich für deinen Arbeitsplatz ergeben.
+
+Verschaffe Dir Zugang zu jeweils einem Tool aus jeder Kategorie und teste sie aus. Versuche - unbenommen von den unterschiedlichen Anwedungsfeldern - Gemeinsamkeiten und spezifische Unterschiede zwischen den Tools zu erkennen und notiere sie für Dich.
 
 ## Woche 6
-KI-Anwendungsfelder in Verbindung mit den Tools - 2. Woche
+
+In der vergangenen Woche hast Du unterschiedliche Kategorien kennengelernt, denen sich die meisten KI-Tools zuordnen lassen. Darüber hinaus hast Du aus jeder Kategorie mindestens ein Tool kennengelernt und angewendet.
+
+Mache Dir nun Gedanken zu dem übergeordneten Lernziel dieses Leitfadens, nämlich einen eigenen Blogpost-Beitrag mittels KI zu erstellen.
+
+Welche Tools könnten Dir beim Erreichen des Lernziels helfen?
 
 ## Woche 7
 
