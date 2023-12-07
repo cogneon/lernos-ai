@@ -1,5 +1,6 @@
 ## Geschichte der Künstlichen Intelligenz
 
+<<<<<<< Updated upstream
 Die Geschichte der Künstlichen Intelligenz reicht zurück bis in die 1950er Jahre. Die folgende Tabelle gibt dir einen Überblick über die wichtigsten Meilensteine:
 
 | Jahr             | Meilenstein                                                                                                                                                                                                                                                                                                                                                |
@@ -28,6 +29,8 @@ Die Geschichte der Künstlichen Intelligenz reicht zurück bis in die 1950er Jah
 
 ### ToDo
 
+=======
+>>>>>>> Stashed changes
 - [Künstliche Intelligenz](https://de.wikipedia.org/wiki/K%C3%BCnstliche_Intelligenz)
   
   Geschichte aus OpenHPI MOOC ergänzen
