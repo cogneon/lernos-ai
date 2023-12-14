@@ -8,7 +8,8 @@ Dieser Prozess der Erkundung und Anpassung findet sich auch beim maschinellen Le
 
 Der gesamte Prozess kann als Kreislauf von insgesamt 7 Schritten dargestellt werden. Wichtig ist, dass der Lernprozess nach einem Durchlauf nicht abgeschlossen ist, sondern in mehreren Schleifen erfolgt. Auch das ist eine Gemeimsamkeit zwischen dem menschlichen und dem maschinellen Lernen.
 
-![Untitled](https://github.com/cogneon/lernos-ai/assets/103177958/c6f99baf-f369-46a9-89ba-9d926cead4b6)
+![Darstellung Lernprozess](https://github.com/cogneon/lernos-ai/assets/10791207/3dc9d685-9de5-4067-8762-f00ff66f07ab)
+
 
 Nehmen wir zur Erläuterung des gesamten Lernprozesses ein konkretes Beispiel: Eine KI-Anwendung soll lernen, Bilder von Hunden und Katzen zu unterscheiden.
 
