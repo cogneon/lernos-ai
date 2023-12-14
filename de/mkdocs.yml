@@ -9,11 +9,12 @@ nav:
       - Geschichte der KI: 1-1-ai-history.md
       - KI & Maschinelles Lernen: 1-2-ai-machine-learning.md
       - Neuronale Netzwerke: 1-3-neuronal-networks.md
-      - KI-Anwendungsfelder: 1-4-ai-application-areas.md
-      - KI-Modelle: 1-5-ai-models.md
-      - KI-Tools & Services: 1-6-ai-tools-services.md
-      - KI & Gesellschaft: 1-7-ai-and-society.md
-      - Weiterführende Informationen: 1-8-further-information.md
+      - Maschinelles vs. Menschliches Lernen: 1-4-machine-vs-human-learning.md
+      - KI-Anwendungsfelder: 1-5-ai-application-areas.md
+      - KI-Modelle: 1-6-ai-models.md
+      - KI-Tools & Services: 1-7-ai-tools-services.md
+      - KI & Gesellschaft: 1-8-ai-and-society.md
+      - Weiterführende Informationen: 1-9-further-information.md
     - Lernpfad: 2-0-learning-pathway.md
     - Anhang: 3-0-appendix.md
     - Download:

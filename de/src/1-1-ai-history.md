@@ -1,6 +1,5 @@
 ## Geschichte der Künstlichen Intelligenz
 
-<<<<<<< Updated upstream
 Die Geschichte der Künstlichen Intelligenz reicht zurück bis in die 1950er Jahre. Die folgende Tabelle gibt dir einen Überblick über die wichtigsten Meilensteine:
 
 | Jahr             | Meilenstein                                                                                                                                                                                                                                                                                                                                                |
@@ -26,11 +25,3 @@ Die Geschichte der Künstlichen Intelligenz reicht zurück bis in die 1950er Jah
 | **2021**         | Die **generative KI** [DALL-E](https://en.wikipedia.org/wiki/DALL-E) zur Generierung von Bildern aus Text wird veröffentlicht.                                                                                                                                                                                                                             |
 | **2021**         | [Ameca](https://en.wikipedia.org/wiki/Ameca_(robot)) ist ein humanoider Roboter, der von Engineered Arts entwickelt wurde. Ameca ist in erster Linie als Plattform für die Weiterentwicklung von Robotik-Technologien für die Mensch-Roboter-Interaktion gedacht. Die Interaktion kann entweder durch GPT-3 oder menschliche Telepräsenz gesteuert werden. |
 | **2022**         | Der Chatbot [ChatGPT](https://en.wikipedia.org/wiki/ChatGPT), der das Large Language Model GPT verwendet, wird veröffentlicht.                                                                                                                                                                                                                             |
-
-### ToDo
-
-=======
->>>>>>> Stashed changes
-- [Künstliche Intelligenz](https://de.wikipedia.org/wiki/K%C3%BCnstliche_Intelligenz)
-  
-  Geschichte aus OpenHPI MOOC ergänzen
