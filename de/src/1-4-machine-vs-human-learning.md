@@ -40,7 +40,7 @@ Nehmen wir zur Erläuterung des gesamten Lernprozesses ein konkretes Beispiel: E
    
     In der KI gibt es zwei grundlegende Arten des Trainings:
 - Beim überwachten Lernen (**Supervised Learning**) (https://en.wikipedia.org/wiki/Supervised_learning) bekommt das Modell zu allen Trainingsdaten die korrekte Klassifikation. Anhand dieser Labels lernt es die relevanten Merkmale. In diese Lernkategorie gehören auch neuronale Netze.
-- Beim unüberwachten Lernen (**Unsupervised Learning**) erhält das Modell nur die Daten ohne Labels. Es muss selbst Ähnlichkeiten erkennen und die Daten gruppieren. So entdeckt es eigenständig Muster und Strukturen. Das unüberwachte Lernen kann als ergänzende Methode beim Training eingesetzt werden, um dem Modell noch tiefergehendes Verständnis zu ermöglichen. Es hilft dem Modell, latente Merkmale und Zusammenhänge zwischen den Daten zu erfassen, die möglicherweise nicht durch das überwachte Lernen allein erfasst werden könnten.
+- Beim unüberwachten Lernen (**Unsupervised Learning**)(https://en.wikipedia.org/wiki/Unsupervised_learning) erhält das Modell nur die Daten ohne Labels. Es muss selbst Ähnlichkeiten erkennen und die Daten gruppieren. So entdeckt es eigenständig Muster und Strukturen. Das unüberwachte Lernen kann als ergänzende Methode beim Training eingesetzt werden, um dem Modell noch tiefergehendes Verständnis zu ermöglichen. Es hilft dem Modell, latente Merkmale und Zusammenhänge zwischen den Daten zu erfassen, die möglicherweise nicht durch das überwachte Lernen allein erfasst werden könnten.
 
 Die Ergänzung bzw. die Kombination von neuronalen Netzen mit dem überwachten Lernen nennt man **Deep Learning**, ein Begriff, der auch häufig in der KI-Diskussion auftaucht.
 
