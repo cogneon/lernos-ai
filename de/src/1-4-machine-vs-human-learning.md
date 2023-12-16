@@ -12,10 +12,10 @@ Für uns war es sinnvoll, den gesamten Prozess als Kreislauf von insgesamt 7 Sch
 
 Nehmen wir zur Erläuterung des gesamten Lernprozesses ein konkretes Beispiel: Eine KI-Anwendung soll lernen, Bilder von Hunden und Katzen zu unterscheiden.
 
-1. **Problemdefinition**
+1. **Situation**
    ![1_Problemdefinition - Ein Icon, das einen vereinfachten, stilisierten Umriss einer Katze zeigt, die links positioniert ist, und einen ähnlichen Umriss eines Hundes, der rechts positioniert ist, mit einem Pfeil, der von der Katze zum Hund zeigt. Das Icon ist in einem abgerundeten Quadrat eingefasst.](https://github.com/cogneon/lernos-ai/assets/10791207/5eabaebd-e0c7-4d24-a2f2-3e6910bb1e23)
    
-    Bei Kindern ist die "Problemdefinition" nicht so explizit wie in einem KI-Projekt, sondern eher durch eine intrinsische Motivation ausgelöst oder durch ein von der Umwelt stimulierter Lernanreiz. Kinder sind neugierig und wollen die Welt um sich herum verstehen. Im unserem konkreten Beispiel möchte ein Kind lernen, die Unterschiede zwischen einem Hund und einer Katze zu erkennen.
+    Bei Kindern ist die Ausgangssituation für den Beginn eines Lernprozesses nicht so explizit wie in einem KI-Projekt, sondern eher durch eine intrinsische Motivation ausgelöst oder durch ein von der Umwelt stimulierter Lernanreiz. Kinder sind neugierig und wollen die Welt um sich herum verstehen. Im unserem konkreten Beispiel möchte ein Kind lernen, die Unterschiede zwischen einem Hund und einer Katze zu erkennen.
    
     Generalisiert übertragen auf die KI heißt das, dass sie Bilder klassifizieren soll.
 
