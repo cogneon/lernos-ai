@@ -1,6 +1,14 @@
 ## KI und Gesellschaft: eine Reflexion über Implikationen und Verantwortung
 ---
-In der heutigen digitalen Ära stellt die Künstliche Intelligenz (KI) eine zentrale Technologie dar, die unsere sozialen und beruflichen Interaktionen neu gestaltet. Dieses Kapitel regt zur Reflexion und Diskussion über die Auswirkungen der KI im Kontext Deiner Organisation und der Gesellschaft an. Wir haben 7 Aspekte identifiziert, die im Zusammenhang mit „KI und Gesellschaft“ diskutiert werden. Zu jedem Aspekt sind Fragen zusammengestellt zur Selbstreflexion und zur Diskussion mit Deiner Lerngruppe.
+In der heutigen digitalen Ära stellt die Künstliche Intelligenz (KI) eine zentrale Technologie dar, die unsere sozialen und beruflichen Interaktionen neu gestaltet. Dieses Kapitel regt zur Reflexion und Diskussion über die Auswirkungen der KI im Kontext Deiner Organisation und der Gesellschaft an. Wir haben 7 Aspekte identifiziert, die im Zusammenhang mit „KI und Gesellschaft“ diskutiert werden. Zu jedem Aspekt sind Fragen zusammengestellt zur Selbstreflexion und zur Diskussion mit Deiner Lerngruppe:
+
+- **Arbeitsplätze und Automatisierung**
+- **Transparenz und Naschvollziehbarkeit**
+- **Verzerrungen und Diskriminierungen**
+- **Privatsphäre und Datenschutz**
+- **Digitale Abhängigkeit**
+- **Ethik und Wertesystem**
+- **Regulierung**
 
 **Arbeitsplätze und Automatisierung**
 
