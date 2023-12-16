@@ -1,4 +1,4 @@
-## Maschinelles vs. Menschliches Lernen
+## Menschliches und Maschinelles Lernen ##
 
 ---
 
