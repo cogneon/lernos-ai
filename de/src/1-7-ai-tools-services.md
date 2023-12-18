@@ -29,8 +29,8 @@ Diese Angebote bieten gleich mehrere Werkzeuge für die verschiedenen Anwendungs
 
 - [**Bing Chat / Copilot**](https://www.bing.com/search): Kommunikation via Text, Audio und Bildeingabe sowie Code-Generierung auf der Basis von _GPT-4;_ Bildgenerierung mit _Dall-E 3;_ Funktionsumfang abhängig vom Betriebssystem, deutschsprachig, kostenfreie Basis-Nutzung.
 - [**Fobizz Tools**](https://tools.fobizz.com): Tools für Schule und Weiterbildung für Chats mit Persönlichkeiten der Geschichte, Textzusammenfassungen, gesprochene Inhalte in Text wandeln, Handschrifterkennung, Bildgenerierung, kostenfreie Basis-Nutzung, DSGVO-konform. Mit einer Anmeldung verschiedene AI-Modelle testen (Bild: _Dall-E 2, Stable Diffusion;_ Text & Chat: _Luminous Extended, GPT3.5 turbo, GPT4, Open Assistant, Claude 2)._
-- [**Neuroflash**](https://neuroflash.com/de/free-content-generatoren/): _ChatFlash, ContentFlash, ImageFlash_ und _PerformanceFlash_ für Texterstellung, Textüberarbeitung, Bilderzeugung, deutschsprachig, kostenfreie Basis-Nutzung, DSGVO-konform.
-- [**Poe**](https://poe.com/): Mit einer Anmeldung verschiedene AI-Modelle im Chat testen (aktuell u.a. _ChatGPT & GPT-4, Claude Instant & Claude 2, StableDiffusionXL, PaLM, Llama 2),_ kostenfreie Basis-Nutzung.
+- [**Neuroflash**](https://neuroflash.com/de/free-content-generatoren): _ChatFlash, ContentFlash, ImageFlash_ und _PerformanceFlash_ für Texterstellung, Textüberarbeitung, Bilderzeugung, deutschsprachig, kostenfreie Basis-Nutzung, DSGVO-konform.
+- [**Poe**](https://poe.com): Mit einer Anmeldung verschiedene AI-Modelle im Chat testen (aktuell u.a. _ChatGPT & GPT-4, Claude Instant & Claude 2, StableDiffusionXL, PaLM, Llama 2),_ kostenfreie Basis-Nutzung.
 - [**You.Com**](https://you.com): Tools _YouChat, YouCode, YouImagine, YouWrite_ für Recherche, Texterstellung, Code-Assistenz und Bildgenerierung, englischsprachig, kostenfreie Basis-Nutzung.
 
 
@@ -43,9 +43,9 @@ KI-Text-Tools ermöglichen die Interaktion mit dem Tool wie in einer Unterhaltun
 - [**Bing Chat / Copilot**](https://www.bing.com/search): Kommunikation via Text, Audio und Bildeingabe auf der Basis von _GPT-4;_Funktionsumfang abhängig vom Betriebssystem, deutschsprachig, kostenfreie Nutzung.
 - [**BlogMojo**](https://blogmojo.ai): Texterstellung mit Stil des individuellen Blogs, deutschsprachig, kostenfreie Basis-Nutzung, DSGVO-konform.
 - [**ChatGPT**](https://chat.openai.com/auth/login): Textchat zur Textentwicklung, Übersetzung, Textbearbeitung etc. mit Datenstand bis Januar 2023, kostenfreie Basis-Nutzung. 
-- [**Claude 2**](https://claude.ai/): Kann in Europa via **Fobizz Tools** und **Poe** (s.o.) genutzt werden.
+- [**Claude 2**](https://claude.ai): Kann in Europa via **Fobizz Tools** und **Poe** (s.o.) genutzt werden.
 - [**Deepl**](https://deepl.com): Übersetzungen und DeeplWrite zur Textverbesserung mit verschiedenen Stilauswahlen, deutschsprachig, kostenfreie Basis-Nutzung, DSGVO-konform.
-- [**Luminous**](https://app.aleph-alpha.com/jumpstart/): Sentiment-Analysen und Textgenerierung eingeteilt nach verschiedenen Anwendungsszenarien, englischsprachige Oberfläche, kostenfreie Basis-Nutzung, DSGVO-konform.
+- [**Luminous**](https://app.aleph-alpha.com/jumpstart): Sentiment-Analysen und Textgenerierung eingeteilt nach verschiedenen Anwendungsszenarien, englischsprachige Oberfläche, kostenfreie Basis-Nutzung, DSGVO-konform.
 - [**Pi**](https://pi.ai/talk): Textchat mit Sprachausgabe zu verschiedenen Themen als empathisches Gegenüber, englischsprachig, kostenfreie Nutzung.
 
 
@@ -53,6 +53,7 @@ KI-Text-Tools ermöglichen die Interaktion mit dem Tool wie in einer Unterhaltun
 
 Code-Tools mit KI sind innovative Programme, die Entwickler:innen helfen, effizienter zu arbeiten. Sie generieren kurze Code-Snippets, eröffnen Diskussionen über verschiedene Lösungsansätze und bieten Erklärungen zu Code-Fragmenten. Außerdem können sie zur Überarbeitung bestehenden Codes eingesetzt werden, um dessen Qualität zu verbessern.
 
+_ [**AWS CodeWhisperer**](https://aws.amazon.com/de/codewhisperer): Code-Assistenz für Amazon Web Services-Cloud-Entwicklungen mit Codevorschlägen und Sicherheitsscans, unterstützt 15 Programmiersprachen, in kostenfreiem Indivudaltarif nutzbar, DSGVO-konform.
 - [**Bing Chat / Copilot**](https://www.bing.com/search): Code-Assistenz für verschiedene Programmiersprachen, deutschsprachig, kostenfreie Basis-Nutzung.
 - [**ChatGPT**](https://chat.openai.com/auth/login): Code-Assistenz für verschiedene Programmiersprachen mit Fokus auf _Python,_ deutschsprachig, kostenfreie Basis-Nutzung.
 - [**Github Copilot**](https://github.com/features/copilot): Code-Assistenz, die Vorschläge und Optimierungen für Softwarecode liefert, kostenfreie Testnutzung.
@@ -63,9 +64,9 @@ Code-Tools mit KI sind innovative Programme, die Entwickler:innen helfen, effizi
 
 Bild-Tools nutzen KI für die Erzeugung und Optimierung von Fotos und Grafiken. Textanweisungen werden verarbeitet, verstanden und entsprechend für die Generierung von passenden Bildern verwendet. Sie sind in der Lage, so genannte Deepfakes zu erzeugen: Fotos (oder Videos) in denen die Gesichtszüge einer Person auf die Aufnahme eines anderen Menschen übertragen werden.
 
-- [**Adobe Express**](https://www.adobe.com/de/express/): Generierung von Bildern sowie Bearbeitung und Verbesserung von Bildern, deutschsprachig, kostenfreie Basis-Nutzung.
-- [**Bing Creator**](https://bing.com/create/): Bildgenerierung mit _DALL-E 3,_ deutschsprachig, kostenfreie Basis-Nutzung.
-- [**CivitAI**](https://civitai.com/): Bildgenerierung mit Vorlagenauswahl und Text-Prompt, englischsprachig, Registrierung erforderlich, kostenfreie Basis-Nutzung.
+- [**Adobe Express**](https://www.adobe.com/de/express): Generierung von Bildern sowie Bearbeitung und Verbesserung von Bildern, deutschsprachig, kostenfreie Basis-Nutzung.
+- [**Bing Creator**](https://bing.com/create): Bildgenerierung mit _DALL-E 3,_ deutschsprachig, kostenfreie Basis-Nutzung.
+- [**CivitAI**](https://civitai.com): Bildgenerierung mit Vorlagenauswahl und Text-Prompt, englischsprachig, Registrierung erforderlich, kostenfreie Basis-Nutzung.
 - **Midjourney** (kostenpflichtig) via **Poe** nutzen (s.o.).
 
 
@@ -74,20 +75,32 @@ Bild-Tools nutzen KI für die Erzeugung und Optimierung von Fotos und Grafiken. 
 Audio-Tools mit KI erlauben die Spracheingabe zur Steuerung von Anwendungen. Sie können aufgrund von Textinputs natürlich wirkende Sprache erzeugen. Einige Tools ersetzen die Tonspur einer Videodatei, zum Beispiel mit einer Übersetzung des gesprochenen Textes, für das so genannte Dubbing. Andere Tools beherrschen das Voice Cloning, die Übertragung der Besonderheiten einer gesprochenen Stimme auf eine synthetisierte Sprachausgabe.
 
 - [**AudioPen**](https://audiopen.ai): Generiert aus mehrsprachigem, selbst undeutlichem oder stichpunktartigem Sprachinput ein- oder mehrsprachigen Text, kostenfreie Basis-Nutzung.
-- [**Descript**](https://www.descript.com/): Tool, das aus Sprachaufzeichnungen Zusammenfassungen und Social Media-Posts erzeugt, bietet mit _AI Voices_ aus Texten erzeugte Sprache und Voice Cloning, kostenfreie Basis-Nutzung.
-- [**ElevenLabs**](https://elevenlabs.io/): Generiert aus Textinput hochwertige Audioqualität mit Emotionen in vielen Sprachen, große Auswahl an Stimmen, Dubbing von Videos, Voice Cloning und Hörbuch-Entwicklung, kostenfreie Basis-Nutzung.
-- [**Fliki**](https://fliki.ai/): Hochwertige deutschsprachige Stimmen, kostenfreie Basis-Nutzung. Voice Cloning in Premium-Tarif enthalten.
-- [**Murf**](https://murf.ai/): Hochwertige deutschsprachige Stimmen, kostenfreie Basis-Nutzung, DSGVO-konform.
+- [**Descript**](https://www.descript.com): Tool, das aus Sprachaufzeichnungen Zusammenfassungen und Social Media-Posts erzeugt, bietet mit _AI Voices_ aus Texten erzeugte Sprache und Voice Cloning, kostenfreie Basis-Nutzung.
+- [**ElevenLabs**](https://elevenlabs.io): Generiert aus Textinput hochwertige Audioqualität mit Emotionen in vielen Sprachen, große Auswahl an Stimmen, Dubbing von Videos, Voice Cloning und Hörbuch-Entwicklung, kostenfreie Basis-Nutzung.
+- [**Murf**](https://murf.ai): Hochwertige deutschsprachige Stimmen, kostenfreie Basis-Nutzung, DSGVO-konform.
 
 
 ### KI-gestützte Video-Tools
 
 Video-Tools generieren mit KI aus Texteingaben passende Videos oder animieren menschenähnliche Avatare, deren Bewegung und Mimik sehr realistisch wirken. Durch die Übertragung von Besonderheiten eines realen Menschen auf eine Person in einem Video können einige Tools so genannte Deepfakes erzeugen, die enorm realitätsgetreu wirken.
 
-- [**Heygen**](https://www.heygen.com/): Video-Generierung mit menschlichen Avataren in vielen Sprachen aus Textskript, kostenfreies Demo-Video, DSGVO-konform.
-- [**Lumen5**](https://lumen5.com/): Erzeugen von Skripts und Videos auf Basis von Blogbeiträgen, Voice Cloning in beta, kostenfreie Basis-Nutzung.
-- [**Synthesia**](https://www.synthesia.io/): Mehrsprachige Generierung von Videos mit real wirkenden Avataren aus Texteingaben, kostenfreies Demo-Video.
+- [**FlexClip**](https://www.flexclip.com/de): Video-Editor mit vielen KI-unterstützen Funktionen zur Generierung von Videos aus Texteingaben oder Video-Bearbeitung, deutschsprachig, kostenfreie Basis-Nutzung.
+- [**Heygen**](https://www.heygen.com): Video-Generierung mit menschlichen Avataren in vielen Sprachen aus Textskript, kostenfreies Demo-Video, DSGVO-konform.
+- [**Synthesia**](https://www.synthesia.io): Mehrsprachige Generierung von Videos mit real wirkenden Avataren aus Texteingaben, kostenfreies Demo-Video.
 - [**Pictory**](https://pictory.ai): Wandelt Texteingaben in Videos um oder erstellt Kurzvideos aus Videoinhalten, kostenfreie Basis-Nutzung.
 
+### Zusätzliche KI-Tools: Entdecke noch mehr Möglichkeiten
 
-**Viel Spaß beim Ausprobieren!**
+Neben bekannten KI-Anwendungen gibt es zahlreiche weitere spannende Tools. Beispielhaft genannt seien:
+
+- [**Auphonic**](https://auphonic.com): Verbesserung der Audio-Qualität von Video / Audio, kostenfreie Basis-Nutzung, DSGVO-konform.
+- [**Gamma**](https://gamma.app): Erstellt aus Briefing (bis zu 100 Zeichen) Präsentation mit Inhalten, englischsprachige Oberfläche, verarbeitet mehrsprachige Eingabe und kann Folien mit deutsch klingenden Texten generieren, kostenfreie Basis-Nutzung.
+- [**MiroAssist**](https://miro.com/de/assist): KI-Erweiterung für Online Whiteboards mit Miro. kostenpflichtige Miro-Nutzung, Miro ist DSGVO-konform.
+- [**Semantic Scholar**](https://www.semanticscholar.org): KI-gesteuerte Such- und Recherchetools für die weltweite Forschungs-Community, kostenfrei.
+
+
+Für den Überblick über die breite und stetig wachsende Palette an KI-gestützten Werkzeugen helfen verschiedenste Online-Plattformen, zum Beispiel:
+
+- [**Futurepedia**](https://www.futurepedia.io)
+- [**Future Tools**](https://www.futuretools.io)
+- [**There's an AI for that**](https://theresanaiforthat.com)
