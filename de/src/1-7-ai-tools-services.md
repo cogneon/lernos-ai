@@ -53,7 +53,7 @@ KI-Text-Tools ermöglichen die Interaktion mit dem Tool wie in einer Unterhaltun
 
 Code-Tools mit KI sind innovative Programme, die Entwickler:innen helfen, effizienter zu arbeiten. Sie generieren kurze Code-Snippets, eröffnen Diskussionen über verschiedene Lösungsansätze und bieten Erklärungen zu Code-Fragmenten. Außerdem können sie zur Überarbeitung bestehenden Codes eingesetzt werden, um dessen Qualität zu verbessern.
 
-_ [**AWS CodeWhisperer**](https://aws.amazon.com/de/codewhisperer): Code-Assistenz für Amazon Web Services-Cloud-Entwicklungen mit Codevorschlägen und Sicherheitsscans, unterstützt 15 Programmiersprachen, in kostenfreiem Indivudaltarif nutzbar, DSGVO-konform.
+- [**AWS CodeWhisperer**](https://aws.amazon.com/de/codewhisperer): Code-Assistenz für Amazon Web Services-Cloud-Entwicklungen mit Codevorschlägen und Sicherheitsscans, unterstützt 15 Programmiersprachen, in kostenfreiem Indivudaltarif nutzbar, DSGVO-konform.
 - [**Bing Chat / Copilot**](https://www.bing.com/search): Code-Assistenz für verschiedene Programmiersprachen, deutschsprachig, kostenfreie Basis-Nutzung.
 - [**ChatGPT**](https://chat.openai.com/auth/login): Code-Assistenz für verschiedene Programmiersprachen mit Fokus auf _Python,_ deutschsprachig, kostenfreie Basis-Nutzung.
 - [**Github Copilot**](https://github.com/features/copilot): Code-Assistenz, die Vorschläge und Optimierungen für Softwarecode liefert, kostenfreie Testnutzung.
