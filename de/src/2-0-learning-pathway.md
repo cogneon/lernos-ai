@@ -12,7 +12,7 @@ Ergänzende Fragestellungen zum Einstieg
  - Kurze Beschreibung, was man machen sollte und was noch nicht nötig ist im 1. Schritt.
  - Optional: Falls schon jemand ein KI-Tool im Einsatz hat, frage die KI, welche Icebreaker zum Kennenlernen sie für Eure Situation empfehlen würde.
 
-## Kata 1
+## Kata 1 - Bewusstsein schaffen
 
 Lese Dir den Abschnitt aus dem Grundlagenkapitel [KI & Gesellschaft](1-7-ai-and-society.md) durch und überlege Dir wie eine verantwortungsvolle Nutzung von KI-Systemen aussehen könnte. 
 
@@ -26,9 +26,9 @@ Für das Treffen in der Gruppe:
 
 - Erstellt als Gruppe einen kurzen Steckbrief darüber, was man aus Eurer Sicht bei einer verantwortungsbewusster Nutzung von KI beachten sollte.
 
-## Kata 2
+## Kata 2 - Explorativer Umgang mit der KI
 
-- Wähle einen KI-Chatbot aus. Als Hilfestellung kannst Du [Kapitel 1.6](1-6-ai-tools-services.md) nutzen.
+- Wähle einen KI-Chatbot aus. Als Hilfestellung kannst Du [KI-Tools und Services](1-6-ai-tools-services.md) nutzen.
   
   - Nutze das Dir bekannte KI-Tool, das im Unternehmen erlaubt ist.
   - Unsere Empfehlung wäre ChatGPT oder LLAMA 2 auf Perplexity Labs
@@ -40,9 +40,9 @@ Für das Treffen in der Gruppe:
 - Einstiegs-Scherzfragen: [KI-Einstieg mit ChatGPT-Scherzfragen | eBildungslabor](https://ebildungslabor.de/blog/ki-einstieg-mit-chatgpt-scherzfragen/)
 - ergänzender Hinweis auf Dialogfähigkeit der KI - Probiere Konversationen aus.
 
-## Kata 3
+## Kata 3 - KI als Dialogpartner
 
-Lese Dir das [Kapitel 1.2](1-2-ai-machine-learning.md) durch + Übung dazu.
+Lese Dir das [KI und maschinelles Lernen](1-2-ai-machine-learning.md) durch + Übung dazu.
 
 - Was ist der Unterschied zwischen "Maschinellem Lernen" und "KI"?
   
@@ -61,7 +61,7 @@ Lese Dir das [Kapitel 1.2](1-2-ai-machine-learning.md) durch + Übung dazu.
 - Entscheide Dich für ein Medium (Text, Bild, ...).
 - Es soll auf jeden Fall etwas sein, dass von der KI generiert wird.
 
-## Kata 4
+## Kata 4 - Reflexion mit ersten Lernergebnissen
 (Hintergrund Boxenstopp 1)
 - Reflexions Check-In:
   - Überlegt Euch, was Ihr aus den letzten 3 Wochen bisher mitnehmen konntet. Fragt die KI, welche Reflexionsmethode sie Euch dafür vorschlagen würde.
@@ -71,8 +71,8 @@ Vertiefung:
 - Wusstest Du, dass Du die Konversation fortsetzen oder Deine Anfrage überarbeiten kannst. 
 - Wusstest Du, dass du Deine KI einer Persona geben bzw. sie enstprechend framen geben kannst?
 
-## Kata 5
-Im Kapitel [KI-Tools and Services](1-7-ai-tools-services.md) findest Du eine Übersicht über unterschiedliche Kategorien, denen aktuelle KI-Tools zugeordnet werden können:
+## Kata 5 - KI-Einsatzfelder am eigenen Arbeitsplatz
+Im Kapitel [KI-Tools und Services](1-7-ai-tools-services.md) findest Du eine Übersicht über unterschiedliche Kategorien, denen aktuelle KI-Tools zugeordnet werden können:
 
 1. KI-gestützte Multi-Tools
 2. KI-gestützte Text-Tools
@@ -81,11 +81,11 @@ Im Kapitel [KI-Tools and Services](1-7-ai-tools-services.md) findest Du eine Üb
 5. KI-gestützte Audio-Tools
 6. KI-gestützte Video-Tools
 
-Schaue dir die Kategorien und Tools in Ruhe an und überlege, welche Anwendungsfelder sich für deinen Arbeitsplatz ergeben.
+Schaue dir die Kategorien und Tools in Ruhe an und überlege, welche Anwendungsfelder sich für deinen Arbeitsplatz / dein Projekt / dein Thema ergeben.
 
 Verschaffe Dir Zugang zu jeweils einem Tool aus jeder Kategorie und teste sie aus. Versuche - unbenommen von den unterschiedlichen Anwedungsfeldern - Gemeinsamkeiten und spezifische Unterschiede zwischen den Tools zu erkennen und notiere sie für Dich.
 
-## Kata 6
+## Kata 6 - Lernziel KI-Einsatz beim Blogpost
 
 In der vergangenen Woche hast Du unterschiedliche Kategorien kennengelernt, denen sich die meisten KI-Tools zuordnen lassen. Darüber hinaus hast Du aus jeder Kategorie mindestens ein Tool kennengelernt und angewendet.
 
@@ -93,26 +93,39 @@ Mache Dir nun Gedanken zu dem übergeordneten Lernziel dieses Leitfadens, nämli
 
 Welche Tools könnten Dir beim Erreichen des Lernziels am besten weiterhelfen?
 
-## Kata 7
+## Kata 7 - KI als Coworking-Partner
 
-KI als Coworking-Partner
+Erweitertes Prompting: Im Sinne von KI ist mein künstlicher Arbeitsassistent*in möchte ich gerne gemeinsam mit dieser eine PowerPoint-Präsentation oder ein Konzept zu meinem Projektthema erarbeiten (lassen).
 
-## Kata 8
+Welche Prompts sollten dazu wie am besten formuliert werden?
+Prompting Guideline oder Leitlinien als Hilfestellung / Orientierung
+z.B. Versetze Dich in die Rolle eines L&D-Verantwortlichen / Software Engineers / Hochschulprofessors*in...
 
+## Kata 8 - Reflexion mit weiteren Lernergebnissen
+(Hintergrund Boxenstopp 2)
+Reflexions Check-In: - Überlegt Euch, was Ihr aus den letzten Wochen weiter mitnehmen konntet. Reflektiert kritisch in Eurem Circle den aktuellen Stand zu Eurem Thema / Projekt und zeigt Euch gegenseitig anhand der Beispiele die Grenzen Eurer KI Tool-Nutzung auf (z.B. Impulse zur Steigerung des Kreativitätslevels vs. falsche Informationen zusammenspinnen und dadurch Verzerrungen / Manipulationen erzeugen).
 
-Boxenstopp 2
+Vertiefung: Lasst die KI Eure dokumentierten Ergebnisse als visualisierten Beitrag zusammenfassen, den Ihr ggf. veröffentlichen könnt (Text, Bild oder audio-visuell, Video).
 
-## Kata 9
+## Kata 9 - KI als Träumer / Halluzinator / Lügner
 
 Intuition trainieren
 Basierend auf den Beispielen aus den vorherigen Wochen: Entwickelt 3 Einfache Prompts. Lernziel: Rausfinden, was eine KI kann und was nicht
 
 KI zum halluzinieren bringen (z.B. KI kann link nicht aufrufen und generiert wahrscheinlichsten Text aus der URL). (ggf. Verweis auf Andrew Ng) - KI-Arbeitende nüssen wie Wissenschaftler bewerten können, wie plausibel das Ergebnis des Prompts ist. Beispiele bringen und Katas erstellen, mit erfundenem Link und dann mit KI arbeiten, die wahrscheinlich eine Geschichte erfinden wird.
 
-## Kata 10
+## Kata 10 - Souverän prompten
 
 Gegenseitiges Coaching/Feedback/Reflektion/KI (tbd) fragen (Welche Fragen müsste ich mir stellen?) und für Blogpost-Idee zu eigenem KI-Projekt (Technische Voraussetzungen und Machbarkeit - Umsetzung, Sinnhaftigkeit,...). 
 Loslegen und Prototyp entwickeln. Tipps zu KI und zum Promptaufbau (-> Idee jede Woche eine neue Technik des Promptings zu dem entsprechenden Thema aus der Headline ausprobieren). Promptingansätze: Versuche verschiedene Ansätze zum selben Thema und bewerte das Ergebnis. Z.B. prompte iterativ statt verschachtelt. 
 Vertiefung: Prompt improvement prompt (Baukastenprompt): KI schreibt sich selbst den Prompt, wenn man sich nicht sicher ist, wie zu prompten ist -> Prompt beschreibt dann einen längeren Prozess und KI erkennt Anleitungsbedarf und fragt nach (Tbd: Diskutieren ob das zu viel ist. Was bringt dich zu besseren Ergebnissen?). Headlines zu den Wochen?
 
-## Kata 11
+## Kata 11 - Review und Lessons learned
+
+Jetzt ist es so weit. Nach 12 Wochen geht die letzte Runde des Circles zu Ende und es ist an der Zeit, diese Wochen noch einmal Revue passieren zu lassen. Zum Abschluss kannst Du gerne besprechen, was für Dich die größten Erkenntnisse, Überraschungen oder Herausforderungen im Umgang mit der KI waren.
+Die folgenden Fragen können Euch als Leitfaden dienen:
+- Was nimmst Du als entscheidende Erfahrungen / Highlights aus den letzten Wochen mit?
+- Was waren für Dich die wichtigsten Meilensteine / Entwicklungsschritte?
+- Was hat Dir im Circle oder bei der Erstellung mit Hilfe der KI gefehlt oder ist zu kurz gekommen?
+- Welche Pläne hast Du für Dein Thema / Projekt im Zusammenspiel mit Deiner KI und was möchtest Du als nächstes erreichen?
+- Welche Aktivitäten oder Anforderungen könnte es in der Zukunft geben, um Deine menschliche und künstliche Intelligenz noch besser miteinander zu verknüpfen?
