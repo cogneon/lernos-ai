@@ -77,7 +77,7 @@ Die KI hat das Potenzial, unsere kognitiven Fähigkeiten zu erweitern, Entscheid
 
 **Ethik und Wertesystem**
 
-Die ethische Dimension der KI umfasst verschiedene Bedenken, wie Fairness und Verantwortlichkeit​. Diskutiert wird, wem die KI dienen sollte: Dem Wohle aller Menschen und nicht nur weniger Konzerne. Welche Gefahren birgt die Monopolisierung? Und wer trägt die Verantwortung und ist rechenschaftspflichtig, insbesondere dann, wenn KI-Systeme - vielleicht sogar - eigenständig - fehlerhafte oder schädliche Entscheidungen treffen? Sollten Hersteller haften? Oder die Nutzer?
+Die ethische Dimension der KI umfasst verschiedene Bedenken, wie Fairness und Verantwortlichkeit​. Diskutiert wird, wem die KI dienen sollte: Dem Wohle aller Menschen und nicht nur weniger Konzerne. Kritische Journalisten haben auch die Arbeit von sogenannten "Clickworkers" untersucht. Arbeitskräfte aus Billiglohnländern (Kenia, Pakistan, Venezuela) trainieren die Modelle, in dem sie z. B. Texte und Bilder miteinander verknüpfen, was Maschinen alleine noch nicht so gut können, oder unerwünschte Antworten aus Chatbots heraufiltern. Die Globaliserung dieses rund-um-die-Uhr-Geschäfts unterstützt eine ständige Preisunterbietung. Eine wesentliche Frage ist die Verantwortlichkeit in der gesamten Wertschöpfungskette der KI-Nutzung und wer ist rechenschaftspflichtig, insbesondere dann, wenn KI-Systeme - vielleicht sogar eigenständig - fehlerhafte oder schädliche Entscheidungen treffen? Sollten Hersteller haften? Oder die Nutzer?
 
 *Reflexionsfragen*
 
