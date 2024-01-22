@@ -82,7 +82,7 @@ Die ethische Dimension der KI umfasst verschiedene Bedenken, wie Fairness und Ve
 *Reflexionsfragen*
 
 - Welche ethischen Richtlinien für KI gibt es in meiner Firma? Wer war an ihrer Erstellung beteiligt?
-- Spiegeln die Richtlinien auch meine persönlichen Werte wider wie Gerechtigkeit, Verantwortung und Nachhaltigkeit?
+- Spiegeln die Richtlinien auch meine persönlichen Werte wider wie Gerechtigkeit, Verantwortung, Schutz von geistigem Eigentum und Nachhaltigkeit?
 - Sind Prozesse vorhanden, um ethische Fragen interdisziplinär zu diskutieren?
 - Wie lässt sich die Einhaltung ethischer Prinzipien über den gesamten Entwicklungsprozess von KI-Systemen sicherstellen?
 - Welche Schulungen braucht es, um Bewusstsein und Kompetenzen zu Ethik, Verantwortung und KI zu stärken?
