@@ -81,9 +81,13 @@ Im Kapitel [KI-Tools und Services](1-7-ai-tools-services.md) findest Du eine Üb
 5. KI-gestützte Audio-Tools
 6. KI-gestützte Video-Tools
 
-Schaue dir die Kategorien und Tools in Ruhe an und überlege, welche Anwendungsfelder sich für deinen Arbeitsplatz / dein Projekt / dein Thema ergeben.
+Schaue dir zunächst die Kategorien in Ruhe an und überlege, welche Anwendungsfelder sich für deinen Arbeitsplatz / dein Projekt / dein Thema ergeben. Formuliere 2-3 kurze, tatsächliche Anwendungsszenarien (Use-Cases) und beschreibe, bei welchen konkreten Arbeitsschritten dir KI-Tools aus den o.g. Kategorien helfen könnten.
 
-Verschaffe Dir Zugang zu jeweils einem Tool aus jeder Kategorie und teste sie aus. Versuche - unbenommen von den unterschiedlichen Anwedungsfeldern - Gemeinsamkeiten und spezifische Unterschiede zwischen den Tools zu erkennen und notiere sie für Dich.
+**Beispiel 1**: "Im Rahmen meiner Arbeit schreibe ich regelmäßig Gesprächsprotokolle. KI-gestützte Audio-Tools könnten mir im Optimalfall dabei helfen, Gespräche aufzuzeichnen und in Verbindung mit KI-gestützten Text-Tools zusammenzufassen."
+
+**Beispiel 2**: "Es ist Teil meiner Aufgabe, Texte unserer Marketing-Abteilung mit passendem Bildmaterial anzureichern. KI-gestützte Bild-Tools könnten mich dabei unterstützen, passende Motive zu entwerfen, die an unsere Kommunikationsrichtlinien angepasst sind."
+
+**Vertiefung (optional):** Schaue Dir in Ruhe die Tools in den Kategorien an, die für Deine Arbeit besonders relevant sein könnten. Entscheide dich für mindestens ein Tool, dass Du einmal ausprobieren möchtest und verschaffe Dir Zugang zu diesem. Sollte dies nicht gehen, beispielsweise aus Kosten- und/oder Berechtigungsgründen, suche nach einem Alternativ-Tool, das den gleichen Zweck erfüllt. Sobald Du ein passendes Tool gefunden hast, teste es in den von Dir beschriebenen Anwendungsszenarien aus. Notiere Deine Erfahrungen und teile sie mit deinem Netzwerk.
 
 ## Kata 6 - Lernziel KI-Einsatz beim Blogpost
 
