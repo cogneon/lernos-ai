@@ -87,7 +87,7 @@ Schaue dir zunächst die Kategorien in Ruhe an und überlege, welche Anwendungsf
 
 **Beispiel 2**: "Es ist Teil meiner Aufgabe, Texte unserer Marketing-Abteilung mit passendem Bildmaterial anzureichern. KI-gestützte Bild-Tools könnten mich dabei unterstützen, passende Motive zu entwerfen, die an unsere Kommunikationsrichtlinien angepasst sind."
 
-**Vertiefung (optional):** Schaue Dir in Ruhe die Tools in den Kategorien an, die für Deine Arbeit besonders relevant sein könnten. Entscheide dich für mindestens ein Tool, dass Du einmal ausprobieren möchtest und verschaffe Dir Zugang zu diesem. Sollte dies nicht gehen, beispielsweise aus Kosten- und/oder Berechtigungsgründen, suche nach einem Alternativ-Tool, das den gleichen Zweck erfüllt. Sobald Du ein passendes Tool gefunden hast, teste es in den von Dir beschriebenen Anwendungsszenarien aus. Notiere Deine Erfahrungen und teile sie mit deinem Netzwerk.
+**Vertiefung (optional):** Schaue Dir in Ruhe die Tools in den Kategorien an, die für Deine Arbeit besonders relevant sein könnten. Entscheide dich für mindestens zwei Tools, die Du testen möchtest. Verschaffe Dir Zugang zu diesen Tools. Sollte dies nicht umsetzbar sein, beispielsweise aus Kosten- und/oder Berechtigungsgründen, suche nach Alternativ-Tools, die den gleichen Zweck erfüllen. Sobald Du passende Tools gefunden hast, probiere sie in den von Dir beschriebenen Anwendungsszenarien aus. Notiere Deine Erfahrungen und teile sie mit anderen Interessierten.
 
 ## Kata 6 - Lernziel KI-Einsatz beim Blogpost
 
