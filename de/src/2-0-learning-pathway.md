@@ -196,6 +196,8 @@ KI zum halluzinieren bringen (z.B. KI kann link nicht aufrufen und generiert wah
 
 ## Kata 10 - Souverän prompten
 
+Prompting-Guideline / Empfehlungen aus Kata 7 wieder aufgreifen und vertiefen:
+
 Gegenseitiges Coaching/Feedback/Reflektion/KI (tbd) fragen (Welche Fragen müsste ich mir stellen?) und für Blogpost-Idee zu eigenem KI-Projekt (Technische Voraussetzungen und Machbarkeit - Umsetzung, Sinnhaftigkeit,...). 
 Loslegen und Prototyp entwickeln. Tipps zu KI und zum Promptaufbau (-> Idee jede Woche eine neue Technik des Promptings zu dem entsprechenden Thema aus der Headline ausprobieren). Promptingansätze: Versuche verschiedene Ansätze zum selben Thema und bewerte das Ergebnis. Z.B. prompte iterativ statt verschachtelt. 
 Vertiefung: Prompt improvement prompt (Baukastenprompt): KI schreibt sich selbst den Prompt, wenn man sich nicht sicher ist, wie zu prompten ist -> Prompt beschreibt dann einen längeren Prozess und KI erkennt Anleitungsbedarf und fragt nach (Tbd: Diskutieren ob das zu viel ist. Was bringt dich zu besseren Ergebnissen?). Headlines zu den Wochen?
