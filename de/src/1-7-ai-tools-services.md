@@ -1,6 +1,6 @@
 ## KI-Tools und -Dienste
 
-In diesem Kapitel geben wir dir einen Überblick, wie du mit verschiedenen Tools und Diensten das KI-unterstützte Arbeiten kennenlernen kannst. Für die Auswahl haben wir uns jeweils folgende Fragen gestellt: 
+In diesem Kapitel geben wir dir einen Überblick, wie du mit verschiedenen Tools und Diensten das KI-unterstützte Arbeiten kennenlernen kannst. Wir haben dabei eine Einteilung in unterschiedliche Bereiche vorgenommen, die ebenso wie die Tools und Serivices weiterhin in Bewegung ist. Für die Auswahl haben wir uns jeweils folgende Fragen gestellt: 
 
 - Ist das Tool / der Dienst für den Einstieg nutzbar?
 - Gibt es eine kostenfreie Nutzung?
@@ -47,6 +47,9 @@ KI-Text-Tools ermöglichen die Interaktion mit dem Tool wie in einer Unterhaltun
 - [**Deepl**](https://deepl.com): Übersetzungen und DeeplWrite zur Textverbesserung mit verschiedenen Stilauswahlen, deutschsprachig, kostenfreie Basis-Nutzung, DSGVO-konform.
 - [**Luminous**](https://app.aleph-alpha.com/jumpstart): Sentiment-Analysen und Textgenerierung eingeteilt nach verschiedenen Anwendungsszenarien, englischsprachige Oberfläche, kostenfreie Basis-Nutzung, DSGVO-konform.
 - [**Pi**](https://pi.ai/talk): Textchat mit Sprachausgabe zu verschiedenen Themen als empathisches Gegenüber, englischsprachig, kostenfreie Nutzung.
+
+
+![Übersicht Tools Services KI]([https://assets.digitalocean.com/articles/alligator/boo.svg](https://github.com/cogneon/lernos-ai/blob/d59fcfee3d5a9e3bfd7d1efd0ac282323c9d89dc/de/src/images/lernOS%20KI%20Abb%20Tools%20Services.png))
 
 
 ### KI-gestützte Codierungshilfen
