@@ -5,7 +5,7 @@ Idee: Ziel für den Lernpfad ist, mindestens einen Beitrag für Blog/Linkedin zu
 Wir empfehlen eine Kata pro Woche durchzuführen, wenn Du den Leitfaden in 12 Wochen durchlaufen willst. Es ist aber auch möglich die Katas anders zu durchlaufen oder modularer zu nutzen.
 
 ## Kata 0 - Vorbereitungen und Kennenlernen
-_Dieser erste Kata dient der Vorbereitung und dem Kennenlernen. Hier findest Du [Woche 0](2-0-Woche-0.md)._
+_Dieser erste Kata dient der Vorbereitung und dem Kennenlernen._
 
 ### Aufgabe
 1. Diskutiert in der ersten Woche gemeinsam die Frage: "Was bedeutet KI für Dich persönlich und was ist Deine Erwartungshaltung an diesen Lernpfad?"
