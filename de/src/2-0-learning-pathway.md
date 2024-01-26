@@ -129,7 +129,7 @@ Anhand dieser werden nun im Kapitel [KI-Anwendungsfelder](1-5-ai-application-are
 
 **Vertiefung (optional):** Schaue Dir in Ruhe die Tools in den Kategorien an, die für Deine Arbeit besonders relevant sein könnten. Entscheide dich für mindestens zwei Tools, die Du testen möchtest. Verschaffe Dir Zugang zu diesen Tools. Sollte dies nicht umsetzbar sein, beispielsweise aus Kosten- und/oder Berechtigungsgründen, suche nach Alternativ-Tools, die den gleichen Zweck erfüllen. Sobald Du passende Tools gefunden hast, probiere sie in den von Dir beschriebenen Anwendungsszenarien aus. Notiere Deine Erfahrungen und teile sie mit anderen Interessierten.
 
-## Kata 6 - Lernziel KI-Einsatz beim Blogpost
+## Kata 6 - Vertiefung Deines Lernziels: KI-Einsatz beim Blogpost / Lernprojekt
 
 In der vergangenen Woche hast Du unterschiedliche Kategorien kennengelernt, denen sich die meisten KI-Tools zuordnen lassen. Darüber hinaus hast Du Dir die Frage gestellt, ob und wie Dich einzelne Tools bei Deiner Arbeit unterstützen können. Die Antwort auf diese Fragen hast Du erhalten, indem Du einzelne Tools im Rahmen konkreter Aufgaben Deines Arbeitsplatzes eingesetzt und getestet hast.
 
@@ -149,6 +149,8 @@ Und los geht´s! Wir wünschen Dir viel Spaß beim Umsetzen Deiner Idee!
 **Ergänzender Hinweis 2:** Solltest Du keinen Zugriff auf einen reellen Blogpost haben, so kannst Du den Beitrag auch in einem gängigen Textverarbeitungsprogramm erstellen bzw. vorbereiten.
 
 ## Kata 7 - Zusammenarbeit mit KI
+
+Zum Einstieg in diese Kata empfehlen wir, sich zunächst einmal das Kapitel [Maschinelles vs. Menschliches Lernen](1-4-machine-vs-human-learning.md) anzuschauen, um die Hintergründe im Zusammenspiel von Mensch und Maschine genauer zu verstehen. Anschließend sollen Eure Prompting Skills im direkten Austausch mit generativer KI gezielt erweitert werden.
 
 KI-Systeme können sehr unterschiedlich eingesetzt werden und die Art des Einsatzes hat massive Auswirkungen auf die Ergebnisse. Studien zeigen, dass Wissensarbeiter durch die Zusammenarbeit mit KI ihre Produktivität und die Qualität der Ergebnisse steigern können (vgl. [KI macht Wissensarbeiter schneller und besser (faz.net)](https://www.faz.net/pro/d-economy/kuenstliche-intelligenz/ki-macht-wissensarbeiter-schneller-und-besser-19183974.html)). Diese Produktivitätssteigerung kann jedoch nur dann genutzt werden, wenn KI-Systeme richtig eingesetzt werden.
 
@@ -170,6 +172,13 @@ Hier ein ausgefülltes Beispiel:
 -   **Zusätzliche Information**: Ich interessiere mich besonders für historische Stätten und bin ein Liebhaber von Sushi. Zudem möchte ich gerne eine Wanderung machen.
 
 Je mehr Erfahrung man mit der KI sammelt, desto leichter gelingt eine intuitive Eingabe passender Prompts. Denke daran: Die besten Ergebnisse entstehen, wie in Kata 3 dargestellt, in der Zusammenarbeit mit der KI. Nutze deshalb die erste Antwort auf Deine Eingabe dafür in einen Dialog mit der KI zu starten!
+
+----------------
+Erweitertes Prompting: Im Sinne von KI ist mein künstlicher Arbeitsassistent*in möchte ich gerne gemeinsam mit dieser eine PowerPoint-Präsentation oder ein Konzept zu meinem Projektthema erarbeiten (lassen).
+Prompting Guideline oder Leitlinien als Hilfestellung / Orientierung?
+z.B. Versetze Dich in die Rolle eines L&D-Verantwortlichen / Software Engineers / Hochschulprofessors*in...
+Prompting wird in Kata 10 weiter vertieft
+
 
 
 ## Kata 8 - Reflexion mit weiteren Lernergebnissen
