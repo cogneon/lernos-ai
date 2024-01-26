@@ -97,7 +97,7 @@ Mache Dir nun Gedanken zu dem übergeordneten Lernziel dieses Leitfadens, nämli
 
 Welche Tools könnten Dir beim Erreichen des Lernziels am besten weiterhelfen?
 
-## Kata 7 - KI als Coworking-Partner
+## Kata 7 - KI als persönlicher Assistent
 
 Erweitertes Prompting: Im Sinne von KI ist mein künstlicher Arbeitsassistent*in möchte ich gerne gemeinsam mit dieser eine PowerPoint-Präsentation oder ein Konzept zu meinem Projektthema erarbeiten (lassen).
 
