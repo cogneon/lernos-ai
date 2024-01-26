@@ -5,29 +5,26 @@ Idee: Ziel für den Lernpfad ist, mindestens einen Beitrag für Blog/Linkedin zu
 Wir empfehlen eine Kata pro Woche durchzuführen, wenn Du den Leitfaden in 12 Wochen durchlaufen willst. Es ist aber auch möglich die Katas anders zu durchlaufen oder modularer zu nutzen.
 
 ## Kata 0
-Dieser erste Kata dient der Vorbereitung und dem Kennenlernen. Hier findest Du [Woche 0](2-0-Woche-0.md).
+_Dieser erste Kata dient der Vorbereitung und dem Kennenlernen. Hier findest Du [Woche 0](2-0-Woche-0.md)._
 
-**Aufgabe**
+### Aufgabe
 Diskutiert in der ersten Woche gemeinsam die Frage: "Was bedeutet KI für Dich persönlich und was ist Deine Erwartungshaltung an diesen Lernpfad?"
 
-**Tipp**
+### Tipp
 Falls jemand aus eurer Gruppe bereits ein KI-Tool im Einsatz hat, dann fragt doch einfach die KI, welche Icebreaker zum Kennenlernen sie für Eure Situation empfehlen würde.
 
 ## Kata 1 - Bewusstsein schaffen
-In dieser Kata legst Du die Grundlagen für die Zusammenarbeit mit der künstlichen Intelligenz. Ein Schwerpunkt liegt darauf Klarheit zu bekommen, wie für Dich (und Dein Unternehmen) eine verantwortungsvollen Nutzung von KI aussieht.
+_In dieser Kata legst Du die Grundlagen für die Zusammenarbeit mit der künstlichen Intelligenz. Ein Schwerpunkt liegt darauf Klarheit zu bekommen, wie für Dich (und Dein Unternehmen) eine verantwortungsvollen Nutzung von KI aussieht._
 
-**Lesen**
+### Hintergrund
 - Lese Dir den Abschnitt aus dem Grundlagenkapitel [KI & Gesellschaft](1-7-ai-and-society.md) durch und überlege Dir wie eine verantwortungsvolle Nutzung von KI-Systemen aussehen könnte. 
 
-**Aufgabe**
+### Aufgabe
 - Überlege Dir, welche Eingaben und Ausgaben es bei generativen KIs gibt und welche Daten generative KIs nutzen können, z. B. für das Training.
 - Was wären Bedrohungsszenarien, welche durch eine verantwortungslode Nutzung von generativer KI für Dein Unternehmen entstehen könnten?
 - Überlege Dir, was bei der Nutzung von KI-Systemen zu beachten ist. Informiere Dich im Intranet Deines Unternehmens, ob es bei Dir unternehmensspezifische Vorgaben und Richtlinien zur Nutzung von KI-Systemen im Internet gibt.
 
-**Diskussion**
-
-Für das Treffen in der Gruppe:
-
+### Diskussion für die Gruppe
 - Erstellt als Gruppe einen kurzen Steckbrief darüber, was man aus Eurer Sicht bei einer verantwortungsbewusster Nutzung von KI beachten sollte.
 
 ## Kata 2 - Explorativer Umgang mit der KI
