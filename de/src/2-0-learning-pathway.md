@@ -1,31 +1,62 @@
+
 # Lernpfad
 
 Idee: Ziel für den Lernpfad ist, mindestens einen Beitrag für Blog/Linkedin zu erstellen und zu veröffentlichen ([Beispiel: mit Zusammenfassung Interview](https://www.linkedin.com/feed/update/urn:li:activity:7110171493103198209/)). Das Ziel kann beliebig erweitert werden (mehrere Beiträge, mehrsprachig, Podcast, Video etc.)
 
-Wir empfehlen eine Kata pro Woche durchzuführen, wenn Du den Leitfaden in 12 Wochen durchlaufen willst. Es ist aber auch möglich die Katas anders zu durchlaufen oder modularer zu nutzen.
+
 
 ## Kata 0 - Vorbereitungen und Kennenlernen
-_Dieser erste Kata dient der Vorbereitung und dem Kennenlernen._
+Ein lernOS Lernpfad ist eine Zusammenstellung von Übungen (Katas), mit denen du neue Fähigkeiten erlernst und im Lauf der Zeit eine neue Haltung entwickelst. Ein Lernpfad kann innerhalb eines lernOS Sprints durchlaufen werden. Wir empfehlen eine Kata pro Woche durchzuführen, wenn Du den Leitfaden in 12 Wochen durchlaufen willst. Es ist aber auch möglich die Katas anders zu durchlaufen oder modularer zu nutzen.
 
-### Aufgabe
-1. Diskutiert in der ersten Woche gemeinsam die Frage: "Was bedeutet KI für Dich persönlich und was ist Deine Erwartungshaltung an diesen Lernpfad?"
+### Aufgabe: Rahmenbedingungen klären
+Die **Woche 0** ist die Woche, bevor es mit den Übungen im Lernpfad so richtig los geht. Nach Abschluss der Woche 0 sollten folgende Dinge festgelegt sein:
 
-### Tipp
-Falls jemand aus eurer Gruppe bereits ein KI-Tool im Einsatz hat, dann fragt doch einfach die KI, welche Icebreaker zum Kennenlernen sie für Eure Situation empfehlen würde.
+1. Ob du alleine, im Tandem oder im Circle lernst
+2. Welche Hilfsmittel du zur Selbstorganisation verwendest (z.B. Videokonferenz-Tool für Circle)
+3. Bei Tandem und Circle: An welchen Terminen die wöchentlichen Treffen stattfinden und wann du dir zusätzlich Lernzeit im Kalender reserviert hast.
+4. Bei Tandem und Circle: Ob ihr die Katas vor oder in Euren wöchentlichen Treffen macht.
+
+### Aufgabe: Lernt Euch kennen und sprecht über Eure Erwartungen!
+Die wichtigste Aufgabe in der ersten Woche ist es Euch gegenseitig besser kennenzulernen. Stellt Euch deshalb Euch gegenseitig vor und sprecht auch über Eure Erwartungen an die Gruppe und an Eure lernOS-Lernreise. 
+
+**Tipp:** Falls jemand aus eurer Gruppe bereits ein KI-Tool im Einsatz hat, dann fragt doch einfach die KI, welche Icebreaker zum Kennenlernen sie für Eure Situation empfehlen würde 😉.
+
+Als Einstiegsfragen könnt ihr diese Fragen nutzen:
+- Was bedeutet KI für Dich persönlich?
+- Wann war die Teilnahme an dem Lernpfad für Dich erfolgreich?
+- Welche Erwartungen habt ihr an den Lernpfad?
+- Wie viel Vorerfahrung habt ihr jeweils mit dem Thema?
 
 ## Kata 1 - Bewusstsein schaffen
-_In dieser Kata legst Du die Grundlagen für die Zusammenarbeit mit der künstlichen Intelligenz. Ein Schwerpunkt liegt darauf Klarheit zu bekommen, wie für Dich (und Dein Unternehmen) eine verantwortungsvollen Nutzung von KI aussieht._
+_In dieser Kata legst Du die Grundlagen für die Zusammenarbeit mit der künstlichen Intelligenz. Ein Schwerpunkt liegt dabei auf der Frage, wie für Dich eine verantwortungsvollen Nutzung von KI aussieht und welche Rahmenbedingungen es hierfür in Deinem Unternehmen gibt._
 
 ### Hintergrund
 - Lese Dir den Abschnitt aus dem Grundlagenkapitel [KI & Gesellschaft](1-7-ai-and-society.md) durch und überlege Dir wie eine verantwortungsvolle Nutzung von KI-Systemen aussehen könnte. 
 
-### Aufgabe
-1. Überlege Dir, welche Eingaben und Ausgaben es bei generativen KIs gibt und welche Daten generative KIs nutzen können, z. B. für das Training.
-2. Was wären Bedrohungsszenarien, welche durch eine verantwortungslode Nutzung von generativer KI für Dein Unternehmen entstehen könnten?
-3. Überlege Dir, was bei der Nutzung von KI-Systemen zu beachten ist. Informiere Dich im Intranet Deines Unternehmens, ob es bei Dir unternehmensspezifische Vorgaben und Richtlinien zur Nutzung von KI-Systemen im Internet gibt.
+### Aufgabe: Was kann eigentlich passieren?
+Denke darüber nach, wie KI-Systeme funktionieren und beantworte dann die nachfolgenden Fragen:
+- Welche Arten von Eingaben und Ausgaben sind bei KI-Plattformen und -Tools üblich?
+- Denke darüber nach, welche Daten generative KIs für Prozesse wie z. B. das Training nutzen können.
+- Was wären Bedrohungsszenarien, die durch eine verantwortungslose Nutzung von KI-Plattformen für Dein Unternehmen entstehen könnten?
+ 
+### Aufgabe: Rahmenbedingungen für die Nutzung
+Um die Nutzung von KI-Systemen in Deinem Unternehmen effektiv und verantwortungsbewusst zu gestalten, ist es wichtig, dass Du Dich zunächst mit den unternehmensspezifischen Vorgaben und Richtlinien vertraut machst. Diese Informationen findest Du meist im Intranet Deines Unternehmens. Achte darauf, die für Dich relevanten Vorgaben stets im Blick zu behalten um sicherzustellen, dass Du sie in Deinem täglichen Arbeitsumfeld umsetzt. Sollten in diesem Leitfaden bestimmte Katas in Deinem Unternehmen nicht umsetzbar sein, ist es ratsam, dass Du Dir eigenständig alternative Aufgaben überlegst, die den Richtlinien Deines Unternehmens entsprechen.
+
+Falls Dein Unternehmen noch keine Rahmenbedingungen hat findest Du hier ein paar allgemeine Empfehlungen:
+- **Erlaubte Plattformen:** Finde heraus, welche Internetseiten und KI-Plattformen in Deinem Unternehmen genutzt werden dürfen. Manche Unternehmen erlauben nur ausgewählte Plattformen. Überlege Dir auch, ob Du Dich bei KI-Plattformen mit deinen dienstlichen Kontaktdaten registrieren darfst.
+- **Vertrauliche Daten:** Die meisten Unternehmen haben kritische Unternehmensdaten, deren ungewollte Veröffentlichung ein hohes Risiko bedeuten würde. Achte deshalb stets darauf, welche Daten Du bei welcher KI-Plattform eingeben darfst.
+- **Personenbezogene Daten:** Denke auch an Risiken, die durch personenbezogene Daten entstehen. Datenschutzrechtliche und unternehmerische Vorgaben geben meist vor, dass nur in solche Systeme personenbezogene Daten eingegeben werden dürfen, die hierfür freigegeben sind.
+- **Nutzungsbedingungen & Rechte Dritter:** Achte auf die Nutzungsbedingungen, aber auch auf das Urheberrecht und die Rechte Dritter. Generative KI birgt unter Umständen das Risiko urheberrechtlich geschützte Inhalte zu erstellen.
+- **Prüfe Ausgaben:** Die Ausgaben von KI-Plattformen basieren auf Wahrscheinlichkeiten und sind somit nicht zuverlässig. Prüfe die Ergebnisse deshalb sorgfältig, bevor Du sie für Dich oder Deine Arbeit nutzt.
+- **Keine illegale Nutzung:** Obwohl die meisten KI-Plattformen gute Sicherheitsmechanismen haben ist es in bestimmten Fällen möglich, damit gefährliche oder illegale Inhalte wie z. B. Schadecode zu erstellen. Nutze die KI-Systeme deshalb nur im erlaubten Kontext. Auch wenn es verlockend ist: Verzichte insbesondere im unternehmerischen Kontext darauf zu versuchen KI-Systeme zu überlisten oder anders als vorgesehen zu verwenden.
+- **Vorsicht bei unbekannten Anbietern:** Bevorzuge Anbieter von KI-Plattformen, die als vertrauenswürdig bekannt sind und transparent darin sind, welche Daten sie auf welche Weise verwenden.
+
+Erstelle einen knappen Steckbrief der wichtigsten Vorgaben Deines Unternehmens in Bezug auf die Nutzung von KI-Plattformen.
+
+
 
 ### Diskussion für die Gruppe
-- Erstellt als Gruppe einen kurzen Steckbrief darüber, was man aus Eurer Sicht bei einer verantwortungsbewusster Nutzung von KI beachten sollte.
+- 
 
 ## Kata 2 - Explorativer Umgang mit der KI
 _In dieser Kata wählst Du einen Chatbot aus, mit dem Du Deine ersten Schritte in die Welt der generativen KI starten kannst._
