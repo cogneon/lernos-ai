@@ -11,7 +11,7 @@ Die erste Woche dient der Vorbereitung und dem Kennenlernen. Hier findest Du [Wo
 **Diskussions-Aufgabe**
 Diskutiert in der ersten Woche gemeinsam die Frage: "Was bedeutet KI für Dich persönlich und was ist Deine Erwartungshaltung an diesen Lernpfad?"
 
-> [!NOTE] Idee zum Einstieg 
+> [!NOTE]
 > Falls jemand aus eurer Gruppe bereits ein KI-Tool im Einsatz hat, dann fragt doch einfach die KI, welche Icebreaker zum Kennenlernen sie für Eure Situation empfehlen würde.
 
 ## Kata 1 - Bewusstsein schaffen
