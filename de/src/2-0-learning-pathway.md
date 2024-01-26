@@ -112,7 +112,7 @@ Vertiefung:
 - Wusstest Du, dass du Deine KI einer Persona geben bzw. sie enstprechend framen geben kannst?
 
 ## Kata 5 - KI-Einsatzfelder am eigenen Arbeitsplatz
-Im Kapitel [KI-Tools und Services](1-7-ai-tools-services.md) findest Du eine Übersicht über unterschiedliche Kategorien, denen aktuelle KI-Tools zugeordnet werden können:
+Nachdem wir sie in [Kata 2] bereits erstmals aufgegriffen, wollen wir [KI-Tools und Services](1-7-ai-tools-services.md) nochmals vertiefen und sie mit passenden Anwendungsfeldern verknüpfen. Zusammenfassend legen wir daher wiederholend den Fokus auf die unterschiedlichen Tool-Kategorien, denen aktuelle KI-Tools zugeordnet werden können:
 
 1. KI-gestützte Multi-Tools
 2. KI-gestützte Text-Tools
@@ -121,7 +121,7 @@ Im Kapitel [KI-Tools und Services](1-7-ai-tools-services.md) findest Du eine Üb
 5. KI-gestützte Audio-Tools
 6. KI-gestützte Video-Tools
 
-Schaue dir zunächst die Kategorien in Ruhe an und überlege, welche Anwendungsfelder sich für deinen Arbeitsplatz / dein Projekt / dein Thema ergeben. Formuliere 2-3 kurze, tatsächliche Anwendungsszenarien (Use-Cases) und beschreibe, bei welchen konkreten Arbeitsschritten dir KI-Tools aus den o.g. Kategorien helfen könnten.
+Anhand dieser werden nun im Kapitel [KI-Anwendungsfelder](1-5-ai-application-areas.md) konkrete Handlungsszenarien für den Einsatz von KI abgeleitet. Schaue Dir diese in Ruhe an und überlege Dir, welche Anwendungsfelder sich für deinen Arbeitsplatz / dein Projekt / dein Thema ergeben. Formuliere 2-3 kurze, tatsächliche Anwendungsszenarien (Use-Cases) und beschreibe, bei welchen konkreten Arbeitsschritten Dir KI-Tools aus den o.g. Kategorien und Anwendungsfeldern helfen könnten.
 
 **Beispiel 1**: "Im Rahmen meiner Arbeit schreibe ich regelmäßig Gesprächsprotokolle. KI-gestützte Audio-Tools könnten mir im Optimalfall dabei helfen, Gespräche aufzuzeichnen und in Verbindung mit KI-gestützten Text-Tools zusammenzufassen."
 
