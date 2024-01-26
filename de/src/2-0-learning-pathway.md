@@ -31,7 +31,7 @@ _In dieser Kata legst Du die Grundlagen für die Zusammenarbeit mit der künstli
 _In dieser Kata wählst Du einen Chatbot aus, mit dem Du Deine ersten Schritte in die Welt der generativen KI starten kannst._
 
 ### Hintergrund
-Um Dein Wissen über künstliche Intelligenz zu vertiefen, ist es empfehlenswert, sich mit den verschiedenen Arten von KI auseinanderzusetzen (**vgl. KAPITEL**). Eine weitere hilfreiche Ressource ist das Kapitel (KI-Tools und Services)[1-6-ai-tools-services.md], dass Dir Einblicke in die unterschiedlichen Tools und Dienste, die im Bereich der künstlichen Intelligenz verfügbar sind, gibt.
+Um Dein Wissen über künstliche Intelligenz zu vertiefen, ist es empfehlenswert, sich mit den verschiedenen Arten von KI auseinanderzusetzen (**vgl. KAPITEL**). Eine weitere hilfreiche Ressource ist das Kapitel (KI-Tools und Services)[1-6-ai-tools-services.md] , dass Dir Einblicke in die unterschiedlichen Tools und Dienste, die im Bereich der künstlichen Intelligenz verfügbar sind, gibt.
 
 ### Aufgabe 1: Wähle einen KI-Chatbot aus oder probiere mehrere Chatbots aus
 Beim Einstieg in die Welt der KI-Chatbots stehen Dir verschiedene Optionen offen. Zunächst solltest Du prüfen, welche KI-Plattformen in Deinem Unternehmen eingesetzt werden dürfen. Ein guter Startpunkt ist die kostenlose Version von [ChatGPT](https://chat.openai.com), der [Microsoft Copilot](https://copilot.microsoft.com) oder [Pi](https://pi.ai/talk).
