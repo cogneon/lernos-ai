@@ -166,7 +166,6 @@ KI-Systeme können sehr unterschiedlich eingesetzt werden und die Art des Einsat
 Eine Beobachtung ist, dass gerade Einsteiger:innen KI anfangs ähnlich wie eine Suchmaschine, im Sinne von "Eingabe rein - Antwort raus", nutzen. Während diese Nutzung legitim ist, gibt es deutlich bessere Wege, KI zu nutzen. Der erste Schritt besteht darin, zu erforschen und herauszufinden, wie die KI auf verschiedene Eingaben ("Prompts") unterschiedlich reagiert.
 
 Dieser Aufbau von Prompts hat sich bewährt:
-
 -   **Persona**: Welche Rolle soll das Sprachmodell übernehmen?
 -   **Einleitung**: Was erwarte ich vom Sprachmodell? Beginnt normalerweise mit einem Aktionswort.
 -   **Individueller Inhalt**: Der eigentliche Text der verarbeitet werden soll.
@@ -233,9 +232,40 @@ produzierte diese Antwort:
 **Tipp:** Wenn Du direkteren Zugriff auf die Einstellungen eines KI-Systeme hast, dann kannst Du über die sog. "Temperatur" einstellen, wie kreativ oder genau die KI antworten soll. Das geht z. B. im [OpenAI API Playground](https://platform.openai.com/playground?mode=chat). Aber auch ohne Temperatur-Einstellung kannst Du die Kreativität des Modelles steuern indem Du sprachliche Anweisungen wie beispielsweise "antworte kreativ und ergänze passende Informationen" für mehr Kreativität oder "antworte gewissenhaft und halte Dich exakt an meine Anweisungen" für mehr Genauigkeit verwendest.
 
 ## Kata 10 - Souverän prompten
+*In Kata 7 wurde die effektive Zusammenarbeit zwischen Mensch und KI thematisiert und gezeigt, dass der richtige Einsatz von KI-Systemen die Produktivität steigern kann. Du hattest dort zudem einen strukturierten Ansatz – bestehend aus Persona, Einleitung, individuellem Inhalt, Format und zusätzlichen Informationen – erlernt um bessere Prompts zu erstellen. Diese Kata baut auf diesen Grundlagen auf und legt den Fokus auf fortgeschrittene Techniken bei der Erstellung von Prompts.*
 
-Prompting-Guideline / Empfehlungen aus Kata 7 wieder aufgreifen und vertiefen:
+### Prompts mit mehreren Teilaufgaben
+Die Nutzung von mehrstufigen Prompts eignet sich um komplexe Aufgabenstellungen und Anfragen zu bearbeiten. Sie bestehen aus einer strukturierten Reihe von Teilaufgaben, um ein bestimmtes Ergebnis zu erzielen und sind besonders nützlich, wenn eine einzelne Anfrage nicht ausreicht, um die benötigten Informationen zu erfassen oder ein komplexes Problem zu lösen.
 
+####  Vorgehen
+**1. Zieldefinition** Beginnen mit einer klaren Definition des Ziels. Du kannst dafür z. B. den in Kata 7 beschrieben Aufbau nutzen.
+**2. Aufteilung in Teilaufgaben** Leite aus dem Ziel kleinere Teilaufgaben ab, die jeweils auf einen spezifischen  Aspekt der Gesamtaufgabe ausgerichtet sind. Schreibe für jede Teilaufgabe eine eigene Anweisung.
+
+#### Beispiel: Erstellung eines Konzeptes für ein Lernevent
+Ziel: Erstellung eines Konzepts für ein halbtägiges Lernevent in einem Unternehmen, in dem Teilnehmer die Anwendung und Möglichkeiten von generativer KI kennenlernen und praktisch erproben. Das Event soll interaktiv und für Anfänger geeignet sein.
+
+Teilaufgaben
+1.  Erstelle einen Vortragstitel und eine Vortragsgliederung für eine kurze Einführung in die Grundlagen der generativen KI, einschließlich ihrer wichtigsten Anwendungsbereiche wie Text- und Bildgenerierung.
+2. Überlege Dir 3x praktische Übungen, anhand derer die Teilnehmenden die Inhalte niedrigschwellig selbst ausprobieren können
+3. Erstelle Stichpunkte für eine motivierende Abschlussrede, welche der Vorstand des Unternehmers halten soll.
+
+
+### Flipped Interaction: Wenn die KI Dich fragt!
+Der Artikel [A Prompt Pattern Catalog to Enhance Prompt Engineering with ChatGPT](https://arxiv.org/pdf/2302.11382.pdf) bieten einen hilfreichen Katalog an wirkungsvollen Prompt-Mustern. Eines dieser Patterns ist das "Flipped Interaction"-Pattern, bei dem die übliche Interaktionsdynamik umgekehrt wird: Anstatt dass der Nutzer Fragen stellt, bittet er das Sprachmodell (LLM), Fragen zu stellen, um ein bestimmtes Ziel zu erreichen.
+
+####  Vorgehen
+1.  **Zielsetzung**: Der Nutzer definiert ein Ziel, und das Modell stellt daraufhin zielgerichtete Fragen.
+2.  **Dauer und Struktur**: Der Nutzer legt fest, wie lange die Fragephase andauern soll und wie viele Fragen pro Durchgang gestellt werden.
+3.  **Spezifizität und Kontext**: Je genauer die Anweisungen und der Kontext, desto effektiver kann das Modell Informationen sammeln.
+
+#### Beispiel: KI-Wissenscheck
+Nutze z. B. den folgenden Prompt:
+> Ich möchte mein Wissen im Bereich der Künstlichen Intelligenz (KI) einschätzen und erweitern. Bitte stelle mir grundlegende Fragen zu KI-Themen, um mein aktuelles Verständnis zu beurteilen. Fokussiere dich auf elementare Konzepte wie "generative KI", "Large Language Models" (LLMs) oder "Halluzinationen" und verzichte auf zu schwere Inhalte. Beginne mit einfachen Fragen und steigere schrittweise den Schwierigkeitsgrad, basierend auf meinen Antworten. Ziel ist es, herauszufinden, auf welchem Niveau mein Wissen steht und welche Bereiche ich vertiefen sollte.
+
+**Tipp:** Du kannst das "Flipped Interaction"-Pattern nutzen um die KI Deinen Prompt verbessern zu lassen. Bitte die KI, Dir Rückfragen zu deinem ursprünglichen Prompt zu stellen und Dir Vorschläge für Verbesserungen zu geben. Dies hilft dir, Unklarheiten in deinem Prompt zu erkennen und ihn genauer zu formulieren. Am Schluss bittest Du die KI darum den verbesserten Prompt für Dich zu formulieren. Das macht deinen Prompt nicht nur präziser, sondern erhöht auch die Effizienz und Zielgenauigkeit der KI.
+
+
+### Reste
 Gegenseitiges Coaching/Feedback/Reflektion/KI (tbd) fragen (Welche Fragen müsste ich mir stellen?) und für Blogpost-Idee zu eigenem KI-Projekt (Technische Voraussetzungen und Machbarkeit - Umsetzung, Sinnhaftigkeit,...). 
 Loslegen und Prototyp entwickeln. Tipps zu KI und zum Promptaufbau (-> Idee jede Woche eine neue Technik des Promptings zu dem entsprechenden Thema aus der Headline ausprobieren). Promptingansätze: Versuche verschiedene Ansätze zum selben Thema und bewerte das Ergebnis. Z.B. prompte iterativ statt verschachtelt. 
 Vertiefung: Prompt improvement prompt (Baukastenprompt): KI schreibt sich selbst den Prompt, wenn man sich nicht sicher ist, wie zu prompten ist -> Prompt beschreibt dann einen längeren Prozess und KI erkennt Anleitungsbedarf und fragt nach (Tbd: Diskutieren ob das zu viel ist. Was bringt dich zu besseren Ergebnissen?). Headlines zu den Wochen?
@@ -249,3 +279,5 @@ Die folgenden Fragen können Euch als Leitfaden dienen:
 - Was hat Dir im Circle oder bei der Erstellung mit Hilfe der KI gefehlt oder ist zu kurz gekommen?
 - Welche Pläne hast Du für Dein Thema / Projekt im Zusammenspiel mit Deiner KI und was möchtest Du als nächstes erreichen?
 - Welche Aktivitäten oder Anforderungen könnte es in der Zukunft geben, um Deine menschliche und künstliche Intelligenz noch besser miteinander zu verknüpfen?
+
+**Tipp:** Im Review ging es viel darum wie Du Deine Lernreise und Deine Erfahrungen wahrgenommen und interpretiert hast. Du kannst Dir aber sicher vorstellen, dass eine andere Person die gleichen Ergebnisse ganz anders wahrgenommen und interpretiert hat. Nutze einen chatbasierte KI um andere Perspektiven zu generieren. Beschreibe dazu erst sachlich nüchtern Deine Lernreise inklusive wichtiger Ereignisse. Schreibe dann, wie Du Deine Lernreise wahrgenommen hast und diese bewertest. Bitte die KI dann drei Personen mit unterschiedlichen Persönlichkeiten zu erfinden und für diese zu simulieren, wie diese deine Lernreise beurteilt hätten.
