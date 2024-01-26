@@ -230,7 +230,7 @@ produzierte diese Antwort:
 
 > Der Artikel von der Zeiten schreibt über die Einführung des Unterrichtsfaches "Angewandte künstliche Intelligenz" in Schulen ab dem Jahr 2030. Das Ziel ist es, Schülerinnen und Schülern die grundlegenden Konzepte und Technologien der KI vermitteln zu können, um sie später in ihrer beruflichen Tätigkeit einsetzen zu können. [...]
 
-
+**Tipp:** Wenn Du direkteren Zugriff auf die Einstellungen eines KI-Systeme hast, dann kannst Du über die sog. "Temperatur" einstellen, wie kreativ oder genau die KI antworten soll. Das geht z. B. im [OpenAI API Playground](https://platform.openai.com/playground?mode=chat). Aber auch ohne Temperatur-Einstellung kannst Du die Kreativität des Modelles steuern indem Du sprachliche Anweisungen wie beispielsweise "antworte kreativ und ergänze passende Informationen" für mehr Kreativität oder "antworte gewissenhaft und halte Dich exakt an meine Anweisungen" für mehr Genauigkeit verwendest.
 
 ## Kata 10 - Souverän prompten
 
