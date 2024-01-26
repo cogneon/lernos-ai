@@ -92,11 +92,22 @@ Schaue dir zunächst die Kategorien in Ruhe an und überlege, welche Anwendungsf
 
 ## Kata 6 - Lernziel KI-Einsatz beim Blogpost
 
-In der vergangenen Woche hast Du unterschiedliche Kategorien kennengelernt, denen sich die meisten KI-Tools zuordnen lassen. Darüber hinaus hast Du aus jeder Kategorie mindestens ein Tool kennengelernt und angewendet.
+In der vergangenen Woche hast Du unterschiedliche Kategorien kennengelernt, denen sich die meisten KI-Tools zuordnen lassen. Darüber hinaus hast Du Dir die Frage gestellt, ob und wie Dich einzelne Tools bei Deiner Arbeit unterstützen können. Die Antwort auf diese Fragen hast Du erhalten, indem Du einzelne Tools im Rahmen konkreter Aufgaben Deines Arbeitsplatzes eingesetzt und getestet hast.
 
-Mache Dir nun Gedanken zu dem übergeordneten Lernziel dieses Leitfadens, nämlich einen eigenen Blogpost-Beitrag mittels KI zu erstellen.Berücksichtige dabei auch Dein eigenes Lernprojekt.
+Lasse Deine Erfahrungen aus der letzten Woche Revü passieren und mache Dir nun Gedanken zu dem übergeordneten Lernziel dieses Leitfadens. Es geht darum, einen **Blogpost-Beitrag** mithilfe von KI zu erstellen. Dieser könnte verschiedene Elemente enthalten, wie z.B. Texte, Bilder und Videos. (Was ist ein Blog-Post: [Blogpost Begriffserklärung &amp; Definition](https://www.seo-analyse.com/seo-lexikon/b/blogpost/))
 
-Welche Tools könnten Dir beim Erreichen des Lernziels am besten weiterhelfen?
+**Beantworte Dir nun folgende Fragen:**
+- Worum soll es in Deinem Blogpost gehen?
+- Wie soll Dein Blogpost aufgebaut sein bzw. welche Elemente soll er beinhalten?
+- Welche KI-Tools können Dir bei welchen Elementen helfen?
+  
+Wenn Du diese Fragen beantwortet hast, suche Dir aus den bekannten Kategorien der Kata 5 passende KI-Tools aus, die Du zur Umsetzung Deiner Blogpost-Idee benötigst.
+
+Und los geht´s! Wir wünschen Dir viel Spaß beim Umsetzen Deiner Idee!
+
+**Ergänzender Hinweis 1:** Die Länge des Blogposts spielt genau so wenig eine Rolle, wie die Qualität Deines Schreibens. Es geht darum, dass Du Deine Erfahrungen im Umgang mit KI-Tools vertiefst und ein gutes Gefühl für die Chancen und Herausforderungen bekommst.
+
+**Ergänzender Hinweis 2:** Solltest Du keinen Zugriff auf einen reellen Blogpost haben, so kannst Du den Beitrag auch in einem gängigen Textverarbeitungsprogramm erstellen bzw. vorbereiten.
 
 ## Kata 7 - KI als persönlicher Assistent
 
