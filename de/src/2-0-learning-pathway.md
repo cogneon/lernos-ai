@@ -6,14 +6,13 @@ Dia Katas werden idealer Weise pro Woche ausgeführt (Empfehlung zum 12-wöchige
 
 ## Kata 0
 
-Die erste Woche dient dem Kennenlernen. Hier findest Du [Woche 0](2-0-Woche-0.md).
-Ergänzende Fragestellungen zum Einstieg
- - Was bedeutet KI für Dich persönlich und was ist Deine Erwartungshaltung an diesen Lernpfad?
- - Kurze Beschreibung, was man machen sollte und was noch nicht nötig ist im 1. Schritt.
- - Optional: Falls schon jemand ein KI-Tool im Einsatz hat, frage die KI, welche Icebreaker zum Kennenlernen sie für Eure Situation empfehlen würde.
+Die erste Woche dient der Vorbereitung und dem Kennenlernen. Hier findest Du [Woche 0](2-0-Woche-0.md).
 
-> [!NOTE]  
-> Test
+**Diskussions-Aufgabe**
+Diskutiert in der ersten Woche gemeinsam die Frage: "Was bedeutet KI für Dich persönlich und was ist Deine Erwartungshaltung an diesen Lernpfad?"
+
+> [!NOTE] Idee zum Einstieg 
+> Falls jemand aus eurer Gruppe bereits ein KI-Tool im Einsatz hat, dann fragt doch einfach die KI, welche Icebreaker zum Kennenlernen sie für Eure Situation empfehlen würde.
 
 ## Kata 1 - Bewusstsein schaffen
 
