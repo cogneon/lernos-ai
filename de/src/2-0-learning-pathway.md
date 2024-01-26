@@ -43,9 +43,6 @@ Wenn Du für die gleiche Eingabe oder mehrere dieser Chatbots ausprobierst, beko
 ### Aufgabe 2: Starte mit Deinem ersten Experiment
 Jetzt, da Du Dich mit der Auswahl und dem Zugang zu einem KI-Chatbot vertraut gemacht hast, ist es Zeit für Dein erstes Experiment. Beginne damit, den Satz "Ich packe meinen ..." in den Chatbot einzugeben und beobachte, wie er darauf antwortet. Du wirst wahrscheinlich feststellen, dass der Chatbot mit etwas wie "Koffer" antwortet. Das liegt daran, dass die Antwort des Chatbots so erfolgt, dass die KI die wahrscheinlichsten nachfolgenden Wörter oder Wortgruppen zu Deinem eingegebenen Satzteil ermittelt. Dieses Experiment hilft Dir, ein tieferes Verständnis dafür zu entwickeln, wie KI-Chatbots Sprache verarbeiten und auf Benutzereingaben reagieren.
 
-### Aufgabe 3: Führe einen Dialog
-KI-Systeme wie ChatGPT sind darauf ausgelegt, im Dialog zu interagieren und funktionieren am besten, wenn ein Gespräch fortgeführt wird. Ein einzelner Austausch kann zwar grundlegende Informationen liefern, aber die Stärken der KI zeigen sich besonders in einer fortgesetzten Interaktion. Durch Nachfragen, Klärungen und weiterführende Diskussionen kann die KI ein tieferes Verständnis der Anliegen des Nutzers entwickeln und dadurch relevantere und präzisere Antworten geben. Außerdem ermöglicht ein Dialog es der KI, den Kontext besser zu erfassen und auf ihn einzugehen, was bei einer einmaligen Anfrage oft schwieriger ist. Daher ist ein fortlaufender Dialog oft der Schlüssel zu einer effektiveren und zufriedenstellenderen Nutzung von KI-basierten Chat-Systemen.
-
 
 ### RESTE
 - Einstiegs-Scherzfragen: [KI-Einstieg mit ChatGPT-Scherzfragen | eBildungslabor](https://ebildungslabor.de/blog/ki-einstieg-mit-chatgpt-scherzfragen/)
@@ -73,6 +70,9 @@ Lese Dir das [KI und maschinelles Lernen](1-2-ai-machine-learning.md) durch + Ü
   - Brainstorming bezüglich eines Themengebietes
 - Entscheide Dich für ein Medium (Text, Bild, ...).
 - Es soll auf jeden Fall etwas sein, dass von der KI generiert wird.
+
+### Aufgabe: Führe einen Dialog
+KI-Systeme wie ChatGPT sind darauf ausgelegt, im Dialog zu interagieren und funktionieren am besten, wenn ein Gespräch fortgeführt wird. Ein einzelner Austausch kann zwar grundlegende Informationen liefern, aber die Stärken der KI zeigen sich besonders in einer fortgesetzten Interaktion. Durch Nachfragen, Klärungen und weiterführende Diskussionen kann die KI ein tieferes Verständnis der Anliegen des Nutzers entwickeln und dadurch relevantere und präzisere Antworten geben. Außerdem ermöglicht ein Dialog es der KI, den Kontext besser zu erfassen und auf ihn einzugehen, was bei einer einmaligen Anfrage oft schwieriger ist. Daher ist ein fortlaufender Dialog oft der Schlüssel zu einer effektiveren und zufriedenstellenderen Nutzung von KI-basierten Chat-Systemen.
 
 ## Kata 4 - Reflexion mit ersten Lernergebnissen
 (Hintergrund Boxenstopp 1)
