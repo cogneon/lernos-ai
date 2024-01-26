@@ -49,7 +49,7 @@ KI-Text-Tools ermöglichen die Interaktion mit dem Tool wie in einer Unterhaltun
 - [**Pi**](https://pi.ai/talk): Textchat mit Sprachausgabe zu verschiedenen Themen als empathisches Gegenüber, englischsprachig, kostenfreie Nutzung.
 
 
-![Übersicht Tools Services KI]([https://assets.digitalocean.com/articles/alligator/boo.svg](https://github.com/cogneon/lernos-ai/blob/d59fcfee3d5a9e3bfd7d1efd0ac282323c9d89dc/de/src/images/lernOS%20KI%20Abb%20Tools%20Services.png))
+![Übersicht Tools Services KI](./images/lernOS%20KI%20Abb%20Tools%20Services.png)
 
 
 ### KI-gestützte Codierungshilfen
