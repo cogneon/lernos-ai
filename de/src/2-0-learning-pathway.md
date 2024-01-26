@@ -238,14 +238,14 @@ produzierte diese Antwort:
 Die Nutzung von mehrstufigen Prompts eignet sich um komplexe Aufgabenstellungen und Anfragen zu bearbeiten. Sie bestehen aus einer strukturierten Reihe von Teilaufgaben, um ein bestimmtes Ergebnis zu erzielen und sind besonders nützlich, wenn eine einzelne Anfrage nicht ausreicht, um die benötigten Informationen zu erfassen oder ein komplexes Problem zu lösen.
 
 ####  Vorgehen
-**1. Zieldefinition** Beginnen mit einer klaren Definition des Ziels. Du kannst dafür z. B. den in Kata 7 beschrieben Aufbau nutzen.
-**2. Aufteilung in Teilaufgaben** Leite aus dem Ziel kleinere Teilaufgaben ab, die jeweils auf einen spezifischen  Aspekt der Gesamtaufgabe ausgerichtet sind. Schreibe für jede Teilaufgabe eine eigene Anweisung.
+1. **Zieldefinition Beginnen mit einer klaren Definition des Ziels. Du kannst dafür z. B. den in Kata 7 beschrieben Aufbau nutzen.
+2. **Aufteilung in Teilaufgaben** Leite aus dem Ziel kleinere Teilaufgaben ab, die jeweils auf einen spezifischen  Aspekt der Gesamtaufgabe ausgerichtet sind. Schreibe für jede Teilaufgabe eine eigene Anweisung.
 
 #### Beispiel: Erstellung eines Konzeptes für ein Lernevent
 Ziel: Erstellung eines Konzepts für ein halbtägiges Lernevent in einem Unternehmen, in dem Teilnehmer die Anwendung und Möglichkeiten von generativer KI kennenlernen und praktisch erproben. Das Event soll interaktiv und für Anfänger geeignet sein.
 
 Teilaufgaben
-1.  Erstelle einen Vortragstitel und eine Vortragsgliederung für eine kurze Einführung in die Grundlagen der generativen KI, einschließlich ihrer wichtigsten Anwendungsbereiche wie Text- und Bildgenerierung.
+1. Erstelle einen Vortragstitel und eine Vortragsgliederung für eine kurze Einführung in die Grundlagen der generativen KI, einschließlich ihrer wichtigsten Anwendungsbereiche wie Text- und Bildgenerierung.
 2. Überlege Dir 3x praktische Übungen, anhand derer die Teilnehmenden die Inhalte niedrigschwellig selbst ausprobieren können
 3. Erstelle Stichpunkte für eine motivierende Abschlussrede, welche der Vorstand des Unternehmers halten soll.
 
