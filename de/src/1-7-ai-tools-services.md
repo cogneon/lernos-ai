@@ -1,6 +1,8 @@
 ## KI-Tools und -Dienste
 
-In diesem Kapitel geben wir dir einen Überblick, wie du mit verschiedenen Tools und Diensten das KI-unterstützte Arbeiten kennenlernen kannst. Wir haben dabei eine Einteilung in unterschiedliche Bereiche vorgenommen, die ebenso wie die Tools und Serivices weiterhin in Bewegung ist. Für die Auswahl haben wir uns jeweils folgende Fragen gestellt: 
+In diesem Kapitel geben wir Dir  einen Überblick, wie Du mit verschiedenen Tools und Diensten das KI-unterstützte Arbeiten kennenlernen kannst. Wir haben dabei eine Einteilung in unterschiedliche Bereiche vorgenommen, die ebenso wie die Tools und Services weiterhin in Bewegung ist.
+
+Für die Auswahl haben wir uns jeweils folgende Fragen gestellt: 
 
 - Ist das Tool / der Dienst für den Einstieg nutzbar?
 - Gibt es eine kostenfreie Nutzung?
@@ -9,6 +11,9 @@ In diesem Kapitel geben wir dir einen Überblick, wie du mit verschiedenen Tools
 - Welche 3 bis 5 sind aktuell unsere besten Empfehlungen?
 
 (Oft ist zumindest eine Registrierung erforderlich.)
+
+
+![Übersicht Tools Services KI](./images/lernOS-KI-Abb-Tools-Services.png)
 
 
 ### Tipps & Empfehlungen
@@ -49,14 +54,11 @@ KI-Text-Tools ermöglichen die Interaktion mit dem Tool wie in einer Unterhaltun
 - [**Pi**](https://pi.ai/talk): Textchat mit Sprachausgabe zu verschiedenen Themen als empathisches Gegenüber, englischsprachig, kostenfreie Nutzung.
 
 
-![Übersicht Tools Services KI](./images/lernOS-KI-Abb-Tools-Services.png)
-
-
 ### KI-gestützte Codierungshilfen
 
 Code-Tools mit KI sind innovative Programme, die Entwickler:innen helfen, effizienter zu arbeiten. Sie generieren kurze Code-Snippets, eröffnen Diskussionen über verschiedene Lösungsansätze und bieten Erklärungen zu Code-Fragmenten. Außerdem können sie zur Überarbeitung bestehenden Codes eingesetzt werden, um dessen Qualität zu verbessern.
 
-- [**AWS CodeWhisperer**](https://aws.amazon.com/de/codewhisperer): Code-Assistenz für Amazon Web Services-Cloud-Entwicklungen mit Codevorschlägen und Sicherheitsscans, unterstützt 15 Programmiersprachen, in kostenfreiem Indivudaltarif nutzbar, DSGVO-konform.
+- [**AWS CodeWhisperer**](https://aws.amazon.com/de/codewhisperer): Code-Assistenz für Amazon Web Services-Cloud-Entwicklungen mit Codevorschlägen und Sicherheitsscans, unterstützt 15 Programmiersprachen, in kostenfreiem Individualtarif nutzbar, DSGVO-konform.
 - [**Bing Chat / Copilot**](https://www.bing.com/search): Code-Assistenz für verschiedene Programmiersprachen, deutschsprachig, kostenfreie Basis-Nutzung.
 - [**ChatGPT**](https://chat.openai.com/auth/login): Code-Assistenz für verschiedene Programmiersprachen mit Fokus auf _Python,_ deutschsprachig, kostenfreie Basis-Nutzung.
 - [**Github Copilot**](https://github.com/features/copilot): Code-Assistenz, die Vorschläge und Optimierungen für Softwarecode liefert, kostenfreie Testnutzung.
@@ -68,9 +70,10 @@ Code-Tools mit KI sind innovative Programme, die Entwickler:innen helfen, effizi
 Bild-Tools nutzen KI für die Erzeugung und Optimierung von Fotos und Grafiken. Textanweisungen werden verarbeitet, verstanden und entsprechend für die Generierung von passenden Bildern verwendet. Sie sind in der Lage, so genannte Deepfakes zu erzeugen: Fotos (oder Videos) in denen die Gesichtszüge einer Person auf die Aufnahme eines anderen Menschen übertragen werden.
 
 - [**Adobe Express**](https://www.adobe.com/de/express): Generierung von Bildern sowie Bearbeitung und Verbesserung von Bildern, deutschsprachig, kostenfreie Basis-Nutzung.
-- [**Bing Creator**](https://bing.com/create): Bildgenerierung mit _DALL-E 3,_ deutschsprachig, kostenfreie Basis-Nutzung.
+- [**Bing Creator**](https://bing.com/create): Bildgenerierung mit _DALL-E,_ deutschsprachig, kostenfreie Basis-Nutzung.
 - [**CivitAI**](https://civitai.com): Bildgenerierung mit Vorlagenauswahl und Text-Prompt, englischsprachig, Registrierung erforderlich, kostenfreie Basis-Nutzung.
 - **Midjourney** (kostenpflichtig) via **Poe** nutzen (s.o.).
+- [**Stable Diffusion WebUI**](https://stablediffusionweb.com/WebUI) **/** [**Stable Difusion App**](https://stablediffusionweb.com/app): neben Online-Tool auch offline und ohne Abo auf dem eigenen Computer nutzbar.
 
 
 ### KI-gestützte Audio-Tools
@@ -81,6 +84,7 @@ Audio-Tools mit KI erlauben die Spracheingabe zur Steuerung von Anwendungen. Sie
 - [**Descript**](https://www.descript.com): Tool, das aus Sprachaufzeichnungen Zusammenfassungen und Social Media-Posts erzeugt, bietet mit _AI Voices_ aus Texten erzeugte Sprache und Voice Cloning, kostenfreie Basis-Nutzung.
 - [**ElevenLabs**](https://elevenlabs.io): Generiert aus Textinput hochwertige Audioqualität mit Emotionen in vielen Sprachen, große Auswahl an Stimmen, Dubbing von Videos, Voice Cloning und Hörbuch-Entwicklung, kostenfreie Basis-Nutzung.
 - [**Murf**](https://murf.ai): Hochwertige deutschsprachige Stimmen, kostenfreie Basis-Nutzung, DSGVO-konform.
+- [**MacWhisper**](https://goodsnooze.gumroad.com/l/macwhisper): Schnelle, sichere und genaue Spracherkennung auf MacOS- oder iOS-Geräten, 100 unterstützte Sprachen, kostenfreie Basis-Nutzung.
 
 
 ### KI-gestützte Video-Tools
