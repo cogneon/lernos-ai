@@ -12,6 +12,9 @@ Ergänzende Fragestellungen zum Einstieg
  - Kurze Beschreibung, was man machen sollte und was noch nicht nötig ist im 1. Schritt.
  - Optional: Falls schon jemand ein KI-Tool im Einsatz hat, frage die KI, welche Icebreaker zum Kennenlernen sie für Eure Situation empfehlen würde.
 
+> [!NOTE]  
+> Test
+
 ## Kata 1 - Bewusstsein schaffen
 
 Lese Dir den Abschnitt aus dem Grundlagenkapitel [KI & Gesellschaft](1-7-ai-and-society.md) durch und überlege Dir wie eine verantwortungsvolle Nutzung von KI-Systemen aussehen könnte. 
