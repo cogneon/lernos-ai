@@ -99,7 +99,11 @@ Lese Dir das [KI und maschinelles Lernen](1-2-ai-machine-learning.md) durch + Ü
 - Es soll auf jeden Fall etwas sein, dass von der KI generiert wird.
 
 ### Aufgabe: Führe einen Dialog
-KI-Systeme wie ChatGPT sind darauf ausgelegt, im Dialog zu interagieren und funktionieren am besten, wenn ein Gespräch fortgeführt wird. Ein einzelner Austausch kann zwar grundlegende Informationen liefern, aber die Stärken der KI zeigen sich besonders in einer fortgesetzten Interaktion. Durch Nachfragen, Klärungen und weiterführende Diskussionen kann die KI ein tieferes Verständnis der Anliegen des Nutzers entwickeln und dadurch relevantere und präzisere Antworten geben. Außerdem ermöglicht ein Dialog es der KI, den Kontext besser zu erfassen und auf ihn einzugehen, was bei einer einmaligen Anfrage oft schwieriger ist. Daher ist ein fortlaufender Dialog oft der Schlüssel zu einer effektiveren und zufriedenstellenden Nutzung von KI-basierten Chat-Systemen.
+Nehme Dir mal 10-15 Zeit für einen längeren Dialog mit einer chatbasierten KI. Lasse Dich darauf ein, dass der Chat sich wie ein Gespräch entwickelt indem Du Nachfragen stellst und Rückmeldungen gibst. Wenn Du einmal in eine "Sackgasse" kommst, dann frag doch einfach die KI wie ihr das Gespräch weiterführen könntet.
+
+Chatbasierte KI-Systeme wie ChatGPT sind darauf ausgelegt, im Dialog zu interagieren und funktionieren am besten, wenn ein Gespräch fortgeführt wird. Ein einzelner Austausch kann zwar grundlegende Informationen liefern, aber die Stärken der KI zeigen sich besonders in einer fortgesetzten Interaktion. Durch Nachfragen, Klärungen und weiterführende Diskussionen kann die KI ein tieferes Verständnis der Anliegen des Nutzers entwickeln und dadurch relevantere und präzisere Antworten geben. Außerdem ermöglicht ein Dialog es der KI, den Kontext besser zu erfassen und auf ihn einzugehen, was bei einer einmaligen Anfrage oft schwieriger ist. Daher ist der Dialog oft ein wichtiger Schlüssel, zu einer effektiveren Nutzung von KI-basierten Chat-Systemen.
+
+**Tipp:** Manche KI-Systeme wie z. B. [ChatGPT](https://chat.openai.com) bieten eine Sprachchat-Funktion, mit der sich der Dialog natürlicher anfühlt, eben fast ein bisschen so wie das Gespräch mit einem Menschen.
 
 ## Kata 4 - Reflexion mit ersten Lernergebnissen
 (Hintergrund Boxenstopp 1)
@@ -110,6 +114,8 @@ KI-Systeme wie ChatGPT sind darauf ausgelegt, im Dialog zu interagieren und funk
 Vertiefung:
 - Wusstest Du, dass Du die Konversation fortsetzen oder Deine Anfrage überarbeiten kannst. 
 - Wusstest Du, dass du Deine KI einer Persona geben bzw. sie enstprechend framen geben kannst?
+
+**Tipp:** Chatbasierte KIs sind gut darin Frameworks oder Modelle (z. B. aus Business, Forschung, Psychologie, ...) für bestimmte Szenarien anzuwenden. Frage ChatGPT z. B. etwas wie "Erstelle mir eine SWOT-Analyse für den Verkauf von besonders leichten Premium-Smartphones in der Schweiz".
 
 ## Kata 5 - KI-Einsatzfelder am eigenen Arbeitsplatz
 Nachdem wir sie in [Kata 2] bereits erstmals aufgegriffen, wollen wir [KI-Tools und Services](1-7-ai-tools-services.md) nochmals vertiefen und sie mit passenden Anwendungsfeldern verknüpfen. Zusammenfassend legen wir daher wiederholend den Fokus auf die unterschiedlichen Tool-Kategorien, denen aktuelle KI-Tools zugeordnet werden können:
@@ -147,6 +153,8 @@ Und los geht´s! Wir wünschen Dir viel Spaß beim Umsetzen Deiner Idee!
 **Ergänzender Hinweis 1:** Die Länge des Blogposts spielt genau so wenig eine Rolle, wie die Qualität Deines Schreibens. Es geht darum, dass Du Deine Erfahrungen im Umgang mit KI-Tools vertiefst und ein gutes Gefühl für die Chancen und Herausforderungen bekommst.
 
 **Ergänzender Hinweis 2:** Solltest Du keinen Zugriff auf einen reellen Blogpost haben, so kannst Du den Beitrag auch in einem gängigen Textverarbeitungsprogramm erstellen bzw. vorbereiten.
+
+**Tipp:** Die KI kann Dich als Feedbackpartner in Deiner Reflexion unterstützen. Teile mit ihr Deine bisherigen Ergebnisse und lasse Dir Feedback dazu geben, was Du verbessern kannst.
 
 ## Kata 7 - Zusammenarbeit mit KI
 
@@ -187,7 +195,10 @@ Reflexions Check-In: - Überlegt Euch, was Ihr aus den letzten Wochen weiter mit
 
 Vertiefung: Lasst die KI Eure dokumentierten Ergebnisse als visualisierten Beitrag zusammenfassen, den Ihr ggf. veröffentlichen könnt (Text, Bild oder audio-visuell, Video).
 
+**Tipp:** Die KI kann Dich als Feedbackpartner in Deiner Reflexion unterstützen. Teile mit ihr Deine bisherigen Ergebnisse und lasse Dir Feedback dazu geben, was Du verbessern kannst.
+
 ## Kata 9 - KI als Träumer / Halluzinator / Lügner
+*Ein wichtiger Teil der kompetenten Nutzung von KI-Systemen besteht darin ein intuitives Verständnis davon zu entwickeln, wofür sich die KI gut eignet und wie man dazu am besten mit ihr schreiben bzw. sprechen sollte. Gleichzeitig ist es aber auch wichtig, Gefahren zu kennen und diese zu vermeiden. Diese Kata zeigt Dir, wie die Überzeugungskraft von sprachbasierten KIs gefährlich werden kann, wenn diese Gefahren nicht bekannt sind.*
 
 Intuition trainieren
 Basierend auf den Beispielen aus den vorherigen Wochen: Entwickelt 3 Einfache Prompts. Lernziel: Rausfinden, was eine KI kann und was nicht
