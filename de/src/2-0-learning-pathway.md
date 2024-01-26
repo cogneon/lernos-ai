@@ -121,7 +121,7 @@ Und los geht´s! Wir wünschen Dir viel Spaß beim Umsetzen Deiner Idee!
 
 **Ergänzender Hinweis 2:** Solltest Du keinen Zugriff auf einen reellen Blogpost haben, so kannst Du den Beitrag auch in einem gängigen Textverarbeitungsprogramm erstellen bzw. vorbereiten.
 
-## Kata 7 - KI als persönlicher Assistent
+## Kata 7 - Zusammenarbeit mit KI
 
 Erweitertes Prompting: Im Sinne von KI ist mein künstlicher Arbeitsassistent*in möchte ich gerne gemeinsam mit dieser eine PowerPoint-Präsentation oder ein Konzept zu meinem Projektthema erarbeiten (lassen).
 
