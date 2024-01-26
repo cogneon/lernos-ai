@@ -25,6 +25,7 @@ In dieser Kata legst Du die Grundlagen für die Zusammenarbeit mit der künstlic
 - Überlege Dir, was bei der Nutzung von KI-Systemen zu beachten ist. Informiere Dich im Intranet Deines Unternehmens, ob es bei Dir unternehmensspezifische Vorgaben und Richtlinien zur Nutzung von KI-Systemen im Internet gibt.
 
 **Diskussion**
+
 Für das Treffen in der Gruppe:
 
 - Erstellt als Gruppe einen kurzen Steckbrief darüber, was man aus Eurer Sicht bei einer verantwortungsbewusster Nutzung von KI beachten sollte.
