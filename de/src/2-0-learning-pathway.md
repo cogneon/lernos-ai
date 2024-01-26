@@ -1,3 +1,4 @@
+
 # Lernpfad
 
 Idee: Ziel für den Lernpfad ist, mindestens einen Beitrag für Blog/Linkedin zu erstellen und zu veröffentlichen ([Beispiel: mit Zusammenfassung Interview](https://www.linkedin.com/feed/update/urn:li:activity:7110171493103198209/)). Das Ziel kann beliebig erweitert werden (mehrere Beiträge, mehrsprachig, Podcast, Video etc.)
@@ -53,10 +54,6 @@ Falls Dein Unternehmen noch keine Rahmenbedingungen hat findest Du hier ein paar
 Erstelle einen knappen Steckbrief der wichtigsten Vorgaben Deines Unternehmens in Bezug auf die Nutzung von KI-Plattformen.
 
 
-
-### Diskussion für die Gruppe
-- 
-
 ## Kata 2 - Explorativer Umgang mit der KI
 _In dieser Kata wählst Du einen Chatbot aus, mit dem Du Deine ersten Schritte in die Welt der generativen KI starten kannst._
 
@@ -102,7 +99,7 @@ Lese Dir das [KI und maschinelles Lernen](1-2-ai-machine-learning.md) durch + Ü
 - Es soll auf jeden Fall etwas sein, dass von der KI generiert wird.
 
 ### Aufgabe: Führe einen Dialog
-KI-Systeme wie ChatGPT sind darauf ausgelegt, im Dialog zu interagieren und funktionieren am besten, wenn ein Gespräch fortgeführt wird. Ein einzelner Austausch kann zwar grundlegende Informationen liefern, aber die Stärken der KI zeigen sich besonders in einer fortgesetzten Interaktion. Durch Nachfragen, Klärungen und weiterführende Diskussionen kann die KI ein tieferes Verständnis der Anliegen des Nutzers entwickeln und dadurch relevantere und präzisere Antworten geben. Außerdem ermöglicht ein Dialog es der KI, den Kontext besser zu erfassen und auf ihn einzugehen, was bei einer einmaligen Anfrage oft schwieriger ist. Daher ist ein fortlaufender Dialog oft der Schlüssel zu einer effektiveren und zufriedenstellenderen Nutzung von KI-basierten Chat-Systemen.
+KI-Systeme wie ChatGPT sind darauf ausgelegt, im Dialog zu interagieren und funktionieren am besten, wenn ein Gespräch fortgeführt wird. Ein einzelner Austausch kann zwar grundlegende Informationen liefern, aber die Stärken der KI zeigen sich besonders in einer fortgesetzten Interaktion. Durch Nachfragen, Klärungen und weiterführende Diskussionen kann die KI ein tieferes Verständnis der Anliegen des Nutzers entwickeln und dadurch relevantere und präzisere Antworten geben. Außerdem ermöglicht ein Dialog es der KI, den Kontext besser zu erfassen und auf ihn einzugehen, was bei einer einmaligen Anfrage oft schwieriger ist. Daher ist ein fortlaufender Dialog oft der Schlüssel zu einer effektiveren und zufriedenstellenden Nutzung von KI-basierten Chat-Systemen.
 
 ## Kata 4 - Reflexion mit ersten Lernergebnissen
 (Hintergrund Boxenstopp 1)
@@ -153,11 +150,27 @@ Und los geht´s! Wir wünschen Dir viel Spaß beim Umsetzen Deiner Idee!
 
 ## Kata 7 - Zusammenarbeit mit KI
 
-Erweitertes Prompting: Im Sinne von KI ist mein künstlicher Arbeitsassistent*in möchte ich gerne gemeinsam mit dieser eine PowerPoint-Präsentation oder ein Konzept zu meinem Projektthema erarbeiten (lassen).
+KI-Systeme können sehr unterschiedlich eingesetzt werden und die Art des Einsatzes hat massive Auswirkungen auf die Ergebnisse. Studien zeigen, dass Wissensarbeiter durch die Zusammenarbeit mit KI ihre Produktivität und die Qualität der Ergebnisse steigern können (vgl. [KI macht Wissensarbeiter schneller und besser (faz.net)](https://www.faz.net/pro/d-economy/kuenstliche-intelligenz/ki-macht-wissensarbeiter-schneller-und-besser-19183974.html)). Diese Produktivitätssteigerung kann jedoch nur dann genutzt werden, wenn KI-Systeme richtig eingesetzt werden.
 
-Welche Prompts sollten dazu wie am besten formuliert werden?
-Prompting Guideline oder Leitlinien als Hilfestellung / Orientierung
-z.B. Versetze Dich in die Rolle eines L&D-Verantwortlichen / Software Engineers / Hochschulprofessors*in...
+Eine Beobachtung ist, dass gerade Einsteiger:innen KI anfangs ähnlich wie eine Suchmaschine, im Sinne von "Eingabe rein - Antwort raus", nutzen. Während diese Nutzung legitim ist, gibt es deutlich bessere Wege, KI zu nutzen. Der erste Schritt besteht darin, zu erforschen und herauszufinden, wie die KI auf verschiedene Eingaben ("Prompts") unterschiedlich reagiert.
+
+Dieser Aufbau von Prompts hat sich bewährt:
+
+-   **Persona**: Welche Rolle soll das Sprachmodell übernehmen?
+-   **Einleitung**: Was erwarte ich vom Sprachmodell? Beginnt normalerweise mit einem Aktionswort.
+-   **Individueller Inhalt**: Der eigentliche Text der verarbeitet werden soll.
+-   **Format**: Wenn notwendig, welches Format erwarte ich von der Ausgabe?
+-   **Zusätzliche Information**: Weitere relevante Informationen die ein Kontext spezifischer machen.
+
+Hier ein ausgefülltes Beispiel:
+-   **Persona**: Du bist Reiseberater und Experte für die individuelle Ausgestaltung von Reisen in fremde Länder.
+-   **Einleitung**: Ich habe in den kommenden Sommerferien endlich Zeit gemeinsam mit meinem Partner mal wieder eine richtig große Reise zu unternehmen.
+-   **Individueller Inhalt**: Erstelle für mich einen Reiseplan für eine zweiwöchige Reise nach Japan. Berücksichtige dabei kulturelle Sehenswürdigkeiten, lokale Küche und Outdoor-Aktivitäten.
+-   **Format**: Die Liste sollte nach Urlaubstagen strukturiert sein. Unterteile jeden Urlaubstag nach Stationen und Städten, die ich besuchen werde (wie z. B. Tokio, Kyoto und Osaka).
+-   **Zusätzliche Information**: Ich interessiere mich besonders für historische Stätten und bin ein Liebhaber von Sushi. Zudem möchte ich gerne eine Wanderung machen.
+
+Je mehr Erfahrung man mit der KI sammelt, desto leichter gelingt eine intuitive Eingabe passender Prompts. Denke daran: Die besten Ergebnisse entstehen, wie in Kata 3 dargestellt, in der Zusammenarbeit mit der KI. Nutze deshalb die erste Antwort auf Deine Eingabe dafür in einen Dialog mit der KI zu starten!
+
 
 ## Kata 8 - Reflexion mit weiteren Lernergebnissen
 (Hintergrund Boxenstopp 2)
