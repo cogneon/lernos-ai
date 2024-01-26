@@ -8,7 +8,7 @@ Wir empfehlen eine Kata pro Woche durchzuführen, wenn Du den Leitfaden in 12 Wo
 _Dieser erste Kata dient der Vorbereitung und dem Kennenlernen. Hier findest Du [Woche 0](2-0-Woche-0.md)._
 
 ### Aufgabe
-Diskutiert in der ersten Woche gemeinsam die Frage: "Was bedeutet KI für Dich persönlich und was ist Deine Erwartungshaltung an diesen Lernpfad?"
+1. Diskutiert in der ersten Woche gemeinsam die Frage: "Was bedeutet KI für Dich persönlich und was ist Deine Erwartungshaltung an diesen Lernpfad?"
 
 ### Tipp
 Falls jemand aus eurer Gruppe bereits ein KI-Tool im Einsatz hat, dann fragt doch einfach die KI, welche Icebreaker zum Kennenlernen sie für Eure Situation empfehlen würde.
@@ -20,26 +20,39 @@ _In dieser Kata legst Du die Grundlagen für die Zusammenarbeit mit der künstli
 - Lese Dir den Abschnitt aus dem Grundlagenkapitel [KI & Gesellschaft](1-7-ai-and-society.md) durch und überlege Dir wie eine verantwortungsvolle Nutzung von KI-Systemen aussehen könnte. 
 
 ### Aufgabe
-- Überlege Dir, welche Eingaben und Ausgaben es bei generativen KIs gibt und welche Daten generative KIs nutzen können, z. B. für das Training.
-- Was wären Bedrohungsszenarien, welche durch eine verantwortungslode Nutzung von generativer KI für Dein Unternehmen entstehen könnten?
-- Überlege Dir, was bei der Nutzung von KI-Systemen zu beachten ist. Informiere Dich im Intranet Deines Unternehmens, ob es bei Dir unternehmensspezifische Vorgaben und Richtlinien zur Nutzung von KI-Systemen im Internet gibt.
+1. Überlege Dir, welche Eingaben und Ausgaben es bei generativen KIs gibt und welche Daten generative KIs nutzen können, z. B. für das Training.
+2. Was wären Bedrohungsszenarien, welche durch eine verantwortungslode Nutzung von generativer KI für Dein Unternehmen entstehen könnten?
+3. Überlege Dir, was bei der Nutzung von KI-Systemen zu beachten ist. Informiere Dich im Intranet Deines Unternehmens, ob es bei Dir unternehmensspezifische Vorgaben und Richtlinien zur Nutzung von KI-Systemen im Internet gibt.
 
 ### Diskussion für die Gruppe
 - Erstellt als Gruppe einen kurzen Steckbrief darüber, was man aus Eurer Sicht bei einer verantwortungsbewusster Nutzung von KI beachten sollte.
 
 ## Kata 2 - Explorativer Umgang mit der KI
+_In dieser Kata wählst Du einen Chatbot aus, mit dem Du Deine ersten Schritte in die Welt der generativen KI starten kannst._
 
-- Wähle einen KI-Chatbot aus. Als Hilfestellung kannst Du [KI-Tools und Services](1-6-ai-tools-services.md) nutzen.
-  
-  - Nutze das Dir bekannte KI-Tool, das im Unternehmen erlaubt ist.
-  - Unsere Empfehlung wäre ChatGPT oder LLAMA 2 auf Perplexity Labs
-  - Beschäftige Dich einmal mit den unterschiedlichen Arten von KI -> Kapitel-Verweis?
-  - Und mit welcher Art von KI beschäftigen wir uns fokussiert im Rahmen dieses Leitfadens?
+### Hintergrund
+- Beschäftige Dich einmal mit den unterschiedlichen Arten von KI -> Kapitel-Verweis?
+- Als Hilfestellung kannst Du das Kapitel [KI-Tools und Services](1-6-ai-tools-services.md) nutzen.
 
-- Besorge Dir einen Zugang zum Tool.
-- Erste Eingabe: "Ich packe meinen ..." -> Koffer - Hintergrund dder Funktionsweise verstehen: Wahrscheinlichkeitsprüfung der KI auf neue nachfolgende Wörter oder Wortgruppen
+### Aufgabe 1: Wähle einen KI-Chatbot aus oder probiere mehrere Chatbots aus
+Beim Einstieg in die Welt der KI-Chatbots stehen Dir verschiedene Optionen offen. Zunächst solltest Du prüfen, welche KI-Plattformen in Deinem Unternehmen eingesetzt werden dürfen. Ein guter Startpunkt ist die kostenlose Version von [ChatGPT](https://chat.openai.com), der [Microsoft Copilot](https://copilot.microsoft.com) oder [Pi](https://pi.ai/talk).
+Besorge Dir zuerst einen Zugang zu einem dieser Tools. Falls Du Dich nicht registrieren möchtest, ist [Pi](https://pi.ai/talk) eine gute Wahl, da hier keine Registrierung erforderlich ist. 
+
+**Tipp:**
+Wenn Du für die gleiche Eingabe oder mehrere dieser Chatbots ausprobierst, bekommst Du ein besseres Gefühl für Gemeinsamkeiten und Unterschiede und lernst, welche KI-Technologie Du wann für Deine Arbeit effektiv nutzen kannst.
+
+### Aufgabe 2: Starte mit Deinem ersten Experiment
+Jetzt, da Du Dich mit der Auswahl und dem Zugang zu einem KI-Chatbot vertraut gemacht hast, ist es Zeit für Dein erstes Experiment. Beginne damit, den Satz "Ich packe meinen ..." in den Chatbot einzugeben und beobachte, wie er darauf antwortet. Du wirst wahrscheinlich feststellen, dass der Chatbot mit etwas wie "Koffer" antwortet. Das liegt daran, dass die Antwort des Chatbots so erfolgt, dass die KI die wahrscheinlichsten nachfolgenden Wörter oder Wortgruppen zu Deinem eingegebenen Satzteil ermittelt. Dieses Experiment hilft Dir, ein tieferes Verständnis dafür zu entwickeln, wie KI-Chatbots Sprache verarbeiten und auf Benutzereingaben reagieren.
+
+### Aufgabe 3: Führe einen Dialog
+KI-Systeme wie ChatGPT sind darauf ausgelegt, im Dialog zu interagieren und funktionieren am besten, wenn ein Gespräch fortgeführt wird. Ein einzelner Austausch kann zwar grundlegende Informationen liefern, aber die Stärken der KI zeigen sich besonders in einer fortgesetzten Interaktion. Durch Nachfragen, Klärungen und weiterführende Diskussionen kann die KI ein tieferes Verständnis der Anliegen des Nutzers entwickeln und dadurch relevantere und präzisere Antworten geben. Außerdem ermöglicht ein Dialog es der KI, den Kontext besser zu erfassen und auf ihn einzugehen, was bei einer einmaligen Anfrage oft schwieriger ist. Daher ist ein fortlaufender Dialog oft der Schlüssel zu einer effektiveren und zufriedenstellenderen Nutzung von KI-basierten Chat-Systemen.
+
+
+### RESTE
 - Einstiegs-Scherzfragen: [KI-Einstieg mit ChatGPT-Scherzfragen | eBildungslabor](https://ebildungslabor.de/blog/ki-einstieg-mit-chatgpt-scherzfragen/)
-- ergänzender Hinweis auf Dialogfähigkeit der KI - Probiere Konversationen aus.
+
+
+
 
 ## Kata 3 - KI als Dialogpartner
 
