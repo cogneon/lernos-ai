@@ -23,6 +23,7 @@ Die wichtigste Aufgabe in der ersten Woche ist es Euch gegenseitig besser kennen
 **Tipp:** Falls jemand aus eurer Gruppe bereits ein KI-Tool im Einsatz hat, dann fragt doch einfach die KI, welche Icebreaker zum Kennenlernen sie für Eure Situation empfehlen würde.
 
 Als Einstiegsfragen könnt ihr diese Fragen nutzen:
+
 - Was bedeutet KI für Dich persönlich?
 - Wann war die Teilnahme an dem Lernpfad für Dich erfolgreich?
 - Welche Erwartungen habt ihr an den Lernpfad?
@@ -36,6 +37,7 @@ _In dieser Kata legst Du die Grundlagen für die Zusammenarbeit mit der künstli
 
 ### Aufgabe: Was kann eigentlich passieren?
 Denke darüber nach, wie KI-Systeme funktionieren und beantworte dann die nachfolgenden Fragen:
+
 - Welche Arten von Eingaben und Ausgaben sind bei KI-Plattformen und -Tools üblich?
 - Denke darüber nach, welche Daten generative KIs für Prozesse wie z. B. das Training nutzen können.
 - Was wären Bedrohungsszenarien, die durch eine verantwortungslose Nutzung von KI-Plattformen für Dein Unternehmen entstehen könnten?
@@ -44,6 +46,7 @@ Denke darüber nach, wie KI-Systeme funktionieren und beantworte dann die nachfo
 Um die Nutzung von KI-Systemen in Deinem Unternehmen effektiv und verantwortungsbewusst zu gestalten, ist es wichtig, dass Du Dich zunächst mit den unternehmensspezifischen Vorgaben und Richtlinien vertraut machst. Diese Informationen findest Du meist im Intranet Deines Unternehmens. Achte darauf, die für Dich relevanten Vorgaben stets im Blick zu behalten um sicherzustellen, dass Du sie in Deinem täglichen Arbeitsumfeld umsetzt. Sollten in diesem Leitfaden bestimmte Katas in Deinem Unternehmen nicht umsetzbar sein, ist es ratsam, dass Du Dir eigenständig alternative Aufgaben überlegst, die den Richtlinien Deines Unternehmens entsprechen.
 
 Falls Dein Unternehmen noch keine Rahmenbedingungen hat findest Du hier ein paar allgemeine Empfehlungen:
+
 - **Erlaubte Plattformen:** Finde heraus, welche Internetseiten und KI-Plattformen in Deinem Unternehmen genutzt werden dürfen. Manche Unternehmen erlauben nur ausgewählte Plattformen. Überlege Dir auch, ob Du Dich bei KI-Plattformen mit deinen dienstlichen Kontaktdaten registrieren darfst.
 - **Vertrauliche Daten:** Die meisten Unternehmen haben kritische Unternehmensdaten, deren ungewollte Veröffentlichung ein hohes Risiko bedeuten würde. Achte deshalb stets darauf, welche Daten Du bei welcher KI-Plattform eingeben darfst.
 - **Personenbezogene Daten:** Denke auch an Risiken, die durch personenbezogene Daten entstehen. Datenschutzrechtliche und unternehmerische Vorgaben geben meist vor, dass nur in solche Systeme personenbezogene Daten eingegeben werden dürfen, die hierfür freigegeben sind.
@@ -108,6 +111,7 @@ Chatbasierte KI-Systeme wie ChatGPT sind darauf ausgelegt, im Dialog zu interagi
 
 ## Kata 4 - Reflexion mit ersten Lernergebnissen
 (Hintergrund Boxenstopp 1)
+
 - Reflexions Check-In:
   - Überlegt Euch, was Ihr aus den letzten 3 Wochen bisher mitnehmen konntet. Fragt die KI, welche Reflexionsmethode sie Euch dafür vorschlagen würde.
   - Und stellt Euch kurz den Stand Eures KI-Lernprojekts vor, z.B. nach der Woop-Methode (Wish - Options - Obstacles - Plan) - Prof. Oettingen (Hamburg) Quelle: https://woopmylife.org/
@@ -143,6 +147,7 @@ In der vergangenen Woche hast Du unterschiedliche Kategorien kennengelernt, dene
 Lasse Deine Erfahrungen aus der letzten Woche Revü passieren und mache Dir nun Gedanken zu dem übergeordneten Lernziel dieses Leitfadens. Es geht darum, einen **Blogpost-Beitrag** mithilfe von KI zu erstellen. Dieser könnte verschiedene Elemente enthalten, wie z.B. Texte, Bilder und Videos. (Was ist ein Blog-Post: [Blogpost Begriffserklärung &amp; Definition](https://www.seo-analyse.com/seo-lexikon/b/blogpost/))
 
 **Beantworte Dir nun folgende Fragen:**
+
 - Worum soll es in Deinem Blogpost gehen?
 - Wie soll Dein Blogpost aufgebaut sein bzw. welche Elemente soll er beinhalten?
 - Welche KI-Tools können Dir bei welchen Elementen helfen?
@@ -166,6 +171,7 @@ KI-Systeme können sehr unterschiedlich eingesetzt werden und die Art des Einsat
 Eine Beobachtung ist, dass gerade Einsteiger:innen KI anfangs ähnlich wie eine Suchmaschine, im Sinne von "Eingabe rein - Antwort raus", nutzen. Während diese Nutzung legitim ist, gibt es deutlich bessere Wege, KI zu nutzen. Der erste Schritt besteht darin, zu erforschen und herauszufinden, wie die KI auf verschiedene Eingaben ("Prompts") unterschiedlich reagiert) .
 
 Nutze in dieser Kata den Prompt-Aufbau aus dem Kaptiel [Prompts erstellen](1-10-prompts-erstellen.md):
+
 - **Persona**: Welche Rolle soll das Sprachmodell übernehmen?
 - **Einleitung**: Was erwarte ich vom Sprachmodell? Beginnt normalerweise mit einem Aktionswort.
 - **Individueller Inhalt**: Der eigentliche Text der verarbeitet werden soll.
@@ -205,6 +211,7 @@ Das Ziel dieser Aufgabe ist es, ein fundiertes Verständnis für die Stärken un
 Diese Aufgabe besteht darin zu versuchen, eine KI zum halluzinieren zu bringen. Eine Halluzination bezieht sich auf das Phänomen, bei dem ein KI-System unzutreffende, erfundene oder irreführende Informationen generiert, die nicht auf realen Daten oder Fakten basieren. Dies geschieht oft aufgrund der Beschränkungen des Trainingsdatensatzes und der Unfähigkeit der KI, Echtzeitinformationen oder externe Kontexte zu berücksichtigen.
 
 Hier sind ein paar Wege, wie man Halluzination hervorrufen kann:
+
 - **Anfragen nach spezifischen, aber nicht existierenden Fakten oder Details:** Indem man die KI nach spezifischen Daten, Ereignissen oder Details fragt, die nicht existieren oder frei erfunden sind, kann man sie dazu bringen, Antworten zu konstruieren, die sich als Halluzinationen erweisen, da sie nicht auf realen Informationen basieren.
 - **Sehr vage und mehrdeutige Anfragen:** Stellen von unklaren oder mehrdeutigen Fragen kann die KI verwirren und zu halluzinierenden Antworten führen, da sie versucht, aus unvollständigen Informationen Sinn zu machen.
 - **Fiktion oder hypothetische Szenarien:** Die KI kann bei der Beantwortung von Fragen zu fiktiven oder hypothetischen Szenarien leicht halluzinieren, da sie zwischen realen und erfundenen Informationen nicht unterscheiden kann.
@@ -235,6 +242,7 @@ Lese Dir das Kapitel [Prompts erstellen](1-10-prompts-erstellen.md) durch!
 Die Nutzung von mehrstufigen Prompts eignet sich um komplexe Aufgabenstellungen und Anfragen zu bearbeiten. Sie bestehen aus einer strukturierten Reihe von Teilaufgaben, um ein bestimmtes Ergebnis zu erzielen und sind besonders nützlich, wenn eine einzelne Anfrage nicht ausreicht, um die benötigten Informationen zu erfassen oder ein komplexes Problem zu lösen.
 
 ####  Vorgehen
+
 1. **Zieldefinition Beginnen mit einer klaren Definition des Ziels. Du kannst dafür z. B. den in Kata 7 beschrieben Aufbau nutzen.
 2. **Aufteilung in Teilaufgaben** Leite aus dem Ziel kleinere Teilaufgaben ab, die jeweils auf einen spezifischen  Aspekt der Gesamtaufgabe ausgerichtet sind. Schreibe für jede Teilaufgabe eine eigene Anweisung.
 
@@ -242,6 +250,7 @@ Die Nutzung von mehrstufigen Prompts eignet sich um komplexe Aufgabenstellungen 
 Ziel: Erstellung eines Konzepts für ein halbtägiges Lernevent in einem Unternehmen, in dem Teilnehmer die Anwendung und Möglichkeiten von generativer KI kennenlernen und praktisch erproben. Das Event soll interaktiv und für Anfänger geeignet sein.
 
 Teilaufgaben
+
 1. Erstelle einen Vortragstitel und eine Vortragsgliederung für eine kurze Einführung in die Grundlagen der generativen KI, einschließlich ihrer wichtigsten Anwendungsbereiche wie Text- und Bildgenerierung.
 2. Überlege Dir 3x praktische Übungen, anhand derer die Teilnehmenden die Inhalte niedrigschwellig selbst ausprobieren können
 3. Erstelle Stichpunkte für eine motivierende Abschlussrede, welche der Vorstand des Unternehmers halten soll.
@@ -251,6 +260,7 @@ Teilaufgaben
 Der Artikel [A Prompt Pattern Catalog to Enhance Prompt Engineering with ChatGPT](https://arxiv.org/pdf/2302.11382.pdf) bieten einen hilfreichen Katalog an wirkungsvollen Prompt-Mustern. Eines dieser Patterns ist das "Flipped Interaction"-Pattern, bei dem die übliche Interaktionsdynamik umgekehrt wird: Anstatt dass der Nutzer Fragen stellt, bittet er das Sprachmodell (LLM), Fragen zu stellen, um ein bestimmtes Ziel zu erreichen.
 
 ####  Vorgehen
+
 1. **Zielsetzung**: Der Nutzer definiert ein Ziel, und das Modell stellt daraufhin zielgerichtete Fragen.
 2. **Dauer und Struktur**: Der Nutzer legt fest, wie lange die Fragephase andauern soll und wie viele Fragen pro Durchgang gestellt werden.
 3. **Spezifizität und Kontext**: Je genauer die Anweisungen und der Kontext, desto effektiver kann das Modell Informationen sammeln.
@@ -270,7 +280,9 @@ Vertiefung: Prompt improvement prompt (Baukastenprompt): KI schreibt sich selbst
 ## Kata 11 - Review und Lessons learned
 
 Jetzt ist es so weit. Nach 12 Wochen geht die letzte Runde des Circles zu Ende und es ist an der Zeit, diese Wochen noch einmal Revue passieren zu lassen. Zum Abschluss kannst Du gerne besprechen, was für Dich die größten Erkenntnisse, Überraschungen oder Herausforderungen im Umgang mit der KI waren.
+
 Die folgenden Fragen können Euch als Leitfaden dienen:
+
 - Was nimmst Du als entscheidende Erfahrungen / Highlights aus den letzten Wochen mit?
 - Was waren für Dich die wichtigsten Meilensteine / Entwicklungsschritte?
 - Was hat Dir im Circle oder bei der Erstellung mit Hilfe der KI gefehlt oder ist zu kurz gekommen?
