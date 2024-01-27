@@ -166,18 +166,12 @@ KI-Systeme können sehr unterschiedlich eingesetzt werden und die Art des Einsat
 Eine Beobachtung ist, dass gerade Einsteiger:innen KI anfangs ähnlich wie eine Suchmaschine, im Sinne von "Eingabe rein - Antwort raus", nutzen. Während diese Nutzung legitim ist, gibt es deutlich bessere Wege, KI zu nutzen. Der erste Schritt besteht darin, zu erforschen und herauszufinden, wie die KI auf verschiedene Eingaben ("Prompts") unterschiedlich reagiert) .
 
 Nutze in dieser Kata den Prompt-Aufbau aus dem Kaptiel [Prompts erstellen](1-10-prompts-erstellen.md):
--   **Persona**: Welche Rolle soll das Sprachmodell übernehmen?
--   **Einleitung**: Was erwarte ich vom Sprachmodell? Beginnt normalerweise mit einem Aktionswort.
--   **Individueller Inhalt**: Der eigentliche Text der verarbeitet werden soll.
--   **Format**: Wenn notwendig, welches Format erwarte ich von der Ausgabe?
--   **Zusätzliche Information**: Weitere relevante Informationen die ein Kontext spezifischer machen.
+- **Persona**: Welche Rolle soll das Sprachmodell übernehmen?
+- **Einleitung**: Was erwarte ich vom Sprachmodell? Beginnt normalerweise mit einem Aktionswort.
+- **Individueller Inhalt**: Der eigentliche Text der verarbeitet werden soll.
+- **Format**: Wenn notwendig, welches Format erwarte ich von der Ausgabe?
+- **Zusätzliche Information**: Weitere relevante Informationen die ein Kontext spezifischer machen.
 
-Hier ein ausgefülltes Beispiel:
--   **Persona**: Du bist Reiseberater und Experte für die individuelle Ausgestaltung von Reisen in fremde Länder.
--   **Einleitung**: Ich habe in den kommenden Sommerferien endlich Zeit gemeinsam mit meinem Partner mal wieder eine richtig große Reise zu unternehmen.
--   **Individueller Inhalt**: Erstelle für mich einen Reiseplan für eine zweiwöchige Reise nach Japan. Berücksichtige dabei kulturelle Sehenswürdigkeiten, lokale Küche und Outdoor-Aktivitäten.
--   **Format**: Die Liste sollte nach Urlaubstagen strukturiert sein. Unterteile jeden Urlaubstag nach Stationen und Städten, die ich besuchen werde (wie z. B. Tokio, Kyoto und Osaka).
--   **Zusätzliche Information**: Ich interessiere mich besonders für historische Stätten und bin ein Liebhaber von Sushi. Zudem möchte ich gerne eine Wanderung machen.
 
 Je mehr Erfahrung man mit der KI sammelt, desto leichter gelingt eine intuitive Eingabe passender Prompts. Denke daran: Die besten Ergebnisse entstehen, wie in Kata 3 dargestellt, in der Zusammenarbeit mit der KI. Nutze deshalb die erste Antwort auf Deine Eingabe dafür in einen Dialog mit der KI zu starten!
 
@@ -203,9 +197,9 @@ Vertiefung: Lasst die KI Eure dokumentierten Ergebnisse als visualisierten Beitr
 ### Trainiere Deine Intuition im Umgang mit KI!
 Das Ziel dieser Aufgabe ist es, ein fundiertes Verständnis für die Stärken und Grenzen von KI-Systemen zu entwickeln. Durch das Erstellen und Testen eigener Prompts lernst du, wie KI auf verschiedene Anfragen reagiert. Dies hilft dir, effektiver mit KI zu interagieren und realistische Erwartungen an ihre Leistungsfähigkeit zu setzen.
 
-1.  **Entwicklung eigener Prompts:** Entwickle basierend auf den Beispielen und Lerninhalten der vorherigen Wochen 3-5 einfache Prompts. Diese können Fragen, Bitten um Erklärungen oder kreative Aufgaben sein. Versuche, eine Vielfalt an Prompts zu entwickeln – einige, die du denkst, die KI kann gut beantworten, und andere, die möglicherweise herausfordernder für sie sind. Dadurch erhältst du ein breiteres Bild von den Stärken und Schwächen des Systems.
-2.  **Experimentieren mit der KI:** Teste deine erstellten Prompts mit einer KI, wie ChatGPT. Achte dabei auf die Art und Weise, wie die KI auf unterschiedliche Anfragen reagiert und welche Antworten sie liefert.
-3.  **Reflexion:** Nachdem du alle Prompts ausprobiert hast, reflektiere deine Erfahrungen. Welche Arten von Anfragen wurden gut von der KI beantwortet? Bei welchen Fragen hatte die KI Schwierigkeiten?
+1. **Entwicklung eigener Prompts:** Entwickle basierend auf den Beispielen und Lerninhalten der vorherigen Wochen 3-5 einfache Prompts. Diese können Fragen, Bitten um Erklärungen oder kreative Aufgaben sein. Versuche, eine Vielfalt an Prompts zu entwickeln – einige, die du denkst, die KI kann gut beantworten, und andere, die möglicherweise herausfordernder für sie sind. Dadurch erhältst du ein breiteres Bild von den Stärken und Schwächen des Systems.
+2. **Experimentieren mit der KI:** Teste deine erstellten Prompts mit einer KI, wie ChatGPT. Achte dabei auf die Art und Weise, wie die KI auf unterschiedliche Anfragen reagiert und welche Antworten sie liefert.
+3. **Reflexion:** Nachdem du alle Prompts ausprobiert hast, reflektiere deine Erfahrungen. Welche Arten von Anfragen wurden gut von der KI beantwortet? Bei welchen Fragen hatte die KI Schwierigkeiten?
 
 ### Aufgabe: Bringe eine KI zum halluzinieren!
 Diese Aufgabe besteht darin zu versuchen, eine KI zum halluzinieren zu bringen. Eine Halluzination bezieht sich auf das Phänomen, bei dem ein KI-System unzutreffende, erfundene oder irreführende Informationen generiert, die nicht auf realen Daten oder Fakten basieren. Dies geschieht oft aufgrund der Beschränkungen des Trainingsdatensatzes und der Unfähigkeit der KI, Echtzeitinformationen oder externe Kontexte zu berücksichtigen.
@@ -257,9 +251,9 @@ Teilaufgaben
 Der Artikel [A Prompt Pattern Catalog to Enhance Prompt Engineering with ChatGPT](https://arxiv.org/pdf/2302.11382.pdf) bieten einen hilfreichen Katalog an wirkungsvollen Prompt-Mustern. Eines dieser Patterns ist das "Flipped Interaction"-Pattern, bei dem die übliche Interaktionsdynamik umgekehrt wird: Anstatt dass der Nutzer Fragen stellt, bittet er das Sprachmodell (LLM), Fragen zu stellen, um ein bestimmtes Ziel zu erreichen.
 
 ####  Vorgehen
-1.  **Zielsetzung**: Der Nutzer definiert ein Ziel, und das Modell stellt daraufhin zielgerichtete Fragen.
-2.  **Dauer und Struktur**: Der Nutzer legt fest, wie lange die Fragephase andauern soll und wie viele Fragen pro Durchgang gestellt werden.
-3.  **Spezifizität und Kontext**: Je genauer die Anweisungen und der Kontext, desto effektiver kann das Modell Informationen sammeln.
+1. **Zielsetzung**: Der Nutzer definiert ein Ziel, und das Modell stellt daraufhin zielgerichtete Fragen.
+2. **Dauer und Struktur**: Der Nutzer legt fest, wie lange die Fragephase andauern soll und wie viele Fragen pro Durchgang gestellt werden.
+3. **Spezifizität und Kontext**: Je genauer die Anweisungen und der Kontext, desto effektiver kann das Modell Informationen sammeln.
 
 #### Beispiel: KI-Wissenscheck
 Nutze z. B. den folgenden Prompt:
