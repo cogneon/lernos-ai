@@ -20,7 +20,7 @@ Die **Woche 0** ist die Woche, bevor es mit den Übungen im Lernpfad so richtig 
 ### Aufgabe: Lernt Euch kennen und sprecht über Eure Erwartungen!
 Die wichtigste Aufgabe in der ersten Woche ist es Euch gegenseitig besser kennenzulernen. Stellt Euch deshalb Euch gegenseitig vor und sprecht auch über Eure Erwartungen an die Gruppe und an Eure lernOS-Lernreise. 
 
-**Tipp:** Falls jemand aus eurer Gruppe bereits ein KI-Tool im Einsatz hat, dann fragt doch einfach die KI, welche Icebreaker zum Kennenlernen sie für Eure Situation empfehlen würde 😉.
+**Tipp:** Falls jemand aus eurer Gruppe bereits ein KI-Tool im Einsatz hat, dann fragt doch einfach die KI, welche Icebreaker zum Kennenlernen sie für Eure Situation empfehlen würde.
 
 Als Einstiegsfragen könnt ihr diese Fragen nutzen:
 - Was bedeutet KI für Dich persönlich?
