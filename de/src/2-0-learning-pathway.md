@@ -163,9 +163,9 @@ Zum Einstieg in diese Kata empfehlen wir, sich zunächst einmal das Kapitel [Mas
 
 KI-Systeme können sehr unterschiedlich eingesetzt werden und die Art des Einsatzes hat massive Auswirkungen auf die Ergebnisse. Studien zeigen, dass Wissensarbeiter durch die Zusammenarbeit mit KI ihre Produktivität und die Qualität der Ergebnisse steigern können (vgl. [KI macht Wissensarbeiter schneller und besser (faz.net)](https://www.faz.net/pro/d-economy/kuenstliche-intelligenz/ki-macht-wissensarbeiter-schneller-und-besser-19183974.html)). Diese Produktivitätssteigerung kann jedoch nur dann genutzt werden, wenn KI-Systeme richtig eingesetzt werden.
 
-Eine Beobachtung ist, dass gerade Einsteiger:innen KI anfangs ähnlich wie eine Suchmaschine, im Sinne von "Eingabe rein - Antwort raus", nutzen. Während diese Nutzung legitim ist, gibt es deutlich bessere Wege, KI zu nutzen. Der erste Schritt besteht darin, zu erforschen und herauszufinden, wie die KI auf verschiedene Eingaben ("Prompts") unterschiedlich reagiert.
+Eine Beobachtung ist, dass gerade Einsteiger:innen KI anfangs ähnlich wie eine Suchmaschine, im Sinne von "Eingabe rein - Antwort raus", nutzen. Während diese Nutzung legitim ist, gibt es deutlich bessere Wege, KI zu nutzen. Der erste Schritt besteht darin, zu erforschen und herauszufinden, wie die KI auf verschiedene Eingaben ("Prompts") unterschiedlich reagiert) .
 
-Dieser Aufbau von Prompts hat sich bewährt:
+Nutze in dieser Kata den Prompt-Aufbau aus dem Kaptiel [Prompts erstellen](1-10-prompts-erstellen.md):
 -   **Persona**: Welche Rolle soll das Sprachmodell übernehmen?
 -   **Einleitung**: Was erwarte ich vom Sprachmodell? Beginnt normalerweise mit einem Aktionswort.
 -   **Individueller Inhalt**: Der eigentliche Text der verarbeitet werden soll.
@@ -233,6 +233,9 @@ produzierte diese Antwort:
 
 ## Kata 10 - Souverän prompten
 *In Kata 7 wurde die effektive Zusammenarbeit zwischen Mensch und KI thematisiert und gezeigt, dass der richtige Einsatz von KI-Systemen die Produktivität steigern kann. Du hattest dort zudem einen strukturierten Ansatz – bestehend aus Persona, Einleitung, individuellem Inhalt, Format und zusätzlichen Informationen – erlernt um bessere Prompts zu erstellen. Diese Kata baut auf diesen Grundlagen auf und legt den Fokus auf fortgeschrittene Techniken bei der Erstellung von Prompts.*
+
+### Hintergrund
+Lese Dir das Kapitel [Prompts erstellen](1-10-prompts-erstellen.md) durch!
 
 ### Prompts mit mehreren Teilaufgaben
 Die Nutzung von mehrstufigen Prompts eignet sich um komplexe Aufgabenstellungen und Anfragen zu bearbeiten. Sie bestehen aus einer strukturierten Reihe von Teilaufgaben, um ein bestimmtes Ergebnis zu erzielen und sind besonders nützlich, wenn eine einzelne Anfrage nicht ausreicht, um die benötigten Informationen zu erfassen oder ein komplexes Problem zu lösen.
