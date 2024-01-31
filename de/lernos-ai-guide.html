@@ -668,19 +668,25 @@ Language Model GPT-3.5 verwendet, wird veröffentlicht.</td>
 </table>
 <h2 data-number="2.3" id="prompts-erstellen"><span
 class="header-section-number">2.3</span> Prompts erstellen</h2>
+<p>Das folgende Grundlagen-Kapitel soll Dir eine kompakte
+Orientierungshilfe für die einfache und zugleich optimierte Erstellung
+von Anfragen und Dialogen im Zusammenspiel mit generativer KI geben.
+Diese Empfehlungen können Dir im Lernpfad vor allem in den Katas 2/3 und
+6/7 sowie 9/10 weiterhelfen. Und nun viel Spaß beim Erlernen des
+Prompting!</p>
 <h3 data-number="2.3.1" id="was-ist-eigentlich-ein-prompt"><span
 class="header-section-number">2.3.1</span> Was ist eigentlich ein
 Prompt?</h3>
 <p>In der IT bezeichnet der Begriff “Prompt” die Aufforderung an den
 Nutzer, eine Eingabe in eine textbasierte Konsole zu tätigen (Quelle: <a
 href="https://app.tana.inc?nodeid=RgcyWEhrZjJw">https://de.wikipedia.org/wiki/Prompt</a>).
-Bei chatbasierten KI-Systemen wie ChatGPT steht der Prompt für den
+Bei chatbasierten KI-Systemen, wie ChatGPT steht der Prompt für den
 Eingabetext, den ein Benutzer an das Sprachmodell sendet, um eine
-Antwort zu erhalten. Das Sprachmodel (Large Language Model bzw. LLM)
+Antwort zu erhalten. Das Sprachmodell (Large Language Model bzw. LLM)
 generiert eine Antwort durch die Vorhersage der wahrscheinlichsten
 Fortsetzung des Textes, basierend auf gelernten Mustern und
 Informationen. Die Qualität der Antwort hängt in starkem Maße von dem
-Prompt ab. Es lohnt sich deshalb zu erlernen, wie man Prompts so
+Prompt selbst ab. Es lohnt sich deshalb zu erlernen, wie man Prompts so
 erstellen kann, dass diese die vom Nutzer gewünschten Ausgaben so gut
 wie möglich erzeugen.</p>
 <h3 data-number="2.3.2" id="prompt-engineering"><span
@@ -697,30 +703,30 @@ es eigentlich alles andere als schwer.</p>
 href="https://www.oneusefulthing.org/p/working-with-ai-two-paths-to-prompting">Working
 with AI: Two paths to prompting</a>): “Die wichtigste Botschaft ist,
 dass Du die Nutzung der KI durch die Nutzung der KI lernst. […] Je mehr
-Du die KI nutzt desto mehr entwickelst Du ein Gefühl dafür, wofür sie
+Du die KI nutzt, desto mehr entwickelst Du ein Gefühl dafür, wofür sie
 sich gut und weniger gut eignet”.</p>
 <p>Wesentlich wichtiger als Prompt Engineering ist es deshalb durch die
-Nutzung zu lernen, wie man ein KI-System nutzen sollte. Prof. Mollik
-schreibt dazu auf Twitter, dass er beobachtet, dass Nutzer:innen nach 10
-Stunden Nutzung eines möglichst starken KI-Systems (wie z. B. GPT-4) den
-“Dreh” rausbekommen. Der erste Schritt besteht also oft darin zu starten
-und mit dem KI-Chatbot, ähnlich wie mit einem Menschen, zu
-schreiben.</p>
+Nutzung zu lernen, wie man ein KI-System gebrauchen sollte.
+Prof. Mollick schreibt dazu auf Twitter, dass er beobachtet, dass
+Nutzer:innen nach etwa 10 Stunden Nutzung eines möglichst starken
+KI-Systems (wie z. B. GPT-4) den “Dreh” rausbekommen. Der erste Schritt
+besteht also oft darin, erstmal zu starten und mit dem KI-Chatbot,
+ähnlich wie mit einem Menschen, zu schreiben.</p>
 <h4 data-number="2.3.2.1" id="schreibe-wie-zu-einem-menschen"><span
 class="header-section-number">2.3.2.1</span> Schreibe wie zu einem
 Menschen</h4>
-<p>Viele Personen nutzen den Promüt ähnlich wie den Suchschlitz einer
+<p>Viele Personen nutzen den Prompt ähnlich wie den Suchschlitz einer
 Suchmaschine oder Datenbank. Bei Suchmaschinen und Datenbanken kam es
-darauf an die Frage auf möglichst wenig und möglichst präzise
-Suchbegriffe zu reduzieren. Das ganze musste knapp bleiben, den zu viel
+darauf an, die Frage auf möglichst wenige und möglichst präzise
+Suchbegriffe zu reduzieren. Das ganze musste knapp bleiben, denn zu viel
 Kontext hätte nur zu unpassenden Treffern geführt. Interessanterweise
 gelten diese Regeln überhaupt nicht mehr für Sprachmodelle wie ChatGPT.
-Eingaben in Umgangssprache ist kein Problem und ausführlichere Eingaben
-führen meist zu besseren Antworten, nicht dazu dass das Modell
+Eingaben in Umgangssprache sind kein Problem und ausführlichere Eingaben
+führen meist sogar zu besseren Antworten und nicht dazu, dass das Modell
 “verwirrt” wäre. In gewisser Weise müssen wir uns für die wirksame
 Verwendung von KI-Chatbots deshalb genau die Verhaltensweisen
 abtrainieren, die uns Suchschlitze die längste Zeit antrainiert
-hatten.</p>
+haben.</p>
 <h4 data-number="2.3.2.2" id="prompt-verbesserung-am-beispiel"><span
 class="header-section-number">2.3.2.2</span> Prompt-Verbesserung am
 Beispiel</h4>
@@ -728,13 +734,14 @@ Beispiel</h4>
 demonstrieren, wie man Prompts effektiver gestalten kann. Ein gut
 formulierter Prompt ist entscheidend für die Qualität der Antwort, die
 man von einem KI-System erhält. Mögliche Probleme bei der
-Prompt-Erstellung könnten z. B. mehrdeutige Eingaben, unklare
+Prompt-Erstellung können z. B. mehrdeutige Eingaben, unklare
 Intentionen, suggestiv formulierte Fragen oder das Vermischen
 verschiedener Themen sein. Ziel ist es, durch diese Beispiele ein
 besseres Verständnis für präzise und durchdachte Prompts zu
 bekommen.</p>
-<h5 data-number="2.3.2.2.1" id="unklare-absicht"><span
-class="header-section-number">2.3.2.2.1</span> Unklare Absicht</h5>
+<h5 data-number="2.3.2.2.1" id="beispiel-1-unklare-absicht"><span
+class="header-section-number">2.3.2.2.1</span> Beispiel 1: Unklare
+Absicht</h5>
 <ul>
 <li><strong>Schlechter Prompt:</strong> “Sprechen über Pflanzen.”</li>
 <li><strong>Warum er schlecht ist:</strong> Der Prompt ist unklar und
@@ -742,8 +749,9 @@ gibt keine spezifische Anweisung oder Fragestellung.</li>
 <li><strong>Besserer Prompt:</strong> “Kannst du mir etwas über die
 Bedeutung von Pflanzen für das Ökosystem erzählen?”</li>
 </ul>
-<h5 data-number="2.3.2.2.2" id="suggestive-prompts"><span
-class="header-section-number">2.3.2.2.2</span> Suggestive Prompts</h5>
+<h5 data-number="2.3.2.2.2" id="beispiel-2-suggestive-prompts"><span
+class="header-section-number">2.3.2.2.2</span> Beispiel 2: Suggestive
+Prompts</h5>
 <ul>
 <li><strong>Schlechter Prompt:</strong> “Sind Handystrahlen wirklich
 gesundheitsschädlich?”</li>
@@ -753,8 +761,9 @@ impliziert.</li>
 <li><strong>Besserer Prompt:</strong> “Was sagt die aktuelle Forschung
 über die Auswirkungen von Handystrahlung auf die Gesundheit?”</li>
 </ul>
-<h5 data-number="2.3.2.2.3" id="vermischte-aspekte"><span
-class="header-section-number">2.3.2.2.3</span> Vermischte Aspekte</h5>
+<h5 data-number="2.3.2.2.3" id="beispiel-3-vermischte-aspekte"><span
+class="header-section-number">2.3.2.2.3</span> Beispiel 3: Vermischte
+Aspekte</h5>
 <ul>
 <li><strong>Schlechter Prompt:</strong> “Wie backe ich einen Kuchen und
 was ist die Geschichte des Backens?”</li>
@@ -768,12 +777,12 @@ Rezept für einen Schokoladenkuchen geben?”</li>
 class="header-section-number">2.3.2.3</span> Elemente eines guten
 Prompts</h4>
 <p>In diesem Abschnitt geht es um die wesentlichen Komponenten eines
-effektiven Prompts. Wir identifizieren Schlüsselelemente wie die Persona
-des Sprachmodells, die Einleitung, den individuellen Inhalt, das Format
-und zusätzliche Informationen, die für die Erstellung eines klaren und
-zielgerichteten Prompts hilfreich sind und veranschaulichen anhand eines
-Beispiels, wie diese Elemente in der Praxis angewendet werden.
-Abschließend bekommst Du einen Einblick in fortgeschrittene
+effektiven Prompts. Wir identifizieren Schlüsselelemente, wie die
+Persona des Sprachmodells, die Einleitung, den individuellen Inhalt, das
+Format und zusätzliche Informationen, die für die Erstellung eines
+klaren und zielgerichteten Prompts hilfreich sind und veranschaulichen
+anhand eines Beispiels, wie diese Elemente in der Praxis angewendet
+werden. Abschließend bekommst Du einen Einblick in fortgeschrittene
 Prompt-Techniken, mit denen Du die Effizienz und Effektivität der
 Kommunikation mit KI-Modellen weiter verbessern kannst.</p>
 <p>Für das Schreiben von guten Prompts hat sich der folgende Aufbau
@@ -809,7 +818,7 @@ Aktionswort.</td>
 </tr>
 <tr class="odd">
 <td>Zusätzliche Information</td>
-<td>Weitere relevante Informationen, die ein Kontext spezifischer
+<td>Weitere relevante Informationen, die den Kontext spezifischer
 machen.</td>
 </tr>
 </tbody>
@@ -834,7 +843,7 @@ von Reisen in fremde Länder.</td>
 </tr>
 <tr class="even">
 <td>Einleitung</td>
-<td>Ich habe in den kommenden Sommerferien endlich Zeit gemeinsam mit
+<td>Ich habe in den kommenden Sommerferien endlich Zeit, gemeinsam mit
 meinem Partner mal wieder eine richtig große Reise zu unternehmen.</td>
 </tr>
 <tr class="odd">
@@ -859,20 +868,21 @@ Liebhaber von Sushi. Zudem möchte ich gerne eine Wanderung machen.</td>
 <h4 data-number="2.3.2.4" id="prompting-tipps-von-openai"><span
 class="header-section-number">2.3.2.4</span> Prompting-Tipps von
 OpenAI</h4>
-<p>OpenAI beschreibt in ihrem Artikel
+<p>Auch OpenAI (die Entwickler von ChatGPT) beschreiben in ihrem Artikel
 <a href="https://platform.openai.com/docs/guides/prompt-engineering/prompt-engineering">Prompt
-engineering</a> darüber, was einen “guten” Prompt ausmacht:</p>
+Engineering</a> genauer, was aus ihrer Sicht einen “guten” Prompt
+ausmacht:</p>
 <ol type="1">
 <li><p><strong>Sei spezifisch</strong>: Stelle sicher, dass die Anfragen
 alle wichtigen Details oder den Kontext enthalten, damit das Modell
-nicht raten muss, was du meinst. Je genauer Du den Hintergrund, Dein
+nicht raten muss, was Du meinst. Je genauer Du den Hintergrund, Dein
 Anliegen und die Art der erwarteten Ausgabe beschreibst, umso besser
 wird die Antwort sein.</p></li>
-<li><p><strong>Sei modular</strong>: Zerlege komplexe Aufgabe in eine
+<li><p><strong>Sei modular</strong>: Zerlege komplexe Aufgaben in eine
 Reihe von einfacheren Aufgaben, die nacheinander ausgeführt werden
-können. Nutze Struktur wie z. B. Stichpunkte, um Aspekte klar zu
+können. Nutze Struktur, wie z. B. Stichpunkte, um Aspekte klar zu
 unterteilen.</p></li>
-<li><p><strong>Sei geduldig</strong>: Fordere das Modell auf zuerst den
+<li><p><strong>Sei geduldig</strong>: Fordere das Modell auf, zuerst den
 Weg zur Antwort zu beschreiben, anstatt sofort zu antworten. Du bekommst
 bessere Antworten, wenn das Modell zuerst einen Lösungsweg (“chain of
 thought”) entwickelt und diesen anschließend durchführt.</p></li>
@@ -883,10 +893,10 @@ Informationen, damit es besser antworten kann. Wenn Du Zugriff auf
 Quellen (wie z. B. Dokumente oder Bücher) brauchst, dann nutze
 KI-Systeme, die Daten verarbeiten können.</p></li>
 <li><p><strong>Sei passgenau</strong>: Generative KIs sind nicht die
-beste Lösung für jede Aufgabe. So sind Sprachmodelle wie GPT-3.5 z. B.
+beste Lösung für jede Aufgabe. So sind Sprachmodelle, wie GPT-3.5 z. B.
 gut in der Entwicklung eines Lösungsvorgehens, aber nicht besonders gut
 und zuverlässig im Rechnen. Nutze deshalb weitere Tools (wie z. B. GPT-4
-mit Code Interpreter) um Operationen durchzuführen, die das Modell nicht
+mit Code-Interpreter) um Operationen durchzuführen, die das Modell nicht
 selbstständig ausführen kann.</p></li>
 <li><p><strong>Sei evaluativ</strong>: Erstelle und vergleiche
 unterschiedliche Prompts systematisch, um die Wirkung des Prompts und
@@ -909,7 +919,7 @@ gegeben, um eine breitere Palette von Fällen oder Variationen einer
 Aufgabe zu demonstrieren. Dies hilft dem Modell, die Aufgabenstellung
 besser zu verstehen und sich auf verschiedene Szenarien oder Kontexte
 einzustellen.</p>
-<p>Hier ein Beispiel:</p>
+<p>Hier ein Beispiel für das One-Shot Learning:</p>
 <blockquote>
 <p>Erstelle eine kurze Absage für meine Teilnahme an der Paneldiskussion
 “KI &amp; Arbeit” am 05.03.2030.</p>
@@ -926,12 +936,14 @@ logistischen Details.</p>
 <p>Mit besten Grüßen,</p>
 <p>Anna Schmidt</p>
 </blockquote>
+<p>(eventuell noch ein Beispiel für das Few-Shot-Learning? - oder
+bewusst weglassen?)</p>
 <h4 data-number="2.3.2.6" id="section"><span
 class="header-section-number">2.3.2.6</span> </h4>
-<h4 data-number="2.3.2.7" id="fortgeschrittene-prompts"><span
-class="header-section-number">2.3.2.7</span> Fortgeschrittene
-Prompts</h4>
-<p>Gute Beispiele für fortgeschrittene Promots sind:</p>
+<h4 data-number="2.3.2.7" id="fortgeschrittenes-prompting"><span
+class="header-section-number">2.3.2.7</span> Fortgeschrittenes
+Prompting</h4>
+<p>Gute Beispiele für fortgeschrittene Prompts sind:</p>
 <ol type="1">
 <li><p>Der ideation-prompt von <a
 href="https://github.com/carterleffen/chatgpt-prompts/blob/main/ideation.prompt">chatgpt-prompts/ideation.prompt
@@ -954,8 +966,8 @@ class="header-section-number">2.3.2.8</span> </h4>
 <h4 data-number="2.3.2.9" id="wenn-du-noch-tiefer-gehen-willst"><span
 class="header-section-number">2.3.2.9</span> Wenn Du noch tiefer gehen
 willst …</h4>
-<p>Es gibt zahlreiche gute Zusammenstellungen zu Prompt-Techniken wie z.
-B.</p>
+<p>Es gibt zahlreiche gute Zusammenstellungen zu Prompt-Techniken, wie
+z. B.</p>
 <ul>
 <li><p><a
 href="https://cookbook.openai.com/articles/related_resources">Linksammlung
@@ -963,43 +975,46 @@ zu Prompt Engineering im OpenAI Cookbook</a></p></li>
 <li><p><a
 href="https://github.com/promptslab/Awesome-Prompt-Engineering">Awesome-Prompt-Engineering</a></p></li>
 </ul>
-<p>Ebenso gibt es Sammlungen von Prompts wie z. B. <a
+<p>Ebenso gibt es Sammlungen von Prompts, wie z. B. <a
 href="https://flowgpt.com">FlowGPT</a> oder <a
 href="https://github.com/f/awesome-chatgpt-prompts">awesome-chatgpt-prompts</a></p>
 <h4 data-number="2.3.2.10"
 id="prompts-gemeinsam-mit-der-ki-verbessern"><span
 class="header-section-number">2.3.2.10</span> Prompts gemeinsam mit der
 KI verbessern</h4>
-<p>Du kannst die KI bitten mit Dir gemeinsam den Prompt zu verbessern.
-Oft reicht dafür bereits eine Eingabe wie</p>
+<p>Du kannst die KI bitten, mit Dir gemeinsam den Prompt zu verbessern.
+Oft reicht dafür bereits eine Eingabe, wie:</p>
 <blockquote>
-<p>Helfe mir meinen Prompt zu verbessern indem Du mir zu allem was
+<p>Helfe mir meinen Prompt zu verbessern, indem Du mir zu allem, was
 unklar ist Nachfragen stellst und dann eine überarbeitete Version des
-Promptes ausgibst.</p>
+Prompts ausgibst.</p>
 </blockquote>
 <p>Es gibt viel umfangreichere und elaboriertere Prompts zur
-Verbesserung des Prompts wie z. B. <a
+Verbesserung, wie z. B. <a
 href="https://flowgpt.com/p/chatgpt-4-prompt-improvement">ChatGPT 4
 Prompt Improvement (flowgpt.com)</a> (Du kannst den Prompt über den
-Button “View Prompt” einsehen). Ebenso gibt es GPTs wie z. B. <a
+Button “View Prompt” einsehen). Ebenso gibt es GPTs, wie z. B. <a
 href="https://chat.openai.com/g/g-uSEqrEWdX-pro-prompter">Pro
 Prompter</a> oder den <a
 href="https://chat.openai.com/g/g-qfoOICq1l-prompt-professor">ChatGPT -
 Prompt Professor</a>, die Dir bei der Verbesserung der Prompts helfen
 können.</p>
 <h4 data-number="2.3.2.11"
-id="ausblick-prompt-engineering-wird-an-bedeutung-verlieren"><span
+id="ausblick-prompt-engineering-wird-voraussichtlich-an-bedeutung-verlieren"><span
 class="header-section-number">2.3.2.11</span> Ausblick: “Prompt
-Engineering”” wird an Bedeutung verlieren</h4>
-<p>Gleichzeitig stellt sich aber auch die Frage stellen, ob man wirklich
-noch tiefer in das “Prompt Engineering” eintauchen will. Denn:
+Engineering”” wird voraussichtlich an Bedeutung verlieren</h4>
+<p>Gleichzeitig stellt sich aber auch die Frage, ob man wirklich noch
+tiefer in das “Prompt Engineering” eintauchen will oder sollte. Denn:
 Einerseits bilden die hier und in den Katas genannten
 Prompting-Techniken eine solide Basis für die Zusammenarbeit mit der KI.
-Andererseits wird Prompt Engineering - je weiter sich KI-Systeme
-weiterentwickeln und verbessern - immer mehr an Bedeutung verlieren. So
-ist es z. B. jetzt schon bei Bildgenerierenden KIs (wie z. B. DALL-E3)
-so, dass der Prompt für das Bild durch die KI selbst erstellt werden
-kann.</p>
+Andererseits wird Prompt Engineering - je mehr sich KI-Systeme
+weiterentwickeln - aller Voraussicht nach immer mehr an Bedeutung
+verlieren, wenn sich diese durch permanentes Lernen verbessern und die
+Nutzereingaben direkt geeignet anpassen. So ist es z. B. jetzt schon bei
+Bildgenerierenden KIs (wie z. B. DALL-E3) so, dass der Prompt für das
+Bild durch die KI selbst erstellt werden kann. Feststeht, dass sich
+dieses Feld derzeit sehr dynamisch voranbewegt und fortwährend selbst
+optimiert.</p>
 <h2 data-number="2.4"
 id="künstliche-intelligenz-und-maschinelles-lernen"><span
 class="header-section-number">2.4</span> Künstliche Intelligenz und
