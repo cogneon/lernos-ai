@@ -58,8 +58,8 @@ Falls Dein Unternehmen noch keine Rahmenbedingungen hat findest Du hier ein paar
 Erstelle einen knappen Steckbrief der wichtigsten Vorgaben Deines Unternehmens in Bezug auf die Nutzung von KI-Plattformen.
 
 
-## Kata 2 - Explorativer Umgang mit der KI
-_In dieser Kata wählst Du einen Chatbot aus, mit dem Du Deine ersten Schritte in die Welt der generativen KI starten kannst._
+## Kata 2 - Einstieg mit der KI
+_In dieser Kata wählst Du einen Chatbot aus, mit dem Du Deine ersten Schritte in die Welt der generativen KI starten und explorativ umgehen kannst._
 
 ### Hintergrund
 Um Dein Wissen über künstliche Intelligenz zu vertiefen, ist es empfehlenswert, sich mit den verschiedenen Arten von KI auseinanderzusetzen. Das Kapitel [KI Modelle](1-6-ai-models.md) gibt Dir einen Überblick dafür. Eine weitere hilfreiche Einstiegs-Ressource ist das Kapitel [KI-Tools und Services](1-6-ai-tools-services.md), dass Dir Einblicke in unterschiedliche Werkzeuge und Dienste, die im Bereich der generativen, künstlichen Intelligenz verfügbar sind, gibt. Dies ist vor allem für die nachfolgenden Aufgaben wichtig und wird später in [Kata 5] nochmals aufgegriffen und vertieft.
