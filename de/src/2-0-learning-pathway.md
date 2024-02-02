@@ -115,6 +115,9 @@ Chatbasierte KI-Systeme wie ChatGPT sind darauf ausgelegt, im Dialog zu interagi
 - Reflexions Check-In:
   - Überlegt Euch, was Ihr aus den letzten 3 Wochen bisher mitnehmen konntet. Fragt die KI, welche Reflexionsmethode sie Euch dafür vorschlagen würde.
   - Und stellt Euch kurz den Stand Eures KI-Lernprojekts vor, z.B. nach der Woop-Methode (Wish - Options - Obstacles - Plan) - Prof. Oettingen (Hamburg) Quelle: https://woopmylife.org/
+ 
+  - Welche Kriterien zur Reflexion könnten hier angewendet werden? Z.B. Anwendungserfahrung und offene Fragen und Erfahrungen über die Anwendung hinaus
+  - Was sind drei konkrete, bisherige Learnings?
 
 Vertiefung:
 - Wusstest Du, dass Du die Konversation fortsetzen oder Deine Anfrage überarbeiten kannst. 
@@ -170,7 +173,7 @@ KI-Systeme können sehr unterschiedlich eingesetzt werden und die Art des Einsat
 
 Eine Beobachtung ist, dass gerade Einsteiger:innen KI anfangs ähnlich wie eine Suchmaschine, im Sinne von "Eingabe rein - Antwort raus", nutzen. Während diese Nutzung legitim ist, gibt es deutlich bessere Wege, KI zu nutzen. Der erste Schritt besteht darin, zu erforschen und herauszufinden, wie die KI auf verschiedene Eingaben ("Prompts") unterschiedlich reagiert) .
 
-Nutze in dieser Kata den Prompt-Aufbau aus dem Kaptiel [Prompts erstellen](1-10-prompts-erstellen.md):
+Nutze in dieser Kata den Prompt-Aufbau aus dem Kapitel [Prompts erstellen](1-10-prompts-erstellen.md):
 
 - **Persona**: Welche Rolle soll das Sprachmodell übernehmen?
 - **Einleitung**: Was erwarte ich vom Sprachmodell? Beginnt normalerweise mit einem Aktionswort.
@@ -191,7 +194,9 @@ Prompting wird in Kata 10 weiter vertieft
 
 ## Kata 8 - Reflexion mit weiteren Lernergebnissen
 (Hintergrund Boxenstopp 2)
-Reflexions Check-In: - Überlegt Euch, was Ihr aus den letzten Wochen weiter mitnehmen konntet. Reflektiert kritisch in Eurem Circle den aktuellen Stand zu Eurem Thema / Projekt und zeigt Euch gegenseitig anhand der Beispiele die Grenzen Eurer KI Tool-Nutzung auf (z.B. Impulse zur Steigerung des Kreativitätslevels vs. falsche Informationen zusammenspinnen und dadurch Verzerrungen / Manipulationen erzeugen).
+Reflexions Check-In: - Überlegt Euch, was Ihr aus den letzten Wochen weiter mitnehmen konntet. Reflektiert kritisch in Eurem Circle den aktuellen Stand zu Eurem Thema / Projekt und zeigt Euch gegenseitig anhand der Beispiele die Grenzen Eurer KI Tool-Nutzung auf (z.B. Impulse zur Steigerung des Kreativitätslevels vs. falsche Informationen zusammenspinnen und dadurch Verzerrungen / Manipulationen erzeugen). 
+
+Gegenseitige Präsentation der Ergebnisse in Verbindung mit Schwwierigkeiten / Herausforderungen und Highlights / Quick-Wins / Happy Moments
 
 Vertiefung: Lasst die KI Eure dokumentierten Ergebnisse als visualisierten Beitrag zusammenfassen, den Ihr ggf. veröffentlichen könnt (Text, Bild oder audio-visuell, Video).
 
@@ -271,11 +276,6 @@ Nutze z. B. den folgenden Prompt:
 
 **Tipp:** Du kannst das "Flipped Interaction"-Pattern nutzen um die KI Deinen Prompt verbessern zu lassen. Bitte die KI, Dir Rückfragen zu deinem ursprünglichen Prompt zu stellen und Dir Vorschläge für Verbesserungen zu geben. Dies hilft dir, Unklarheiten in deinem Prompt zu erkennen und ihn genauer zu formulieren. Am Schluss bittest Du die KI darum den verbesserten Prompt für Dich zu formulieren. Das macht deinen Prompt nicht nur präziser, sondern erhöht auch die Effizienz und Zielgenauigkeit der KI.
 
-
-### Reste
-Gegenseitiges Coaching/Feedback/Reflektion/KI (tbd) fragen (Welche Fragen müsste ich mir stellen?) und für Blogpost-Idee zu eigenem KI-Projekt (Technische Voraussetzungen und Machbarkeit - Umsetzung, Sinnhaftigkeit,...). 
-Loslegen und Prototyp entwickeln. Tipps zu KI und zum Promptaufbau (-> Idee jede Woche eine neue Technik des Promptings zu dem entsprechenden Thema aus der Headline ausprobieren). Promptingansätze: Versuche verschiedene Ansätze zum selben Thema und bewerte das Ergebnis. Z.B. prompte iterativ statt verschachtelt. 
-Vertiefung: Prompt improvement prompt (Baukastenprompt): KI schreibt sich selbst den Prompt, wenn man sich nicht sicher ist, wie zu prompten ist -> Prompt beschreibt dann einen längeren Prozess und KI erkennt Anleitungsbedarf und fragt nach (Tbd: Diskutieren ob das zu viel ist. Was bringt dich zu besseren Ergebnissen?). Headlines zu den Wochen?
 
 ## Kata 11 - Review und Lessons learned
 
