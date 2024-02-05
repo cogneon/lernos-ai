@@ -142,34 +142,35 @@ Du selbst kennst Deinen Arbeitsplatz / Dein Projekt und die damit verbundenen T�
 
 Um Dich bei dem gedanklichen Einstieg zu unterstützen, nutze gerne die folgende Zusammenstellung möglicher [KI-Anwendungsfelder](1-5-ai-application-areas.md). Schaue Dir diese in Ruhe an und überlege Dir, welche Anwendungsfelder sich für deinen Arbeitsplatz / dein Projekt ergeben.
 
-Formuliere 2-3 kurze, tatsächliche Anwendungsszenarien (Use-Cases) und beschreibe, bei welchen konkreten Arbeitsschritten Dir KI-Tools aus den o.g. Kategorien und Anwendungsfeldern helfen könnten.
+Formuliere 2-3 kurze Anwendungsszenarien (Use-Cases) und beschreibe, bei welchen konkreten Arbeitsschritten Dir KI-Tools aus den o.g. Kategorien und Anwendungsfeldern helfen könnten.
 
 **Beispiel 1**: "Im Rahmen meiner Arbeit schreibe ich regelmäßig Gesprächsprotokolle. KI-gestützte Audio-Tools könnten mir im Optimalfall dabei helfen, Gespräche aufzuzeichnen und in Verbindung mit KI-gestützten Text-Tools zusammenzufassen."
 
 **Beispiel 2**: "Es ist Teil meiner Aufgabe, Texte unserer Marketing-Abteilung mit passendem Bildmaterial anzureichern. KI-gestützte Bild-Tools könnten mich dabei unterstützen, passende Motive zu entwerfen, die an unsere Kommunikationsrichtlinien angepasst sind."
 
-**Vertiefung (optional):** Schaue Dir in Ruhe die Tools in den Kategorien an, die für Deine Arbeit besonders relevant sein könnten. Entscheide dich für mindestens zwei Tools, die Du testen möchtest. Verschaffe Dir Zugang zu diesen Tools. Sollte dies nicht umsetzbar sein, beispielsweise aus Kosten- und/oder Berechtigungsgründen, suche nach Alternativ-Tools, die den gleichen Zweck erfüllen. Sobald Du passende Tools gefunden hast, probiere sie in den von Dir beschriebenen Anwendungsszenarien aus. Notiere Deine Erfahrungen und teile sie mit anderen Interessierten.
+**Vertiefung (optional):** Entscheide dich für mindestens zwei Tools, die Du testen möchtest. Verschaffe Dir Zugang zu diesen Tools. Sollte dies nicht umsetzbar sein, beispielsweise aus Kosten- und/oder Berechtigungsgründen, suche nach Alternativ-Tools, die den gleichen Zweck erfüllen. Sobald Du passende Tools gefunden hast, probiere sie in den von Dir beschriebenen Anwendungsszenarien aus. Notiere Deine Erfahrungen und teile sie mit anderen Interessierten.
+
 ## Kata 6 - Vertiefung Deines Lernziels: KI-Einsatz beim Blogpost / Lernprojekt
 
-In der vergangenen Woche hast Du unterschiedliche Kategorien kennengelernt, denen sich die meisten KI-Tools zuordnen lassen. Darüber hinaus hast Du Dir die Frage gestellt, ob und wie Dich einzelne Tools bei Deiner Arbeit unterstützen können. Die Antwort auf diese Fragen hast Du erhalten, indem Du einzelne Tools im Rahmen konkreter Aufgaben Deines Arbeitsplatzes eingesetzt und getestet hast.
+In der vergangenen Woche hast Du unterschiedliche Kategorien und Anwendungsfelder kennengelernt, denen sich die meisten KI-Tools zuordnen lassen. Darüber hinaus hast Du Dir die Frage gestellt, ob und wie Dich einzelne Tools bei Deiner Arbeit unterstützen können. Die Antwort auf diese Fragen hast Du erhalten, indem Du konkrete Anwendungsszenarien für Deine Arbeit formuliert und optional einzelne Tools eingesetzt und getestet hast.
 
-Lasse Deine Erfahrungen aus der letzten Woche Revü passieren und mache Dir nun Gedanken zu dem übergeordneten Lernziel dieses Leitfadens. Es geht darum, einen **Blogpost-Beitrag** mithilfe von KI zu erstellen. Dieser könnte verschiedene Elemente enthalten, wie z.B. Texte, Bilder und Videos. (Was ist ein Blog-Post: [Blogpost Begriffserklärung &amp; Definition](https://www.seo-analyse.com/seo-lexikon/b/blogpost/))
+Lasse Deine Erfahrungen aus der letzten Woche Revü passieren und mache Dir Gedanken zu dem übergeordneten Lernziel dieses Leitfadens. Es geht darum, mit Hilfe von KI einen **Blogpost-Beitrag** zu erstellen oder alternativ Dein persönliches Lernprojekt auszugestalten. Hintergrundinformation => Was ist ein Blog-Post: [Blogpost Begriffserklärung &amp; Definition](https://www.seo-analyse.com/seo-lexikon/b/blogpost/)) 
 
-**Beantworte Dir nun folgende Fragen:**
+**Beantworte Dir folgende Fragen:**
 
-- Worum soll es in Deinem Blogpost gehen?
-- Wie soll Dein Blogpost aufgebaut sein bzw. welche Elemente soll er beinhalten?
+- Worum soll es in Deinem Blogpost bzw. in Deinem Lernprojekt konkret gehen?
+- Wie soll Dein Blogpost bzw. Dein Lernprojekt aufgebaut sein und welche Elemente soll er/es beinhalten?
 - Welche KI-Tools können Dir bei welchen Elementen helfen?
   
-Wenn Du diese Fragen beantwortet hast, suche Dir aus den bekannten Kategorien der Kata 5 passende KI-Tools aus, die Du zur Umsetzung Deiner Blogpost-Idee benötigst.
+Wenn Du diese Fragen beantwortet hast, suche Dir aus den bekannten Kategorien und Anwendungsfeldern der [Kata 5] passende KI-Tools aus, die Du zur Umsetzung Deiner Idee benötigst.
 
 Und los geht´s! Wir wünschen Dir viel Spaß beim Umsetzen Deiner Idee!
 
-**Ergänzender Hinweis 1:** Die Länge des Blogposts spielt genau so wenig eine Rolle, wie die Qualität Deines Schreibens. Es geht darum, dass Du Deine Erfahrungen im Umgang mit KI-Tools vertiefst und ein gutes Gefühl für die Chancen und Herausforderungen bekommst.
+**Ergänzender Hinweis 1:** Die Länge des Blogposts / Lernprojektes spielt genau so wenig eine Rolle, wie die Qualität Deines Schreibens. Es geht darum, dass Du Deine Erfahrungen im Umgang mit KI-Tools vertiefst und ein gutes Gefühl für die Chancen und Herausforderungen bekommst.
 
-**Ergänzender Hinweis 2:** Solltest Du keinen Zugriff auf einen reellen Blogpost haben, so kannst Du den Beitrag auch in einem gängigen Textverarbeitungsprogramm erstellen bzw. vorbereiten.
+**Ergänzender Hinweis 2 (nur für die Praxisvariante "Blogpost"):** Solltest Du keinen Zugriff auf einen reellen Blogpost haben, so kannst Du den Beitrag auch in einem gängigen Textverarbeitungsprogramm erstellen bzw. vorbereiten.
 
-**Tipp:** Die KI kann Dich als Feedbackpartner in Deiner Reflexion unterstützen. Teile mit ihr Deine bisherigen Ergebnisse und lasse Dir Feedback dazu geben, was Du verbessern kannst.
+**Tipp:** Die KI kann Dich als Feedbackpartner in Deiner Reflexion unterstützen. Teile mit ihr Deine bisherigen Ergebnisse und lasse Dir Feedback dazu geben, was Du verbessern kannst. Nutze in diesem Zusammenhang auch ggf. noch einmal die Inhalte und Erkenntnisse aus [Kata 3: KI als Dialogpartner]
 
 ## Kata 7 - Zusammenarbeit mit KI
 
