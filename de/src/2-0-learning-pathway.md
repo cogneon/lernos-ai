@@ -160,7 +160,7 @@ Lasse Deine Erfahrungen aus der letzten Woche Revü passieren und mache Dir Geda
 
 - Worum soll es in Deinem Blogpost bzw. in Deinem Lernprojekt konkret gehen?
 - Wie soll Dein Blogpost bzw. Dein Lernprojekt aufgebaut sein und welche Elemente soll er/es beinhalten?
-- Welche KI-Tools können Dir bei welchen Elementen helfen?
+- Welche KI-Tools können Dir bei welchen Elementen helfen? Nutze an dieser Stelle auch noch einmal die Hinweise zu den Kategorien aus [Kata 5]
   
 Wenn Du diese Fragen beantwortet hast, suche Dir aus den bekannten Kategorien und Anwendungsfeldern der [Kata 5] passende KI-Tools aus, die Du zur Umsetzung Deiner Idee benötigst.
 
