@@ -127,7 +127,7 @@ Vertiefung:
 
 ## Kata 5 - KI-Anwendungsfelder am eigenen Arbeitsplatz
 
-In [Kata 2] haben wir zum ersten Mal die [KI-Tools und Services](1-7-ai-tools-services.md) thematisiert. In [Kata 5] wollen wir diese nochmals aufgreifen und vertiefen, indem wir sie mit reellen, praktischen KI-Anwendungsfeldern verknüpfen.
+In [Kata 2] haben wir zum ersten Mal die [KI-Tools und Services](1-7-ai-tools-services.md) thematisiert. In [Kata 5] wollen wir diese nochmals aufgreifen und vertiefen, indem wir sie mit reellen, praxisorientierten KI-Anwendungsfeldern verknüpfen.
 
 Grundsätzlich lassen sich KI-Tools den folgenden **Kategorien** zuordnen:
 
