@@ -125,7 +125,7 @@ Vertiefung:
 
 **Tipp:** Chatbasierte KIs sind gut darin Frameworks oder Modelle (z. B. aus Business, Forschung, Psychologie, ...) für bestimmte Szenarien anzuwenden. Frage ChatGPT z. B. etwas wie "Erstelle mir eine SWOT-Analyse für den Verkauf von besonders leichten Premium-Smartphones in der Schweiz".
 
-**Kata 5** - KI-Anwendungsfelder am eigenen Arbeitsplatz
+## Kata 5 - KI-Anwendungsfelder am eigenen Arbeitsplatz
 
 In [Kata 2] haben wir zum ersten Mal die [KI-Tools und Services](1-7-ai-tools-services.md) thematisiert. In [Kata 5] wollen wir diese nochmals aufgreifen und vertiefen, indem wir sie mit reellen, praktischen KI-Anwendungsfeldern verknüpfen.
 
