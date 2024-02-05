@@ -125,24 +125,30 @@ Vertiefung:
 
 **Tipp:** Chatbasierte KIs sind gut darin Frameworks oder Modelle (z. B. aus Business, Forschung, Psychologie, ...) für bestimmte Szenarien anzuwenden. Frage ChatGPT z. B. etwas wie "Erstelle mir eine SWOT-Analyse für den Verkauf von besonders leichten Premium-Smartphones in der Schweiz".
 
-## Kata 5 - KI-Einsatzfelder am eigenen Arbeitsplatz
-Nachdem wir sie in [Kata 2] bereits erstmals aufgegriffen, wollen wir [KI-Tools und Services](1-7-ai-tools-services.md) nochmals vertiefen und sie mit passenden Anwendungsfeldern verknüpfen. Zusammenfassend legen wir daher wiederholend den Fokus auf die unterschiedlichen Tool-Kategorien, denen aktuelle KI-Tools zugeordnet werden können:
+**Kata 5** - KI-Anwendungsfelder am eigenen Arbeitsplatz
 
-1. KI-gestützte Multi-Tools
-2. KI-gestützte Text-Tools
-3. KI-gestützte Codierungshilfen
-4. KI-gestützte Bild-Tools
-5. KI-gestützte Audio-Tools
-6. KI-gestützte Video-Tools
+In [Kata 2] haben wir zum ersten Mal die [KI-Tools und Services](1-7-ai-tools-services.md) thematisiert. In [Kata 5] wollen wir diese nochmals aufgreifen und vertiefen, indem wir sie mit reellen, praktischen KI-Anwendungsfeldern verknüpfen.
 
-Anhand dieser werden nun im Kapitel [KI-Anwendungsfelder](1-5-ai-application-areas.md) konkrete Handlungsszenarien für den Einsatz von KI abgeleitet. Schaue Dir diese in Ruhe an und überlege Dir, welche Anwendungsfelder sich für deinen Arbeitsplatz / dein Projekt / dein Thema ergeben. Formuliere 2-3 kurze, tatsächliche Anwendungsszenarien (Use-Cases) und beschreibe, bei welchen konkreten Arbeitsschritten Dir KI-Tools aus den o.g. Kategorien und Anwendungsfeldern helfen könnten.
+Grundsätzlich lassen sich KI-Tools den folgenden **Kategorien** zuordnen:
+
+1. KI-gestützte Codierungshilfen (Unterstützung beim Prompting)
+2. KI-gestützte Text-Tools (Textgenerierung- und bearbeitung)
+3. KI-gestützte Bild-Tools (Bildgenerierung- und bearbeitung)
+4. KI-gestützte Audio-Tools (Tongenerierung und -bearbeitung)
+5. KI-gestützte Video-Tools (Videogenerierung und -bearbeitung)
+6. KI-gestützte Multi-Tools (Tools, die verschiedene der o.g. Kategorien kombiniert nutzbar machen)
+
+Du selbst kennst Deinen Arbeitsplatz / Dein Projekt und die damit verbundenen Tätigkeiten am besten. Überlege Dir, welche der Tool-Kategorien für Dich und Deine Arbeit wichtig sind oder sein könnten. Wenn Du beispielsweise viel mit Texten arbeitest (egal, ob lesend, schreibend oder zusammenfassend), werden höchstwahrscheinlich KI-gestützte Text-Tools besonders interessant sein. Solltest Du hingegen viel mit Ton- und/oder Videos arbeiten (z.B. mit Blick auf die Erstellung digitaler Lerninhalte oder mit Blick auf die Gestaltung von Marketingaktivitäten), wirf am besten einen besonderen Blick auf KI-gestützte Audio- und/oder Video-Tools.
+
+Um Dich bei dem gedanklichen Einstieg zu unterstützen, nutze gerne die folgende Zusammenstellung möglicher [KI-Anwendungsfelder](1-5-ai-application-areas.md). Schaue Dir diese in Ruhe an und überlege Dir, welche Anwendungsfelder sich für deinen Arbeitsplatz / dein Projekt ergeben.
+
+Formuliere 2-3 kurze, tatsächliche Anwendungsszenarien (Use-Cases) und beschreibe, bei welchen konkreten Arbeitsschritten Dir KI-Tools aus den o.g. Kategorien und Anwendungsfeldern helfen könnten.
 
 **Beispiel 1**: "Im Rahmen meiner Arbeit schreibe ich regelmäßig Gesprächsprotokolle. KI-gestützte Audio-Tools könnten mir im Optimalfall dabei helfen, Gespräche aufzuzeichnen und in Verbindung mit KI-gestützten Text-Tools zusammenzufassen."
 
 **Beispiel 2**: "Es ist Teil meiner Aufgabe, Texte unserer Marketing-Abteilung mit passendem Bildmaterial anzureichern. KI-gestützte Bild-Tools könnten mich dabei unterstützen, passende Motive zu entwerfen, die an unsere Kommunikationsrichtlinien angepasst sind."
 
 **Vertiefung (optional):** Schaue Dir in Ruhe die Tools in den Kategorien an, die für Deine Arbeit besonders relevant sein könnten. Entscheide dich für mindestens zwei Tools, die Du testen möchtest. Verschaffe Dir Zugang zu diesen Tools. Sollte dies nicht umsetzbar sein, beispielsweise aus Kosten- und/oder Berechtigungsgründen, suche nach Alternativ-Tools, die den gleichen Zweck erfüllen. Sobald Du passende Tools gefunden hast, probiere sie in den von Dir beschriebenen Anwendungsszenarien aus. Notiere Deine Erfahrungen und teile sie mit anderen Interessierten.
-
 ## Kata 6 - Vertiefung Deines Lernziels: KI-Einsatz beim Blogpost / Lernprojekt
 
 In der vergangenen Woche hast Du unterschiedliche Kategorien kennengelernt, denen sich die meisten KI-Tools zuordnen lassen. Darüber hinaus hast Du Dir die Frage gestellt, ob und wie Dich einzelne Tools bei Deiner Arbeit unterstützen können. Die Antwort auf diese Fragen hast Du erhalten, indem Du einzelne Tools im Rahmen konkreter Aufgaben Deines Arbeitsplatzes eingesetzt und getestet hast.
