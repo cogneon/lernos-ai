@@ -1064,11 +1064,11 @@
 <h2 id="prompts-erstellen">Prompts erstellen</h2>
 <p>Das folgende Grundlagen-Kapitel soll Dir eine kompakte Orientierungshilfe für die einfache und zugleich optimierte Erstellung von Anfragen und Dialogen im Zusammenspiel mit generativer KI geben. Diese Empfehlungen können Dir im Lernpfad sowohl in den Katas 2 und 3 zum explorativen Umgang und Dialog mit KI als auch in den Katas 6 und 7 zur aktiven Prompt-Erstellung und Zusammenarbeit mit KI sowie insbesondere in den Katas 9 und 10 zum erweiterten und souveränen Prompten weiterhelfen. Und nun viel Spaß beim Lernen und Trainieren!</p>
 <h3 id="was-ist-eigentlich-ein-prompt">Was ist eigentlich ein Prompt?</h3>
-<p>In der IT bezeichnet der Begriff "Prompt" die Aufforderung an den Nutzer, eine Eingabe in eine textbasierte Konsole zu tätigen (Quelle: <a href="https://app.tana.inc?nodeid=RgcyWEhrZjJw">https://de.wikipedia.org/wiki/Prompt</a>). Bei chatbasierten KI-Systemen, wie ChatGPT steht der Prompt für den Eingabetext, den ein Benutzer an das Sprachmodell sendet, um eine Antwort zu erhalten. Das Sprachmodell (Large Language Model bzw. LLM) generiert eine Antwort durch die Vorhersage der wahrscheinlichsten Fortsetzung des Textes, basierend auf gelernten Mustern und Informationen. Die Qualität der Antwort hängt in starkem Maße von dem Prompt selbst ab. Es lohnt sich deshalb zu erlernen, wie man Prompts so erstellen kann, dass diese die vom Nutzer gewünschten Ausgaben so gut wie möglich erzeugen.</p>
+<p>In der IT bezeichnet der Begriff "Prompt" die Aufforderung an den Nutzer, eine Eingabe in eine textbasierte Konsole zu tätigen (Quelle: <a href="https://de.wikipedia.org/wiki/Prompt">https://de.wikipedia.org/wiki/Prompt</a>). Bei chatbasierten KI-Systemen, wie ChatGPT steht der Prompt für den Eingabetext, den ein Benutzer an das Sprachmodell sendet, um eine Antwort zu erhalten. Das Sprachmodell (Large Language Model bzw. LLM) generiert eine Antwort durch die Vorhersage der wahrscheinlichsten Fortsetzung des Textes, basierend auf gelernten Mustern und Informationen. Die Qualität der Antwort hängt in starkem Maße von dem Prompt selbst ab. Es lohnt sich deshalb zu erlernen, wie man Prompts so erstellen kann, dass diese die vom Nutzer gewünschten Ausgaben so gut wie möglich erzeugen.</p>
 <h3 id="prompt-engineering">Prompt Engineering</h3>
 <p>Der Vorgang der Optimierung des Prompts wird als "Prompt Engineering" bezeichnet. Es gibt auch zahlreiche Quellen und Handreichungen im Internet, die unter diesem Begriff Tipps für die Erstellung von Prompts bereitstellen (siehe z. B. <a href="https://cookbook.openai.com/articles/related_resources">Linksammlung zu Prompt Engineering im OpenAI Cookbook</a> für eine umfangreiche Sammlung). Doch obwohl so viel über das Prompten geschrieben wurde, ist es eigentlich alles andere als schwer. </p>
 <p>Prof. Ethan Mollick schreibt dazu (übersetzt aus dem Artikel <a href="https://www.oneusefulthing.org/p/working-with-ai-two-paths-to-prompting">Working with AI: Two paths to prompting</a>): "Die wichtigste Botschaft ist, dass Du die Nutzung der KI durch die Nutzung der KI lernst. [...] Je mehr Du die KI nutzt, desto mehr entwickelst Du ein Gefühl dafür, wofür sie sich gut und weniger gut eignet".</p>
-<p>Wesentlich wichtiger als Prompt Engineering ist es deshalb durch die Nutzung zu lernen, wie man ein KI-System gebrauchen sollte. Prof. Mollick schreibt dazu auf Twitter, dass er beobachtet, dass Nutzer:innen nach etwa 10 Stunden Nutzung eines möglichst starken KI-Systems (wie z. B. GPT-4) den "Dreh" rausbekommen. Der erste Schritt besteht also oft darin, erstmal zu starten und mit dem KI-Chatbot, ähnlich wie mit einem Menschen, zu schreiben.</p>
+<p>Wesentlich wichtiger als Prompt Engineering ist es deshalb durch die Nutzung zu lernen, wie man ein KI-System gebrauchen sollte. Prof. Mollick schreibt dazu auf X (früher Twitter), dass er beobachtet, dass Nutzer:innen nach etwa 10 Stunden Nutzung eines möglichst starken KI-Systems (wie z. B. GPT-4) den "Dreh" rausbekommen. Der erste Schritt besteht also oft darin, erstmal zu starten und mit dem KI-Chatbot, ähnlich wie mit einem Menschen, zu schreiben.</p>
 <h4 id="schreibe-wie-zu-einem-menschen">Schreibe wie zu einem Menschen</h4>
 <p>Viele Personen nutzen den Prompt ähnlich wie den Suchschlitz einer Suchmaschine oder Datenbank. Bei Suchmaschinen und Datenbanken kam es darauf an, die Frage auf möglichst wenige und möglichst präzise Suchbegriffe zu reduzieren. Das ganze musste knapp bleiben, denn zu viel Kontext hätte nur zu unpassenden Treffern geführt. Interessanterweise gelten diese Regeln überhaupt nicht mehr für Sprachmodelle wie ChatGPT. Eingaben in Umgangssprache sind kein Problem und ausführlichere Eingaben führen meist sogar zu besseren Antworten und nicht dazu, dass das Modell "verwirrt" wäre. In gewisser Weise müssen wir uns für die wirksame Verwendung von KI-Chatbots deshalb genau die Verhaltensweisen abtrainieren, die uns Suchschlitze die längste Zeit antrainiert haben.</p>
 <h4 id="prompt-verbesserung-am-beispiel">Prompt-Verbesserung am Beispiel</h4>
@@ -1182,7 +1182,7 @@
 <p>Beim One-Shot Learning wird dem Modell ein einziges Beispiel präsentiert, das die gewünschte Aufgabe oder Antwortform demonstriert. Das Modell nutzt dieses Beispiel als Vorlage für das, was es produzieren soll. Beim Few-Shot Learning werden dem Modell mehrere Beispiele gegeben, um eine breitere Palette von Fällen oder Variationen einer Aufgabe zu demonstrieren. Dies hilft dem Modell, die Aufgabenstellung besser zu verstehen und sich auf verschiedene Szenarien oder Kontexte einzustellen.</p>
 <p>Hier ein Beispiel für das One-Shot Learning:</p>
 <blockquote>
-<p>Erstelle eine kurze Absage für meine Teilnahme an der Paneldiskussion "KI &amp; Arbeit" am 05.03.2030.</p>
+<p>Erstelle eine kurze Zusage für meine Teilnahme an der Paneldiskussion "KI &amp; Arbeit" am 05.03.2030.</p>
 <p>Nutze für die Antwort das folgende Beispiel:</p>
 <h3 id="eingabe">Eingabe</h3>
 <p>Formuliere eine kurze und höfliche Antwort auf eine Konferenzeinladung.</p>
@@ -1192,7 +1192,7 @@
 <p>Mit besten Grüßen,</p>
 <p>Anna Schmidt</p>
 </blockquote>
-<p>(eventuell noch ein Beispiel für das Few-Shot-Learning? - oder bewusst weglassen?)</p>
+<p><strong>(eventuell noch ein Beispiel für das Few-Shot-Learning? - oder bewusst weglassen?)</strong></p>
 <h4 id="_1"></h4>
 <h4 id="fortgeschrittenes-prompting">Fortgeschrittenes Prompting</h4>
 <p>Gute Beispiele für fortgeschrittene Prompts sind:</p>
@@ -1204,7 +1204,7 @@
 <p>Das Beispiel von Prof. Ethan Mollick im Artikel <a href="https://www.oneusefulthing.org/p/working-with-ai-two-paths-to-prompting">Working with AI: Two paths to prompting - by Ethan Mollick (oneusefulthing.org)</a> im Abschnitt "Structured Prompting"</p>
 </li>
 <li>
-<p>Lerncoach-Prompt von Simon Roderus (TODO: verlinken)</p>
+<p>Lerncoach-Prompt von Simon Roderus <strong>(TODO: verlinken)</strong></p>
 </li>
 <li>
 <p>Professor Synapse Prompt: <a href="https://github.com/ProfSynapse/Synapse_CoR/blob/main/GPTprompt.txt">Synapse_CoR/GPTprompt.txt at main · ProfSynapse/Synapse_CoR (github.com)</a> oder auch <a href="https://github.com/ProfSynapse/Super_Synapse/blob/main/prompt.txt">Super_Synapse/prompt.txt at main · ProfSynapse/Super_Synapse (github.com)</a></p>
