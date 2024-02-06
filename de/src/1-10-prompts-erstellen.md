@@ -4,7 +4,7 @@ Das folgende Grundlagen-Kapitel soll Dir eine kompakte Orientierungshilfe für d
 
 ### Was ist eigentlich ein Prompt?
 
-In der IT bezeichnet der Begriff "Prompt" die Aufforderung an den Nutzer, eine Eingabe in eine textbasierte Konsole zu tätigen (Quelle: [https://de.wikipedia.org/wiki/Prompt](https://app.tana.inc?nodeid=RgcyWEhrZjJw)). Bei chatbasierten KI-Systemen, wie ChatGPT steht der Prompt für den Eingabetext, den ein Benutzer an das Sprachmodell sendet, um eine Antwort zu erhalten. Das Sprachmodell (Large Language Model bzw. LLM) generiert eine Antwort durch die Vorhersage der wahrscheinlichsten Fortsetzung des Textes, basierend auf gelernten Mustern und Informationen. Die Qualität der Antwort hängt in starkem Maße von dem Prompt selbst ab. Es lohnt sich deshalb zu erlernen, wie man Prompts so erstellen kann, dass diese die vom Nutzer gewünschten Ausgaben so gut wie möglich erzeugen.
+In der IT bezeichnet der Begriff "Prompt" die Aufforderung an den Nutzer, eine Eingabe in eine textbasierte Konsole zu tätigen (Quelle: [https://de.wikipedia.org/wiki/Prompt](https://de.wikipedia.org/wiki/Prompt)). Bei chatbasierten KI-Systemen, wie ChatGPT steht der Prompt für den Eingabetext, den ein Benutzer an das Sprachmodell sendet, um eine Antwort zu erhalten. Das Sprachmodell (Large Language Model bzw. LLM) generiert eine Antwort durch die Vorhersage der wahrscheinlichsten Fortsetzung des Textes, basierend auf gelernten Mustern und Informationen. Die Qualität der Antwort hängt in starkem Maße von dem Prompt selbst ab. Es lohnt sich deshalb zu erlernen, wie man Prompts so erstellen kann, dass diese die vom Nutzer gewünschten Ausgaben so gut wie möglich erzeugen.
 
 ### Prompt Engineering
 
@@ -12,7 +12,7 @@ Der Vorgang der Optimierung des Prompts wird als "Prompt Engineering" bezeichnet
 
 Prof. Ethan Mollick schreibt dazu (übersetzt aus dem Artikel [Working with AI: Two paths to prompting](https://www.oneusefulthing.org/p/working-with-ai-two-paths-to-prompting)): "Die wichtigste Botschaft ist, dass Du die Nutzung der KI durch die Nutzung der KI lernst. [...] Je mehr Du die KI nutzt, desto mehr entwickelst Du ein Gefühl dafür, wofür sie sich gut und weniger gut eignet".
 
-Wesentlich wichtiger als Prompt Engineering ist es deshalb durch die Nutzung zu lernen, wie man ein KI-System gebrauchen sollte. Prof. Mollick schreibt dazu auf Twitter, dass er beobachtet, dass Nutzer:innen nach etwa 10 Stunden Nutzung eines möglichst starken KI-Systems (wie z. B. GPT-4) den "Dreh" rausbekommen. Der erste Schritt besteht also oft darin, erstmal zu starten und mit dem KI-Chatbot, ähnlich wie mit einem Menschen, zu schreiben.
+Wesentlich wichtiger als Prompt Engineering ist es deshalb durch die Nutzung zu lernen, wie man ein KI-System gebrauchen sollte. Prof. Mollick schreibt dazu auf X (früher Twitter), dass er beobachtet, dass Nutzer:innen nach etwa 10 Stunden Nutzung eines möglichst starken KI-Systems (wie z. B. GPT-4) den "Dreh" rausbekommen. Der erste Schritt besteht also oft darin, erstmal zu starten und mit dem KI-Chatbot, ähnlich wie mit einem Menschen, zu schreiben.
 
 #### Schreibe wie zu einem Menschen
 
@@ -104,7 +104,7 @@ Beim One-Shot Learning wird dem Modell ein einziges Beispiel präsentiert, das d
 
 Hier ein Beispiel für das One-Shot Learning:
 
-> Erstelle eine kurze Absage für meine Teilnahme an der Paneldiskussion "KI & Arbeit" am 05.03.2030.
+> Erstelle eine kurze Zusage für meine Teilnahme an der Paneldiskussion "KI & Arbeit" am 05.03.2030.
 > 
 > Nutze für die Antwort das folgende Beispiel:
 > 
@@ -122,7 +122,7 @@ Hier ein Beispiel für das One-Shot Learning:
 > 
 > Anna Schmidt
 
-(eventuell noch ein Beispiel für das Few-Shot-Learning? - oder bewusst weglassen?)
+**(eventuell noch ein Beispiel für das Few-Shot-Learning? - oder bewusst weglassen?)**
 
 
 #### 
@@ -135,7 +135,7 @@ Gute Beispiele für fortgeschrittene Prompts sind:
 
 2. Das Beispiel von Prof. Ethan Mollick im Artikel [Working with AI: Two paths to prompting - by Ethan Mollick (oneusefulthing.org)](https://www.oneusefulthing.org/p/working-with-ai-two-paths-to-prompting) im Abschnitt "Structured Prompting"
 
-3. Lerncoach-Prompt von Simon Roderus (TODO: verlinken)
+3. Lerncoach-Prompt von Simon Roderus **(TODO: verlinken)**
 
 4. Professor Synapse Prompt: [Synapse_CoR/GPTprompt.txt at main · ProfSynapse/Synapse_CoR (github.com)](https://github.com/ProfSynapse/Synapse_CoR/blob/main/GPTprompt.txt) oder auch [Super_Synapse/prompt.txt at main · ProfSynapse/Super_Synapse (github.com)](https://github.com/ProfSynapse/Super_Synapse/blob/main/prompt.txt)
 
