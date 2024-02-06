@@ -127,7 +127,7 @@ Vertiefung:
 
 ## Kata 5 - KI-Anwendungsfelder am eigenen Arbeitsplatz
 
-In [Kata 2] haben wir zum ersten Mal die [KI-Tools und Services](1-7-ai-tools-services.md) thematisiert. In [Kata 5] wollen wir diese nochmals aufgreifen und vertiefen, indem wir sie mit reellen, praxisorientierten KI-Anwendungsfeldern verknüpfen.
+In [Kata 2] haben wir zum ersten Mal die [KI-Tools und Services](1-7-ai-tools-services.md) thematisiert. In [Kata 5] wollen wir diese nochmals aufgreifen und vertiefen, indem wir sie mit realen, praxisorientierten KI-Anwendungsfeldern verknüpfen.
 
 Grundsätzlich lassen sich KI-Tools den folgenden **Kategorien** zuordnen:
 
@@ -142,61 +142,59 @@ Du selbst kennst Deinen Arbeitsplatz / Dein Projekt und die damit verbundenen T�
 
 Um Dich bei dem gedanklichen Einstieg zu unterstützen, nutze gerne die folgende Zusammenstellung möglicher [KI-Anwendungsfelder](1-5-ai-application-areas.md). Schaue Dir diese in Ruhe an und überlege Dir, welche Anwendungsfelder sich für deinen Arbeitsplatz / dein Projekt ergeben.
 
+### Aufgabe:
 Formuliere 2-3 kurze Anwendungsszenarien (Use-Cases) und beschreibe, bei welchen konkreten Arbeitsschritten Dir KI-Tools aus den o.g. Kategorien und Anwendungsfeldern helfen könnten.
 
 **Beispiel 1**: "Im Rahmen meiner Arbeit schreibe ich regelmäßig Gesprächsprotokolle. KI-gestützte Audio-Tools könnten mir im Optimalfall dabei helfen, Gespräche aufzuzeichnen und in Verbindung mit KI-gestützten Text-Tools zusammenzufassen."
 
 **Beispiel 2**: "Es ist Teil meiner Aufgabe, Texte unserer Marketing-Abteilung mit passendem Bildmaterial anzureichern. KI-gestützte Bild-Tools könnten mich dabei unterstützen, passende Motive zu entwerfen, die an unsere Kommunikationsrichtlinien angepasst sind."
 
-**Vertiefung (optional):** Entscheide dich für mindestens zwei Tools, die Du testen möchtest. Verschaffe Dir Zugang zu diesen Tools. Sollte dies nicht umsetzbar sein, beispielsweise aus Kosten- und/oder Berechtigungsgründen, suche nach Alternativ-Tools, die den gleichen Zweck erfüllen. Sobald Du passende Tools gefunden hast, probiere sie in den von Dir beschriebenen Anwendungsszenarien aus. Notiere Deine Erfahrungen und teile sie mit anderen Interessierten.
+### Vertiefung (optional)
+Entscheide dich für mindestens zwei Tools, die Du testen möchtest. Verschaffe Dir Zugang zu diesen Tools. Sollte dies nicht umsetzbar sein, beispielsweise aus Kosten- und / oder Berechtigungsgründen, suche nach Alternativen, die den gleichen Zweck erfüllen. Sobald Du passende Tools gefunden hast, probiere sie in den von Dir beschriebenen Anwendungsszenarien aus. Notiere Deine Erfahrungen und teile sie mit den anderen Interessierten.
 
-## Kata 6 - Vertiefung Deines Lernziels: KI-Einsatz beim Blogpost / Lernprojekt
+## Kata 6 - Vertiefung Deines Lernziels: Praxis-Einsatz der KI beim Blogpost / Lernprojekt
 
 In der vergangenen Woche hast Du unterschiedliche Kategorien und Anwendungsfelder kennengelernt, denen sich die meisten KI-Tools zuordnen lassen. Darüber hinaus hast Du Dir die Frage gestellt, ob und wie Dich einzelne Tools bei Deiner Arbeit unterstützen können. Die Antwort auf diese Fragen hast Du erhalten, indem Du konkrete Anwendungsszenarien für Deine Arbeit formuliert und optional einzelne Tools eingesetzt und getestet hast.
 
-Lasse Deine Erfahrungen aus der letzten Woche Revü passieren und mache Dir Gedanken zu dem übergeordneten Lernziel dieses Leitfadens. Es geht darum, mit Hilfe von KI einen **Blogpost-Beitrag** zu erstellen oder alternativ **Dein persönliches Lernprojekt** auszugestalten. Hintergrundinformation => Was ist ein Blog-Post: [Blogpost Begriffserklärung &amp; Definition](https://www.seo-analyse.com/seo-lexikon/b/blogpost/)) 
+Lasse Deine Erfahrungen aus der letzten Woche Revue passieren und mache Dir Gedanken zu dem übergeordneten Lernziel dieses Leitfadens. Es geht darum, mit Hilfe von KI einen **Blogpost-Beitrag** zu erstellen oder alternativ **Dein persönliches Lernprojekt** auszugestalten. Hintergrundinformation => Was ist ein Blog-Post: [Blogpost Begriffserklärung &amp; Definition](https://www.seo-analyse.com/seo-lexikon/b/blogpost/)) 
 
-**Beantworte Dir folgende Fragen:**
+### Aufgabe: Beantworte Dir nachfolgende Fragen
 
 - Worum soll es in Deinem Blogpost bzw. in Deinem Lernprojekt konkret gehen?
 - Wie soll Dein Blogpost bzw. Dein Lernprojekt aufgebaut sein und welche Elemente soll er/es beinhalten?
 - Welche KI-Tools können Dir bei welchen Elementen helfen? Nutze an dieser Stelle auch noch einmal die Hinweise zu den Kategorien aus [Kata 5]
   
-Wenn Du diese Fragen beantwortet hast, suche Dir aus den bekannten Kategorien und Anwendungsfeldern der [Kata 5] passende KI-Tools aus, die Du zur Umsetzung Deiner Idee benötigst.
+Wenn Du diese Fragen beantwortet hast, suche Dir aus den bekannten Kategorien und Anwendungsfeldern der [Kata 5] passende aus, die Du mit dem entsprechend verfügbaren Tool zur Umsetzung Deiner Idee benötigst.
 
-Und los geht´s! Wir wünschen Dir viel Spaß beim Umsetzen Deiner Idee!
+Und los geht´s! Wir wünschen Dir viel Spaß bei den nächsten Schritten zum Umsetzen Deiner Idee!
 
 **Ergänzender Hinweis 1:** Die Länge des Blogposts / Lernprojektes spielt genau so wenig eine Rolle, wie die Qualität Deines Schreibens. Es geht darum, dass Du Deine Erfahrungen im Umgang mit KI-Tools vertiefst und ein gutes Gefühl für die Chancen und Herausforderungen bekommst.
 
-**Ergänzender Hinweis 2 (nur für die Praxisvariante "Blogpost"):** Solltest Du keinen Zugriff auf einen reellen Blogpost haben, so kannst Du den Beitrag auch in einem gängigen Textverarbeitungsprogramm erstellen bzw. vorbereiten.
+**Ergänzender Hinweis 2 (nur für die Praxisvariante "Blogpost"):** Solltest Du keinen Zugriff auf einen realen Blogpost haben, so kannst Du den Beitrag auch in einem gängigen Textverarbeitungsprogramm erstellen bzw. vorbereiten.
 
-**Tipp:** Die KI kann Dich als Feedbackpartner in Deiner Reflexion unterstützen. Teile mit ihr Deine bisherigen Ergebnisse und lasse Dir Feedback dazu geben, was Du verbessern kannst. Nutze in diesem Zusammenhang auch ggf. noch einmal die Inhalte und Erkenntnisse aus [Kata 3: KI als Dialogpartner]
+**Tipp:** Die KI kann Dich als Feedbackpartner:in in Deiner Reflexion unterstützen. Teile mit ihr Deine bisherigen Ergebnisse und lasse Dir Feedback dazu geben, was Du verbessern kannst. Nutze in diesem Zusammenhang auch ggf. noch einmal die Inhalte und Erkenntnisse aus [Kata 3: KI als Dialogpartner]
 
 ## Kata 7 - Zusammenarbeit mit KI
 
 Zum Einstieg in diese Kata empfehlen wir, sich zunächst einmal das Kapitel [Maschinelles vs. Menschliches Lernen](1-4-machine-vs-human-learning.md) anzuschauen, um die Hintergründe im Zusammenspiel von Mensch und Maschine genauer zu verstehen. Anschließend sollen Eure Prompting Skills im direkten Austausch mit generativer KI gezielt erweitert werden.
 
-KI-Systeme können sehr unterschiedlich eingesetzt werden und die Art des Einsatzes hat massive Auswirkungen auf die Ergebnisse. Studien zeigen, dass Wissensarbeiter durch die Zusammenarbeit mit KI ihre Produktivität und die Qualität der Ergebnisse steigern können (vgl. [KI macht Wissensarbeiter schneller und besser (faz.net)](https://www.faz.net/pro/d-economy/kuenstliche-intelligenz/ki-macht-wissensarbeiter-schneller-und-besser-19183974.html)). Diese Produktivitätssteigerung kann jedoch nur dann genutzt werden, wenn KI-Systeme richtig eingesetzt werden.
+KI-Systeme können sehr unterschiedlich eingesetzt werden und die Art des Einsatzes hat erhebliche Auswirkungen auf die Ergebnisse. Studien zeigen, dass Wissensarbeiter durch die Zusammenarbeit mit KI ihre Produktivität und die Qualität der Ergebnisse steigern können (vgl. [KI macht Wissensarbeiter schneller und besser (faz.net)](https://www.faz.net/pro/d-economy/kuenstliche-intelligenz/ki-macht-wissensarbeiter-schneller-und-besser-19183974.html)). Diese Produktivitätssteigerung kann jedoch nur dann genutzt werden, wenn KI-Systeme richtig eingesetzt werden.
 
-Eine Beobachtung ist, dass gerade Einsteiger:innen KI anfangs ähnlich wie eine Suchmaschine, im Sinne von "Eingabe rein - Antwort raus", nutzen. Während diese Nutzung legitim ist, gibt es deutlich bessere Wege, KI zu nutzen. Der erste Schritt besteht darin, zu erforschen und herauszufinden, wie die KI auf verschiedene Eingaben ("Prompts") unterschiedlich reagiert) .
+Eine Beobachtung ist, dass gerade Einsteiger:innen KI anfangs ähnlich wie eine Suchmaschine, im Sinne von "Eingabe rein - Antwort raus", nutzen. Während diese Nutzung legitim ist, gibt es deutlich bessere Wege, KI zu nutzen. Der erste Schritt besteht darin, zu erforschen und herauszufinden, wie die KI auf verschiedene Eingaben ("Prompts") unterschiedlich reagiert.
 
-Nutze in dieser Kata den Prompt-Aufbau aus dem Kapitel [Prompts erstellen](1-10-prompts-erstellen.md):
+### Aufgabe 1 Prompting-Hacks
+Orientiere Dich in dieser Kata gerne am empfohlenen, schrittweisen Prompt-Aufbau aus unserem kleinen Guide [Prompts erstellen](1-10-prompts-erstellen.md). Beachte nun für Deinen Blogpost / Dein Lernprojekt weiterführend die folgenden Fragestellungen:
 
-- **Persona**: Welche Rolle soll das Sprachmodell übernehmen?
-- **Einleitung**: Was erwarte ich vom Sprachmodell? Beginnt normalerweise mit einem Aktionswort.
-- **Individueller Inhalt**: Der eigentliche Text der verarbeitet werden soll.
-- **Format**: Wenn notwendig, welches Format erwarte ich von der Ausgabe?
-- **Zusätzliche Information**: Weitere relevante Informationen die ein Kontext spezifischer machen.
+- **Persona**: Welche Rolle soll das Sprachmodell bzw. die KI als Assistenz übernehmen (z.B. Softwareentwickler:in, Hochschulprofessor:in, Pressesprecher:in)?
+- **Einleitung**: Was erwarte ich vom Sprachmodell? Beginnt normalerweise mit einem Aktionswort (z.B. Beschreibe mir, Erkläre mir, Erstelle mir).
+- **Individueller Inhalt**: Der eigentliche Text, der verarbeitet werden soll.
+- **Format**: Wenn notwendig, welches Format erwarte ich von der Ausgabe (z.B. Code, Paper, Pressemitteilung, Infografik)?
+- **Zusätzliche Information**: Weitere relevante Informationen, die einen Kontext spezifischer machen (z.B. Schreibstil, Filter, Historie, Technik, Methode).
 
+Je mehr Erfahrung man mit der KI sammelt, desto leichter gelingt eine intuitive Eingabe passender Prompts. Denke daran: Die besten Ergebnisse entstehen, wie bereits in Kata 3 dargestellt, im Zusammenspiel mit der KI. Nutze deshalb die erste Antwort auf Deine Eingabe dafür in einen Dialog mit der KI zu treten! Vertieft werden diese Gehversuche dann auch beim erweiterten Prompten in den Katas 9 und 10.
 
-Je mehr Erfahrung man mit der KI sammelt, desto leichter gelingt eine intuitive Eingabe passender Prompts. Denke daran: Die besten Ergebnisse entstehen, wie in Kata 3 dargestellt, in der Zusammenarbeit mit der KI. Nutze deshalb die erste Antwort auf Deine Eingabe dafür in einen Dialog mit der KI zu starten!
-
-----------------
-Erweitertes Prompting: Im Sinne von KI ist mein künstlicher Arbeitsassistent*in möchte ich gerne gemeinsam mit dieser eine PowerPoint-Präsentation oder ein Konzept zu meinem Projektthema erarbeiten (lassen).
-Prompting Guideline oder Leitlinien als Hilfestellung / Orientierung?
-z.B. Versetze Dich in die Rolle eines L&D-Verantwortlichen / Software Engineers / Hochschulprofessors*in...
-Prompting wird in Kata 10 weiter vertieft
-
+### Vertiefung (optional)
+Erstelle einen komplexeren Prompt, der über die KI zu einer ersten zusammenfassenden (PowerPoint-)Präsentation oder einem Konzept für das Thema Deines Blogposts oder Deines Lernprojekts führt. Dies kannst Du dann im Zusammenspiel mit der KI weiter verfeinern und auch für verschiedene Zielgruppen ausprobieren lassen, z.B. eher aus Berater-Sicht für Entscheider:innen, aus Marketing-Sicht für einen Kunden oder aus Trainings-Sicht für Deine Lernenden.
 
 
 ## Kata 8 - Reflexion mit weiteren Lernergebnissen
