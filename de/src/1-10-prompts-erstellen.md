@@ -100,7 +100,7 @@ Auch OpenAI (die Entwickler von ChatGPT) beschreiben in ihrem Artikel <a href="h
 
 Eine weitere hilfreiche Technik, um bessere Ergebnisse zu erzielen, ist das One-Shot- und Few-Shot-Learning. Diese Methoden dienen dazu, dem KI-Modell zu demonstrieren, was genau erwartet wird. Das KI-Modell kann sich bei der Antwort dann an den Beispielen orientieren und antwortet eher so, wie es der Nutzer erwartet.
 
-Beim One-Shot Learning wird dem Modell ein einziges Beispiel präsentiert, das die gewünschte Aufgabe oder Antwortform demonstriert. Das Modell nutzt dieses Beispiel als Vorlage für das, was es produzieren soll. Beim Few-Shot Learning werden dem Modell mehrere Beispiele gegeben, um eine breitere Palette von Fällen oder Variationen einer Aufgabe zu demonstrieren. Dies hilft dem Modell, die Aufgabenstellung besser zu verstehen und sich auf verschiedene Szenarien oder Kontexte einzustellen.
+Beim One-Shot Learning wird dem Modell ein einziges Beispiel präsentiert, das die gewünschte Aufgabe oder Antwortform demonstriert. Das Modell nutzt dieses Beispiel als Vorlage für das, was es produzieren soll. 
 
 Hier ein Beispiel für das One-Shot Learning:
 
@@ -122,10 +122,21 @@ Hier ein Beispiel für das One-Shot Learning:
 > 
 > Anna Schmidt
 
-**(eventuell noch ein Beispiel für das Few-Shot-Learning? - oder bewusst weglassen?)**
+Beim Few-Shot Learning werden dem Modell mehrere Beispiele gegeben, um eine breitere Palette von Fällen oder Variationen einer Aufgabe zu demonstrieren. Dies hilft dem Modell, die Aufgabenstellung besser zu verstehen und sich auf verschiedene Szenarien oder Kontexte einzustellen.
 
+Ein Beispiel für Few-Shot-Prompting wäre:
 
-#### 
+> Ordne für mich Beispiele verschiedenen Lehr- und Lernformen zu.
+> 
+> Orientiere Dich bei der Antwort an folgenden Beispielen:
+> Lernvideo anschauen -> selbstgesteuertes Lernen
+> Eine Vorlesung besuchen -> Lehrvortrag
+> Mathematik-Aufgaben lösen -> selbstgesteuertes Lernen
+> Mit anderen Studierenden Lernen -> kollaboratives Lernen
+>
+> Mache mit diesen Beispielen weiter
+> Eine Zusammenfassung erstellen ->
+> Mit einer Lernpartnerin die Lerninhalte telefonisch besprechen -> 
 
 #### Fortgeschrittenes Prompting
 
