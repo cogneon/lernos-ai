@@ -146,9 +146,9 @@ Gute Beispiele für fortgeschrittene Prompts sind:
 
 2. Das Beispiel von Prof. Ethan Mollick im Artikel [Working with AI: Two paths to prompting - by Ethan Mollick (oneusefulthing.org)](https://www.oneusefulthing.org/p/working-with-ai-two-paths-to-prompting) im Abschnitt "Structured Prompting"
 
-3. Lerncoach-Prompt von Simon Roderus **(TODO: verlinken)**
-
-4. Professor Synapse Prompt: [Synapse_CoR/GPTprompt.txt at main · ProfSynapse/Synapse_CoR (github.com)](https://github.com/ProfSynapse/Synapse_CoR/blob/main/GPTprompt.txt) oder auch [Super_Synapse/prompt.txt at main · ProfSynapse/Super_Synapse (github.com)](https://github.com/ProfSynapse/Super_Synapse/blob/main/prompt.txt)
+3. [LerncoachGPT](https://www.e-lehre.de/2024/02/07/chatgpt-als-lerncoach)
+   
+5. Professor Synapse Prompt: [Synapse_CoR/GPTprompt.txt at main · ProfSynapse/Synapse_CoR (github.com)](https://github.com/ProfSynapse/Synapse_CoR/blob/main/GPTprompt.txt) oder auch [Super_Synapse/prompt.txt at main · ProfSynapse/Super_Synapse (github.com)](https://github.com/ProfSynapse/Super_Synapse/blob/main/prompt.txt)
 
 **Tipp:** Fortgeschrittene Prompts funktionieren wesentlich besser in leistungsfähigeren KI-Systemen wie z. B. GPT-4. 
 
