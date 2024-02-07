@@ -33,16 +33,16 @@ Als Einstiegsfragen könnt ihr diese Fragen nutzen:
 _In dieser Kata legst Du die Grundlagen für die Zusammenarbeit mit der künstlichen Intelligenz. Ein Schwerpunkt liegt dabei auf der Frage, wie für Dich eine verantwortungsvollen Nutzung von KI aussieht und welche Rahmenbedingungen es hierfür in Deinem Unternehmen gibt._
 
 ### Hintergrund
-- Lese Dir den Abschnitt aus dem Grundlagenkapitel [KI & Gesellschaft](1-7-ai-and-society.md) durch und überlege Dir wie eine verantwortungsvolle Nutzung von KI-Systemen aussehen könnte. 
+Lese Dir den Abschnitt aus dem Grundlagenkapitel [KI & Gesellschaft](1-7-ai-and-society.md) durch und überlege Dir wie eine verantwortungsvolle Nutzung von KI-Systemen aussehen könnte. 
 
 ### Aufgabe: Was kann eigentlich passieren?
 Denke darüber nach, wie KI-Systeme funktionieren und beantworte dann die nachfolgenden Fragen:
 
 - Welche Arten von Eingaben und Ausgaben sind bei KI-Plattformen und -Tools üblich?
-- Denke darüber nach, welche Daten generative KIs für Prozesse wie z. B. das Training nutzen können.
-- Was wären Bedrohungsszenarien, die durch eine verantwortungslose Nutzung von KI-Plattformen für Dein Unternehmen entstehen könnten?
+- Denke darüber nach, welche Daten (generative) KIs für Prozesse, wie z. B. das Training nutzen können.
+- Was wären Bedrohungsszenarien, die durch eine verantwortungslose Nutzung von KI-Plattformen für Dein Unternehmen / für Deinen Arbeitsplatz entstehen könnten?
  
-### Aufgabe: Rahmenbedingungen für die Nutzung
+### Aufgabe: Ermittelt die Rahmenbedingungen für die Nutzung von KI
 Um die Nutzung von KI-Systemen in Deinem Unternehmen effektiv und verantwortungsbewusst zu gestalten, ist es wichtig, dass Du Dich zunächst mit den unternehmensspezifischen Vorgaben und Richtlinien vertraut machst. Diese Informationen findest Du meist im Intranet Deines Unternehmens. Achte darauf, die für Dich relevanten Vorgaben stets im Blick zu behalten um sicherzustellen, dass Du sie in Deinem täglichen Arbeitsumfeld umsetzt. Sollten in diesem Leitfaden bestimmte Katas in Deinem Unternehmen nicht umsetzbar sein, ist es ratsam, dass Du Dir eigenständig alternative Aufgaben überlegst, die den Richtlinien Deines Unternehmens entsprechen.
 
 Falls Dein Unternehmen noch keine Rahmenbedingungen hat findest Du hier ein paar allgemeine Empfehlungen:
@@ -52,10 +52,10 @@ Falls Dein Unternehmen noch keine Rahmenbedingungen hat findest Du hier ein paar
 - **Personenbezogene Daten:** Denke auch an Risiken, die durch personenbezogene Daten entstehen. Datenschutzrechtliche und unternehmerische Vorgaben geben meist vor, dass nur in solche Systeme personenbezogene Daten eingegeben werden dürfen, die hierfür freigegeben sind.
 - **Nutzungsbedingungen & Rechte Dritter:** Achte auf die Nutzungsbedingungen, aber auch auf das Urheberrecht und die Rechte Dritter. Generative KI birgt unter Umständen das Risiko urheberrechtlich geschützte Inhalte zu erstellen.
 - **Prüfe Ausgaben:** Die Ausgaben von KI-Plattformen basieren auf Wahrscheinlichkeiten und sind somit nicht zuverlässig. Prüfe die Ergebnisse deshalb sorgfältig, bevor Du sie für Dich oder Deine Arbeit nutzt.
-- **Keine illegale Nutzung:** Obwohl die meisten KI-Plattformen gute Sicherheitsmechanismen haben ist es in bestimmten Fällen möglich, damit gefährliche oder illegale Inhalte wie z. B. Schadecode zu erstellen. Nutze die KI-Systeme deshalb nur im erlaubten Kontext. Auch wenn es verlockend ist: Verzichte insbesondere im unternehmerischen Kontext darauf zu versuchen KI-Systeme zu überlisten oder anders als vorgesehen zu verwenden.
-- **Vorsicht bei unbekannten Anbietern:** Bevorzuge Anbieter von KI-Plattformen, die als vertrauenswürdig bekannt sind und transparent darin sind, welche Daten sie auf welche Weise verwenden.
+- **Keine illegale Nutzung:** Obwohl die meisten KI-Plattformen gute Sicherheitsmechanismen haben ist es in bestimmten Fällen möglich, damit gefährliche oder illegale Inhalte wie z. B. Schadecode zu erstellen. Nutze die KI-Systeme deshalb nur im erlaubten Rahmen. Auch wenn es verlockend ist: Verzichte insbesondere im unternehmerischen Kontext darauf, zu versuchen, KI-Systeme zu überlisten oder anders als vorgesehen zu verwenden!
+- **Vorsicht bei unbekannten Anbietern:** Bevorzuge Anbieter von KI-Plattformen, die als vertrauenswürdig bekannt und transparent darin sind, welche Daten sie auf welche Weise verwenden.
 
-Erstelle einen knappen Steckbrief der wichtigsten Vorgaben Deines Unternehmens in Bezug auf die Nutzung von KI-Plattformen.
+Nutze nach Möglichkeit einen vorhandenen, knappen Steckbrief der wichtigsten Vorgaben Deines Unternehmens in Bezug auf die Nutzung von KI-Plattformen oder wirke ggf. auf deren Erstellung hin, um ihn geeignet in Deiner Organisation zu verteilen.
 
 
 ## Kata 2 - Einstieg mit der KI
@@ -82,32 +82,25 @@ Eine mögliche Übung zur Vertiefung des Umgang mit KI kann darin bestehen, eine
 
 
 ## Kata 3 - KI als Dialogpartner
+_In dieser Kata erfährst Du die Entwicklungsschritte der KI und lernst, die unterschiedlichen Begrifflichkeiten (z.B. AI, Machine Learning, Deep Learning, LLM) im Bereich der künstlichen Intelligenz einzuordnen. Zudem kannst Du in ersten kleinen Übungen zielgerichtete Eingaben mittels einer generativen KI ausführen._ 
 
-Lese Dir das [KI und maschinelles Lernen](1-2-ai-machine-learning.md) durch + Übung dazu.
+### Hintergrund
+Lese Dir die ersten Abschnitte des Grundlagen-Kapitels [KI und maschinelles Lernen](1-2-ai-machine-learning.md) durch. Chatbasierte KI-Systeme, wie ChatGPT sind darauf ausgelegt, im Dialog zu interagieren und funktionieren am besten, wenn ein Gespräch fortgeführt wird. Ein einzelner Austausch kann zwar grundlegende Informationen liefern, aber die Stärken der KI zeigen sich besonders in einer fortgesetzten Interaktion. Durch Nachfragen, Klärungen und weiterführende Diskussionen kann die KI ein tieferes Verständnis für die Anliegen des Nutzers entwickeln und dadurch relevantere und präzisere Antworten geben. Außerdem ermöglicht ein Dialog der KI, den Kontext besser zu erfassen und auf ihn einzugehen, was bei einer einmaligen Anfrage oft schwieriger ist. Daher ist die Unterhaltung („Zwiegespräch“) zwischen menschlicher und künstlicher Intelligenz oft ein wichtiger Schlüssel, zu einer effektiveren Nutzung von KI-basierten Chat-Systemen.
 
-- Was ist der Unterschied zwischen "Maschinellem Lernen" und "KI"?
-  
-  - Hinweis: Grundlagenkapitel unvollständig. Siehe Unterscheidung von AI > ML > DL.
-  
-  - Eine gute Vorlage könnte das hier sein: [Glossar: Acht KI-Begriffe, die Ihnen auch im Alltag begegnen (handelsblatt.com)](https://www.handelsblatt.com/technik/ki/glossar-acht-ki-begriffe-die-ihnen-auch-im-alltag-begegnen/29431606.html)
-
-- Lass Dir von einer KI erklären, wie ein KI-Chatbot funktioniert
-
-- Überlege Dir darüber hinaus, was für ein KI-Lernprojekt Du gerne angehen willst. Folgende Beispiele können Dir dabei als Orientierungshilfe dienen:
+### Aufgabe 1: Frage gezielt das Wissen der KI ab
+Lass Dir von einem ausgewählten (oder von mehreren) Chatbot(s) erklären, wie ein KI-Chatbot eigentlich funktioniert. 
+Überlege Dir darüber hinaus, in welchen Bereichen die KI Dich unterstützen könnte. Vielleicht findest Du hier schon die ersten Ideen für einen eigenen Blogpost oder ein eigenes, kleines Lernprojekt. Folgende Beispiele können Dir dabei als Orientierungshilfe dienen:
   - Vorlage für eine Rede / Skript
   - Strukturierung von Inhalten für eine Präsentation
-  - Gesprächsleitfäden
-  - Konzepte entwickeln lassen
+  - Gesprächsleitfaden
+  - Konzept entwickeln lassen
   - Brainstorming bezüglich eines Themengebietes
-- Entscheide Dich für ein Medium (Text, Bild, ...).
-- Es soll auf jeden Fall etwas sein, dass von der KI generiert wird.
+Entscheide Dich ggf. auch für ein Medium (Text oder Bild) und lass dieses in einem ersten Versuch vom Chatbot generieren.
 
-### Aufgabe: Führe einen Dialog
-Nehme Dir mal 10-15 Zeit für einen längeren Dialog mit einer chatbasierten KI. Lasse Dich darauf ein, dass der Chat sich wie ein Gespräch entwickelt indem Du Nachfragen stellst und Rückmeldungen gibst. Wenn Du einmal in eine "Sackgasse" kommst, dann frag doch einfach die KI wie ihr das Gespräch weiterführen könntet.
+### Aufgabe 2: Führe einen Dialog
+Nimm Dir 10-15 Minuten Zeit für einen längeren Dialog mit einer chatbasierten KI. Lasse Dich darauf ein, dass der Chat sich wie ein Gespräch entwickelt, indem Du Nachfragen stellst und Rückmeldungen gibst. Wenn Du einmal in eine "Sackgasse" kommst, dann frag doch einfach die KI, wie ihr das Gespräch weiterführen könntet.
 
-Chatbasierte KI-Systeme wie ChatGPT sind darauf ausgelegt, im Dialog zu interagieren und funktionieren am besten, wenn ein Gespräch fortgeführt wird. Ein einzelner Austausch kann zwar grundlegende Informationen liefern, aber die Stärken der KI zeigen sich besonders in einer fortgesetzten Interaktion. Durch Nachfragen, Klärungen und weiterführende Diskussionen kann die KI ein tieferes Verständnis der Anliegen des Nutzers entwickeln und dadurch relevantere und präzisere Antworten geben. Außerdem ermöglicht ein Dialog es der KI, den Kontext besser zu erfassen und auf ihn einzugehen, was bei einer einmaligen Anfrage oft schwieriger ist. Daher ist der Dialog oft ein wichtiger Schlüssel, zu einer effektiveren Nutzung von KI-basierten Chat-Systemen.
-
-**Tipp:** Manche KI-Systeme wie z. B. [ChatGPT](https://chat.openai.com) bieten eine Sprachchat-Funktion, mit der sich der Dialog natürlicher anfühlt, eben fast ein bisschen so wie das Gespräch mit einem Menschen.
+**Tipp:** Manche KI-Systeme wie z. B. [ChatGPT](https://chat.openai.com) bieten eine Sprachchat-Funktion, mit der sich der Dialog natürlicher anfühlt, eben fast ein bisschen so wie das Gespräch mit einem Menschen. Wusstest Du, dass Du die Konversation jederzeit fortsetzen und Deine Anfrage überarbeiten oder einfach komplett neu starten kannst?
 
 ## Kata 4 - Reflexion mit ersten Lernergebnissen
 (Hintergrund Boxenstopp 1)
@@ -119,9 +112,8 @@ Chatbasierte KI-Systeme wie ChatGPT sind darauf ausgelegt, im Dialog zu interagi
   - Welche Kriterien zur Reflexion könnten hier angewendet werden? Z.B. Anwendungserfahrung und offene Fragen und Erfahrungen über die Anwendung hinaus
   - Was sind drei konkrete, bisherige Learnings?
 
-Vertiefung:
-- Wusstest Du, dass Du die Konversation fortsetzen oder Deine Anfrage überarbeiten kannst. 
-- Wusstest Du, dass du Deine KI einer Persona geben bzw. sie enstprechend framen geben kannst?
+Tipp:
+- Wusstest Du, dass du Deiner KI einer Persona geben bzw. sie enstprechend framen geben kannst?
 
 **Tipp:** Chatbasierte KIs sind gut darin Frameworks oder Modelle (z. B. aus Business, Forschung, Psychologie, ...) für bestimmte Szenarien anzuwenden. Frage ChatGPT z. B. etwas wie "Erstelle mir eine SWOT-Analyse für den Verkauf von besonders leichten Premium-Smartphones in der Schweiz".
 
@@ -182,7 +174,7 @@ KI-Systeme können sehr unterschiedlich eingesetzt werden und die Art des Einsat
 
 Eine Beobachtung ist, dass gerade Einsteiger:innen KI anfangs ähnlich wie eine Suchmaschine, im Sinne von "Eingabe rein - Antwort raus", nutzen. Während diese Nutzung legitim ist, gibt es deutlich bessere Wege, KI zu nutzen. Der erste Schritt besteht darin, zu erforschen und herauszufinden, wie die KI auf verschiedene Eingaben ("Prompts") unterschiedlich reagiert.
 
-### Aufgabe 1 Prompting-Hacks
+### Aufgabe 1: Prompting-Hacks
 Orientiere Dich in dieser Kata gerne am empfohlenen, schrittweisen Prompt-Aufbau aus unserem kleinen Guide [Prompts erstellen](1-10-prompts-erstellen.md). Beachte nun für Deinen Blogpost / Dein Lernprojekt weiterführend die folgenden Fragestellungen:
 
 - **Persona**: Welche Rolle soll das Sprachmodell bzw. die KI als Assistenz übernehmen (z.B. Softwareentwickler:in, Hochschulprofessor:in, Pressesprecher:in)?
