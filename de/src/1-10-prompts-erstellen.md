@@ -102,7 +102,7 @@ Eine weitere hilfreiche Technik, um bessere Ergebnisse zu erzielen, ist das One-
 
 Beim One-Shot Learning wird dem Modell ein einziges Beispiel präsentiert, das die gewünschte Aufgabe oder Antwortform demonstriert. Das Modell nutzt dieses Beispiel als Vorlage für das, was es produzieren soll. 
 
-Hier ein Beispiel für das One-Shot Learning:
+Hier ein Beispiel für das One-Shot Prompting:
 
 > Erstelle eine kurze Zusage für meine Teilnahme an der Paneldiskussion "KI & Arbeit" am 05.03.2030.
 > 
@@ -124,18 +124,23 @@ Hier ein Beispiel für das One-Shot Learning:
 
 Beim Few-Shot Learning werden dem Modell mehrere Beispiele gegeben, um eine breitere Palette von Fällen oder Variationen einer Aufgabe zu demonstrieren. Dies hilft dem Modell, die Aufgabenstellung besser zu verstehen und sich auf verschiedene Szenarien oder Kontexte einzustellen.
 
-Ein Beispiel für Few-Shot-Prompting wäre:
+Hier ein Beispiel für das Few-Shot Prompting:
 
 > Ordne für mich Beispiele verschiedenen Lehr- und Lernformen zu.
 > 
 > Orientiere Dich bei der Antwort an folgenden Beispielen:
 > Lernvideo anschauen -> selbstgesteuertes Lernen
+> 
 > Eine Vorlesung besuchen -> Lehrvortrag
+> 
 > Mathematik-Aufgaben lösen -> selbstgesteuertes Lernen
+> 
 > Mit anderen Studierenden Lernen -> kollaboratives Lernen
 >
-> Mache mit diesen Beispielen weiter
+> 
+> Mache mit diesen Beispielen weiter:
 > Eine Zusammenfassung erstellen ->
+> 
 > Mit einer Lernpartnerin die Lerninhalte telefonisch besprechen -> 
 
 #### Fortgeschrittenes Prompting
@@ -146,7 +151,7 @@ Gute Beispiele für fortgeschrittene Prompts sind:
 
 2. Das Beispiel von Prof. Ethan Mollick im Artikel [Working with AI: Two paths to prompting - by Ethan Mollick (oneusefulthing.org)](https://www.oneusefulthing.org/p/working-with-ai-two-paths-to-prompting) im Abschnitt "Structured Prompting"
 
-3. [LerncoachGPT](https://www.e-lehre.de/2024/02/07/chatgpt-als-lerncoach)
+3. Die Fallstudie [LerncoachGPT](https://www.e-lehre.de/2024/02/07/chatgpt-als-lerncoach) als Prototyp für einen Lerncoach von Simon Roderus 
    
 5. Professor Synapse Prompt: [Synapse_CoR/GPTprompt.txt at main · ProfSynapse/Synapse_CoR (github.com)](https://github.com/ProfSynapse/Synapse_CoR/blob/main/GPTprompt.txt) oder auch [Super_Synapse/prompt.txt at main · ProfSynapse/Super_Synapse (github.com)](https://github.com/ProfSynapse/Super_Synapse/blob/main/prompt.txt)
 
