@@ -129,19 +129,17 @@ Hier ein Beispiel für das Few-Shot Prompting:
 > Ordne für mich Beispiele verschiedenen Lehr- und Lernformen zu.
 > 
 > Orientiere Dich bei der Antwort an folgenden Beispielen:
-> Lernvideo anschauen -> selbstgesteuertes Lernen
 > 
-> Eine Vorlesung besuchen -> Lehrvortrag
-> 
-> Mathematik-Aufgaben lösen -> selbstgesteuertes Lernen
-> 
-> Mit anderen Studierenden Lernen -> kollaboratives Lernen
+>> Lernvideo anschauen -> selbstgesteuertes Lernen
+>> Eine Vorlesung besuchen -> Lehrvortrag
+>> Mathematik-Aufgaben lösen -> selbstgesteuertes Lernen
+>> Mit anderen Studierenden Lernen -> kollaboratives Lernen
 >
 > 
 > Mache mit diesen Beispielen weiter:
-> Eine Zusammenfassung erstellen ->
 > 
-> Mit einer Lernpartnerin die Lerninhalte telefonisch besprechen -> 
+>> Eine Zusammenfassung erstellen ->
+>> Mit einer Lernpartnerin die Lerninhalte telefonisch besprechen -> 
 
 #### Fortgeschrittenes Prompting
 
