@@ -2,32 +2,34 @@
 
 # Lernpfad
 
-Idee: Ziel für den Lernpfad ist, mindestens einen Beitrag für Blog/Linkedin zu erstellen und zu veröffentlichen ([Beispiel: mit Zusammenfassung Interview](https://www.linkedin.com/feed/update/urn:li:activity:7110171493103198209/)). Das Ziel kann beliebig erweitert werden (mehrere Beiträge, mehrsprachig, Podcast, Video etc.)
-
+Willkommen im Lernpfad unseres lernOS KI-Leitfadens. Das zentrale Ziel für diesen Lernpfad ist es, mindestens einen KI-unterstützten Blog-/LinkedIn-Beitrag zu erstellen und zu veröffentlichen ([Beispiel: mit Zusammenfassung Interview](https://www.linkedin.com/feed/update/urn:li:activity:7110171493103198209/)) oder auch ein eigenes, kleines Lernprojekt mittels KI zu verfolgen und Ergebnisse zu produzieren. Das Ziel dieses Lernprojekts kann beliebig erweitert werden (mehrere Beiträge, mehrsprachig, Podcast, Video etc.).
 
 
 ## Kata 0 - Vorbereitungen und Kennenlernen
 Ein lernOS Lernpfad ist eine Zusammenstellung von Übungen (Katas), mit denen du neue Fähigkeiten erlernst und im Lauf der Zeit eine neue Haltung entwickelst. Ein Lernpfad kann innerhalb eines lernOS Sprints durchlaufen werden. Wir empfehlen eine Kata pro Woche durchzuführen, wenn Du den Leitfaden in 12 Wochen durchlaufen willst. Es ist aber auch möglich die Katas anders zu durchlaufen oder modularer zu nutzen.
 
-### Aufgabe: Rahmenbedingungen klären
+### Aufgabe 1: Rahmenbedingungen klären
 Die **Woche 0** ist die Woche, bevor es mit den Übungen im Lernpfad so richtig los geht. Nach Abschluss der Woche 0 sollten folgende Dinge festgelegt sein:
 
 1. Ob du alleine, im Tandem oder im Circle lernst
-2. Welche Hilfsmittel du zur Selbstorganisation verwendest (z.B. Videokonferenz-Tool für Circle)
-3. Bei Tandem und Circle: An welchen Terminen die wöchentlichen Treffen stattfinden und wann du dir zusätzlich Lernzeit im Kalender reserviert hast.
-4. Bei Tandem und Circle: Ob ihr die Katas vor oder in Euren wöchentlichen Treffen macht.
+2. Welche Hilfsmittel Ihr zur Selbstorganisation verwendet (z.B. ein Videokonferenz-Tool für Tandem oder Circle und ein OneNote zur Dokumentation)
+3. Bei Tandem und Circle: An welchen Terminen und in welcher Frequent die Treffen stattfinden (Empfehlung: 1 Stunde wöchentlich)
+4. Wann Du Dir ggf. zusätzlich etwas Lernzeit im Kalender reserviert hast (Empfehlung: 1-2 Stunden wöchentlich).
+5. Bei Tandem und Circle: Ob Ihr die Katas vor Euren Treffen durchgeht und im Treffen besprecht oder erst in Euren wöchentlichen Treffen absolviert.
 
-### Aufgabe: Lernt Euch kennen und sprecht über Eure Erwartungen!
-Die wichtigste Aufgabe in der ersten Woche ist es Euch gegenseitig besser kennenzulernen. Stellt Euch deshalb Euch gegenseitig vor und sprecht auch über Eure Erwartungen an die Gruppe und an Eure lernOS-Lernreise. 
+### Aufgabe 2: Lernt Euch kennen und sprecht über Eure Erwartungen!
+Die wichtigste Aufgabe in der ersten Woche ist es Euch gegenseitig besser kennenzulernen. Stellt Euch deshalb gegenseitig vor und sprecht auch über Eure Erwartungen an die Gruppe und an Eure Lernreise. 
 
-**Tipp:** Falls jemand aus eurer Gruppe bereits ein KI-Tool im Einsatz hat, dann fragt doch einfach die KI, welche Icebreaker zum Kennenlernen sie für Eure Situation empfehlen würde.
+**Tipp:** Falls jemand aus Eurer Gruppe bereits ein KI-Tool im Einsatz hat, dann fragt doch die KI, welche Icebreaker zum Kennenlernen sie für Eure Situation empfehlen würde.
 
 Als Einstiegsfragen könnt ihr diese Fragen nutzen:
 
 - Was bedeutet KI für Dich persönlich?
-- Wann war die Teilnahme an dem Lernpfad für Dich erfolgreich?
-- Welche Erwartungen habt ihr an den Lernpfad?
-- Wie viel Vorerfahrung habt ihr jeweils mit dem Thema?
+- Welche Erwartungen habt Ihr an den Lernpfad?
+- Woran merkst Du / merkt Ihr, dass die Teilnahme an dem Lernpfad für Dich / Euch erfolgreich war?
+- Wie viel Vorerfahrung hat jeder einzelne von Euch mit dem Thema?
+
+
 
 ## Kata 1 - Bewusstsein schaffen
 _In dieser Kata legst Du die Grundlagen für die Zusammenarbeit mit der künstlichen Intelligenz. Ein Schwerpunkt liegt dabei auf der Frage, wie für Dich eine verantwortungsvollen Nutzung von KI aussieht und welche Rahmenbedingungen es hierfür in Deinem Unternehmen gibt._
@@ -80,7 +82,6 @@ Eine mögliche Übung zur Vertiefung des Umgang mit KI kann darin bestehen, eine
 
 
 
-
 ## Kata 3 - KI als Dialogpartner
 _In dieser Kata erfährst Du die Entwicklungsschritte der KI und lernst, die unterschiedlichen Begrifflichkeiten (z.B. AI, Machine Learning, Deep Learning, LLM) im Bereich der künstlichen Intelligenz einzuordnen. Zudem kannst Du in ersten kleinen Übungen zielgerichtete Eingaben mittels einer generativen KI ausführen._ 
 
@@ -102,23 +103,24 @@ Nimm Dir 10-15 Minuten Zeit für einen längeren Dialog mit einer chatbasierten 
 
 **Tipp:** Manche KI-Systeme wie z. B. [ChatGPT](https://chat.openai.com) bieten eine Sprachchat-Funktion, mit der sich der Dialog natürlicher anfühlt, eben fast ein bisschen so wie das Gespräch mit einem Menschen. Wusstest Du, dass Du die Konversation jederzeit fortsetzen und Deine Anfrage überarbeiten oder einfach komplett neu starten kannst?
 
+
 ## Kata 4 - Reflexion mit ersten Lernergebnissen
 (Hintergrund Boxenstopp 1)
 
 - Reflexions Check-In:
   - Überlegt Euch, was Ihr aus den letzten 3 Wochen bisher mitnehmen konntet. Fragt die KI, welche Reflexionsmethode sie Euch dafür vorschlagen würde.
-  - Und stellt Euch kurz den Stand Eures KI-Lernprojekts vor, z.B. nach der Woop-Methode (Wish - Options - Obstacles - Plan) - Prof. Oettingen (Hamburg) Quelle: https://woopmylife.org/
+  - Stellt Euch kurz den Stand Eures KI-Lernprojekts vor, z.B. nach der Woop-Methode (Wish - Options - Obstacles - Plan) - Prof. Gabriele Oettingen (Hamburg) Quelle: https://woopmylife.org/
  
   - Welche Kriterien zur Reflexion könnten hier angewendet werden? Z.B. Anwendungserfahrung und offene Fragen und Erfahrungen über die Anwendung hinaus
   - Was sind drei konkrete, bisherige Learnings?
 
-Tipp:
-- Wusstest Du, dass du Deiner KI einer Persona geben bzw. sie enstprechend framen geben kannst?
+**Tipp:**
+- Wusstest Du, dass du Deiner KI einer Persona geben bzw. sie entsprechend framen kannst (Z.B. Antworte im Stile von Ernest Hemingway, Marcel Reich-Ranicki, Agatha Christie, Joane K. Rowling)
 
 **Tipp:** Chatbasierte KIs sind gut darin Frameworks oder Modelle (z. B. aus Business, Forschung, Psychologie, ...) für bestimmte Szenarien anzuwenden. Frage ChatGPT z. B. etwas wie "Erstelle mir eine SWOT-Analyse für den Verkauf von besonders leichten Premium-Smartphones in der Schweiz".
 
-## Kata 5 - KI-Anwendungsfelder am eigenen Arbeitsplatz
 
+## Kata 5 - KI-Anwendungsfelder am eigenen Arbeitsplatz
 In [Kata 2] haben wir zum ersten Mal die [KI-Tools und Services](1-7-ai-tools-services.md) thematisiert. In [Kata 5] wollen wir diese nochmals aufgreifen und vertiefen, indem wir sie mit realen, praxisorientierten KI-Anwendungsfeldern verknüpfen.
 
 Grundsätzlich lassen sich KI-Tools den folgenden **Kategorien** zuordnen:
@@ -132,9 +134,10 @@ Grundsätzlich lassen sich KI-Tools den folgenden **Kategorien** zuordnen:
 
 Du selbst kennst Deinen Arbeitsplatz / Dein Projekt und die damit verbundenen Tätigkeiten am besten. Überlege Dir, welche der Tool-Kategorien für Dich und Deine Arbeit wichtig sind oder sein könnten. Wenn Du beispielsweise viel mit Texten arbeitest (egal, ob lesend, schreibend oder zusammenfassend), werden höchstwahrscheinlich KI-gestützte Text-Tools besonders interessant sein. Solltest Du hingegen viel mit Ton- und/oder Videos arbeiten (z.B. mit Blick auf die Erstellung digitaler Lerninhalte oder mit Blick auf die Gestaltung von Marketingaktivitäten), wirf am besten einen besonderen Blick auf KI-gestützte Audio- und/oder Video-Tools.
 
-Um Dich bei dem gedanklichen Einstieg zu unterstützen, nutze gerne die folgende Zusammenstellung möglicher [KI-Anwendungsfelder](1-5-ai-application-areas.md). Schaue Dir diese in Ruhe an und überlege Dir, welche Anwendungsfelder sich für deinen Arbeitsplatz / dein Projekt ergeben.
+### Aufgabe 1:
+Um Dich bei dem gedanklichen Einstieg zu unterstützen, nutze gerne die folgende Zusammenstellung möglicher [KI-Anwendungsfelder](1-5-ai-application-areas.md). Schaue Dir diese in Ruhe an und überlege Dir, welche Anwendungsfelder sich für Deinen Arbeitsplatz / Dein Projekt ergeben.
 
-### Aufgabe:
+### Aufgabe 2:
 Formuliere 2-3 kurze Anwendungsszenarien (Use-Cases) und beschreibe, bei welchen konkreten Arbeitsschritten Dir KI-Tools aus den o.g. Kategorien und Anwendungsfeldern helfen könnten.
 
 **Beispiel 1**: "Im Rahmen meiner Arbeit schreibe ich regelmäßig Gesprächsprotokolle. KI-gestützte Audio-Tools könnten mir im Optimalfall dabei helfen, Gespräche aufzuzeichnen und in Verbindung mit KI-gestützten Text-Tools zusammenzufassen."
@@ -144,18 +147,19 @@ Formuliere 2-3 kurze Anwendungsszenarien (Use-Cases) und beschreibe, bei welchen
 ### Vertiefung (optional)
 Entscheide dich für mindestens zwei Tools, die Du testen möchtest. Verschaffe Dir Zugang zu diesen Tools. Sollte dies nicht umsetzbar sein, beispielsweise aus Kosten- und / oder Berechtigungsgründen, suche nach Alternativen, die den gleichen Zweck erfüllen. Sobald Du passende Tools gefunden hast, probiere sie in den von Dir beschriebenen Anwendungsszenarien aus. Notiere Deine Erfahrungen und teile sie mit den anderen Interessierten.
 
-## Kata 6 - Vertiefung Deines Lernziels: Praxis-Einsatz der KI beim Blogpost / Lernprojekt
 
+## Kata 6 - Vertiefung Deines Lernziels: Praxis-Einsatz der KI beim Blogpost / Lernprojekt
 In der vergangenen Woche hast Du unterschiedliche Kategorien und Anwendungsfelder kennengelernt, denen sich die meisten KI-Tools zuordnen lassen. Darüber hinaus hast Du Dir die Frage gestellt, ob und wie Dich einzelne Tools bei Deiner Arbeit unterstützen können. Die Antwort auf diese Fragen hast Du erhalten, indem Du konkrete Anwendungsszenarien für Deine Arbeit formuliert und optional einzelne Tools eingesetzt und getestet hast.
 
 Lasse Deine Erfahrungen aus der letzten Woche Revue passieren und mache Dir Gedanken zu dem übergeordneten Lernziel dieses Leitfadens. Es geht darum, mit Hilfe von KI einen **Blogpost-Beitrag** zu erstellen oder alternativ **Dein persönliches Lernprojekt** auszugestalten. Hintergrundinformation => Was ist ein Blog-Post: [Blogpost Begriffserklärung &amp; Definition](https://www.seo-analyse.com/seo-lexikon/b/blogpost/)) 
 
-### Aufgabe: Beantworte Dir nachfolgende Fragen
+### Aufgabe 1: Skizziere Dir Deine Blogbeitrags-/Lernprojekt-Idee
 
 - Worum soll es in Deinem Blogpost bzw. in Deinem Lernprojekt konkret gehen?
 - Wie soll Dein Blogpost bzw. Dein Lernprojekt aufgebaut sein und welche Elemente soll er/es beinhalten?
 - Welche KI-Tools können Dir bei welchen Elementen helfen? Nutze an dieser Stelle auch noch einmal die Hinweise zu den Kategorien aus [Kata 5]
-  
+
+### Aufgabe 2: Starte einen ersten Versuch zur Umsetzung
 Wenn Du diese Fragen beantwortet hast, suche Dir aus den bekannten Kategorien und Anwendungsfeldern der [Kata 5] passende aus, die Du mit dem entsprechend verfügbaren Tool zur Umsetzung Deiner Idee benötigst.
 
 Und los geht´s! Wir wünschen Dir viel Spaß bei den nächsten Schritten zum Umsetzen Deiner Idee!
@@ -164,10 +168,10 @@ Und los geht´s! Wir wünschen Dir viel Spaß bei den nächsten Schritten zum Um
 
 **Ergänzender Hinweis 2 (nur für die Praxisvariante "Blogpost"):** Solltest Du keinen Zugriff auf einen realen Blogpost haben, so kannst Du den Beitrag auch in einem gängigen Textverarbeitungsprogramm erstellen bzw. vorbereiten.
 
-**Tipp:** Die KI kann Dich als Feedbackpartner:in in Deiner Reflexion unterstützen. Teile mit ihr Deine bisherigen Ergebnisse und lasse Dir Feedback dazu geben, was Du verbessern kannst. Nutze in diesem Zusammenhang auch ggf. noch einmal die Inhalte und Erkenntnisse aus [Kata 3: KI als Dialogpartner]
+**Vertiefungs-Tipp:** Die KI kann Dich als Feedbackpartner:in weitergehend unterstützen. Teile mit Ihr dazu Deine bisherigen Ergebnisse und lasse Dir Feedback dazu geben, was Du verbessern kannst. Nutze in diesem Zusammenhang auch ggf. noch einmal die Erkenntnisse aus [Kata 3: KI als Dialogpartner]
+
 
 ## Kata 7 - Zusammenarbeit mit KI
-
 Zum Einstieg in diese Kata empfehlen wir, sich zunächst einmal das Kapitel [Maschinelles vs. Menschliches Lernen](1-4-machine-vs-human-learning.md) anzuschauen, um die Hintergründe im Zusammenspiel von Mensch und Maschine genauer zu verstehen. Anschließend sollen Eure Prompting Skills im direkten Austausch mit generativer KI gezielt erweitert werden.
 
 KI-Systeme können sehr unterschiedlich eingesetzt werden und die Art des Einsatzes hat erhebliche Auswirkungen auf die Ergebnisse. Studien zeigen, dass Wissensarbeiter durch die Zusammenarbeit mit KI ihre Produktivität und die Qualität der Ergebnisse steigern können (vgl. [KI macht Wissensarbeiter schneller und besser (faz.net)](https://www.faz.net/pro/d-economy/kuenstliche-intelligenz/ki-macht-wissensarbeiter-schneller-und-besser-19183974.html)). Diese Produktivitätssteigerung kann jedoch nur dann genutzt werden, wenn KI-Systeme richtig eingesetzt werden.
@@ -199,17 +203,20 @@ Vertiefung: Lasst die KI Eure dokumentierten Ergebnisse als visualisierten Beitr
 
 **Tipp:** Die KI kann Dich als Feedbackpartner in Deiner Reflexion unterstützen. Teile mit ihr Deine bisherigen Ergebnisse und lasse Dir Feedback dazu geben, was Du verbessern kannst.
 
-## Kata 9 - KI als Träumer / Halluzinator / Lügner
-*Ein wichtiger Teil der kompetenten Nutzung von KI-Systemen besteht darin ein intuitives Verständnis davon zu entwickeln, wofür sich die KI gut eignet und wie man dazu am besten mit ihr schreiben bzw. sprechen sollte. Gleichzeitig ist es aber auch wichtig, Gefahren zu kennen und diese zu vermeiden. Diese Kata zeigt Dir, wie die Überzeugungskraft von sprachbasierten KIs gefährlich werden kann, wenn diese Gefahren nicht bekannt sind.*
 
-### Trainiere Deine Intuition im Umgang mit KI!
+## Kata 9 - KI als Träumer, Halluzinator oder Lügner
+*Ein wichtiger Teil der kompetenten Nutzung von KI-Systemen besteht darin, ein intuitives Verständnis davon zu entwickeln, wofür sich die KI gut eignet und wie man dazu am besten mit ihr schreiben bzw. sprechen sollte. Gleichzeitig ist es aber auch wichtig, Gefahren zu kennen und diese zu vermeiden. Diese Kata zeigt Dir, wie die Überzeugungskraft von sprachbasierten KIs gefährlich werden kann, wenn diese Gefahren nicht bekannt sind.*
+
+### Hintergrund
 Das Ziel dieser Aufgabe ist es, ein fundiertes Verständnis für die Stärken und Grenzen von KI-Systemen zu entwickeln. Durch das Erstellen und Testen eigener Prompts lernst du, wie KI auf verschiedene Anfragen reagiert. Dies hilft dir, effektiver mit KI zu interagieren und realistische Erwartungen an ihre Leistungsfähigkeit zu setzen.
+
+### Aufgabe 1: Trainiere Deine Intuition im Umgang mit der KI
 
 1. **Entwicklung eigener Prompts:** Entwickle basierend auf den Beispielen und Lerninhalten der vorherigen Wochen 3-5 einfache Prompts. Diese können Fragen, Bitten um Erklärungen oder kreative Aufgaben sein. Versuche, eine Vielfalt an Prompts zu entwickeln – einige, die du denkst, die KI kann gut beantworten, und andere, die möglicherweise herausfordernder für sie sind. Dadurch erhältst du ein breiteres Bild von den Stärken und Schwächen des Systems.
 2. **Experimentieren mit der KI:** Teste deine erstellten Prompts mit einer KI, wie ChatGPT. Achte dabei auf die Art und Weise, wie die KI auf unterschiedliche Anfragen reagiert und welche Antworten sie liefert.
 3. **Reflexion:** Nachdem du alle Prompts ausprobiert hast, reflektiere deine Erfahrungen. Welche Arten von Anfragen wurden gut von der KI beantwortet? Bei welchen Fragen hatte die KI Schwierigkeiten?
 
-### Aufgabe: Bringe eine KI zum halluzinieren!
+### Aufgabe 2: Bringe eine KI zum Halluzinieren!
 Diese Aufgabe besteht darin zu versuchen, eine KI zum halluzinieren zu bringen. Eine Halluzination bezieht sich auf das Phänomen, bei dem ein KI-System unzutreffende, erfundene oder irreführende Informationen generiert, die nicht auf realen Daten oder Fakten basieren. Dies geschieht oft aufgrund der Beschränkungen des Trainingsdatensatzes und der Unfähigkeit der KI, Echtzeitinformationen oder externe Kontexte zu berücksichtigen.
 
 Hier sind ein paar Wege, wie man Halluzination hervorrufen kann:
@@ -218,7 +225,7 @@ Hier sind ein paar Wege, wie man Halluzination hervorrufen kann:
 - **Sehr vage und mehrdeutige Anfragen:** Stellen von unklaren oder mehrdeutigen Fragen kann die KI verwirren und zu halluzinierenden Antworten führen, da sie versucht, aus unvollständigen Informationen Sinn zu machen.
 - **Fiktion oder hypothetische Szenarien:** Die KI kann bei der Beantwortung von Fragen zu fiktiven oder hypothetischen Szenarien leicht halluzinieren, da sie zwischen realen und erfundenen Informationen nicht unterscheiden kann.
 
-Probiere den KI-Plattformen, bei denen Du Zugriff hast, aus wie leicht diese Halluzinieren können.
+Probiere bei den Dir zur Verfügung stehenden KI-Plattformen aus, wie leicht diese halluzinieren können.
 
 Du wirst schnell merken, dass das gar nicht so leicht ist, denn die meisten KI-Systeme sind mittlerweile gut darin Halluzinationen zu vermeiden. "Schwächere" KI-Modelle halluzinieren deutlich öfter als das bei stärkeren KI-Modellen der Fall ist. So ist z. B. GPT-3.5 leichter zu Halluzinationen zu bewegen, als das bei GPT-4.0 der Fall ist. Noch leichter geht es bei besonders kleinen Modellen wie z. B. "pplx-7b-chat", dass via [Perplexity Labs](https://labs.perplexity.ai) verfügbar ist.
 
@@ -234,13 +241,14 @@ produzierte diese Antwort:
 
 **Tipp:** Wenn Du direkteren Zugriff auf die Einstellungen eines KI-Systeme hast, dann kannst Du über die sog. "Temperatur" einstellen, wie kreativ oder genau die KI antworten soll. Das geht z. B. im [OpenAI API Playground](https://platform.openai.com/playground?mode=chat). Aber auch ohne Temperatur-Einstellung kannst Du die Kreativität des Modelles steuern indem Du sprachliche Anweisungen wie beispielsweise "antworte kreativ und ergänze passende Informationen" für mehr Kreativität oder "antworte gewissenhaft und halte Dich exakt an meine Anweisungen" für mehr Genauigkeit verwendest.
 
+
 ## Kata 10 - Souverän prompten
 *In Kata 7 wurde die effektive Zusammenarbeit zwischen Mensch und KI thematisiert und gezeigt, dass der richtige Einsatz von KI-Systemen die Produktivität steigern kann. Du hattest dort zudem einen strukturierten Ansatz – bestehend aus Persona, Einleitung, individuellem Inhalt, Format und zusätzlichen Informationen – erlernt um bessere Prompts zu erstellen. Diese Kata baut auf diesen Grundlagen auf und legt den Fokus auf fortgeschrittene Techniken bei der Erstellung von Prompts.*
 
 ### Hintergrund
 Lese Dir das Kapitel [Prompts erstellen](1-10-prompts-erstellen.md) durch!
 
-### Prompts mit mehreren Teilaufgaben
+### Aufgabe 1: Prompts mit mehreren Teilaufgaben
 Die Nutzung von mehrstufigen Prompts eignet sich um komplexe Aufgabenstellungen und Anfragen zu bearbeiten. Sie bestehen aus einer strukturierten Reihe von Teilaufgaben, um ein bestimmtes Ergebnis zu erzielen und sind besonders nützlich, wenn eine einzelne Anfrage nicht ausreicht, um die benötigten Informationen zu erfassen oder ein komplexes Problem zu lösen.
 
 ####  Vorgehen
@@ -254,31 +262,31 @@ Ziel: Erstellung eines Konzepts für ein halbtägiges Lernevent in einem Unterne
 Teilaufgaben
 
 1. Erstelle einen Vortragstitel und eine Vortragsgliederung für eine kurze Einführung in die Grundlagen der generativen KI, einschließlich ihrer wichtigsten Anwendungsbereiche wie Text- und Bildgenerierung.
-2. Überlege Dir 3x praktische Übungen, anhand derer die Teilnehmenden die Inhalte niedrigschwellig selbst ausprobieren können
+2. Überlege Dir 3 praktische Übungen, anhand derer die Teilnehmenden die Inhalte niedrigschwellig selbst ausprobieren können.
 3. Erstelle Stichpunkte für eine motivierende Abschlussrede, welche der Vorstand des Unternehmers halten soll.
 
 
-### Flipped Interaction: Wenn die KI Dich fragt!
+### Aufgabe 2: Flipped Interaction: Wenn die KI Dich fragt!
 Der Artikel [A Prompt Pattern Catalog to Enhance Prompt Engineering with ChatGPT](https://arxiv.org/pdf/2302.11382.pdf) bieten einen hilfreichen Katalog an wirkungsvollen Prompt-Mustern. Eines dieser Patterns ist das "Flipped Interaction"-Pattern, bei dem die übliche Interaktionsdynamik umgekehrt wird: Anstatt dass der Nutzer Fragen stellt, bittet er das Sprachmodell (LLM), Fragen zu stellen, um ein bestimmtes Ziel zu erreichen.
 
 ####  Vorgehen
 
 1. **Zielsetzung**: Der Nutzer definiert ein Ziel, und das Modell stellt daraufhin zielgerichtete Fragen.
 2. **Dauer und Struktur**: Der Nutzer legt fest, wie lange die Fragephase andauern soll und wie viele Fragen pro Durchgang gestellt werden.
-3. **Spezifizität und Kontext**: Je genauer die Anweisungen und der Kontext, desto effektiver kann das Modell Informationen sammeln.
+3. **Spezifität und Kontext**: Je genauer die Anweisungen und der Kontext, desto effektiver kann das Modell Informationen sammeln.
 
 #### Beispiel: KI-Wissenscheck
 Nutze z. B. den folgenden Prompt:
 > Ich möchte mein Wissen im Bereich der Künstlichen Intelligenz (KI) einschätzen und erweitern. Bitte stelle mir grundlegende Fragen zu KI-Themen, um mein aktuelles Verständnis zu beurteilen. Fokussiere dich auf elementare Konzepte wie "generative KI", "Large Language Models" (LLMs) oder "Halluzinationen" und verzichte auf zu schwere Inhalte. Beginne mit einfachen Fragen und steigere schrittweise den Schwierigkeitsgrad, basierend auf meinen Antworten. Ziel ist es, herauszufinden, auf welchem Niveau mein Wissen steht und welche Bereiche ich vertiefen sollte.
 
-**Tipp:** Du kannst das "Flipped Interaction"-Pattern nutzen um die KI Deinen Prompt verbessern zu lassen. Bitte die KI, Dir Rückfragen zu deinem ursprünglichen Prompt zu stellen und Dir Vorschläge für Verbesserungen zu geben. Dies hilft dir, Unklarheiten in deinem Prompt zu erkennen und ihn genauer zu formulieren. Am Schluss bittest Du die KI darum den verbesserten Prompt für Dich zu formulieren. Das macht deinen Prompt nicht nur präziser, sondern erhöht auch die Effizienz und Zielgenauigkeit der KI.
+**Tipp:** Du kannst das "Flipped Interaction"-Pattern nutzen um die KI Deinen Prompt verbessern zu lassen. Bitte die KI, Dir Rückfragen zu Deinem ursprünglichen Prompt zu stellen und Dir Vorschläge für Verbesserungen zu geben. Dies hilft Dir, Unklarheiten in Deinem Prompt zu erkennen und ihn genauer zu formulieren. Am Schluss bittest Du die KI darum den verbesserten Prompt für Dich zu formulieren. Das macht Deinen Prompt nicht nur präziser, sondern erhöht auch die Effizienz und Zielgenauigkeit der KI.
 
 
 ## Kata 11 - Review und Lessons learned
 
-Jetzt ist es so weit. Nach 12 Wochen geht die letzte Runde des Circles zu Ende und es ist an der Zeit, diese Wochen noch einmal Revue passieren zu lassen. Zum Abschluss kannst Du gerne besprechen, was für Dich die größten Erkenntnisse, Überraschungen oder Herausforderungen im Umgang mit der KI waren.
+Jetzt ist es so weit. Nach 12 Wochen geht die letzte Runde des Lernpfads zu Ende und es ist an der Zeit, diese Wochen noch einmal Revue passieren zu lassen. Zum Abschluss kannst Du gerne besprechen, was für Dich die größten Erkenntnisse, Überraschungen oder Herausforderungen im Umgang mit der KI waren.
 
-Die folgenden Fragen können Euch als Leitfaden dienen:
+Die folgenden Fragen können als Leitfaden dienen:
 
 - Was nimmst Du als entscheidende Erfahrungen / Highlights aus den letzten Wochen mit?
 - Was waren für Dich die wichtigsten Meilensteine / Entwicklungsschritte?
@@ -287,3 +295,6 @@ Die folgenden Fragen können Euch als Leitfaden dienen:
 - Welche Aktivitäten oder Anforderungen könnte es in der Zukunft geben, um Deine menschliche und künstliche Intelligenz noch besser miteinander zu verknüpfen?
 
 **Tipp:** Im Review ging es viel darum, wie Du Deine Lernreise und Deine Erfahrungen wahrgenommen und interpretiert hast. Du kannst Dir aber sicher vorstellen, dass eine andere Person die gleichen Ergebnisse ganz anders wahrgenommen und interpretiert hat. Nutze einen chatbasierte KI um andere Perspektiven zu generieren. Beschreibe dazu erst sachlich nüchtern Deine Lernreise inklusive wichtiger Ereignisse. Schreibe dann, wie Du Deine Lernreise wahrgenommen hast und diese bewertest. Bitte die KI dann drei Personen mit unterschiedlichen Persönlichkeiten zu erfinden und für diese zu simulieren, wie diese deine Lernreise beurteilt hätten.
+
+**Abschluss-Tipp: Erfolge feiern**
+Juchu, hurra, Ihr habt es geschafft - habt über mehrere Wochen / Tage lang gemeinsam gelernt, habt nicht aufgegeben, seid drangeblieben und habt so viel über KI und das Prompten gelernt, nicht nur theoretisch, sondern hoffentlich auch ganz praktisch! Und Ihr habt in dieser Zeit ein Vertrauensverhältnis zueinander aufgebaut, das mindestens so wertvoll ist, wie die gemeinsame Arbeit und von dem Ihr noch lange profitieren werdet. Deswegen ist jetzt Zeit, Euren Erfolg zu feiern. Trefft Euch vielleicht zu einem gemeinsamen kleinen Abschluss-Event (persönlich oder online) und genießt Euren Lernerfolg! Die KI kann Euch ggf. ein guter Ideengeber dafür sein. Das Leitfaden-Team wünscht Euch viel Freude und Erfolg weiterhin und freut sich auf Euer Feedback!
