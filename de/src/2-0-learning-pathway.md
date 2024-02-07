@@ -6,7 +6,7 @@ Willkommen im Lernpfad unseres lernOS KI-Leitfadens. Das zentrale Ziel für dies
 
 
 ## Kata 0 - Vorbereitungen und Kennenlernen
-Ein lernOS Lernpfad ist eine Zusammenstellung von Übungen (Katas), mit denen du neue Fähigkeiten erlernst und im Lauf der Zeit eine neue Haltung entwickelst. Ein Lernpfad kann innerhalb eines lernOS Sprints durchlaufen werden. Wir empfehlen eine Kata pro Woche durchzuführen, wenn Du den Leitfaden in 12 Wochen durchlaufen willst. Es ist aber auch möglich die Katas anders zu durchlaufen oder modularer zu nutzen.
+Ein lernOS Lernpfad ist eine Zusammenstellung von Übungen (Katas), mit denen Du neue Fähigkeiten erlernst und im Lauf der Zeit eine neue Lernhaltung (Mindset) entwickeln kannst. Ein Lernpfad kann innerhalb eines lernOS Sprints durchlaufen werden. Wir empfehlen eine Kata pro Woche durchzuführen, wenn Du den Leitfaden in 12 Wochen durchlaufen kannst. Es ist aber auch möglich, die Katas anders zu durchlaufen oder modularer zu nutzen.
 
 ### Aufgabe 1: Rahmenbedingungen klären
 Die **Woche 0** ist die Woche, bevor es mit den Übungen im Lernpfad so richtig los geht. Nach Abschluss der Woche 0 sollten folgende Dinge festgelegt sein:
@@ -104,20 +104,19 @@ Nimm Dir 10-15 Minuten Zeit für einen längeren Dialog mit einer chatbasierten 
 **Tipp:** Manche KI-Systeme wie z. B. [ChatGPT](https://chat.openai.com) bieten eine Sprachchat-Funktion, mit der sich der Dialog natürlicher anfühlt, eben fast ein bisschen so wie das Gespräch mit einem Menschen. Wusstest Du, dass Du die Konversation jederzeit fortsetzen und Deine Anfrage überarbeiten oder einfach komplett neu starten kannst?
 
 
-## Kata 4 - Reflexion mit ersten Lernergebnissen
-(Hintergrund Boxenstopp 1)
+## Kata 4 - Reflexion der ersten Lernergebnisse
+(Erster Zwischenstand, der gegebenenfalls die Möglichkeit zu einem 1. übergreifenden Boxenstopp bietet)
 
-- Reflexions Check-In:
-  - Überlegt Euch, was Ihr aus den letzten 3 Wochen bisher mitnehmen konntet. Fragt die KI, welche Reflexionsmethode sie Euch dafür vorschlagen würde.
-  - Stellt Euch kurz den Stand Eures KI-Lernprojekts vor, z.B. nach der Woop-Methode (Wish - Options - Obstacles - Plan) - Prof. Gabriele Oettingen (Hamburg) Quelle: https://woopmylife.org/
- 
-  - Welche Kriterien zur Reflexion könnten hier angewendet werden? Z.B. Anwendungserfahrung und offene Fragen und Erfahrungen über die Anwendung hinaus
-  - Was sind drei konkrete, bisherige Learnings?
+### Reflexions Check-In:
+  - Überlegt Euch, was Ihr aus den ersten 4 Wochen / Katas bisher mitnehmen konntet. Fragt die KI doch am besten einmal, welche Reflexionsmethode sie Euch dafür vorschlagen würde und wendet sie an.
+  - Stellt Euch dann kurz den aktuellen Stand Eures Blogbeitrags-Entwurfs oder Eures KI-Lernprojekts vor. Falls Euch die KI hierzu nicht nach Euren Vorstellunge berät, könntet Ihr z.B. nach der [Woop-Methode](https://woopmylife.org/) (Wish - Outcome - Obstacle - Plan) von Prof. Gabriele Oettingen aus Hamburg vorgehen.
+  - Wendet gerne verschiedene Kriterien zur Reflexion an, z.B. Anwendungserfahrung, offene Fragen und Erfahrungswerte auch über die Anwendung hinaus.
+  - Was sind drei konkrete, bisherige Learnings aus Eurer Sicht?
 
-**Tipp:**
-- Wusstest Du, dass du Deiner KI einer Persona geben bzw. sie entsprechend framen kannst (Z.B. Antworte im Stile von Ernest Hemingway, Marcel Reich-Ranicki, Agatha Christie, Joane K. Rowling)
+**Tipp 1:**
+- Wusstest Du, dass du Deiner KI auch eine Persona geben bzw. sie entsprechend framen kannst (Z.B. Antworte im Stile von Ernest Hemingway, Marcel Reich-Ranicki, Agatha Christie, Joane K. Rowling)?
 
-**Tipp:** Chatbasierte KIs sind gut darin Frameworks oder Modelle (z. B. aus Business, Forschung, Psychologie, ...) für bestimmte Szenarien anzuwenden. Frage ChatGPT z. B. etwas wie "Erstelle mir eine SWOT-Analyse für den Verkauf von besonders leichten Premium-Smartphones in der Schweiz".
+**Tipp 2:** Chatbasierte KIs sind gut darin, Frameworks oder Modelle (z.B. aus Business, Forschung oder Psychologie) für bestimmte Szenarien anzuwenden. Frage ChatGPT z.B. etwas wie: "Erstelle mir eine SWOT-Analyse für den Verkauf von besonders leichten Premium-Smartphones in der Schweiz".
 
 
 ## Kata 5 - KI-Anwendungsfelder am eigenen Arbeitsplatz
@@ -193,13 +192,15 @@ Je mehr Erfahrung man mit der KI sammelt, desto leichter gelingt eine intuitive 
 Erstelle einen komplexeren Prompt, der über die KI zu einer ersten zusammenfassenden (PowerPoint-)Präsentation oder einem Konzept für das Thema Deines Blogposts oder Deines Lernprojekts führt. Dies kannst Du dann im Zusammenspiel mit der KI weiter verfeinern und auch für verschiedene Zielgruppen ausprobieren lassen, z.B. eher aus Berater-Sicht für Entscheider:innen, aus Marketing-Sicht für einen Kunden oder aus Trainings-Sicht für Deine Lernenden.
 
 
-## Kata 8 - Reflexion mit weiteren Lernergebnissen
-(Hintergrund Boxenstopp 2)
-Reflexions Check-In: - Überlegt Euch, was Ihr aus den letzten Wochen weiter mitnehmen konntet. Reflektiert kritisch in Eurem Circle den aktuellen Stand zu Eurem Thema / Projekt und zeigt Euch gegenseitig anhand der Beispiele die Grenzen Eurer KI Tool-Nutzung auf (z.B. Impulse zur Steigerung des Kreativitätslevels vs. falsche Informationen zusammenspinnen und dadurch Verzerrungen / Manipulationen erzeugen). 
+## Kata 8 - Reflexion der weiteren Lernergebnissen
+(Zweiter Zwischenstand, der gegebenenfalls die Möglichkeit zu einem 2. übergreifenden Boxenstopp bietet)
 
-Gegenseitige Präsentation der Ergebnisse in Verbindung mit Schwwierigkeiten / Herausforderungen und Highlights / Quick-Wins / Happy Moments
+### Reflexions Check-In:
+  - Überlegt Euch, was Ihr aus den letzten Wochen an neuen Erkenntnissen mitnehmen konntet und präsentiert Euch diese Ergebnisse gegenseitig. Was waren besondere Herausforderungen oder Highlights. An welchen Stellen, konntet Ihr Quick-Wins oder gar Glücksmomente erleben und wo traten eher Barrieren und Frustmomente zutage?
+  - Reflektiert kritisch in Eurer Gruppe den aktuellen Stand zu Eurem Blogbeitrag oder Eurem KI-Lernprojekt und zeigt Euch gegenseitig anhand der Beispiele die Grenzen Eurer KI Tool-Nutzung auf (z.B. KI-Impulse zur Steigerung des Kreativitätslevels vs. KI spinnt falsche Informationen zusammen und erzeugt dadurch Verzerrungen oder gar inhaltliche Manipulationen).
 
-Vertiefung: Lasst die KI Eure dokumentierten Ergebnisse als visualisierten Beitrag zusammenfassen, den Ihr ggf. veröffentlichen könnt (Text, Bild oder audio-visuell, Video).
+### Vertiefung (optional)
+Lasst die KI Eure dokumentierten Ergebnisse als visualisierten Beitrag zusammenfassen, den Ihr ggf. später ebenfalls veröffentlichen könnt (in Text-, Bild- oder audio-visueller Form).
 
 **Tipp:** Die KI kann Dich als Feedbackpartner in Deiner Reflexion unterstützen. Teile mit ihr Deine bisherigen Ergebnisse und lasse Dir Feedback dazu geben, was Du verbessern kannst.
 
@@ -253,7 +254,7 @@ Die Nutzung von mehrstufigen Prompts eignet sich um komplexe Aufgabenstellungen 
 
 ####  Vorgehen
 
-1. **Zieldefinition Beginnen mit einer klaren Definition des Ziels. Du kannst dafür z. B. den in Kata 7 beschrieben Aufbau nutzen.
+1. **Zieldefinition** Beginnen mit einer klaren Definition des Ziels. Du kannst dafür z. B. den in Kata 7 beschrieben Aufbau nutzen.
 2. **Aufteilung in Teilaufgaben** Leite aus dem Ziel kleinere Teilaufgaben ab, die jeweils auf einen spezifischen  Aspekt der Gesamtaufgabe ausgerichtet sind. Schreibe für jede Teilaufgabe eine eigene Anweisung.
 
 #### Beispiel: Erstellung eines Konzeptes für ein Lernevent
