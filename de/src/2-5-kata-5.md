@@ -3,7 +3,7 @@
 
 ### Reflexions Check-In:
   - Überlegt Euch, was Ihr aus den ersten 4 Wochen / Katas bisher mitnehmen konntet. Fragt die KI doch am besten einmal, welche Reflexionsmethode sie Euch dafür vorschlagen würde und wendet sie an.
-  - Stellt Euch dann kurz den aktuellen Stand Eures Blogbeitrags-Entwurfs oder Eures KI-Lernprojekts vor. Falls Euch die KI hierzu nicht nach Euren Vorstellunge berät, könntet Ihr z.B. nach der [Woop-Methode](https://woopmylife.org/) (Wish - Outcome - Obstacle - Plan) von Prof. Gabriele Oettingen aus Hamburg vorgehen.
+  - Stellt Euch dann kurz den aktuellen Stand Eures Blogbeitrags-Entwurfs oder Eures KI-Lernprojekts vor.
   - Wendet gerne verschiedene Kriterien zur Reflexion an, z.B. Anwendungserfahrung, offene Fragen und Erfahrungswerte auch über die Anwendung hinaus.
   - Was sind drei konkrete, bisherige Learnings aus Eurer Sicht?
 
