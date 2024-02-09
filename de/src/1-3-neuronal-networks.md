@@ -6,7 +6,6 @@
 - Refinement
 - Transformer (Tokens, Kontext, Decoder, Encoder, Embedding)
 - Quantization/Kompression
-- Test
 
 Videos:
 
