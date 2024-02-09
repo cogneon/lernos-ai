@@ -44,7 +44,7 @@ Diese Angebote bieten gleich mehrere Werkzeuge für die verschiedenen Anwendungs
 KI-Text-Tools ermöglichen die Interaktion mit dem Tool wie in einer Unterhaltung mit einem anderen Menschen. Sie unterstützen die Online-Recherche und geben vielfältige Hilfestellung bei der Texterstellung, ebenso bei Übersetzungen und Überarbeitungen.
 
 - [**AudioPen**](https://audiopen.ai): Generiert aus mehrsprachigem, selbst undeutlichem oder stichpunktartigem Sprachinput ein- oder multisprachigen Text, kann in kostenpflichtiger Version Texte im Stil überarbeiten, kostenfreie Basis-Nutzung.
-- [**Bard**](https://bard.google.com/chat): KI-Experiment von Google, mit dem Übersetzungen und Texte generiert werden können, deutschsprachig, kostenfreie Basis-Nutzung.
+- [**Gemini**](https://gemini.google.com/) (früher [**Bard**](https://bard.google.com/chat)): KI-Experiment von Google, mit dem Übersetzungen und Texte generiert werden können, deutschsprachig, kostenfreie Basis-Nutzung.
 - [**Bing Chat / Copilot**](https://www.bing.com/search): Kommunikation via Text, Audio und Bildeingabe auf der Basis von _GPT-4;_Funktionsumfang abhängig vom Betriebssystem, deutschsprachig, kostenfreie Nutzung.
 - [**BlogMojo**](https://blogmojo.ai): Texterstellung mit Stil des individuellen Blogs, deutschsprachig, kostenfreie Basis-Nutzung, DSGVO-konform.
 - [**ChatGPT**](https://chat.openai.com/auth/login): Textchat zur Textentwicklung, Übersetzung, Textbearbeitung etc. mit Datenstand bis Januar 2023, kostenfreie Basis-Nutzung. 
