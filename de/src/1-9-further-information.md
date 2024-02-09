@@ -34,7 +34,7 @@ ToDo: für jeden Link einen Begleitsatz erstellen
 - [KI Update](https://kiupdate.podigee.io/) - Podcast von Heise zu den Folgen der generativen KI für unsere Arbeit, unsere Freitzeit und die Gesellschaft
 - [KI Verstehen](https://www.deutschlandfunk.de/ki-verstehen-102.html) - Podcast des Deutschlandfunk mit wöchentlichen Antworten auf Fragen zum Umgang mit Künstlicher Intelligenz.
 - [Latent Space - The AI Engineer Podcast](https://www.latent.space/podcast) - der Podcast von und für KI-Ingenieure (technisch)
-- [Lex Fridman Podcast]([Lex Fridman Podcast - Lex Fridman](https://lexfridman.com/podcast/)) - folgen mit bekannten Personen der KI-Szene, z.B.
+- [Lex Fridman Podcast](https://lexfridman.com/podcast/) - folgen mit bekannten Personen der KI-Szene, z.B.
 
 **Videos:**
 

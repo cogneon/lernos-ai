@@ -1,0 +1,26 @@
+## Kata 5 - KI-Anwendungsfelder am eigenen Arbeitsplatz
+In [Kata 2] haben wir zum ersten Mal die [KI-Tools und Services](1-7-ai-tools-services.md) thematisiert. In [Kata 5] wollen wir diese nochmals aufgreifen und vertiefen, indem wir sie mit realen, praxisorientierten KI-Anwendungsfeldern verknüpfen.
+
+Grundsätzlich lassen sich KI-Tools den folgenden **Kategorien** zuordnen:
+
+1. KI-gestützte Codierungshilfen (Unterstützung beim Prompting)
+2. KI-gestützte Text-Tools (Textgenerierung- und bearbeitung)
+3. KI-gestützte Bild-Tools (Bildgenerierung- und bearbeitung)
+4. KI-gestützte Audio-Tools (Tongenerierung und -bearbeitung)
+5. KI-gestützte Video-Tools (Videogenerierung und -bearbeitung)
+6. KI-gestützte Multi-Tools (Tools, die verschiedene der o.g. Kategorien kombiniert nutzbar machen)
+
+Du selbst kennst Deinen Arbeitsplatz / Dein Projekt und die damit verbundenen Tätigkeiten am besten. Überlege Dir, welche der Tool-Kategorien für Dich und Deine Arbeit wichtig sind oder sein könnten. Wenn Du beispielsweise viel mit Texten arbeitest (egal, ob lesend, schreibend oder zusammenfassend), werden höchstwahrscheinlich KI-gestützte Text-Tools besonders interessant sein. Solltest Du hingegen viel mit Ton- und/oder Videos arbeiten (z.B. mit Blick auf die Erstellung digitaler Lerninhalte oder mit Blick auf die Gestaltung von Marketingaktivitäten), wirf am besten einen besonderen Blick auf KI-gestützte Audio- und/oder Video-Tools.
+
+### Aufgabe 1:
+Um Dich bei dem gedanklichen Einstieg zu unterstützen, nutze gerne die folgende Zusammenstellung möglicher [KI-Anwendungsfelder](1-5-ai-application-areas.md). Schaue Dir diese in Ruhe an und überlege Dir, welche Anwendungsfelder sich für Deinen Arbeitsplatz / Dein Projekt ergeben.
+
+### Aufgabe 2:
+Formuliere 2-3 kurze Anwendungsszenarien (Use-Cases) und beschreibe, bei welchen konkreten Arbeitsschritten Dir KI-Tools aus den o.g. Kategorien und Anwendungsfeldern helfen könnten.
+
+**Beispiel 1**: "Im Rahmen meiner Arbeit schreibe ich regelmäßig Gesprächsprotokolle. KI-gestützte Audio-Tools könnten mir im Optimalfall dabei helfen, Gespräche aufzuzeichnen und in Verbindung mit KI-gestützten Text-Tools zusammenzufassen."
+
+**Beispiel 2**: "Es ist Teil meiner Aufgabe, Texte unserer Marketing-Abteilung mit passendem Bildmaterial anzureichern. KI-gestützte Bild-Tools könnten mich dabei unterstützen, passende Motive zu entwerfen, die an unsere Kommunikationsrichtlinien angepasst sind."
+
+### Vertiefung (optional)
+Entscheide dich für mindestens zwei Tools, die Du testen möchtest. Verschaffe Dir Zugang zu diesen Tools. Sollte dies nicht umsetzbar sein, beispielsweise aus Kosten- und / oder Berechtigungsgründen, suche nach Alternativen, die den gleichen Zweck erfüllen. Sobald Du passende Tools gefunden hast, probiere sie in den von Dir beschriebenen Anwendungsszenarien aus. Notiere Deine Erfahrungen und teile sie mit den anderen Interessierten.
