@@ -96,7 +96,7 @@ Auch OpenAI (die Entwickler von ChatGPT) beschreiben in ihrem Artikel <a href="h
 
 
 
-#### #### Bereitstellen von Beispielen
+#### Bereitstellen von Beispielen
 
 Eine weitere hilfreiche Technik, um bessere Ergebnisse zu erzielen, ist das One-Shot- und Few-Shot-Learning. Diese Methoden dienen dazu, dem KI-Modell zu demonstrieren, was genau erwartet wird. Das KI-Modell kann sich bei der Antwort dann an den Beispielen orientieren und antwortet eher so, wie es der Nutzer erwartet.
 
