@@ -14,7 +14,7 @@ Orientiere Dich in dieser Kata gerne am empfohlenen, schrittweisen Prompt-Aufbau
 - **Format**: Wenn notwendig, welches Format erwarte ich von der Ausgabe (z.B. Code, Paper, Pressemitteilung, Infografik)?
 - **Zusätzliche Information**: Weitere relevante Informationen, die einen Kontext spezifischer machen (z.B. Schreibstil, Filter, Historie, Technik, Methode).
 
-Je mehr Erfahrung man mit der KI sammelt, desto leichter gelingt eine intuitive Eingabe passender Prompts. Denke daran: Die besten Ergebnisse entstehen, wie bereits in Kata 3 dargestellt, im Zusammenspiel mit der KI. Nutze deshalb die erste Antwort auf Deine Eingabe dafür in einen Dialog mit der KI zu treten! Vertieft werden diese Gehversuche dann auch beim erweiterten Prompten in den Katas 9 und 10.
+Je mehr Erfahrung man mit der KI sammelt, desto leichter gelingt eine intuitive Eingabe passender Prompts. Denke daran: Die besten Ergebnisse entstehen, wie bereits in Kata 3 dargestellt, im Zusammenspiel mit der KI. Nutze deshalb die erste Antwort auf Deine Eingabe dafür in einen Dialog mit der KI zu treten! Vertieft werden diese Gehversuche dann auch beim erweiterten Prompten in [Kata 9] und [Kata 10].
 
 ### Vertiefung (optional)
 Erstelle einen komplexeren Prompt, der über die KI zu einer ersten zusammenfassenden (PowerPoint-)Präsentation oder einem Konzept für das Thema Deines Blogposts oder Deines Lernprojekts führt. Dies kannst Du dann im Zusammenspiel mit der KI weiter verfeinern und auch für verschiedene Zielgruppen ausprobieren lassen, z.B. eher aus Berater-Sicht für Entscheider:innen, aus Marketing-Sicht für einen Kunden oder aus Trainings-Sicht für Deine Lernenden.
