@@ -8,14 +8,14 @@ nav:
     - Grundlagen:
       - Geschichte der KI: 1-1-ai-history.md
       - KI & Maschinelles Lernen: 1-2-ai-machine-learning.md
-      - Neuronale Netzwerke: 1-3-neuronal-networks.md
+      - Neuronale Netze: 1-3-neuronal-networks.md
       - Maschinelles vs. Menschliches Lernen: 1-4-machine-vs-human-learning.md
       - KI-Anwendungsfelder: 1-5-ai-application-areas.md
       - KI-Modelle: 1-6-ai-models.md
       - KI-Tools & Services: 1-7-ai-tools-services.md
-      - KI & Gesellschaft: 1-8-ai-and-society.md
-      - Weiterführende Informationen: 1-9-further-information.md
-      - Prompts erstellen: 1-10-prompts-erstellen.md
+      - Prompts erstellen: 1-8-prompts-erstellen.md
+      - KI & Gesellschaft: 1-9-ai-and-society.md
+      - Weiterführende Informationen: 1-10-further-information.md
     - Lernpfad:
       - Einführung: 2-0-learning-pathway.md
       - Vorbereiten & Kennenlernen (Kata 1): 2-1-kata-1.md
