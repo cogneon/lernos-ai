@@ -51,6 +51,8 @@ theme:
     icon:
       logo: material/home
       repo: fontawesome/brands/github
+    features:
+      - toc.integrate
 
 extra_css:
   - stylesheets/extra.css
