@@ -1,0 +1,20 @@
+## Kata 7 - Zusammenarbeit mit KI
+Zum Einstieg in diese Kata empfehlen wir, sich zunächst einmal das Kapitel [Maschinelles vs. Menschliches Lernen](1-4-machine-vs-human-learning.md) anzuschauen, um die Hintergründe im Zusammenspiel von Mensch und Maschine genauer zu verstehen. Anschließend sollen Eure Prompting Skills im direkten Austausch mit generativer KI gezielt erweitert werden.
+
+KI-Systeme können sehr unterschiedlich eingesetzt werden und die Art des Einsatzes hat erhebliche Auswirkungen auf die Ergebnisse. Studien zeigen, dass Wissensarbeiter durch die Zusammenarbeit mit KI ihre Produktivität und die Qualität der Ergebnisse steigern können (vgl. [KI macht Wissensarbeiter schneller und besser (faz.net)](https://www.faz.net/pro/d-economy/kuenstliche-intelligenz/ki-macht-wissensarbeiter-schneller-und-besser-19183974.html)). Diese Produktivitätssteigerung kann jedoch nur dann genutzt werden, wenn KI-Systeme richtig eingesetzt werden.
+
+Eine Beobachtung ist, dass gerade Einsteiger:innen KI anfangs ähnlich wie eine Suchmaschine, im Sinne von "Eingabe rein - Antwort raus", nutzen. Während diese Nutzung legitim ist, gibt es deutlich bessere Wege, KI zu nutzen. Der erste Schritt besteht darin, zu erforschen und herauszufinden, wie die KI auf verschiedene Eingaben ("Prompts") unterschiedlich reagiert.
+
+### Aufgabe 1: Prompting-Hacks
+Orientiere Dich in dieser Kata gerne am empfohlenen, schrittweisen Prompt-Aufbau aus unserem kleinen Guide [Prompts erstellen](1-10-prompts-erstellen.md). Beachte nun für Deinen Blogpost / Dein Lernprojekt weiterführend die folgenden Fragestellungen:
+
+- **Persona**: Welche Rolle soll das Sprachmodell bzw. die KI als Assistenz übernehmen (z.B. Softwareentwickler:in, Hochschulprofessor:in, Pressesprecher:in)?
+- **Einleitung**: Was erwarte ich vom Sprachmodell? Beginnt normalerweise mit einem Aktionswort (z.B. Beschreibe mir, Erkläre mir, Erstelle mir).
+- **Individueller Inhalt**: Der eigentliche Text, der verarbeitet werden soll.
+- **Format**: Wenn notwendig, welches Format erwarte ich von der Ausgabe (z.B. Code, Paper, Pressemitteilung, Infografik)?
+- **Zusätzliche Information**: Weitere relevante Informationen, die einen Kontext spezifischer machen (z.B. Schreibstil, Filter, Historie, Technik, Methode).
+
+Je mehr Erfahrung man mit der KI sammelt, desto leichter gelingt eine intuitive Eingabe passender Prompts. Denke daran: Die besten Ergebnisse entstehen, wie bereits in [Kata 3] dargestellt, im Zusammenspiel mit der KI. Nutze deshalb die erste Antwort auf Deine Eingabe dafür in einen Dialog mit der KI zu treten! Vertieft werden diese Gehversuche dann auch beim erweiterten Prompten in [Kata 9] und [Kata 10].
+
+### Vertiefung (optional)
+Erstelle einen komplexeren Prompt, der über die KI zu einer ersten zusammenfassenden (PowerPoint-)Präsentation oder einem Konzept für das Thema Deines Blogposts oder Deines Lernprojekts führt. Dies kannst Du dann im Zusammenspiel mit der KI weiter verfeinern und auch für verschiedene Zielgruppen ausprobieren lassen, z.B. eher aus Berater-Sicht für Entscheider:innen, aus Marketing-Sicht für einen Kunden oder aus Trainings-Sicht für Deine Lernenden.

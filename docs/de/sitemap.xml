@@ -2,77 +2,142 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://cogneon.github.io/</loc>
-         <lastmod>2023-12-01</lastmod>
+         <lastmod>2024-02-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://cogneon.github.io/1-0-basics/</loc>
-         <lastmod>2023-12-01</lastmod>
+         <lastmod>2024-02-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://cogneon.github.io/1-1-Grundidee/</loc>
-         <lastmod>2023-12-01</lastmod>
+         <lastmod>2024-02-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://cogneon.github.io/1-1-ai-history/</loc>
-         <lastmod>2023-12-01</lastmod>
+         <lastmod>2024-02-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://cogneon.github.io/1-10-prompts-erstellen/</loc>
+         <lastmod>2024-02-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://cogneon.github.io/1-2-ai-machine-learning/</loc>
-         <lastmod>2023-12-01</lastmod>
+         <lastmod>2024-02-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://cogneon.github.io/1-3-neuronal-networks/</loc>
-         <lastmod>2023-12-01</lastmod>
+         <lastmod>2024-02-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://cogneon.github.io/1-4-ai-application-areas/</loc>
-         <lastmod>2023-12-01</lastmod>
+         <loc>https://cogneon.github.io/1-4-machine-vs-human-learning/</loc>
+         <lastmod>2024-02-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://cogneon.github.io/1-5-ai-models/</loc>
-         <lastmod>2023-12-01</lastmod>
+         <loc>https://cogneon.github.io/1-5-ai-application-areas/</loc>
+         <lastmod>2024-02-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://cogneon.github.io/1-6-ai-tools-services/</loc>
-         <lastmod>2023-12-01</lastmod>
+         <loc>https://cogneon.github.io/1-6-ai-models/</loc>
+         <lastmod>2024-02-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://cogneon.github.io/1-7-ai-and-society/</loc>
-         <lastmod>2023-12-01</lastmod>
+         <loc>https://cogneon.github.io/1-7-ai-tools-services/</loc>
+         <lastmod>2024-02-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://cogneon.github.io/1-8-further-information/</loc>
-         <lastmod>2023-12-01</lastmod>
+         <loc>https://cogneon.github.io/1-8-ai-and-society/</loc>
+         <lastmod>2024-02-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://cogneon.github.io/2-0-Woche-0/</loc>
-         <lastmod>2023-12-01</lastmod>
+         <loc>https://cogneon.github.io/1-9-further-information/</loc>
+         <lastmod>2024-02-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://cogneon.github.io/2-0-learning-pathway/</loc>
-         <lastmod>2023-12-01</lastmod>
+         <lastmod>2024-02-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://cogneon.github.io/2-1-kata-1/</loc>
+         <lastmod>2024-02-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://cogneon.github.io/2-10-kata-10/</loc>
+         <lastmod>2024-02-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://cogneon.github.io/2-11-kata-11/</loc>
+         <lastmod>2024-02-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://cogneon.github.io/2-12-kata-12/</loc>
+         <lastmod>2024-02-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://cogneon.github.io/2-2-kata-2/</loc>
+         <lastmod>2024-02-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://cogneon.github.io/2-3-kata-3/</loc>
+         <lastmod>2024-02-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://cogneon.github.io/2-4-kata-4/</loc>
+         <lastmod>2024-02-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://cogneon.github.io/2-5-kata-5/</loc>
+         <lastmod>2024-02-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://cogneon.github.io/2-6-kata-6/</loc>
+         <lastmod>2024-02-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://cogneon.github.io/2-7-kata-7/</loc>
+         <lastmod>2024-02-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://cogneon.github.io/2-8-kata-8/</loc>
+         <lastmod>2024-02-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://cogneon.github.io/2-9-kata-9/</loc>
+         <lastmod>2024-02-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://cogneon.github.io/3-0-appendix/</loc>
-         <lastmod>2023-12-01</lastmod>
+         <lastmod>2024-02-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://cogneon.github.io/images/lernos-ai-guide/</loc>
-         <lastmod>2023-12-01</lastmod>
+         <lastmod>2024-02-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>

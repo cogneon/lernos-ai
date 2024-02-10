@@ -1,0 +1,27 @@
+## Kata 1 - Bewusstsein schaffen
+_In dieser Kata legst Du die Grundlagen für die Zusammenarbeit mit der künstlichen Intelligenz. Ein Schwerpunkt liegt dabei auf der Frage, wie für Dich eine verantwortungsvollen Nutzung von KI aussieht und welche Rahmenbedingungen es hierfür in Deinem Unternehmen gibt._
+
+### Hintergrund
+Lese Dir den Abschnitt aus dem Grundlagenkapitel [KI & Gesellschaft](1-8-ai-and-society.md) durch und überlege Dir wie eine verantwortungsvolle Nutzung von KI-Systemen aussehen könnte. 
+
+### Aufgabe: Was kann eigentlich passieren?
+Denke darüber nach, wie KI-Systeme funktionieren und beantworte dann die nachfolgenden Fragen:
+
+- Welche Arten von Eingaben und Ausgaben sind bei KI-Plattformen und -Tools üblich?
+- Denke darüber nach, welche Daten (generative) KIs für Prozesse, wie z. B. das Training nutzen können.
+- Was wären Bedrohungsszenarien, die durch eine verantwortungslose Nutzung von KI-Plattformen für Dein Unternehmen / für Deinen Arbeitsplatz entstehen könnten?
+ 
+### Aufgabe: Ermittelt die Rahmenbedingungen für die Nutzung von KI
+Um die Nutzung von KI-Systemen in Deinem Unternehmen effektiv und verantwortungsbewusst zu gestalten, ist es wichtig, dass Du Dich zunächst mit den unternehmensspezifischen Vorgaben und Richtlinien vertraut machst. Diese Informationen findest Du meist im Intranet Deines Unternehmens. Achte darauf, die für Dich relevanten Vorgaben stets im Blick zu behalten um sicherzustellen, dass Du sie in Deinem täglichen Arbeitsumfeld umsetzt. Sollten in diesem Leitfaden bestimmte Katas in Deinem Unternehmen nicht umsetzbar sein, ist es ratsam, dass Du Dir eigenständig alternative Aufgaben überlegst, die den Richtlinien Deines Unternehmens entsprechen.
+
+Falls Dein Unternehmen noch keine Rahmenbedingungen hat findest Du hier ein paar allgemeine Empfehlungen:
+
+- **Erlaubte Plattformen:** Finde heraus, welche Internetseiten und KI-Plattformen in Deinem Unternehmen genutzt werden dürfen. Manche Unternehmen erlauben nur ausgewählte Plattformen. Überlege Dir auch, ob Du Dich bei KI-Plattformen mit deinen dienstlichen Kontaktdaten registrieren darfst.
+- **Vertrauliche Daten:** Die meisten Unternehmen haben kritische Unternehmensdaten, deren ungewollte Veröffentlichung ein hohes Risiko bedeuten würde. Achte deshalb stets darauf, welche Daten Du bei welcher KI-Plattform eingeben darfst.
+- **Personenbezogene Daten:** Denke auch an Risiken, die durch personenbezogene Daten entstehen. Datenschutzrechtliche und unternehmerische Vorgaben geben meist vor, dass nur in solche Systeme personenbezogene Daten eingegeben werden dürfen, die hierfür freigegeben sind.
+- **Nutzungsbedingungen & Rechte Dritter:** Achte auf die Nutzungsbedingungen, aber auch auf das Urheberrecht und die Rechte Dritter. Generative KI birgt unter Umständen das Risiko urheberrechtlich geschützte Inhalte zu erstellen.
+- **Prüfe Ausgaben:** Die Ausgaben von KI-Plattformen basieren auf Wahrscheinlichkeiten und sind somit nicht zuverlässig. Prüfe die Ergebnisse deshalb sorgfältig, bevor Du sie für Dich oder Deine Arbeit nutzt.
+- **Keine illegale Nutzung:** Obwohl die meisten KI-Plattformen gute Sicherheitsmechanismen haben ist es in bestimmten Fällen möglich, damit gefährliche oder illegale Inhalte wie z. B. Schadecode zu erstellen. Nutze die KI-Systeme deshalb nur im erlaubten Rahmen. Auch wenn es verlockend ist: Verzichte insbesondere im unternehmerischen Kontext darauf, zu versuchen, KI-Systeme zu überlisten oder anders als vorgesehen zu verwenden!
+- **Vorsicht bei unbekannten Anbietern:** Bevorzuge Anbieter von KI-Plattformen, die als vertrauenswürdig bekannt und transparent darin sind, welche Daten sie auf welche Weise verwenden.
+
+Nutze nach Möglichkeit einen vorhandenen, knappen Steckbrief der wichtigsten Vorgaben Deines Unternehmens in Bezug auf die Nutzung von KI-Plattformen oder wirke ggf. auf deren Erstellung hin, um ihn geeignet in Deiner Organisation zu verteilen.
