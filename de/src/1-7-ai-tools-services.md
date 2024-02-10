@@ -13,7 +13,7 @@ Für die Auswahl haben wir uns jeweils folgende Fragen gestellt: 
 (Oft ist zumindest eine Registrierung erforderlich.)
 
 
-![Übersicht Tools Services KI](./images/lernOS-KI-Abb-Tools-Services.png)
+![Übersicht Tools Services KI](./images/lernos-ki-tools-services-202402-de.png)
 
 
 ### Tipps & Empfehlungen
