@@ -72,6 +72,3 @@ extra:
 
 plugins:
   - search
-  - admonition
-  - pymdownx.details
-  - pymdownx.superfences
