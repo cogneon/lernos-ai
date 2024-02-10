@@ -27,6 +27,7 @@ jobs:
             --resource-path=./de/src
             --number-sections
             --toc
+            --toc-depth=2
             -V lang=de-de
             --output=./de/${{ github.event.repository.name }}-guide.docx
             ./de/src/index.md ${{ steps.chapter_list.outputs.chapters }}
@@ -40,6 +41,7 @@ jobs:
             --resource-path=./de/src
             --number-sections
             --toc
+            --toc-depth=2
             -V lang=de-de
             --output=./de/${{ github.event.repository.name }}-guide.html
             ./de/src/index.md ${{ steps.chapter_list.outputs.chapters }}
@@ -53,6 +55,7 @@ jobs:
             --resource-path=./de/src
             --number-sections
             --toc
+            --toc-depth=2
             -V lang=de-de
             --output=./de/${{ github.event.repository.name }}-guide.epub
             ./de/src/index.md ${{ steps.chapter_list.outputs.chapters }}
@@ -66,6 +69,7 @@ jobs:
             --resource-path=./de/src
             --number-sections
             --toc
+            --toc-depth=2
             -V lang=de-de
             --template /.pandoc/templates/eisvogel.latex
             --output=./de/${{ github.event.repository.name }}-guide.pdf
