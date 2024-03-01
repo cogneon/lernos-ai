@@ -1,4 +1,3 @@
-## Kata 2 - Einstieg mit der KI
 _In dieser Kata wählst Du einen Chatbot aus, mit dem Du Deine ersten Schritte in die Welt der generativen KI starten und explorativ umgehen kannst._
 
 ### Hintergrund
