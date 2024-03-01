@@ -1,4 +1,3 @@
-## Kata 8 - Reflexion der weiteren Lernergebnissen
 (Zweiter Zwischenstand, der gegebenenfalls die Möglichkeit zu einem 2. übergreifenden Boxenstopp bietet)
 
 ### Reflexions Check-In:
