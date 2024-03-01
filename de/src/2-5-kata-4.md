@@ -1,4 +1,3 @@
-## Kata 4 - Reflexion der ersten Lernergebnisse
 (Erster Zwischenstand, der gegebenenfalls die Möglichkeit zu einem 1. übergreifenden Boxenstopp bietet)
 
 ### Reflexions Check-In:
