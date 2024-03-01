@@ -18,17 +18,18 @@ nav:
       - Weiterführende Informationen: 1-10-further-information.md
     - Lernpfad:
       - Einführung: 2-0-learning-pathway.md
-      - Vorbereiten & Kennenlernen (Kata 1): 2-1-kata-1.md
-      - Bewusstsein schaffen (Kata 2): 2-2-kata-2.md
-      - Einstieg mit der KI (Kata 3): 2-3-kata-3.md
-      - KI als Dialogpartner (Kata 4): 2-4-kata-4.md
-      - Reflexion der Lernergebnisse (Kata 5): 2-5-kata-5.md
-      - Anwendungsfelder am eigenen Arbeitsplatz (Kata 6): 2-6-kata-6.md
-      - Vertiefung Deines Lernziels (Kata 7): 2-7-kata-7.md
-      - Zusammenarbeit mit KI (Kata 8): 2-8-kata-8.md
-      - Reflexion der Lernergebnisse (Kata 9): 2-9-kata-9.md
-      - KI als Träumer, Halluzinator oder Lügner (Kata 10): 2-10-kata-10.md
-      - Souverän prompten (Kata 11): 2-11-kata-11.md
+      - Vorbereiten & Kennenlernen (Kata 0): 2-1-kata-0.md
+      - Bewusstsein schaffen (Kata 1): 2-2-kata-1.md
+      - Einstieg mit der KI (Kata 2): 2-3-kata-2.md
+      - KI als Dialogpartner (Kata 3): 2-4-kata-3.md
+      - Reflexion der Lernergebnisse (Kata 4): 2-5-kata-4.md
+      - Anwendungsfelder am eigenen Arbeitsplatz (Kata 5): 2-6-kata-5.md
+      - Vertiefung Deines Lernziels (Kata 6): 2-7-kata-6.md
+      - Zusammenarbeit mit KI (Kata 7): 2-8-kata-7.md
+      - Reflexion der Lernergebnisse (Kata 8): 2-9-kata-8.md
+      - KI als Träumer, Halluzinator oder Lügner (Kata 9): 2-10-kata-9.md
+      - Souverän prompten Teil 1 (Kata 10): 2-11-kata-10.md
+      - Souverän prompten Teil 2 (Kata 11): 2-11-kata-11.md
       - Review und Lessons Learned (Kata 12): 2-12-kata-12.md
     - Anhang: 3-0-appendix.md
     - Download:
