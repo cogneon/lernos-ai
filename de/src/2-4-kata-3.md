@@ -1,4 +1,3 @@
-## Kata 3 - KI als Dialogpartner
 _In dieser Kata erfährst Du die Entwicklungsschritte der KI und lernst, die unterschiedlichen Begrifflichkeiten (z.B. AI, Machine Learning, Deep Learning, LLM) im Bereich der künstlichen Intelligenz einzuordnen. Zudem kannst Du in ersten kleinen Übungen zielgerichtete Eingaben mittels einer generativen KI ausführen._ 
 
 ### Hintergrund
