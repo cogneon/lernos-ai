@@ -1,4 +1,3 @@
-## Kata 0 - Vorbereitungen und Kennenlernen
 Ein lernOS Lernpfad ist eine Zusammenstellung von Übungen (Katas), mit denen Du neue Fähigkeiten erlernst und im Lauf der Zeit eine neue Lernhaltung (Mindset) entwickeln kannst. Ein Lernpfad kann innerhalb eines lernOS Sprints durchlaufen werden. Wir empfehlen eine Kata pro Woche durchzuführen, wenn Du den Leitfaden in 12 Wochen durchlaufen kannst. Es ist aber auch möglich, die Katas anders zu durchlaufen oder modularer zu nutzen.
 
 ### Aufgabe 1: Rahmenbedingungen klären
