@@ -1,5 +1,3 @@
-## Kata 1 - Bewusstsein schaffen
-
 _In dieser Kata legst Du die Grundlagen für die Zusammenarbeit mit der künstlichen Intelligenz. Ein Schwerpunkt liegt dabei auf der Frage, wie für Dich eine verantwortungsvollen Nutzung von KI aussieht und welche Rahmenbedingungen es hierfür in Deinem Unternehmen gibt._
 
 ### Hintergrund
