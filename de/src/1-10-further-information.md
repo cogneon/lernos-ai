@@ -1,7 +1,5 @@
 ## Weiterführende Informationen und Links
 
-ToDo: für jeden Link einen Begleitsatz erstellen
-
 **Hinweis:** Künstliche Intelligenz ist ein dynamisches Wissensgebiet. Aktuelle Links findest du z.B. auf huggingface.com/papers und dem Board artint auf CODDIT. Abonniere Dir Newsletter, Blogs, vLogs und Podcasts, um auf dem Laufenden zu bleiben.
 
 **Bücher:**
@@ -38,10 +36,12 @@ ToDo: für jeden Link einen Begleitsatz erstellen
 
 **Videos:**
 
-- ...
+- [Generative AI in a nutshell](https://www.youtube.com/watch?v=2IK3DFHRFfw) - Informatives Erklärvideo im Sketchnoting-/Graphic Recording-Stil von Henrik Kniberg (18 min.)
+- [Schlaue neue Welt - Das KI-Wettrennen](https://www.arte.tv/de/videos/115067-000-A/schlaue-neue-welt-das-ki-wettrennen/) - Arte-Dokumentation zur Darstellung des aktuellen Wettlaufs der Nationen um die Führungsrolle bei KI mit Beispielen und Interviews bekannter KI-Persönlichkeiten (1h 28 min.)
 
 **Communitys:**
 
 - [LAION](https://laion.ai) - non-profit Organisation, die offene Datensätze, Tools und Modelle zu KI anbietet und eine Community auf Discord betreibt
+- [Hugging Face](https://huggingface.co/) - Open-Source-Community zum Austausch von Code-Repositories, Modellen, Datensätzen und Apps für maschinelles Lernen
 
 *Hinweis: mit Stern markierte Links sind Affiliate Links.* 
