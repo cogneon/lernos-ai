@@ -1,0 +1,80 @@
+site_name: lernOS AI Guide
+site_url: https://cogneon.github.io/
+docs_dir: src
+site_dir: ../docs/en
+
+nav:
+    - Willkommen: index.md
+    - Grundlagen:
+      - KI & Maschinelles Lernen: 1-2-ai-machine-learning.md
+      - Neuronale Netze: 1-3-neuronal-networks.md
+      - Maschinelles vs. Menschliches Lernen: 1-4-machine-vs-human-learning.md
+      - KI-Anwendungsfelder: 1-5-ai-application-areas.md
+      - KI-Modelle: 1-6-ai-models.md
+      - KI-Tools & Services: 1-7-ai-tools-services.md
+      - Prompts erstellen: 1-8-prompts-erstellen.md
+      - KI & Gesellschaft: 1-9-ai-and-society.md
+      - Weiterführende Informationen: 1-10-further-information.md
+    - Lernpfad:
+      - Einführung: 2-0-learning-pathway.md
+      - Vorbereiten & Kennenlernen (Kata 0): 2-1-kata-0.md
+      - Bewusstsein schaffen (Kata 1): 2-2-kata-1.md
+      - Einstieg mit der KI (Kata 2): 2-3-kata-2.md
+      - KI als Dialogpartner (Kata 3): 2-4-kata-3.md
+      - Reflexion der Lernergebnisse (Kata 4): 2-5-kata-4.md
+      - Anwendungsfelder am eigenen Arbeitsplatz (Kata 5): 2-6-kata-5.md
+      - Vertiefung Deines Lernziels (Kata 6): 2-7-kata-6.md
+      - Zusammenarbeit mit KI (Kata 7): 2-8-kata-7.md
+      - Reflexion der Lernergebnisse (Kata 8): 2-9-kata-8.md
+      - KI als Träumer, Halluzinator oder Lügner (Kata 9): 2-10-kata-9.md
+      - Souverän prompten Teil 1 (Kata 10): 2-11-kata-10.md
+      - Souverän prompten Teil 2 (Kata 11): 2-11-kata-11.md
+      - Review und Lessons Learned (Kata 12): 2-12-kata-12.md
+    - Anhang: 3-0-appendix.md
+    - Download:
+      - PDF-Version: https://github.com/cogneon/lernos-ai/blob/master/de/lernos-ai-guide.pdf
+      - Word-Version: https://github.com/cogneon/lernos-ai/blob/master/de/lernos-ai-guide.docx
+      - HTML-Version: https://github.com/cogneon/lernos-ai/blob/master/de/lernos-ai-guide.html
+      - E-Book (epub): https://github.com/cogneon/lernos-ai/blob/master/de/lernos-ai-guide.epub
+      - E-Book (mobi): https://github.com/cogneon/lernos-ai/blob/master/de/lernos-ai-guide.mobi
+    - Links:
+      - lernos.org: https://lernos.org
+      - CONNECT Community: https://community.cogneon.de
+      - Peerfinder: https://web.peerfinder.app
+
+theme:
+    name: 'material'
+    custom_dir: src/overrides
+    palette:
+        scheme: lernos
+    language: en
+    icon:
+      logo: material/home
+      repo: fontawesome/brands/github
+    features:
+      - toc.integrate 
+
+extra_css:
+  - stylesheets/extra.css
+
+repo_name: 'cogneon/lernos-ai'
+repo_url: 'https://github.com/cogneon/lernos-ai'
+
+extra:
+    social:
+        - icon: fontawesome/brands/mastodon
+          link: 'https://colearn.social/@lernos'
+        - icon: fontawesome/brands/linkedin
+          link: 'https://www.linkedin.com/showcase/lern-os'
+        - icon: fontawesome/brands/github
+          link: 'https://github.com/cogneon'
+    giscus: true
+    analytics:
+       provider: custom
+    alternate:
+         - name: German
+           link: https://ai.lernos.org/de
+           lang: de
+
+plugins:
+  - search

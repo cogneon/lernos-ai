@@ -71,6 +71,10 @@ extra:
     giscus: true
     analytics:
        provider: custom
+    alternate:
+         - name: English
+           link: https://ai.lernos.org/en
+           lang: en
 
 plugins:
   - search
