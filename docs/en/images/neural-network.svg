@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="600" height="400" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <marker id="a" overflow="visible" orient="auto">
+    <path transform="matrix(-1.1,0,0,-1.1,-1.1,0)" d="m8.7186 4.0337-10.926-4.0177 10.926-4.0177c-1.7455 2.3721-1.7354 5.6175-6e-7 8.0354z" stroke="#000" stroke-linejoin="round"/>
+  </marker>
+  <g fill="#ccecff" stroke="#000" stroke-width="3">
+    <circle cx="300" cy="360" r="20"/>
+    <circle cx="300" cy="280" r="20"/>
+    <circle cx="300" cy="200" r="20"/>
+    <circle cx="300" cy="40" r="20"/>
+    <circle cx="300" cy="120" r="20"/>
+  </g>
+  <g stroke="#000" stroke-width="3">
+    <circle cx="120" cy="150" r="20" fill="#cfc"/>
+    <circle cx="120" cy="250" r="20" fill="#cfc"/>
+    <circle cx="480" cy="200" r="20" fill="#ff9"/>
+  </g>
+  <g fill="none" stroke="#000" stroke-width="2">
+    <path d="m140 150 140-110"/>
+    <path d="m140 250 140-210"/>
+    <path d="m140 150 140-30"/>
+    <path d="m140 250 140-130"/>
+    <path d="m140 150 140 50"/>
+    <path d="m140 250 140-50"/>
+    <path d="m140 150 140 130"/>
+    <path d="m140 250 140 30"/>
+    <path d="m140 150 140 210"/>
+    <path d="m140 250 140 110"/>
+    <path d="m320 40 140 160"/>
+    <path d="m320 120 140 80"/>
+    <path d="m320 200h140"/>
+    <path d="m320 280 140-80"/>
+    <path d="m320 360 140-160"/>
+    <path d="m30 150h50" marker-end="url(#a)"/>
+    <path d="m515 200h50" marker-end="url(#a)"/>
+    <path d="m30 250h50" marker-end="url(#a)"/>
+  </g>
+</svg>

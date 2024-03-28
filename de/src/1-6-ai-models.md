@@ -1,28 +1,24 @@
-## KI Modelle
-Dieses Kapitel gibt einen Überblick über KI-Modelle und unterteilt sie in verschiedene Leistungsgruppen. Sie stellen die Basis für verschiedenste Tools und Services dar, von denen einige im gleichnamigen Kapitel vorgestellt werden. Die Modelle unterscheiden sich, und so wird für eigene KI-Projekte entlang der jeweiligen Anforderungen entschieden, welches Modell am besten geeignet ist. Denn die Ergebnisse von Anwendungen, die mit generativer KI arbeiten, hängen maßgeblich vom zugrunde gelegten Modell ab. 
+## KI-Modelle
+Dieses Kapitel gibt einen Überblick über **KI-Modelle** und unterteilt sie in verschiedene Leistungsgruppen. Sie stellen die Basis für verschiedenste Tools und Services dar, von denen einige im gleichnamigen Kapitel vorgestellt werden. Die Modelle unterscheiden sich, und so wird für eigene KI-Projekte entlang der jeweiligen Anforderungen entschieden, welches Modell am besten geeignet ist. Denn die Ergebnisse von Anwendungen, die mit generativer KI arbeiten, hängen maßgeblich vom zugrunde gelegten Modell ab. 
 
 
-### Wieso sprechen wir von Modellen?<a id="wieso-sprechen-wir-von-modellen"></a>
+### Wieso sprechen wir von Modellen?
 
-Ein Modell ist eine Abstraktion, ein aus den Trainingsdaten "gelerntes" System von Strukturen, Regelmäßigkeiten und Wahrscheinlichkeiten. Es findet bei Sprachen keine umfassende formale Spracherlernung statt, da diese (noch) viel zu komplex ist für eine zeitnahe Verarbeitung in Dialogen. 
-
-Jede Anfrage interpretiert die KI-Anwendung aufs Neue. Sie generiert auf der Basis der aus den Trainingsdaten gewonnenen Modelle die Antworten. Das verdeutlicht die Abhängigkeit von den in der Trainingsphase ausgewählten Daten.
+Ein Modell ist eine Abstraktion, ein aus den Trainingsdaten "gelerntes" System von Strukturen, Regelmäßigkeiten und Wahrscheinlichkeiten. Es findet bei Sprachen keine umfassende formale Spracherlernung statt, da diese (noch) viel zu komplex ist für eine zeitnahe Verarbeitung in Dialogen.  Jede Anfrage interpretiert die KI-Anwendung aufs Neue. Sie generiert auf der Basis der aus den Trainingsdaten gewonnenen Modelle die Antworten. Das verdeutlicht die Abhängigkeit von den in der Trainingsphase ausgewählten Daten.
 
 Und selbst wenn eine generative KI-Anwendung grammatikalisch und stilistisch perfekt klingende Texte kreiert: Es bleibt eine unscharfe Annäherung aufgrund von Wahrscheinlichkeiten. Daher beobachten wir so genannte "Halluzinationen" mit inhaltlich unsinnigen Antworten.
 
 
-### Wie kommt es zu diesen KI-Modellen?<a id="wie-kommt-es-zu-diesen-ki-modellen"></a>
+### Wie entstehen KI-Modelle?
 
-Nimm als Beispiel an, Du willst lernen, realistische Porträts zu malen. Du kannst dafür in Hunderten von berühmten Gemälden studieren, wie darin Details wie Beleuchtung, Gesichtszüge und Mimik und Beleuchtung eingefangen wurden.
-
-In ähnlicher Weise arbeiten KI-Modelle, indem sie eine große Menge an Daten studieren. Das KI-Modell analysiert diese Trainingsdaten und erkennt Muster und Beziehungen zwischen verschiedenen Elementen. Je mehr Daten es studiert, desto besser versteht es die Feinheiten.
+Nimm als Beispiel an, Du willst lernen, realistische Porträts zu malen. Du kannst dafür in Hunderten von berühmten Gemälden studieren, wie darin Details wie Beleuchtung, Gesichtszüge und Mimik und Beleuchtung eingefangen wurden. In ähnlicher Weise arbeiten KI-Modelle, indem sie eine große Menge an Daten studieren. Das KI-Modell analysiert diese Trainingsdaten und erkennt Muster und Beziehungen zwischen verschiedenen Elementen. Je mehr Daten es studiert, desto besser versteht es die Feinheiten.
 
 Handelt es sich bei den Trainingsdaten um Bilder, Zeichnungen oder Fotos von Tieren, Landschaften oder Alltagsgegenständen, kann eine KI auf der Basis des trainierten Image Generation Model Bilder oder Fotos generieren. Text versteht sie weniger – daher funktionieren Texte in KI-generierten Fotos nur selten. 
 
 Für die Code- oder Texterstellung beispielsweise werden andere KI-Modelle mithilfe von riesigen Mengen an Code- und Textdaten trainiert. Sie erkennen die Muster und Strukturen von Programmiersprachen, Satzstrukturen und Wortverwendung in menschlichen Sprachen. Je mehr Daten sie analysieren, desto besser werden diese Large Language Models (LLMs) darin, sinnvollen Code oder Text zu erzeugen.
 
 
-### Der Schlüssel: Transformer & Attention<a id="der-schlüssel-transformer--attention"></a>
+### Der Schlüssel: Transformer & Attention
 
 Vor Veröffentlichung der so genannten [Transformer](https://en.wikipedia.org/wiki/Generative_pre-trained_transformer) in 2017 zählte die Generierung natürlicher Sprache zu den anspruchsvollsten Aufgaben – trotz bereits hochentwickelter neuronaler Netze. Transformer und Attention sind wichtige Entwicklungen für Large Language Models, um komplexe Sprachmuster zu erfassen und menschenähnlichen Text zu generieren.
 
@@ -35,11 +31,9 @@ Vorhergehende Konzepte basieren Wortvorhersagen ausschließlich auf der Grundlag
 Diese Entwicklung von LLMs zeigt die obige Grafik. Wie wir sehen können, wurden die ersten modernen Modelle kurz nach der Entwicklung der Transformer vorgestellt. Die Grafik zeigt, dass es inzwischen mehr und mehr zur Entwicklung von Modellen kommt, die mit einer Open Source-Lizenz veröffentlicht werden.
 
 
-### Beispiele generativer KI-Modelle<a id="beispiele-generativer-ki-modelle"></a>
+### Beispiele generativer KI-Modelle
 
-Um Unterschiede zu verstehen, geben die Tabellen Kurzinfos zu verschiedenen KI-Modellen. Das ist eine Momentaufnahme, denn die KI-Modelle werden weiterentwickelt und trainiert. Daher ist die Versionsbezeichnung der jeweiligen Modelle essentiell für die qualitative Einschätzung der generierten Inhalte. Insbesondere wenn der Umfang der Trainingsdaten erheblich vergrößert wird.
-
-Zur Kurzinfo ergänzt:
+Um Unterschiede zu verstehen, geben die Tabellen Kurzinfos zu verschiedenen KI-Modellen. Das ist eine Momentaufnahme, denn die KI-Modelle werden weiterentwickelt und trainiert. Daher ist die Versionsbezeichnung der jeweiligen Modelle essentiell für die qualitative Einschätzung der generierten Inhalte. Insbesondere wenn der Umfang der Trainingsdaten erheblich vergrößert wird. Zur Kurzinfo ergänzt:
 
 - **Modellgröße**: Die Modellgröße ist ein wichtiger Faktor für die Leistungsfähigkeit eines Sprachmodells. KI-Anwendungen, die auf ein größeres Modell zugreifen, können komplexere Zusammenhänge verstehen und generieren. Sie sind damit vielseitiger als auf spezielle Anwendungsgebiete trainierte Modelle. Eine hohe Anzahl der Parameter machen Modelle rechnerisch teurer. In der Praxis ist zwischen Ergebnisleistung und dem dafür erforderlichen Energieverbrauch abzuwägen.
 - **Nutzungslizenz**: Modelle mit einer Open Source-Nutzungslizenz besitzen einen veröffentlichten Quelltext. Sie können von anderen geändert und genutzt werden. Open-Source-Modelle können unter Einhaltung der Lizenzbedingungen meistens kostenfrei genutzt werden.
@@ -89,9 +83,7 @@ Auf der Basis dieser Modelle ist es möglich, Deepfakes zu generieren. 
 
 Da die Modelle die Basis für die Leistungsfähigkeit einer KI-Anwendung darstellen, wird darin viel Entwicklung investiert. Dieses Kapitel ist daher nur eine Momentaufnahme. Bleib dran an den Entwicklungen mit den Blogs von [Andrew Ng](https://www.deeplearning.ai/the-batch/tag/letters) oder [HuggingFace](https://huggingface.co/blog).
 
-### Hinweis
-
-Bitte habe diese Diskussionen zu Modellen und ihren Trainingsdaten im Blick: 
+**Hinweis:** Bitte habe diese Diskussionen zu Modellen und ihren Trainingsdaten im Blick: 
 
 - Es wurden Rechtsklagen eingereicht von Kunstschaffenden gegen Stability AI oder Midjourney, weil diese urheberrechtlich geschützte Werke im Training genutzt haben. 
 - Softwareentwickler klagen gegen Unternehmen wie GitHub, Microsoft oder OpenAI, weil diese ihren Open-Source-Code als Trainingsdaten für die KI-Entwicklung hernehmen.

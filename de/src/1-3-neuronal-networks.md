@@ -1,8 +1,8 @@
 ## Neuronale Netze
 
-Bei der sog. Transformer-Architektur von generativer KI wie z.B. GPT handelt es sich um künstliche Neuronale Netze (KNN), die der Funktionsweise von natürlichen neuronales Netzen wie z.B. in einem Gehirn nachempfunden sind.
+Bei der sog. **Transformer-Architektur** von generativer KI wie z.B. GPT handelt es sich um **künstliche Neuronale Netze** (KNN), die der Funktionsweise von natürlichen neuronales Netzen wie z.B. in einem Gehirn nachempfunden sind.
 
-Die Neuronen in einem neuronalen Netz werden dabei in Schichten (Layern) hintereinander angeordnet. Man spricht von der Eingabeschicht (input layer, grün), der Ausgabeschicht (output layer, gelb) und den versteckten Schichten (hidden layer, blau).
+Die Neuronen in einem neuronalen Netz werden dabei in **Schichten** (Layern) hintereinander angeordnet. Man spricht von der **Eingabeschicht** (input layer, grün), der **Ausgabeschicht** (output layer, gelb) und den **versteckten Schichtenv (hidden layer, blau).
 
 ![](images/neural-network.png "Vereinfachte Darstellung eines künstlichen neuronalen Netzes, Quelle: Wikipedia")
 

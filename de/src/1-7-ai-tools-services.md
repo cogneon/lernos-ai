@@ -12,7 +12,6 @@ Für die Auswahl haben wir uns jeweils folgende Fragen gestellt: 
 
 (Oft ist zumindest eine Registrierung erforderlich.)
 
-
 ![Übersicht Tools Services KI](./images/lernos-ki-tools-services-202402-de.png)
 
 
@@ -28,7 +27,7 @@ Bekannte Office-Anwendungen wie Microsoft 365 bieten der Unternehmens-Kundschaft
 - [**Microsoft 365 Copilot**](https://support.microsoft.com/de-de/copilot): KI-gestützte Assistenz in den Microsoft Produkten für Texterstellung, Zusammenfassungen, Textüberarbeitungen, Bildersuche oder Generierung von Präsentationen.
 
 
-### KI-gestützte Multi-Tools
+### KI-gestützte, multimodale Tools
 
 Diese Angebote bieten gleich mehrere Werkzeuge für die verschiedenen Anwendungsgebiete unter einem Dach.
 

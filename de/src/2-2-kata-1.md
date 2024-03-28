@@ -1,6 +1,4 @@
-_In dieser Kata legst Du die Grundlagen für die Zusammenarbeit mit der künstlichen Intelligenz. Ein Schwerpunkt liegt dabei auf der Frage, wie für Dich eine verantwortungsvollen Nutzung von KI aussieht und welche Rahmenbedingungen es hierfür in Deinem Unternehmen gibt._
-
-### Hintergrund
+In dieser Kata legst Du die **Grundlagen für die Zusammenarbeit mit der Künstlichen Intelligenz**. Ein Schwerpunkt liegt dabei auf der Frage, wie für Dich eine verantwortungsvollen Nutzung von KI aussieht und welche Rahmenbedingungen es hierfür in Deinem Kontext (z.B. Schule, Hochschule, Unternehmen) gibt.
 
 Lese Dir den Abschnitt aus dem Grundlagenkapitel [KI & Gesellschaft](1-9-ai-and-society.md) durch und überlege Dir wie eine verantwortungsvolle Nutzung von KI-Systemen aussehen könnte. 
 

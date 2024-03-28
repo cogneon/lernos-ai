@@ -1,12 +1,12 @@
 # Willkommen
 
-Herzlich willkommen im **lernOS Künstliche Intelligenz (KI) Leitfaden**. Der Leitfaden ist noch im Entstehen (Version 0.1). Im [lernOS KI MOOC](https://loscon.lernos.org/) vom **6.5.-21.6.2024** werden wir den Leitfaden erproben und mit dem Feedback eine Version 1.0 erstellen. Für den KI MOOC könnt ihr Euch [über meetup.com schon anmelden](https://www.meetup.com/cogneon/events/297769514/).
+Herzlich willkommen im **lernOS Künstliche Intelligenz (KI) Leitfaden**. Der Leitfaden steht in einer ersten Version 0.1 zur Verprobung bereit. Im [lernOS KI MOOC](https://loscon.lernos.org/) vom **6.5.-21.6.2024** werden wir den Leitfaden dem Praxistest unterziehen und mit Eurem Feedback eine Version 1.0 erstellen. Für den KI MOOC könnt ihr Euch [über meetup.com schon anmelden](https://www.meetup.com/cogneon/events/297769514/). Die Erfahrungen werden wir bei der [lernOS Convention 2024](https://loscon.lernos.org/de/) austauschen.
 
-![](images/lernos-ki-leitfaden-key-visual.jpeg)
+![](images/kimooc24-key-visual-1000px.jpg)
 
 **Ziel des Leitfadens:** Menschen ohne KI-Vorbildung an das Thema Künstliche Intelligenz heranführen, damit sie eine informierte Entscheidung treffen können, wie/wo sie betroffen sind und welchen Nutzen sie durch KI haben könnten. Die Technologien/Beispiele sollen in und außerhalb von Organisationen funktionieren (Internet und Intranet).
 
-**Zielgruppe:** Anwender:innen (Menschen, die vor der "Mattscheibe" sitzen) nicht Entwickler:innen; Anwender sollten aber Hintergründe verstehen. Kontext: Menschen in und außerhalb von Organisationen?
+**Zielgruppe:** Anwender:innen (Menschen, die vor der "Mattscheibe" sitzen) nicht Entwickler:innen; Anwender sollten aber Hintergründe verstehen. Der Leitfaden ist für die Anwendung innerhalb (Kontext: Intranet) und außerhalb (Kontext: Internet) von Organisationen geschrieben.
 
 # Über lernOS
 

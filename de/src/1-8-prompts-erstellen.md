@@ -14,32 +14,23 @@ Prof. Ethan Mollick schreibt dazu (übersetzt aus dem Artikel [Working with AI: 
 
 Wesentlich wichtiger als Prompt Engineering ist es deshalb durch die Nutzung zu lernen, wie man ein KI-System gebrauchen sollte. Prof. Mollick schreibt dazu auf X (früher Twitter), dass er beobachtet, dass Nutzer:innen nach etwa 10 Stunden Nutzung eines möglichst starken KI-Systems (wie z. B. GPT-4) den "Dreh" rausbekommen. Der erste Schritt besteht also oft darin, erstmal zu starten und mit dem KI-Chatbot, ähnlich wie mit einem Menschen, zu schreiben.
 
-#### Schreibe wie zu einem Menschen
+**Schreibe wie zu einem Menschen:** Viele Personen nutzen den Prompt ähnlich wie den Suchschlitz einer Suchmaschine oder Datenbank. Bei Suchmaschinen und Datenbanken kam es darauf an, die Frage auf möglichst wenige und möglichst präzise Suchbegriffe zu reduzieren. Das ganze musste knapp bleiben, denn zu viel Kontext hätte nur zu unpassenden Treffern geführt. Interessanterweise gelten diese Regeln überhaupt nicht mehr für Sprachmodelle wie ChatGPT. Eingaben in Umgangssprache sind kein Problem und ausführlichere Eingaben führen meist sogar zu besseren Antworten und nicht dazu, dass das Modell "verwirrt" wäre. In gewisser Weise müssen wir uns für die wirksame Verwendung von KI-Chatbots deshalb genau die Verhaltensweisen abtrainieren, die uns Suchschlitze die längste Zeit antrainiert haben.
 
-Viele Personen nutzen den Prompt ähnlich wie den Suchschlitz einer Suchmaschine oder Datenbank. Bei Suchmaschinen und Datenbanken kam es darauf an, die Frage auf möglichst wenige und möglichst präzise Suchbegriffe zu reduzieren. Das ganze musste knapp bleiben, denn zu viel Kontext hätte nur zu unpassenden Treffern geführt. Interessanterweise gelten diese Regeln überhaupt nicht mehr für Sprachmodelle wie ChatGPT. Eingaben in Umgangssprache sind kein Problem und ausführlichere Eingaben führen meist sogar zu besseren Antworten und nicht dazu, dass das Modell "verwirrt" wäre. In gewisser Weise müssen wir uns für die wirksame Verwendung von KI-Chatbots deshalb genau die Verhaltensweisen abtrainieren, die uns Suchschlitze die längste Zeit antrainiert haben.
+**Prompt-Verbesserung am Beispiel:** In diesem Abschnitt beleuchten wir konkrete Beispiele, um zu demonstrieren, wie man Prompts effektiver gestalten kann. Ein gut formulierter Prompt ist entscheidend für die Qualität der Antwort, die man von einem KI-System erhält. Mögliche Probleme bei der Prompt-Erstellung können z. B. mehrdeutige Eingaben, unklare Intentionen, suggestiv formulierte Fragen oder das Vermischen verschiedener Themen sein. Ziel ist es, durch diese Beispiele ein besseres Verständnis für präzise und durchdachte Prompts zu bekommen.
 
-
-#### Prompt-Verbesserung am Beispiel
-
-In diesem Abschnitt beleuchten wir konkrete Beispiele, um zu demonstrieren, wie man Prompts effektiver gestalten kann. Ein gut formulierter Prompt ist entscheidend für die Qualität der Antwort, die man von einem KI-System erhält. Mögliche Probleme bei der Prompt-Erstellung können z. B. mehrdeutige Eingaben, unklare Intentionen, suggestiv formulierte Fragen oder das Vermischen verschiedener Themen sein. Ziel ist es, durch diese Beispiele ein besseres Verständnis für präzise und durchdachte Prompts zu bekommen.
-
-##### Beispiel 1: Unklare Absicht
+*Beispiel 1: Unklare Absicht:*
 
 - **Schlechter Prompt:** "Sprechen über Pflanzen."
 - **Warum er schlecht ist:** Der Prompt ist unklar und gibt keine spezifische Anweisung oder Fragestellung.
 - **Besserer Prompt:** "Kannst du mir etwas über die Bedeutung von Pflanzen für das Ökosystem erzählen?"
 
-
-
-##### Beispiel 2: Suggestive Prompts
+*Beispiel 2: Suggestive Prompts:*
 
 - **Schlechter Prompt:** "Sind Handystrahlen wirklich gesundheitsschädlich?"
 - **Warum er schlecht ist:** Dieser Prompt könnte zu Fehlinformationen führen, da er eine unbewiesene Behauptung impliziert.
 - **Besserer Prompt:** "Was sagt die aktuelle Forschung über die Auswirkungen von Handystrahlung auf die Gesundheit?"
 
-
-
-##### Beispiel 3: Vermischte Aspekte
+*Beispiel 3: Vermischte Aspekte:*
 
 - **Schlechter Prompt:** "Wie backe ich einen Kuchen und was ist die Geschichte des Backens?"
 - **Warum er schlecht ist:** Dieser Prompt kombiniert zwei unterschiedliche Themen, was zu einer verwirrenden oder unzusammenhängenden Antwort führen kann.
@@ -47,7 +38,7 @@ In diesem Abschnitt beleuchten wir konkrete Beispiele, um zu demonstrieren, wie 
 
 
 
-#### Elemente eines guten Prompts
+### Elemente eines guten Prompts
 
 In diesem Abschnitt geht es um die wesentlichen Komponenten eines effektiven Prompts. Wir identifizieren Schlüsselelemente, wie die Persona des Sprachmodells, die Einleitung, den individuellen Inhalt, das Format und zusätzliche Informationen, die für die Erstellung eines klaren und zielgerichteten Prompts hilfreich sind und veranschaulichen anhand eines Beispiels, wie diese Elemente in der Praxis angewendet werden. Abschließend bekommst Du einen Einblick in fortgeschrittene Prompt-Techniken, mit denen Du die Effizienz und Effektivität der Kommunikation mit KI-Modellen weiter verbessern kannst.
 
@@ -77,7 +68,7 @@ Hier ein ausgefülltes Beispiel:
 
 
 
-#### Prompting-Tipps von OpenAI
+### Prompting-Tipps von OpenAI
 
 Auch OpenAI (die Entwickler von ChatGPT) beschreiben in ihrem Artikel <a href="https://platform.openai.com/docs/guides/prompt-engineering/prompt-engineering">Prompt Engineering</a> genauer, was aus ihrer Sicht einen "guten" Prompt ausmacht:
 
@@ -96,7 +87,7 @@ Auch OpenAI (die Entwickler von ChatGPT) beschreiben in ihrem Artikel <a href="h
 
 
 
-#### Bereitstellen von Beispielen
+### Bereitstellen von Beispielen
 
 Eine weitere hilfreiche Technik, um bessere Ergebnisse zu erzielen, ist das One-Shot- und Few-Shot-Learning. Diese Methoden dienen dazu, dem KI-Modell zu demonstrieren, was genau erwartet wird. Das KI-Modell kann sich bei der Antwort dann an den Beispielen orientieren und antwortet eher so, wie es der Nutzer erwartet.
 
@@ -108,11 +99,11 @@ Hier ein Beispiel für das One-Shot Prompting:
 > 
 > Nutze für die Antwort das folgende Beispiel:
 > 
-> ###Eingabe###
+> EINGABE
 > 
 > Formuliere eine kurze und höfliche Antwort auf eine Konferenzeinladung.
 > 
-> ###Antwort###
+> ANTWORT
 > 
 > Sehr geehrte Frau Müller,
 > 
@@ -145,7 +136,7 @@ Hier ein Beispiel für das Few-Shot Prompting:
 >> 
 >> Mit einer Lernpartnerin die Lerninhalte telefonisch besprechen -> 
 
-#### Fortgeschrittenes Prompting
+### Fortgeschrittenes Prompting
 
 Gute Beispiele für fortgeschrittene Prompts sind:
 
@@ -159,34 +150,25 @@ Gute Beispiele für fortgeschrittene Prompts sind:
 
 **Tipp:** Fortgeschrittene Prompts funktionieren wesentlich besser in leistungsfähigeren KI-Systemen wie z. B. GPT-4. 
 
-#### 
+### Wenn Du noch tiefer gehen willst ...
 
-#### Wenn Du noch tiefer gehen willst ...
-
-Es gibt zahlreiche gute Zusammenstellungen zu Prompt-Techniken, wie z. B. 
+Es gibt zahlreiche gute Zusammenstellungen zu Prompt-Techniken, wie z.B.
 
 - [Linksammlung zu Prompt Engineering im OpenAI Cookbook](https://cookbook.openai.com/articles/related_resources)
-
 - [Awesome-Prompt-Engineering](https://github.com/promptslab/Awesome-Prompt-Engineering)
-
-
 
 Ebenso gibt es Sammlungen von Prompts, wie z. B. [FlowGPT](https://flowgpt.com) oder [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts)
 
 
-
-#### Prompts gemeinsam mit der KI verbessern
+### Prompts gemeinsam mit der KI verbessern
 
 Du kannst die KI bitten, mit Dir gemeinsam den Prompt zu verbessern. Oft reicht dafür bereits eine Eingabe, wie:
 
 > Helfe mir meinen Prompt zu verbessern, indem Du mir zu allem, was unklar ist Nachfragen stellst und dann eine überarbeitete Version des Prompts ausgibst.
 
-
-
 Es gibt viel umfangreichere und elaboriertere Prompts zur Verbesserung, wie z. B. [ChatGPT 4 Prompt Improvement (flowgpt.com)](https://flowgpt.com/p/chatgpt-4-prompt-improvement) (Du kannst den Prompt über den Button "View Prompt" einsehen). Ebenso gibt es GPTs, wie z. B. [Pro Prompter](https://chat.openai.com/g/g-uSEqrEWdX-pro-prompter) oder den [ChatGPT - Prompt Professor](https://chat.openai.com/g/g-qfoOICq1l-prompt-professor), die Dir bei der Verbesserung der Prompts helfen können.
 
 
-
-#### Ausblick: "Prompt Engineering"" wird voraussichtlich an Bedeutung verlieren
+### Ausblick: "Prompt Engineering"" wird voraussichtlich an Bedeutung verlieren
 
 Gleichzeitig stellt sich aber auch die Frage, ob man wirklich noch tiefer in das "Prompt Engineering" eintauchen will oder sollte. Denn: Einerseits bilden die hier und in den Katas genannten Prompting-Techniken eine solide Basis für die Zusammenarbeit mit der KI. Andererseits wird Prompt Engineering - je mehr sich KI-Systeme weiterentwickeln - aller Voraussicht nach immer mehr an Bedeutung verlieren, wenn sich diese durch permanentes Lernen verbessern und die Nutzereingaben direkt geeignet anpassen. So ist es z. B. jetzt schon bei Bildgenerierenden KIs (wie z. B. DALL-E3) so, dass der Prompt für das Bild durch die KI selbst erstellt werden kann. Feststeht, dass sich dieses Feld derzeit sehr dynamisch voranbewegt und fortwährend selbst optimiert.

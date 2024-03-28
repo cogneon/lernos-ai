@@ -1,83 +1,69 @@
-## Prompts erstellen
+## Creating prompts
 
-Das folgende Grundlagen-Kapitel soll Dir eine kompakte Orientierungshilfe für die einfache und zugleich optimierte Erstellung von Anfragen und Dialogen im Zusammenspiel mit generativer KI geben. Diese Empfehlungen können Dir im Lernpfad sowohl in den Katas 2 und 3 zum explorativen Umgang und Dialog mit KI als auch in den Katas 6 und 7 zur aktiven Prompt-Erstellung und Zusammenarbeit mit KI sowie insbesondere in den Katas 9 und 10 zum erweiterten und souveränen Prompten weiterhelfen. Und nun viel Spaß beim Lernen und Trainieren!
+The following basic chapter is intended to give you a compact guide for the simple and at the same time optimized creation of queries and dialogues in interaction with generative AI. These recommendations can help you in the learning path both in catas 2 and 3 for explorative handling and dialog with AI as well as in catas 6 and 7 for active prompt creation and collaboration with AI and especially in catas 9 and 10 for advanced and confident prompting. And now have fun learning and practicing!
 
-### Was ist eigentlich ein Prompt?
+### What actually is a prompt?
 
-In der IT bezeichnet der Begriff "Prompt" die Aufforderung an den Nutzer, eine Eingabe in eine textbasierte Konsole zu tätigen (Quelle: [https://de.wikipedia.org/wiki/Prompt](https://de.wikipedia.org/wiki/Prompt)). Bei chatbasierten KI-Systemen, wie ChatGPT steht der Prompt für den Eingabetext, den ein Benutzer an das Sprachmodell sendet, um eine Antwort zu erhalten. Das Sprachmodell (Large Language Model bzw. LLM) generiert eine Antwort durch die Vorhersage der wahrscheinlichsten Fortsetzung des Textes, basierend auf gelernten Mustern und Informationen. Die Qualität der Antwort hängt in starkem Maße von dem Prompt selbst ab. Es lohnt sich deshalb zu erlernen, wie man Prompts so erstellen kann, dass diese die vom Nutzer gewünschten Ausgaben so gut wie möglich erzeugen.
+In IT, the term "prompt" refers to the request to the user to make an entry in a text-based console (source: [https://de.wikipedia.org/wiki/Prompt](https://de.wikipedia.org/wiki/Prompt)). In chat-based AI systems, such as ChatGPT, the prompt stands for the input text that a user sends to the language model in order to receive a response. The language model (Large Language Model or LLM) generates a response by predicting the most likely continuation of the text based on learned patterns and information. The quality of the response depends to a large extent on the prompt itself. It is therefore worth learning how to create prompts in such a way that they generate the user's desired output as well as possible.
 
-### Prompt Engineering
+### Prompt engineering
+The process of optimizing the prompt is referred to as "prompt engineering". There are also numerous sources and handouts on the Internet that provide tips for creating prompts under this term (see e.g. [collection of links on prompt engineering in the OpenAI Cookbook](https://cookbook.openai.com/articles/related_resources) for an extensive collection). However, although so much has been written about prompting, it is actually anything but difficult. 
+Prof. Ethan Mollick writes (translated from the article [Working with AI: Two paths to prompting](https://www.oneusefulthing.org/p/working-with-ai-two-paths-to-prompting)): "The most important message is that you learn how to use AI by using AI. [...] The more you use AI, the more you develop a sense of what it is good and not so good for".
+It is therefore much more important than prompt engineering to learn how to use an AI system by using it. Prof. Mollick writes on X (formerly Twitter) that he observes that users get the "hang of it" after about 10 hours of using the strongest possible AI system (such as GPT-4). So the first step is often to get started and write with the AI chatbot in a similar way to a human.
 
-Der Vorgang der Optimierung des Prompts wird als "Prompt Engineering" bezeichnet. Es gibt auch zahlreiche Quellen und Handreichungen im Internet, die unter diesem Begriff Tipps für die Erstellung von Prompts bereitstellen (siehe z. B. [Linksammlung zu Prompt Engineering im OpenAI Cookbook](https://cookbook.openai.com/articles/related_resources) für eine umfangreiche Sammlung). Doch obwohl so viel über das Prompten geschrieben wurde, ist es eigentlich alles andere als schwer. 
+**Write as if to a human:** Many people use the prompt in a similar way to the search slot of a search engine or database. With search engines and databases, it was important to reduce the question to as few and as precise search terms as possible. The whole thing had to remain concise, because too much context would only have led to inappropriate hits. Interestingly, these rules no longer apply to language models such as ChatGPT. Input in colloquial language is not a problem and more detailed input usually even leads to better answers and not to the model being "confused". In a sense, therefore, to use AI chatbots effectively, we need to train ourselves to do the very behaviors that search slots have trained us to do for the longest time.
 
-Prof. Ethan Mollick schreibt dazu (übersetzt aus dem Artikel [Working with AI: Two paths to prompting](https://www.oneusefulthing.org/p/working-with-ai-two-paths-to-prompting)): "Die wichtigste Botschaft ist, dass Du die Nutzung der KI durch die Nutzung der KI lernst. [...] Je mehr Du die KI nutzt, desto mehr entwickelst Du ein Gefühl dafür, wofür sie sich gut und weniger gut eignet".
-
-Wesentlich wichtiger als Prompt Engineering ist es deshalb durch die Nutzung zu lernen, wie man ein KI-System gebrauchen sollte. Prof. Mollick schreibt dazu auf X (früher Twitter), dass er beobachtet, dass Nutzer:innen nach etwa 10 Stunden Nutzung eines möglichst starken KI-Systems (wie z. B. GPT-4) den "Dreh" rausbekommen. Der erste Schritt besteht also oft darin, erstmal zu starten und mit dem KI-Chatbot, ähnlich wie mit einem Menschen, zu schreiben.
-
-#### Schreibe wie zu einem Menschen
-
-Viele Personen nutzen den Prompt ähnlich wie den Suchschlitz einer Suchmaschine oder Datenbank. Bei Suchmaschinen und Datenbanken kam es darauf an, die Frage auf möglichst wenige und möglichst präzise Suchbegriffe zu reduzieren. Das ganze musste knapp bleiben, denn zu viel Kontext hätte nur zu unpassenden Treffern geführt. Interessanterweise gelten diese Regeln überhaupt nicht mehr für Sprachmodelle wie ChatGPT. Eingaben in Umgangssprache sind kein Problem und ausführlichere Eingaben führen meist sogar zu besseren Antworten und nicht dazu, dass das Modell "verwirrt" wäre. In gewisser Weise müssen wir uns für die wirksame Verwendung von KI-Chatbots deshalb genau die Verhaltensweisen abtrainieren, die uns Suchschlitze die längste Zeit antrainiert haben.
+**Prompt improvement by example:** In this section we look at specific examples to demonstrate how to make prompts more effective. A well-formulated prompt is critical to the quality of the response you receive from an AI system. Possible problems in prompt creation can include ambiguous input, unclear intentions, suggestively worded questions or the mixing of different topics. The aim of these examples is to gain a better understanding of precise and well thought-out prompts.
 
 
-#### Prompt-Verbesserung am Beispiel
+*Example 1: Unclear intention:*
 
-In diesem Abschnitt beleuchten wir konkrete Beispiele, um zu demonstrieren, wie man Prompts effektiver gestalten kann. Ein gut formulierter Prompt ist entscheidend für die Qualität der Antwort, die man von einem KI-System erhält. Mögliche Probleme bei der Prompt-Erstellung können z. B. mehrdeutige Eingaben, unklare Intentionen, suggestiv formulierte Fragen oder das Vermischen verschiedener Themen sein. Ziel ist es, durch diese Beispiele ein besseres Verständnis für präzise und durchdachte Prompts zu bekommen.
+- **Bad prompt:** "Talking about plants."
+- **Why it's bad:** The prompt is unclear and doesn't give a specific instruction or question.
+- **Better prompt:** "Can you tell me about the importance of plants to the ecosystem?"
 
-##### Beispiel 1: Unklare Absicht
+*Example 2: Suggestive prompts:*
 
-- **Schlechter Prompt:** "Sprechen über Pflanzen."
-- **Warum er schlecht ist:** Der Prompt ist unklar und gibt keine spezifische Anweisung oder Fragestellung.
-- **Besserer Prompt:** "Kannst du mir etwas über die Bedeutung von Pflanzen für das Ökosystem erzählen?"
+- **Bad prompt:** "Are cell phone rays really harmful to your health?"
+- **Why it's bad:** This prompt could lead to misinformation as it implies an unproven claim.
+- **Better prompt:** "What does current research say about the effects of cell phone radiation on health?"
 
+*Example 3: Mixed aspects:*
 
+- **Bad prompt:** "How do I bake a cake and what is the history of baking?"
+- **Why it's bad:** This prompt combines two different topics, which can lead to a confusing or disjointed answer.
+- **Better prompt:** "Can you give me a simple recipe for a chocolate cake?"
 
-##### Beispiel 2: Suggestive Prompts
+### Elements of a good prompt
 
-- **Schlechter Prompt:** "Sind Handystrahlen wirklich gesundheitsschädlich?"
-- **Warum er schlecht ist:** Dieser Prompt könnte zu Fehlinformationen führen, da er eine unbewiesene Behauptung impliziert.
-- **Besserer Prompt:** "Was sagt die aktuelle Forschung über die Auswirkungen von Handystrahlung auf die Gesundheit?"
-
-
-
-##### Beispiel 3: Vermischte Aspekte
-
-- **Schlechter Prompt:** "Wie backe ich einen Kuchen und was ist die Geschichte des Backens?"
-- **Warum er schlecht ist:** Dieser Prompt kombiniert zwei unterschiedliche Themen, was zu einer verwirrenden oder unzusammenhängenden Antwort führen kann.
-- **Besserer Prompt:** "Kannst du mir ein einfaches Rezept für einen Schokoladenkuchen geben?"
+This section is about the essential components of an effective prompt. We identify key elements, such as the language model persona, introduction, customized content, format and additional information, that are helpful in creating a clear and targeted prompt and illustrate how these elements are applied in practice with an example. Finally, you will gain an insight into advanced prompting techniques that you can use to further improve the efficiency and effectiveness of communication with AI models.
 
 
+The following structure has proven effective for writing good prompts:
 
-#### Elemente eines guten Prompts
-
-In diesem Abschnitt geht es um die wesentlichen Komponenten eines effektiven Prompts. Wir identifizieren Schlüsselelemente, wie die Persona des Sprachmodells, die Einleitung, den individuellen Inhalt, das Format und zusätzliche Informationen, die für die Erstellung eines klaren und zielgerichteten Prompts hilfreich sind und veranschaulichen anhand eines Beispiels, wie diese Elemente in der Praxis angewendet werden. Abschließend bekommst Du einen Einblick in fortgeschrittene Prompt-Techniken, mit denen Du die Effizienz und Effektivität der Kommunikation mit KI-Modellen weiter verbessern kannst.
-
-
-
-Für das Schreiben von guten Prompts hat sich der folgende Aufbau bewährt:
-
-| Kategorie               | Beschreibung                                                                   |
+| Category               | Description                                                                   |
 | ----------------------- | ------------------------------------------------------------------------------ |
-| Persona                 | Welche Rolle soll das Sprachmodell übernehmen?                                 |
-| Einleitung              | Was erwarte ich vom Sprachmodell? Beginnt normalerweise mit einem Aktionswort. |
-| Individueller Inhalt    | Der eigentliche Text der verarbeitet werden soll.                              |
-| Format                  | Wenn notwendig, welches Format erwarte ich von der Ausgabe?                    |
-| Zusätzliche Information | Weitere relevante Informationen, die den Kontext spezifischer machen.          |
+| Persona                 | What role should the language model play?                                 |
+| Introduction              | What do I expect from the language model? Usually starts with an action word. |
+| Individual content    | The actual text to be processed.                              |
+| Format                  | If necessary, what format do I expect from the output?                    |
+| Additional Information | Other relevant information that makes the context more specific.          |
 
 
 
-Hier ein ausgefülltes Beispiel:
+Here is a completed example:
 
-| Kategorie               | Beschreibung                                                                                                                                                             |
+| Category               | Description                                                                                                                                                             |
 | ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Persona                 | Du bist Reiseberater und Experte für die individuelle Ausgestaltung von Reisen in fremde Länder.                                                                         |
-| Einleitung              | Ich habe in den kommenden Sommerferien endlich Zeit, gemeinsam mit meinem Partner mal wieder eine richtig große Reise zu unternehmen.                                     |
-| Individueller Inhalt    | Erstelle für mich einen Reiseplan für eine zweiwöchige Reise nach Japan. Berücksichtige dabei kulturelle Sehenswürdigkeiten, lokale Küche und Outdoor-Aktivitäten.       |
-| Format                  | Die Liste sollte nach Urlaubstagen strukturiert sein. Unterteile jeden Urlaubstag nach Stationen und Städten, die ich besuchen werde (wie z. B. Tokio, Kyoto und Osaka). |
-| Zusätzliche Information | Ich interessiere mich besonders für historische Stätten und bin ein Liebhaber von Sushi. Zudem möchte ich gerne eine Wanderung machen.                                   |
+| Persona                 | You are a travel consultant and an expert in customizing trips to foreign countries.                                                                         |
+| Introduction              | I finally have time during the coming summer vacation to go on a really big trip with my partner.                                     |
+| Individual content    | Create an itinerary for me for a two-week trip to Japan. Include cultural sights, local cuisine and outdoor activities.       |
+| Format                  | The list should be structured by vacation days. Divide each vacation day by stations and cities that I will visit (such as Tokyo, Kyoto and Osaka). |
+| Additional Information | I am particularly interested in historical sites and am a lover of sushi. I would also like to go on a hike.                                   |
 
 
 
-#### Prompting-Tipps von OpenAI
+### Prompting-Tipps von OpenAI
 
 Auch OpenAI (die Entwickler von ChatGPT) beschreiben in ihrem Artikel <a href="https://platform.openai.com/docs/guides/prompt-engineering/prompt-engineering">Prompt Engineering</a> genauer, was aus ihrer Sicht einen "guten" Prompt ausmacht:
 
@@ -85,108 +71,99 @@ Auch OpenAI (die Entwickler von ChatGPT) beschreiben in ihrem Artikel <a href="h
 
 2. **Sei modular**: Zerlege komplexe Aufgaben in eine Reihe von einfacheren Aufgaben, die nacheinander ausgeführt werden können. Nutze Struktur, wie z. B. Stichpunkte, um Aspekte klar zu unterteilen.
 
-3. **Sei geduldig**: Fordere das Modell auf, zuerst den Weg zur Antwort zu beschreiben, anstatt sofort zu antworten. Du bekommst bessere Antworten, wenn das Modell zuerst einen Lösungsweg ("chain of thought") entwickelt und diesen anschließend durchführt.
+3. **Be patient**: Ask the model to describe the path to the answer first instead of answering immediately. You will get better answers if the model first develops a solution ("chain of thought") and then carries it out.
 
-4. **Sei ergänzend**: Wenn zu wenig Informationen verfügbar sind neigen Sprachmodelle dazu, unzutreffende Antworten zu erfinden. Versorge das Modell deshalb mit relevanten und aktuellen Informationen, damit es besser antworten kann. Wenn Du Zugriff auf Quellen (wie z. B. Dokumente oder Bücher) brauchst, dann nutze KI-Systeme, die Daten verarbeiten können. 
+4. **Be complementary**: When too little information is available, language models tend to invent inaccurate answers. Therefore, provide the model with relevant and up-to-date information so that it can answer better. If you need access to sources (such as documents or books), use AI systems that can process data. 
 
-5. **Sei passgenau**: Generative KIs sind nicht die beste Lösung für jede Aufgabe. So sind Sprachmodelle, wie GPT-3.5 z. B. gut in der Entwicklung eines Lösungsvorgehens, aber nicht besonders gut und zuverlässig im Rechnen. Nutze deshalb weitere Tools (wie z. B. GPT-4 mit Code-Interpreter) um Operationen durchzuführen, die das Modell nicht selbstständig ausführen kann.
+5. **Be accurate**: Generative AIs are not the best solution for every task. For example, language models such as GPT-3.5 are good at developing a solution procedure, but not particularly good and reliable at computing. Therefore, use other tools (such as GPT-4 with code interpreter) to perform operations that the model cannot perform independently.
 
-6. **Sei evaluativ**: Erstelle und vergleiche unterschiedliche Prompts systematisch, um die Wirkung des Prompts und die Leistungsfähigkeit des Modelles besser einschätzen und optimieren zu können.
+6. **Be evaluative**: Create and compare different prompts systematically to better assess and optimize the effect of the prompt and the performance of the model.
    
 
 
 
-#### Bereitstellen von Beispielen
+### Providing examples
 
-Eine weitere hilfreiche Technik, um bessere Ergebnisse zu erzielen, ist das One-Shot- und Few-Shot-Learning. Diese Methoden dienen dazu, dem KI-Modell zu demonstrieren, was genau erwartet wird. Das KI-Modell kann sich bei der Antwort dann an den Beispielen orientieren und antwortet eher so, wie es der Nutzer erwartet.
+Another helpful technique to achieve better results is one-shot and few-shot learning. These methods are used to demonstrate to the AI model what exactly is expected. The AI model can then base its answer on the examples and is more likely to answer in the way the user expects.
 
-Beim One-Shot Learning wird dem Modell ein einziges Beispiel präsentiert, das die gewünschte Aufgabe oder Antwortform demonstriert. Das Modell nutzt dieses Beispiel als Vorlage für das, was es produzieren soll. 
+In one-shot learning, the model is presented with a single example that demonstrates the desired task or response form. The model uses this example as a template for what it should produce. 
 
-Hier ein Beispiel für das One-Shot Prompting:
+Here is an example of one-shot prompting:
 
-> Erstelle eine kurze Zusage für meine Teilnahme an der Paneldiskussion "KI & Arbeit" am 05.03.2030.
+> Create a short commitment for my participation in the panel discussion "AI & Work" on 05.03.2030.
 > 
-> Nutze für die Antwort das folgende Beispiel:
+> Use the following example for the answer:
 > 
-> ###Eingabe###
+> INPUT
 > 
-> Formuliere eine kurze und höfliche Antwort auf eine Konferenzeinladung.
+> Formulate a short and polite reply to a conference invitation.
 > 
-> ###Antwort###
+> ANSWER
 > 
-> Sehr geehrte Frau Müller,
+> Dear Ms. Müller,
 > 
-> vielen Dank für die Einladung zur Digital Innovations Konferenz 2024. Ich freue mich sehr, teilnehmen und zum Panel über KI-Technologien beitragen zu können. Bitte senden Sie mir weitere Informationen zu den logistischen Details.
+> Thank you for the invitation to the Digital Innovations Conference 2024. I am very pleased to be able to participate and contribute to the panel on AI technologies. Please send me more information on the logistical details.
 > 
-> Mit besten Grüßen,
+> With best regards,
 > 
 > Anna Schmidt
 
-Beim Few-Shot Learning werden dem Modell mehrere Beispiele gegeben, um eine breitere Palette von Fällen oder Variationen einer Aufgabe zu demonstrieren. Dies hilft dem Modell, die Aufgabenstellung besser zu verstehen und sich auf verschiedene Szenarien oder Kontexte einzustellen.
+In few-shot learning, the model is given several examples to demonstrate a wider range of cases or variations of a task. This helps the model to better understand the task and adapt to different scenarios or contexts.
 
-Hier ein Beispiel für das Few-Shot Prompting:
+Here is an example of Few-Shot Prompting:
 
-> Ordne für mich Beispiele verschiedenen Lehr- und Lernformen zu.
+> Assign examples to different forms of teaching and learning for me.
 > 
-> Orientiere Dich bei der Antwort an folgenden Beispielen:
+> Base your answer on the following examples:
 > 
->> Lernvideo anschauen -> selbstgesteuertes Lernen
+>> Watching a learning video -> self-directed learning
 >> 
->> Eine Vorlesung besuchen -> Lehrvortrag
+>> Attend a lecture -> lecture
 >> 
->> Mathematik-Aufgaben lösen -> selbstgesteuertes Lernen
+>> Solve math problems -> self-directed learning
 >> 
->> Mit anderen Studierenden Lernen -> kollaboratives Lernen
+>> Learning with other students -> collaborative learning
 >
 > 
-> Mache mit diesen Beispielen weiter:
+> Continue with these examples:
 > 
->> Eine Zusammenfassung erstellen ->
+>> Create a summary ->
 >> 
->> Mit einer Lernpartnerin die Lerninhalte telefonisch besprechen -> 
+>> Discuss the learning content with a learning partner by telephone -> 
 
-#### Fortgeschrittenes Prompting
+### Advanced prompting
 
-Gute Beispiele für fortgeschrittene Prompts sind:
+Good examples of advanced prompts are
 
-1. Der ideation-prompt von [chatgpt-prompts/ideation.prompt at main · carterleffen/chatgpt-prompts (github.com)](https://github.com/carterleffen/chatgpt-prompts/blob/main/ideation.prompt)
+1. the ideation-prompt from [chatgpt-prompts/ideation.prompt at main - carterleffen/chatgpt-prompts (github.com)](https://github.com/carterleffen/chatgpt-prompts/blob/main/ideation.prompt)
 
-2. Das Beispiel von Prof. Ethan Mollick im Artikel [Working with AI: Two paths to prompting - by Ethan Mollick (oneusefulthing.org)](https://www.oneusefulthing.org/p/working-with-ai-two-paths-to-prompting) im Abschnitt "Structured Prompting"
+2. the example by Prof. Ethan Mollick in the article [Working with AI: Two paths to prompting - by Ethan Mollick (oneusefulthing.org)](https://www.oneusefulthing.org/p/working-with-ai-two-paths-to-prompting) in the section "Structured Prompting"
 
-3. Die Fallstudie [LerncoachGPT](https://www.e-lehre.de/2024/02/07/chatgpt-als-lerncoach) als Prototyp für einen Lerncoach von Simon Roderus 
+3. the case study [LerncoachGPT](https://www.e-lehre.de/2024/02/07/chatgpt-als-lerncoach) as a prototype for a learning coach by Simon Roderus 
    
-5. Professor Synapse Prompt: [Synapse_CoR/GPTprompt.txt at main · ProfSynapse/Synapse_CoR (github.com)](https://github.com/ProfSynapse/Synapse_CoR/blob/main/GPTprompt.txt) oder auch [Super_Synapse/prompt.txt at main · ProfSynapse/Super_Synapse (github.com)](https://github.com/ProfSynapse/Super_Synapse/blob/main/prompt.txt)
+4. professor synapse prompt: [Synapse_CoR/GPTprompt.txt at main - ProfSynapse/Synapse_CoR (github.com)](https://github.com/ProfSynapse/Synapse_CoR/blob/main/GPTprompt.txt) or also [Super_Synapse/prompt.txt at main - ProfSynapse/Super_Synapse (github.com)](https://github.com/ProfSynapse/Super_Synapse/blob/main/prompt.txt)
 
-**Tipp:** Fortgeschrittene Prompts funktionieren wesentlich besser in leistungsfähigeren KI-Systemen wie z. B. GPT-4. 
+**Tip:** Advanced prompts work much better in more powerful AI systems such as GPT-4. 
 
-#### 
+### If you want to go even deeper ...
 
-#### Wenn Du noch tiefer gehen willst ...
+There are numerous good compilations on prompt techniques, such as
 
-Es gibt zahlreiche gute Zusammenstellungen zu Prompt-Techniken, wie z. B. 
+- [Collection of links to prompt engineering in the OpenAI Cookbook](https://cookbook.openai.com/articles/related_resources)
+- Awesome-Prompt-Engineering](https://github.com/promptslab/Awesome-Prompt-Engineering)
 
-- [Linksammlung zu Prompt Engineering im OpenAI Cookbook](https://cookbook.openai.com/articles/related_resources)
-
-- [Awesome-Prompt-Engineering](https://github.com/promptslab/Awesome-Prompt-Engineering)
-
+There are also collections of prompts, such as [FlowGPT](https://flowgpt.com) or [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts)
 
 
-Ebenso gibt es Sammlungen von Prompts, wie z. B. [FlowGPT](https://flowgpt.com) oder [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts)
+### Improve prompts together with the AI
+
+You can ask the AI to improve the prompt together with you. Often all you need to do is enter something like:
+
+> Help me improve my prompt by asking me questions about anything that is unclear and then issuing a revised version of the prompt.
+
+There are much more comprehensive and elaborate prompts for improvement, such as [ChatGPT 4 Prompt Improvement (flowgpt.com)](https://flowgpt.com/p/chatgpt-4-prompt-improvement) (you can view the prompt via the "View Prompt" button). There are also GPTs, such as [Pro Prompter](https://chat.openai.com/g/g-uSEqrEWdX-pro-prompter) or the [ChatGPT - Prompt Professor](https://chat.openai.com/g/g-qfoOICq1l-prompt-professor), which can help you to improve the prompts.
 
 
+### Outlook: "Prompt engineering" is likely to become less important
 
-#### Prompts gemeinsam mit der KI verbessern
-
-Du kannst die KI bitten, mit Dir gemeinsam den Prompt zu verbessern. Oft reicht dafür bereits eine Eingabe, wie:
-
-> Helfe mir meinen Prompt zu verbessern, indem Du mir zu allem, was unklar ist Nachfragen stellst und dann eine überarbeitete Version des Prompts ausgibst.
-
-
-
-Es gibt viel umfangreichere und elaboriertere Prompts zur Verbesserung, wie z. B. [ChatGPT 4 Prompt Improvement (flowgpt.com)](https://flowgpt.com/p/chatgpt-4-prompt-improvement) (Du kannst den Prompt über den Button "View Prompt" einsehen). Ebenso gibt es GPTs, wie z. B. [Pro Prompter](https://chat.openai.com/g/g-uSEqrEWdX-pro-prompter) oder den [ChatGPT - Prompt Professor](https://chat.openai.com/g/g-qfoOICq1l-prompt-professor), die Dir bei der Verbesserung der Prompts helfen können.
-
-
-
-#### Ausblick: "Prompt Engineering"" wird voraussichtlich an Bedeutung verlieren
-
-Gleichzeitig stellt sich aber auch die Frage, ob man wirklich noch tiefer in das "Prompt Engineering" eintauchen will oder sollte. Denn: Einerseits bilden die hier und in den Katas genannten Prompting-Techniken eine solide Basis für die Zusammenarbeit mit der KI. Andererseits wird Prompt Engineering - je mehr sich KI-Systeme weiterentwickeln - aller Voraussicht nach immer mehr an Bedeutung verlieren, wenn sich diese durch permanentes Lernen verbessern und die Nutzereingaben direkt geeignet anpassen. So ist es z. B. jetzt schon bei Bildgenerierenden KIs (wie z. B. DALL-E3) so, dass der Prompt für das Bild durch die KI selbst erstellt werden kann. Feststeht, dass sich dieses Feld derzeit sehr dynamisch voranbewegt und fortwährend selbst optimiert.
+At the same time, however, the question arises as to whether we really want to or should delve deeper into prompt engineering. On the one hand, the prompting techniques mentioned here and in the katas form a solid basis for collaboration with AI. On the other hand, prompt engineering is likely to become less and less important as AI systems continue to develop, if they improve through continuous learning and adapt user input directly and appropriately. For example, image-generating AIs (such as DALL-E3) are already able to generate the prompt for the image themselves. It is clear that this field is currently moving forward very dynamically and is constantly optimizing itself.
