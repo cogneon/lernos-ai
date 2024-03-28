@@ -1,8 +1,8 @@
-### Reflexions Check-In
-  - Überlegt Euch, was Ihr aus den letzten Wochen an neuen Erkenntnissen mitnehmen konntet und präsentiert Euch diese Ergebnisse gegenseitig. Was waren besondere Herausforderungen oder Highlights. An welchen Stellen, konntet Ihr Quick-Wins oder gar Glücksmomente erleben und wo traten eher Barrieren und Frustmomente zutage?
-  - Reflektiert kritisch in Eurer Gruppe den aktuellen Stand zu Eurem Blogbeitrag oder Eurem KI-Lernprojekt und zeigt Euch gegenseitig anhand der Beispiele die Grenzen Eurer KI Tool-Nutzung auf (z.B. KI-Impulse zur Steigerung des Kreativitätslevels vs. KI spinnt falsche Informationen zusammen und erzeugt dadurch Verzerrungen oder gar inhaltliche Manipulationen).
+### Reflection check-in
+  - Think about what you have learnt from the last few weeks and present these results to each other. What were the particular challenges or highlights? Where were you able to experience quick wins or even moments of happiness and where did barriers and moments of frustration come to light?
+  - Reflect critically in your group on the current status of your blog post or your AI learning project and use the examples to show each other the limits of your AI tool use (e.g. AI impulses to increase the level of creativity vs. AI spinning together incorrect information and thereby creating distortions or even manipulating content).
 
-### Vertiefung: Ergebnisse visualisieren
-Lasst die KI Eure dokumentierten Ergebnisse als visualisierten Beitrag zusammenfassen, den Ihr ggf. später ebenfalls veröffentlichen könnt (in Text-, Bild- oder audio-visueller Form).
+### Deepening: Visualising results
+Let the AI summarise your documented results as a visualised contribution, which you can also publish later if necessary (in text, image or audio-visual form).
 
-**Tipp:** Die KI kann Dich als Feedbackpartner in Deiner Reflexion unterstützen. Teile mit ihr Deine bisherigen Ergebnisse und lasse Dir Feedback dazu geben, was Du verbessern kannst.
+**Tip:** The AI can support you as a feedback partner in your reflection. Share your results so far and get feedback on what you can improve.

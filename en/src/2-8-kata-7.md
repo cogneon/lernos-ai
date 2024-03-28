@@ -1,21 +1,21 @@
-Zum Einstieg in diese Kata empfehlen wir, sich zunächst einmal das Kapitel [Maschinelles vs. Menschliches Lernen](1-4-machine-vs-human-learning.md) anzuschauen, um die Hintergründe im **Zusammenspiel von Mensch und Maschine** genauer zu verstehen. Anschließend sollen Eure **Prompting Skills** im direkten Austausch mit generativer KI gezielt erweitert werden.
+To get started with this kata, we recommend that you first take a look at the chapter [Machine vs. human learning](1-4-machine-vs-human-learning.md) to gain a better understanding of the background to the **interplay between humans and machines**. Your **prompting skills** will then be expanded in direct dialogue with generative AI.
 
-KI-Systeme können sehr unterschiedlich eingesetzt werden und die Art des Einsatzes hat erhebliche Auswirkungen auf die Ergebnisse. Studien zeigen, dass Wissensarbeiter durch die Zusammenarbeit mit KI ihre Produktivität und die Qualität der Ergebnisse steigern können (vgl. [KI macht Wissensarbeiter schneller und besser (faz.net)](https://www.faz.net/pro/d-economy/kuenstliche-intelligenz/ki-macht-wissensarbeiter-schneller-und-besser-19183974.html)). Diese Produktivitätssteigerung kann jedoch nur dann genutzt werden, wenn KI-Systeme richtig eingesetzt werden.
+AI systems can be used in very different ways and the way in which they are used has a significant impact on the results. Studies show that knowledge workers can increase their productivity and the quality of results by collaborating with AI (see 🇩🇪 [AI makes knowledge workers faster and better (faz.net)](https://www.faz.net/pro/d-economy/kuenstliche-intelligenz/ki-macht-wissensarbeiter-schneller-und-besser-19183974.html)). However, this increase in productivity can only be utilised if AI systems are used correctly.
 
-Eine Beobachtung ist, dass gerade Einsteiger:innen KI anfangs ähnlich wie eine Suchmaschine, im Sinne von "Eingabe rein - Antwort raus", nutzen. Während diese Nutzung legitim ist, gibt es deutlich bessere Wege, KI zu nutzen. Der erste Schritt besteht darin, zu erforschen und herauszufinden, wie die KI auf verschiedene Eingaben ("Prompts") unterschiedlich reagiert.
+One observation is that beginners in particular initially use AI in a similar way to a search engine, in the sense of "input in - answer out". While this use is legitimate, there are much better ways to use AI. The first step is to explore and find out how the AI reacts differently to different inputs ("prompts").
 
-### Aufgabe: Prompting-Hacks
+### Task: Prompting hacks
 
-Orientiere Dich in dieser Kata gerne am empfohlenen, schrittweisen Prompt-Aufbau aus unserem kleinen Guide [Prompts erstellen](1-8-prompts-erstellen.md). Beachte nun für Deinen Blogpost / Dein Lernprojekt weiterführend die folgenden Fragestellungen:
+In this kata, please follow the recommended, step-by-step prompt structure from our short guide [Create prompts](1-8-prompts-create.md). Now consider the following questions for your blog post / learning project:
 
-- **Persona**: Welche Rolle soll das Sprachmodell bzw. die KI als Assistenz übernehmen (z.B. Softwareentwickler:in, Hochschulprofessor:in, Pressesprecher:in)?
-- **Einleitung**: Was erwarte ich vom Sprachmodell? Beginnt normalerweise mit einem Aktionswort (z.B. Beschreibe mir, Erkläre mir, Erstelle mir).
-- **Individueller Inhalt**: Der eigentliche Text, der verarbeitet werden soll.
-- **Format**: Wenn notwendig, welches Format erwarte ich von der Ausgabe (z.B. Code, Paper, Pressemitteilung, Infografik)?
-- **Zusätzliche Information**: Weitere relevante Informationen, die einen Kontext spezifischer machen (z.B. Schreibstil, Filter, Historie, Technik, Methode).
+- **Persona**: What role should the language model or AI take on as an assistant (e.g. software developer:in, university professor:in, press spokesperson:in)?
+- **Introduction**: What do I expect from the language model? Usually starts with an action word (e.g. Describe me, Explain to me, Create me).
+- **Individual content**: The actual text to be processed.
+- **Format**: If necessary, what format do I expect the output to be (e.g. code, paper, press release, infographic)?
+- **Additional information**: Other relevant information that makes a context more specific (e.g. writing style, filter, history, technique, method).
 
-Je mehr Erfahrung man mit der KI sammelt, desto leichter gelingt eine intuitive Eingabe passender Prompts. Denke daran: Die besten Ergebnisse entstehen, wie bereits in [Kata 3] dargestellt, im Zusammenspiel mit der KI. Nutze deshalb die erste Antwort auf Deine Eingabe dafür in einen Dialog mit der KI zu treten! Vertieft werden diese Gehversuche dann auch beim erweiterten Prompten in [Kata 9] und [Kata 10].
+The more experience you gain with the AI, the easier it is to intuitively enter suitable prompts. Remember: The best results are achieved, as already shown in [Kata 3], in interaction with the AI. Therefore, use the first response to your input to enter into a dialogue with the AI! These attempts are then deepened in the extended prompting in [Kata 9] and [Kata 10].
 
-### Vertiefung: Komplexere Prompts erstellen
+### Deepening: Creating more complex prompts
 
-Erstelle einen komplexeren Prompt, der über die KI zu einer ersten zusammenfassenden (PowerPoint-)Präsentation oder einem Konzept für das Thema Deines Blogposts oder Deines Lernprojekts führt. Dies kannst Du dann im Zusammenspiel mit der KI weiter verfeinern und auch für verschiedene Zielgruppen ausprobieren lassen, z.B. eher aus Berater-Sicht für Entscheider:innen, aus Marketing-Sicht für einen Kunden oder aus Trainings-Sicht für Deine Lernenden.
+Create a more complex prompt that leads to an initial summarising (PowerPoint) presentation or a concept for the topic of your blog post or learning project via the AI. You can then further refine this in interaction with the AI and have it tested for different target groups, e.g. from a consultant's point of view for decision-makers, from a marketing point of view for a customer or from a training point of view for your learners.

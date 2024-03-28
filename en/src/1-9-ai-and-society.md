@@ -28,7 +28,7 @@ Traceability plays an important role in AI systems on two levels:
 
 - **Training material**: It is not always possible to trace which material an AI was trained on. Depending on the training material, an AI generates distortions in the analysis process (e.g. with regard to gender or other characteristics) and even political "beliefs".
   
-- **Results**: Transparency of AI systems is crucial for trust and accountability. What happens in the black box [[https://blog.iao.fraunhofer.de/erklaerbare-ki-das-geheimnis-der-blackbox-lueften/](https://blog.iao.fraunhofer.de/erklaerbare-ki-das-geheimnis-der-blackbox-lueften/)]between a prompt and the output, especially when automated decisions are made based on AI responses. With today's AI systems, it is not possible to understand how the result comes about. Research in the field of ["Explainable AI"](https://de.wikipedia.org/wiki/Explainable_Artificial_Intelligence) promises to remedy this situation.
+- **Results**: Transparency of AI systems is crucial for trust and accountability. What happens in the black box between a prompt and the output, especially when automated decisions are made based on AI responses. With today's AI systems, it is not possible to understand how the result comes about. Research in the field of ["Explainable AI"](https://de.wikipedia.org/wiki/Explainable_Artificial_Intelligence) promises to remedy this situation.
 
 **Reflection questions:**
 
@@ -57,6 +57,7 @@ The use of AI raises a number of questions regarding the handling of personal da
 Data protection violations due to improper handling of AI systems can have serious consequences.It should be remembered that many providers, especially of free AI tools, use user input to train their models.The greatest data protection risk here is that confidential data from input in prompts is unknowingly transferred to the provider's large language model.
 
 **Reflection questions:**
+
 - What personal customer data do we use for our AI systems?Is the data correctly pseudonymized?
 - How transparent do we make the use of customer data by AI? What consent do we obtain?
 - How do we ensure that AI systems do not use data in an uncontrolled manner for unintended purposes? What would be the consequences if internal company data were to end up in publicly accessible systems?
@@ -67,6 +68,7 @@ Data protection violations due to improper handling of AI systems can have serio
 AI has the potential to enhance our cognitive abilities and improve decision-making, but it also harbors the risk of creating dependencies.As AI moves into more and more areas of life, the progressive acquisition of specific skills by people is becoming increasingly important in order to maintain their sovereignty and not trade it for a deep dependence on technology.Put simply, will AI make us smarter or dumber?Will relying on AI disempower us to a certain extent? 
 
 **Reflection questions:**
+
 - Which skills will become more important in a working world shaped by AI?Creativity, social skills, problem solving,...
 - Do we offer exchange forums to reduce fears of AI and gain confidence in dealing with it?
 - Will humans remain the final decision-making authority for critical AI applications or will we leave important processes entirely to the algorithm?
@@ -78,6 +80,7 @@ The debate is about who AI should serve:
 The good of all people and not just a few corporations.Investigative journalists have also examined the work of so-called "clickworkers". Workers from low-wage countries (Kenya, Pakistan, Venezuela) train the models by, for example, linking texts and images, which machines are not yet able to do so well on their own, or filtering out unwanted responses from chatbots. The globalization of this round-the-clock business supports constant price undercutting.A key question is accountability throughout the value chain of AI use and who is accountable, especially when AI systems - perhaps even autonomously - make faulty or harmful decisions? Should manufacturers be liable? Or the users?
 
 **Reflection questions:**
+
 - What ethical guidelines for AI exist in my company?
 Who was involved in their creation?
 - Do the guidelines also reflect my personal values such as justice, responsibility, protection of intellectual property and sustainability?

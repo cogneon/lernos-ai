@@ -36,7 +36,7 @@ This development of LLMs is shown in the diagram above. As we can see, the first
 In order to understand the differences, the tables provide brief information on various AI models. This is a snapshot, as the AI models are being further developed and trained. Therefore, the version designation of the respective models is essential for the qualitative assessment of the generated content. Especially when the scope of the training data is significantly increased. Added to the short info:
 
 - **Model size**: Model size is an important factor for the performance of a language model. AI applications that access a larger model can understand and generate more complex relationships. They are therefore more versatile than models trained for specific application areas. A high number of parameters makes models more expensive in computational terms. In practice, a balance must be struck between the results and the energy consumption required to achieve them.
-- Usage license**: Models with an open source license have a published source code. They can be modified and used by others. Open source models can usually be used free of charge, subject to compliance with the license conditions.
+- **Usage license**: Models with an open source license have a published source code. They can be modified and used by others. Open source models can usually be used free of charge, subject to compliance with the license conditions.
 
 **Models for text generation / code**
 

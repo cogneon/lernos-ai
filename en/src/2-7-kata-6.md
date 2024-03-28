@@ -1,21 +1,21 @@
-In der vergangenen Woche hast Du unterschiedliche **Kategorien und Anwendungsfelder** kennengelernt, denen sich die meisten KI-Tools zuordnen lassen. Darüber hinaus hast Du Dir die Frage gestellt, ob und wie Dich einzelne Tools bei Deiner Arbeit unterstützen können. Die Antwort auf diese Fragen hast Du erhalten, indem Du **konkrete Anwendungsszenarien für Deine Praxis/Deine Arbeit** formuliert und optional einzelne Tools eingesetzt und getestet hast.
+Last week, you learnt about the different **categories and fields of application** to which most AI tools can be assigned. You also asked yourself whether and how individual tools can support you in your work. You received the answer to these questions by formulating **concrete application scenarios for your practice/your work** and optionally using and testing individual tools.
 
-Lasse Deine Erfahrungen aus der letzten Woche Revue passieren und mache Dir Gedanken zu dem übergeordneten Lernziel dieses Leitfadens. Es geht darum, mit Hilfe von KI einen **Blogpost-Beitrag** zu erstellen oder alternativ **Dein persönliches Lernprojekt** auszugestalten. Hintergrundinformation: Was ist ein Blog-Post: [Blogpost Begriffserklärung &amp; Definition](https://www.seo-analyse.com/seo-lexikon/b/blogpost/) 
+Review your experiences from the last week and think about the overarching learning objective of this guide. The aim is to create a **blog post** with the help of AI or alternatively **your personal learning project**. Background information: What is a blog post: 🇩🇪 [Blog post definition](https://www.seo-analyse.com/seo-lexikon/b/blogpost/) 
 
-### Aufgabe: Skizziere Dir Deine Blogbeitrags-/Lernprojekt-Idee
+### Task: Outline your blog post/learning project idea
 
-- Worum soll es in Deinem Blogpost bzw. in Deinem Lernprojekt konkret gehen?
-- Wie soll Dein Blogpost bzw. Dein Lernprojekt aufgebaut sein und welche Elemente soll er/es beinhalten?
-- Welche KI-Tools können Dir bei welchen Elementen helfen? Nutze an dieser Stelle auch noch einmal die Hinweise zu den Kategorien aus [Kata 5]
+- What exactly should your blog post or learning project be about?
+- How should your blog post or learning project be structured and what elements should it contain?
+- Which AI tools can help you with which elements? At this point, use the information on the categories from [Kata 5] once again
 
-### Aufgabe: Starte einen ersten Versuch zur Umsetzung
-Wenn Du diese Fragen beantwortet hast, suche Dir aus den bekannten Kategorien und Anwendungsfeldern der [Kata 5] passende aus, die Du mit dem entsprechend verfügbaren Tool zur Umsetzung Deiner Idee benötigst.
+### Task: Start a first attempt at realisation
+Once you have answered these questions, select suitable categories and fields of application from the [Kata 5] that you need to realise your idea with the corresponding tool available.
 
-Und los geht´s! Wir wünschen Dir viel Spaß bei den nächsten Schritten zum Umsetzen Deiner Idee!
+And off you go! We hope you enjoy the next steps in realising your idea!
 
-- **Hinweis:** Die Länge des Blogposts / Lernprojektes spielt genau so wenig eine Rolle, wie die Qualität Deines Schreibens. Es geht darum, dass Du Deine Erfahrungen im Umgang mit KI-Tools vertiefst und ein gutes Gefühl für die Chancen und Herausforderungen bekommst.
-- **Hinweis (nur für die Praxisvariante "Blogpost"):** Solltest Du keinen Zugriff auf einen realen Blogpost haben, so kannst Du den Beitrag auch in einem gängigen Textverarbeitungsprogramm erstellen bzw. vorbereiten.
+- **Note:** The length of the blog post / learning project is just as irrelevant as the quality of your writing. What matters is that you deepen your experience with AI tools and get a good feel for the opportunities and challenges.
+- **Note (only for the practical "blog post" variant):** If you do not have access to a real blog post, you can also create or prepare the article in a common word processing programme.
 
-###Vertiefung: KI als Feedbackpartner
+###In-depth: AI as a feedback partner
 
-Die KI kann Dich als Feedbackpartner:in weitergehend unterstützen. Teile mit Ihr dazu Deine bisherigen Ergebnisse und lasse Dir Feedback dazu geben, was Du verbessern kannst. Nutze in diesem Zusammenhang auch ggf. noch einmal die Erkenntnisse aus Kata "KI als Dialogpartner".
+The AI can support you further as a feedback partner. Share your previous results with it and get feedback on what you can improve. In this context, you may also want to use the findings from Kata "AI as a dialogue partner" again.

@@ -1,10 +1,10 @@
-### Reflexions Check-In
+### Reflection check-in
 
-- Überlegt Euch, was Ihr aus den ersten 4 Wochen / Katas bisher mitnehmen konntet. Fragt die KI doch am besten einmal, welche Reflexionsmethode sie Euch dafür vorschlagen würde und wendet sie an.
-- Stellt Euch dann kurz den aktuellen Stand Eures Blogbeitrags-Entwurfs oder Eures KI-Lernprojekts vor.
-- Wendet gerne verschiedene Kriterien zur Reflexion an, z.B. Anwendungserfahrung, offene Fragen und Erfahrungswerte auch über die Anwendung hinaus.
-- Was sind drei konkrete, bisherige Learnings aus Eurer Sicht?
+- Think about what you have been able to take away from the first 4 weeks / katas so far. Why don't you ask the AI which reflection method they would suggest and apply it?
+- Then briefly present the current status of your draft blog post or your AI learning project.
+- Feel free to use different criteria for reflection, e.g. application experience, open questions and experience beyond the application.
+- What are three specific lessons learnt so far from your perspective?
 
-**Tipp 1:** Wusstest Du, dass du Deiner KI auch eine Persona geben bzw. sie entsprechend framen kannst (Z.B. Antworte im Stile von Ernest Hemingway, Marcel Reich-Ranicki, Agatha Christie, Joane K. Rowling)?
+**Tip 1:** Did you know that you can also give your AI a persona or frame it accordingly (e.g. answer in the style of Ernest Hemingway, Marcel Reich-Ranicki, Agatha Christie, Joane K. Rowling)?
 
-**Tipp 2:** Chatbasierte KIs sind gut darin, Frameworks oder Modelle (z.B. aus Business, Forschung oder Psychologie) für bestimmte Szenarien anzuwenden. Frage ChatGPT z.B. etwas wie: "Erstelle mir eine SWOT-Analyse für den Verkauf von besonders leichten Premium-Smartphones in der Schweiz".
+**Tip 2:** Chat-based AIs are good at applying frameworks or models (e.g. from business, research or psychology) to specific scenarios. For example, ask ChatGPT something like: "Create a SWOT analysis for the sale of particularly lightweight premium smartphones in Switzerland".

@@ -17,7 +17,6 @@
 
 **Webseiten:**
 
-- [KI Insights](https://www.ki-insights.com/) - Regelmäßige Neuigkeiten aus der Welt der Künstlichen Intelligenz
 - [KI-Campus](https://www.ki-campus.org) – Lernplattform für Künstliche Intelligenz, Stifterverband für die Deutsche Wissenschaft
 - [Mozilla AI Guide - AI Basics](https://ai-guide.future.mozilla.org/content/ai-basics/) - Kurs von Mozilla (englisch) zu Artificial Intelligence, Machine Learning, Large Language Models und verwandten Technologien 
 - [Futurepedia](https://www.futurepedia.io/) - Verzeichnis von KI-Tools, das täglich aktualisiert wird

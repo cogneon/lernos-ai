@@ -1,27 +1,24 @@
-In dieser Kata legst Du die **Grundlagen für die Zusammenarbeit mit der Künstlichen Intelligenz**. Ein Schwerpunkt liegt dabei auf der Frage, wie für Dich eine verantwortungsvollen Nutzung von KI aussieht und welche Rahmenbedingungen es hierfür in Deinem Kontext (z.B. Schule, Hochschule, Unternehmen) gibt.
+In this kata, you will lay the **foundations for working with artificial intelligence**. One focus is on the question of what responsible use of AI looks like for you and what framework conditions exist for this in your context (e.g. school, university, company).
 
-Lese Dir den Abschnitt aus dem Grundlagenkapitel [KI & Gesellschaft](1-9-ai-and-society.md) durch und überlege Dir wie eine verantwortungsvolle Nutzung von KI-Systemen aussehen könnte. 
+Read through the section from the basic chapter [AI & Society](1-9-ai-and-society.md) and think about what a responsible use of AI systems could look like.
+### Task: What can actually happen?
+Think about how AI systems work and then answer the following questions:
+- What types of inputs and outputs are common in AI platforms and tools?
+- Think about what data (generative) AIs can use for processes such as training.
+- What would be threat scenarios that could arise for your organisation/workplace from irresponsible use of AI platforms?
 
-### Aufgabe: Was kann eigentlich passieren?
+### Task: Determine the framework conditions for the use of AI
 
-Denke darüber nach, wie KI-Systeme funktionieren und beantworte dann die nachfolgenden Fragen:
+In order to organise the use of AI systems in your company effectively and responsibly, it is important that you first familiarise yourself with the company-specific requirements and guidelines. You can usually find this information on your company's intranet. Make sure that you always keep an eye on the guidelines relevant to you to ensure that you implement them in your daily work environment. If certain katas in this guide cannot be implemented in your company, it is advisable that you independently think of alternative tasks that comply with your company's guidelines.
 
-- Welche Arten von Eingaben und Ausgaben sind bei KI-Plattformen und -Tools üblich?
-- Denke darüber nach, welche Daten (generative) KIs für Prozesse, wie z. B. das Training nutzen können.
-- Was wären Bedrohungsszenarien, die durch eine verantwortungslose Nutzung von KI-Plattformen für Dein Unternehmen / für Deinen Arbeitsplatz entstehen könnten?
+If your company does not yet have a framework, here are a few general recommendations:
 
-### Aufgabe: Ermittelt die Rahmenbedingungen für die Nutzung von KI
+- **Permitted platforms:** Find out which websites and AI platforms are permitted to be used in your company. Some companies only allow selected platforms. Also consider whether you are allowed to register on AI platforms with your work contact details.
+- **Confidential data:** Most companies have critical company data, the unwanted publication of which would pose a high risk. Therefore, always pay attention to which data you are allowed to enter on which AI platform.
+- **Personal data:** Also consider the risks posed by personal data. Data protection laws and company regulations usually stipulate that personal data may only be entered into systems that have been authorised for this purpose.
+- **Terms of use & third-party rights:** Pay attention to the terms of use, but also to copyright and third-party rights. Generative AI may harbour the risk of creating copyrighted content.
+- **Check outputs:** The outputs of AI platforms are based on probabilities and are therefore not reliable. Therefore, check the results carefully before you use them for yourself or your work.
+- **No illegal use:** Although most AI platforms have good security mechanisms, in certain cases it is possible to use them to create dangerous or illegal content such as malicious code. Therefore, only use AI systems within the permitted framework. Even if it is tempting, especially in a business context, refrain from trying to outwit AI systems or use them differently than intended!
+- **Be careful with unknown providers:** Favour providers of AI platforms that are known to be trustworthy and are transparent about which data they use and how.
 
-Um die Nutzung von KI-Systemen in Deinem Unternehmen effektiv und verantwortungsbewusst zu gestalten, ist es wichtig, dass Du Dich zunächst mit den unternehmensspezifischen Vorgaben und Richtlinien vertraut machst. Diese Informationen findest Du meist im Intranet Deines Unternehmens. Achte darauf, die für Dich relevanten Vorgaben stets im Blick zu behalten um sicherzustellen, dass Du sie in Deinem täglichen Arbeitsumfeld umsetzt. Sollten in diesem Leitfaden bestimmte Katas in Deinem Unternehmen nicht umsetzbar sein, ist es ratsam, dass Du Dir eigenständig alternative Aufgaben überlegst, die den Richtlinien Deines Unternehmens entsprechen.
-
-Falls Dein Unternehmen noch keine Rahmenbedingungen hat findest Du hier ein paar allgemeine Empfehlungen:
-
-- **Erlaubte Plattformen:** Finde heraus, welche Internetseiten und KI-Plattformen in Deinem Unternehmen genutzt werden dürfen. Manche Unternehmen erlauben nur ausgewählte Plattformen. Überlege Dir auch, ob Du Dich bei KI-Plattformen mit deinen dienstlichen Kontaktdaten registrieren darfst.
-- **Vertrauliche Daten:** Die meisten Unternehmen haben kritische Unternehmensdaten, deren ungewollte Veröffentlichung ein hohes Risiko bedeuten würde. Achte deshalb stets darauf, welche Daten Du bei welcher KI-Plattform eingeben darfst.
-- **Personenbezogene Daten:** Denke auch an Risiken, die durch personenbezogene Daten entstehen. Datenschutzrechtliche und unternehmerische Vorgaben geben meist vor, dass nur in solche Systeme personenbezogene Daten eingegeben werden dürfen, die hierfür freigegeben sind.
-- **Nutzungsbedingungen & Rechte Dritter:** Achte auf die Nutzungsbedingungen, aber auch auf das Urheberrecht und die Rechte Dritter. Generative KI birgt unter Umständen das Risiko urheberrechtlich geschützte Inhalte zu erstellen.
-- **Prüfe Ausgaben:** Die Ausgaben von KI-Plattformen basieren auf Wahrscheinlichkeiten und sind somit nicht zuverlässig. Prüfe die Ergebnisse deshalb sorgfältig, bevor Du sie für Dich oder Deine Arbeit nutzt.
-- **Keine illegale Nutzung:** Obwohl die meisten KI-Plattformen gute Sicherheitsmechanismen haben ist es in bestimmten Fällen möglich, damit gefährliche oder illegale Inhalte wie z. B. Schadecode zu erstellen. Nutze die KI-Systeme deshalb nur im erlaubten Rahmen. Auch wenn es verlockend ist: Verzichte insbesondere im unternehmerischen Kontext darauf, zu versuchen, KI-Systeme zu überlisten oder anders als vorgesehen zu verwenden!
-- **Vorsicht bei unbekannten Anbietern:** Bevorzuge Anbieter von KI-Plattformen, die als vertrauenswürdig bekannt und transparent darin sind, welche Daten sie auf welche Weise verwenden.
-
-Nutze nach Möglichkeit einen vorhandenen, knappen Steckbrief der wichtigsten Vorgaben Deines Unternehmens in Bezug auf die Nutzung von KI-Plattformen oder wirke ggf. auf deren Erstellung hin, um ihn geeignet in Deiner Organisation zu verteilen.
+If possible, use an existing, concise profile of your company's most important requirements with regard to the use of AI platforms or, if necessary, work towards its creation in order to distribute it appropriately within your organisation.

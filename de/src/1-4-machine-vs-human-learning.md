@@ -4,7 +4,7 @@ Stellen wir uns vor, **ein Kind sieht zum ersten Mal einen Hund**. Das Kind ist 
 
 Dieser Prozess der Erkundung und Anpassung findet sich auch beim maschinellen Lernen wieder. **Computerprogramme lernen aus Beispielen**, ohne explizit programmiert zu sein. Am Anfang kennen sie die feinen Unterschiede zwischen verschiedenen Kategorien noch nicht. Durch das **Analysieren großer Mengen von Daten** (das "Training") lernen sie nach und nach, Muster zu erkennen und Daten korrekt einzuordnen.
 
-Für uns war es sinnvoll, den gesamten Prozess als **Kreislauf von insgesamt sieben Schritten** darzustellen. Wir haben uns für diese Darstellung entschieden, um menschliches und maschinelles Lernen gegenüberzustellen. Für Prozesse, die ausschließlich auf maschinellem Lernen basieren, findet man in der Literatur verschiedene Darstellungen. [Schematische Darstellung des maschinellen Lernprozesses]([https://www.example.com](https://websites.fraunhofer.de/ML-Blog/grundlagen/erklaerbares-maschinelles-lernen/). Wichtig ist, dass der Lernprozess nach einem Durchlauf nicht abgeschlossen ist, sondern in mehreren Schleifen erfolgt. Auch das ist eine Gemeimsamkeit zwischen dem menschlichen und dem maschinellen Lernen.
+Für uns war es sinnvoll, den gesamten Prozess als **Kreislauf von insgesamt sieben Schritten** darzustellen. Wir haben uns für diese Darstellung entschieden, um menschliches und maschinelles Lernen gegenüberzustellen. Für Prozesse, die ausschließlich auf maschinellem Lernen basieren, findet man in der Literatur verschiedene Darstellungen. [Schematische Darstellung des maschinellen Lernprozesses. Wichtig ist, dass der Lernprozess nach einem Durchlauf nicht abgeschlossen ist, sondern in mehreren Schleifen erfolgt. Auch das ist eine Gemeimsamkeit zwischen dem menschlichen und dem maschinellen Lernen.
 
 ![Ein kreisförmige Infografik, die einen Prozess illustriert, welcher die Schritte im Maschinenlernzyklus darstellt. Beginnend mit der 'Problemdefinition' oben, gefolgt von 'Datensammlung', 'Modellauswahl', 'Training', 'Validierung', 'Anwendung' und zurück zu 'Feedback'. Jeder Schritt ist durch einen Pfeil verbunden, der den Übergang zum nächsten Schritt anzeigt. Die Schritte sind durch orange Rechtecke mit entsprechenden Icons repräsentiert, die auf schwarzem Hintergrund hervorstechen, was den kontinuierlichen und iterativen Charakter des Maschinenlernens symbolisiert.](https://github.com/cogneon/lernos-ai/assets/10791207/db59996b-86e8-4101-94f3-fa210b198c59)
 
@@ -24,7 +24,7 @@ In der realen Welt sieht das Kind viele verschiedene Hunde und Katzen. Es erkenn
    
 Für die KI werden Tausende von Bildern von Hunden und Katzen gesammelt und entsprechend gekennzeichnet. Diese Daten müssen eventuell bereinigt werden, um Fehler oder irrelevante Informationen zu entfernen.
 
-Modellauswahl
+### Modellauswahl
 
 ![3_Modellauswahl - Ein Icon, das einen Kreislauf darstellt, in dessen Zentrum sich ein vereinfachtes Diagramm mit Verzweigungen und Punkten befindet, das für eine Entscheidungsfindung oder Modellauswahl stehen könnte. Um das Diagramm herum sind drei stilisierte Symbole angeordnet: links ein Tierkopf, oben ein menschliches Gesicht mit einem Fragezeichen und rechts ein Hundekopf. Pfeile zeigen in eine kreisförmige Bewegung, die den Prozess der Auswahl symbolisiert. Das Icon ist von einem abgerundeten Quadrat umgeben.](https://github.com/cogneon/lernos-ai/assets/10791207/62dfb0e6-2b40-4c71-89e5-85d36b06a521)
    

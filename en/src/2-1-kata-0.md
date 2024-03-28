@@ -1,22 +1,22 @@
-Ein **lernOS Lernpfad** ist eine **Zusammenstellung von Katas** (Übungen), mit denen Du neue Fähigkeiten erlernst und im Lauf der Zeit eine neue Lernhaltung (Mindset) entwickeln kannst. Ein Lernpfad kann innerhalb eines **lernOS Sprints** (13 Wochen) durchlaufen werden. Wir empfehlen **eine Kata pro Woche** durchzuführen, wenn Du den Leitfaden in 12 Wochen durchlaufen kannst. Es ist aber auch möglich, die Katas anders zu durchlaufen oder modularer zu nutzen.
+A **lernOS learning path** is a **compilation of katas** (exercises) with which you can learn new skills and develop a new learning attitude (mindset) over time. A learning path can be completed within a **learnOS sprint** (13 weeks). We recommend doing **one kata per week** if you can complete the guide in 12 weeks. However, it is also possible to go through the kata in a different way or to use them in a more modular way.
 
-### Aufgabe: Rahmenbedingungen klären
-Die **Woche 0** ist die Woche, bevor es mit den Übungen im Lernpfad so richtig los geht. Nach Abschluss der Woche 0 sollten folgende Dinge festgelegt sein:
+### Task: Clarify the framework conditions
+**Week 0** is the week before you really get started with the exercises in the learning path. At the end of week 0, the following things should be determined:
 
-1. Ob du alleine, im Tandem oder im Circle lernst
-2. Welche Hilfsmittel Ihr zur Selbstorganisation verwendet (z.B. ein Videokonferenz-Tool für Tandem oder Circle und ein OneNote zur Dokumentation)
-3. Bei Tandem und Circle: An welchen Terminen und in welcher Frequent die Treffen stattfinden (Empfehlung: 1 Stunde wöchentlich)
-4. Wann Du Dir ggf. zusätzlich etwas Lernzeit im Kalender reserviert hast (Empfehlung: 1-2 Stunden wöchentlich).
-5. Bei Tandem und Circle: Ob Ihr die Katas vor Euren Treffen durchgeht und im Treffen besprecht oder erst in Euren wöchentlichen Treffen absolviert.
+1. whether you will learn alone, in tandem or in a circle
+2. which tools you will use for self-organisation (e.g. a video conferencing tool for Tandem or Circle and a OneNote for documentation)
+3. for Tandem and Circle: on which dates and at what frequency the meetings take place (recommendation: 1 hour per week)
+4. when you have reserved some additional learning time in your calendar (recommendation: 1-2 hours per week).
+5. for Tandem and Circle: Whether you go through the katas before your meetings and discuss them in the meeting or only complete them in your weekly meetings.
 
-### Aufgabe: Lernt Euch kennen und sprecht über Eure Erwartungen!
-Die wichtigste Aufgabe in der ersten Woche ist es Euch gegenseitig besser kennenzulernen. Stellt Euch deshalb gegenseitig vor und sprecht auch über Eure Erwartungen an die Gruppe und an Eure Lernreise. 
+### Task: Get to know each other and talk about your expectations!
+The most important task in the first week is to get to know each other better. Therefore, introduce yourselves to each other and talk about your expectations of the group and your learning journey. 
 
-**Tipp:** Falls jemand aus Eurer Gruppe bereits ein KI-Tool im Einsatz hat, dann fragt doch die KI, welche Icebreaker zum Kennenlernen sie für Eure Situation empfehlen würde.
+**Tip:** If someone in your group is already using an AI tool, ask the AI which icebreakers they would recommend for your situation to get to know each other.
 
-Als Einstiegsfragen könnt ihr diese Fragen nutzen:
+You can use these questions as starters:
 
-- Was bedeutet KI für Dich persönlich?
-- Welche Erwartungen habt Ihr an den Lernpfad?
-- Woran merkst Du / merkt Ihr, dass die Teilnahme an dem Lernpfad für Dich / Euch erfolgreich war?
-- Wie viel Vorerfahrung hat jeder einzelne von Euch mit dem Thema?
+- What does AI mean to you personally?
+- What expectations do you have of the learning path?
+- How do you notice that participation in the learning path was successful for you?
+- How much previous experience does each of you have with the topic?

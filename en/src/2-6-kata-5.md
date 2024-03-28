@@ -1,24 +1,24 @@
-In einer vorherigen Kata haben wir zum ersten Mal die [KI-Tools und Services](1-7-ai-tools-services.md) thematisiert. In dieser Kata wollen wir diese nochmals aufgreifen und vertiefen, indem wir sie mit **realen, praxisorientierten KI-Anwendungsfeldern** verknüpfen. Grundsätzlich lassen sich KI-Tools den folgenden **Kategorien** zuordnen:
+In a previous kata, we discussed [AI tools and services](1-7-ai-tools-services.md) for the first time. In this kata, we want to take this up again and go into it in more depth by linking it to **real, practice-orientated AI application fields**. Basically, AI tools can be assigned to the following **categories**:
 
-1. KI-gestützte Codierungshilfen (Unterstützung beim Prompting)
-2. KI-gestützte Text-Tools (Textgenerierung- und bearbeitung)
-3. KI-gestützte Bild-Tools (Bildgenerierung- und bearbeitung)
-4. KI-gestützte Audio-Tools (Tongenerierung und -bearbeitung)
-5. KI-gestützte Video-Tools (Videogenerierung und -bearbeitung)
-6. KI-gestützte Multi-Tools (Tools, die verschiedene der o.g. Kategorien kombiniert nutzbar machen)
+1. AI-supported coding aids (support for prompting)
+2. AI-supported text tools (text generation and editing)
+3. AI-supported image tools (image generation and editing)
+4. AI-supported audio tools (sound generation and editing)
+5. AI-supported video tools (video generation and editing)
+6. AI-supported multi-tools (tools that make various of the above categories usable in combination)
 
-Du selbst kennst Deinen Arbeitsplatz / Dein Projekt und die damit verbundenen Tätigkeiten am besten. Überlege Dir, welche der Tool-Kategorien für Dich und Deine Arbeit wichtig sind oder sein könnten. Wenn Du beispielsweise viel mit Texten arbeitest (egal, ob lesend, schreibend oder zusammenfassend), werden höchstwahrscheinlich KI-gestützte Text-Tools besonders interessant sein. Solltest Du hingegen viel mit Ton- und/oder Videos arbeiten (z.B. mit Blick auf die Erstellung digitaler Lerninhalte oder mit Blick auf die Gestaltung von Marketingaktivitäten), wirf am besten einen besonderen Blick auf KI-gestützte Audio- und/oder Video-Tools.
+You know your workplace / project and the associated activities best. Think about which of the tool categories are or could be important for you and your work. For example, if you work a lot with texts (whether reading, writing or summarising), AI-supported text tools will most likely be of particular interest. If, on the other hand, you work a lot with audio and/or video (e.g. with a view to creating digital learning content or designing marketing activities), it is best to take a special look at AI-supported audio and/or video tools.
 
-### Aufgabe: Lerne KI-Anwendungsfelder kennen
+### Task: Get to know AI application areas
 
-Um Dich bei dem gedanklichen Einstieg zu unterstützen, nutze gerne die folgende Zusammenstellung möglicher [KI-Anwendungsfelder](1-5-ai-application-areas.md). Schaue Dir diese in Ruhe an und überlege Dir, welche Anwendungsfelder sich für Deinen Arbeitsplatz / Dein Projekt ergeben.
+To help you get started, use the following compilation of possible [AI application areas](1-5-ai-application-areas.md). Take a look at these at your leisure and think about which application areas arise for your workplace / project.
 
-### Aufgabe: Formuliere Anwendungsszenarien
+### Task: Formulate application scenarios
 
-Formuliere 2-3 kurze Anwendungsszenarien (Use-Cases) und beschreibe, bei welchen konkreten Arbeitsschritten Dir KI-Tools aus den o.g. Kategorien und Anwendungsfeldern helfen könnten.
+Formulate 2-3 short application scenarios (use cases) and describe the specific work steps in which AI tools from the above categories and fields of application could help you.
 
-- **Beispiel 1**: "Im Rahmen meiner Arbeit schreibe ich regelmäßig Gesprächsprotokolle. KI-gestützte Audio-Tools könnten mir im Optimalfall dabei helfen, Gespräche aufzuzeichnen und in Verbindung mit KI-gestützten Text-Tools zusammenzufassen."
-- **Beispiel 2**: "Es ist Teil meiner Aufgabe, Texte unserer Marketing-Abteilung mit passendem Bildmaterial anzureichern. KI-gestützte Bild-Tools könnten mich dabei unterstützen, passende Motive zu entwerfen, die an unsere Kommunikationsrichtlinien angepasst sind."
+- **Example 1**: "I regularly write interview transcripts as part of my work. AI-supported audio tools could ideally help me to record conversations and summarise them in conjunction with AI-supported text tools."
+- **Example 2**: "Part of my job is to enrich texts from our marketing department with suitable visual material. AI-supported image tools could support me in designing suitable motifs that are adapted to our communication guidelines."
 
-### Vertiefung: zwei zusätzliche Tools
-Entscheide dich für mindestens zwei Tools, die Du testen möchtest. Verschaffe Dir Zugang zu diesen Tools. Sollte dies nicht umsetzbar sein, beispielsweise aus Kosten- und / oder Berechtigungsgründen, suche nach Alternativen, die den gleichen Zweck erfüllen. Sobald Du passende Tools gefunden hast, probiere sie in den von Dir beschriebenen Anwendungsszenarien aus. Notiere Deine Erfahrungen und teile sie mit den anderen Interessierten.
+### Deepening: two additional tools
+Decide on at least two tools that you would like to test. Gain access to these tools. If this is not feasible, for example for cost and / or authorisation reasons, look for alternatives that fulfil the same purpose. Once you have found suitable tools, try them out in the application scenarios you have described. Make a note of your experiences and share them with other interested parties.

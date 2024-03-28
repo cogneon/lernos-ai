@@ -12,7 +12,7 @@ Welcome to the **lernOS Artificial Intelligence (AI) Guide**. The guide is avail
 
 lernOS is a method of self-organization for people living and working in the 21st century. To be successful today, you have to constantly learn, organize and develop yourself. No one else is responsible for this process. You have to take care of it yourself (self-directed, lifelong learning).
 
-lernOS guides are licensed under [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/deed.de) (CC BY 4.0): 
+lernOS guides are licensed under [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/deed) (CC BY 4.0): 
 
 ![](https://i.creativecommons.org/l/by/4.0/88x31.png)
 

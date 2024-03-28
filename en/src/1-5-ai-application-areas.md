@@ -26,7 +26,7 @@ For generative AI, there is unfortunately not yet a nice diagram similar to the 
 
 As described in the **HBR article** [Where Should Your Company Start with GenAI?](https://hbr.org/2023/09/where-should-your-company-start-with-genai), organizations and all individual knowledge workers should find out whether and how their activities are affected by generative AI. The article suggests the WINS meme, which you can use to check how much effort your own activities involve in dealing with texts (Words), images (Images), numbers (Numbers) and audio (Sounds). The degree to which you are affected depends on the effort and degree of digitization in the respective activity.
 
-If you do not have a **personal knowledge map with an overview of your tasks**, you can use the [categories of knowledge-intensive activities of the Federal Institute for Vocational Education and Training](https://lit.bibb.de/vufind/Record/DS-131131) as a starting point:
+If you do not have a **personal knowledge map with an overview of your tasks**, you can use the 🇩🇪 [categories of knowledge-intensive activities of the Federal Institute for Vocational Education and Training](https://lit.bibb.de/vufind/Record/DS-131131) as a starting point:
 
 1. research
 2. develop

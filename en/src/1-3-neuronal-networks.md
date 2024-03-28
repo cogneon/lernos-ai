@@ -12,4 +12,4 @@ A single artificial neuron is connected to all neurons in the upstream layer. Th
 
 When training a neural network, you start with random parameters. In the training process, the parameters are set through a process of machine learning by calculating an error function so that the neural network provides the most correct answers possible.
 
-This explanatory video](https://www.youtube.com/watch?v=aircAruvnKk) shows how a neural network can recognise numbers (e.g. the postcode on a letter). A 28x28 pixel image is used as the input layer (784 inputs). The network used has two hidden layers. The output layer has ten outputs (indicators for the numbers 0-9).
+This [explanatory video](https://www.youtube.com/watch?v=aircAruvnKk) shows how a neural network can recognise numbers (e.g. the postcode on a letter). A 28x28 pixel image is used as the input layer (784 inputs). The network used has two hidden layers. The output layer has ten outputs (indicators for the numbers 0-9).
