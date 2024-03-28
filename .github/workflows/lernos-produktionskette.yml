@@ -14,8 +14,8 @@ jobs:
       - run: rm -rf ./de/${{ github.event.repository.name }}-guide.*
       - run: rm -rf ./docs/de/*
       # en
-      # - run: rm -rf ./en/${{ github.event.repository.name }}-guide.*
-      # - run: rm -rf ./docs/en/*
+      - run: rm -rf ./en/${{ github.event.repository.name }}-guide.*
+      - run: rm -rf ./docs/en/*
 
       # Create Chapter List
       - name: Create Chapter Lists
@@ -79,7 +79,7 @@ jobs:
             --output=./de/${{ github.event.repository.name }}-guide.pdf
             ./de/src/index.md ${{ steps.chapter_list.outputs.chapters-de }}
 
-      # Create Web Version (mkdocs)
+      # Create Web Version de (mkdocs)
       - uses: actions/setup-python@v4
         with:
           python-version: 3.x
@@ -92,6 +92,21 @@ jobs:
             mkdocs-material-
       - run: pip install mkdocs-material
       - run: mkdocs build -f ./de/mkdocs.yml
+
+      # Create Web Version en (mkdocs)
+      - uses: actions/setup-python@v4
+        with:
+          python-version: 3.x
+      - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV 
+      - uses: actions/cache@v3
+        with:
+          key: mkdocs-material-${{ env.cache_id }}
+          path: .cache
+          restore-keys: |
+            mkdocs-material-
+      - run: pip install mkdocs-material
+      - run: mkdocs build -f ./en/mkdocs.yml
+
 
       # Geänderte Datein zurück ins Repository committen
       - uses: stefanzweifel/git-auto-commit-action@v4
