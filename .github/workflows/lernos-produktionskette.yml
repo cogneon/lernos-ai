@@ -56,18 +56,32 @@ jobs:
             ./en/src/index.md ${{ steps.chapter_list_en.outputs.chapters-en }}
 
       # Create HTML Version (html)
-      #- uses: docker://pandoc/core
-      #  with:
-      #    args: >-
-      #      ./de/metadata.yaml
-      #      --standalone
-      #      --resource-path=./de/src
-      #      --number-sections
-      #      --toc
-      #      --toc-depth=2
-      #      -V lang=de-de
-      #      --output=./de/${{ github.event.repository.name }}-guide.html
-      #      ./de/src/index.md ${{ steps.chapter_list.outputs.chapters-de }}
+      # de
+      - uses: docker://pandoc/core
+        with:
+          args: >-
+            ./de/metadata.yaml
+            --standalone
+            --resource-path=./de/src
+            --number-sections
+            --toc
+            --toc-depth=2
+            -V lang=de-de
+            --output=./de/${{ github.event.repository.name }}-guide.html
+            ./de/src/index.md ${{ steps.chapter_list_de.outputs.chapters-de }}
+      #en
+      - uses: docker://pandoc/core
+        with:
+          args: >-
+            ./en/metadata.yaml
+            --standalone
+            --resource-path=./en/src
+            --number-sections
+            --toc
+            --toc-depth=2
+            -V lang=en-GB
+            --output=./en/${{ github.event.repository.name }}-guide.html
+            ./en/src/index.md ${{ steps.chapter_list_en.outputs.chapters-en }}
 
       # Create eBook Version (epub)
       #- uses: docker://pandoc/core
