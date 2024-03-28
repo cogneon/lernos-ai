@@ -4,7 +4,7 @@ The following basic chapter is intended to give you a compact guide for the simp
 
 ### What actually is a prompt?
 
-In IT, the term "prompt" refers to the request to the user to make an entry in a text-based console (source: 🇩🇪 [https://de.wikipedia.org/wiki/Prompt](https://de.wikipedia.org/wiki/Prompt)). In chat-based AI systems, such as ChatGPT, the prompt stands for the input text that a user sends to the language model in order to receive a response. The language model (Large Language Model or LLM) generates a response by predicting the most likely continuation of the text based on learned patterns and information. The quality of the response depends to a large extent on the prompt itself. It is therefore worth learning how to create prompts in such a way that they generate the user's desired output as well as possible.
+In IT, the term "prompt" refers to the request to the user to make an entry in a text-based console (source: [https://de.wikipedia.org/wiki/Prompt](https://de.wikipedia.org/wiki/Prompt)). In chat-based AI systems, such as ChatGPT, the prompt stands for the input text that a user sends to the language model in order to receive a response. The language model (Large Language Model or LLM) generates a response by predicting the most likely continuation of the text based on learned patterns and information. The quality of the response depends to a large extent on the prompt itself. It is therefore worth learning how to create prompts in such a way that they generate the user's desired output as well as possible.
 
 ### Prompt engineering
 The process of optimizing the prompt is referred to as "prompt engineering". There are also numerous sources and handouts on the Internet that provide tips for creating prompts under this term (see e.g. [collection of links on prompt engineering in the OpenAI Cookbook](https://cookbook.openai.com/articles/related_resources) for an extensive collection). However, although so much has been written about prompting, it is actually anything but difficult. 
@@ -139,7 +139,7 @@ Good examples of advanced prompts are
 
 2. the example by Prof. Ethan Mollick in the article [Working with AI: Two paths to prompting - by Ethan Mollick (oneusefulthing.org)](https://www.oneusefulthing.org/p/working-with-ai-two-paths-to-prompting) in the section "Structured Prompting"
 
-3. the case study 🇩🇪 [LerncoachGPT](https://www.e-lehre.de/2024/02/07/chatgpt-als-lerncoach) as a prototype for a learning coach by Simon Roderus 
+3. the case study [LerncoachGPT](https://www.e-lehre.de/2024/02/07/chatgpt-als-lerncoach) as a prototype for a learning coach by Simon Roderus 
    
 4. professor synapse prompt: [Synapse_CoR/GPTprompt.txt at main - ProfSynapse/Synapse_CoR (github.com)](https://github.com/ProfSynapse/Synapse_CoR/blob/main/GPTprompt.txt) or also [Super_Synapse/prompt.txt at main - ProfSynapse/Super_Synapse (github.com)](https://github.com/ProfSynapse/Super_Synapse/blob/main/prompt.txt)
 
