@@ -440,6 +440,15 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#modellauswahl" class="md-nav__link">
+    <span class="md-ellipsis">
+      Modellauswahl
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#training" class="md-nav__link">
     <span class="md-ellipsis">
       Training
@@ -1297,7 +1306,7 @@
 <h2 id="menschliches-und-maschinelles-lernen">Menschliches und Maschinelles Lernen</h2>
 <p>Stellen wir uns vor, <strong>ein Kind sieht zum ersten Mal einen Hund</strong>. Das Kind ist fasziniert von diesem neuen Tier und ruft begeistert "Wau Wau!". In seiner kindlichen Begeisterung bezeichnet es zunächst jeden Vierbeiner als "Wau Wau". Erst nach und nach lernt es durch Beobachtung und mit Hilfe seiner Eltern, die feinen Unterschiede zwischen verschiedenen Tieren wie Hunden und Katzen zu erkennen.</p>
 <p>Dieser Prozess der Erkundung und Anpassung findet sich auch beim maschinellen Lernen wieder. <strong>Computerprogramme lernen aus Beispielen</strong>, ohne explizit programmiert zu sein. Am Anfang kennen sie die feinen Unterschiede zwischen verschiedenen Kategorien noch nicht. Durch das <strong>Analysieren großer Mengen von Daten</strong> (das "Training") lernen sie nach und nach, Muster zu erkennen und Daten korrekt einzuordnen.</p>
-<p>Für uns war es sinnvoll, den gesamten Prozess als <strong>Kreislauf von insgesamt sieben Schritten</strong> darzustellen. Wir haben uns für diese Darstellung entschieden, um menschliches und maschinelles Lernen gegenüberzustellen. Für Prozesse, die ausschließlich auf maschinellem Lernen basieren, findet man in der Literatur verschiedene Darstellungen. [Schematische Darstellung des maschinellen Lernprozesses](<a href="https://websites.fraunhofer.de/ML-Blog/grundlagen/erklaerbares-maschinelles-lernen/">https://www.example.com</a>. Wichtig ist, dass der Lernprozess nach einem Durchlauf nicht abgeschlossen ist, sondern in mehreren Schleifen erfolgt. Auch das ist eine Gemeimsamkeit zwischen dem menschlichen und dem maschinellen Lernen.</p>
+<p>Für uns war es sinnvoll, den gesamten Prozess als <strong>Kreislauf von insgesamt sieben Schritten</strong> darzustellen. Wir haben uns für diese Darstellung entschieden, um menschliches und maschinelles Lernen gegenüberzustellen. Für Prozesse, die ausschließlich auf maschinellem Lernen basieren, findet man in der Literatur verschiedene Darstellungen. [Schematische Darstellung des maschinellen Lernprozesses. Wichtig ist, dass der Lernprozess nach einem Durchlauf nicht abgeschlossen ist, sondern in mehreren Schleifen erfolgt. Auch das ist eine Gemeimsamkeit zwischen dem menschlichen und dem maschinellen Lernen.</p>
 <p><img alt="Ein kreisförmige Infografik, die einen Prozess illustriert, welcher die Schritte im Maschinenlernzyklus darstellt. Beginnend mit der 'Problemdefinition' oben, gefolgt von 'Datensammlung', 'Modellauswahl', 'Training', 'Validierung', 'Anwendung' und zurück zu 'Feedback'. Jeder Schritt ist durch einen Pfeil verbunden, der den Übergang zum nächsten Schritt anzeigt. Die Schritte sind durch orange Rechtecke mit entsprechenden Icons repräsentiert, die auf schwarzem Hintergrund hervorstechen, was den kontinuierlichen und iterativen Charakter des Maschinenlernens symbolisiert." src="https://github.com/cogneon/lernos-ai/assets/10791207/db59996b-86e8-4101-94f3-fa210b198c59" /></p>
 <p>Nehmen wir zur Erläuterung des gesamten Lernprozesses ein konkretes Beispiel: Eine KI-Anwendung soll lernen, Bilder von Hunden und Katzen zu unterscheiden.</p>
 <h3 id="situation">Situation</h3>
@@ -1307,7 +1316,7 @@
 <p><img alt="2_Datensammlung - Ein Icon, das eine stilisierte Klemmmappe darstellt, auf der oben die Gesichter einer Katze und eines Hundes zu sehen sind, gefolgt von mehreren Zeilen Text und Pfeilen, die nach unten zeigen. Dies deutet auf einen Prozess der Datenerfassung oder -auflistung hin. Das Icon ist in einem abgerundeten Quadratrahmen platziert." src="https://github.com/cogneon/lernos-ai/assets/10791207/47859dbb-dc55-4fda-afc5-e1e55125d95f" /></p>
 <p>In der realen Welt sieht das Kind viele verschiedene Hunde und Katzen. Es erkennt Tiere, wenn sie 4 Beine haben und einen Schwanz und sagt "Wau wau". Die Eltern helfen dem Kind, indem sie auf die Tiere zeigen und diese benennen. So verbindet das Kind die Bilder und Laute der Tiere mit den richtigen Begriffen.</p>
 <p>Für die KI werden Tausende von Bildern von Hunden und Katzen gesammelt und entsprechend gekennzeichnet. Diese Daten müssen eventuell bereinigt werden, um Fehler oder irrelevante Informationen zu entfernen.</p>
-<p>Modellauswahl</p>
+<h3 id="modellauswahl">Modellauswahl</h3>
 <p><img alt="3_Modellauswahl - Ein Icon, das einen Kreislauf darstellt, in dessen Zentrum sich ein vereinfachtes Diagramm mit Verzweigungen und Punkten befindet, das für eine Entscheidungsfindung oder Modellauswahl stehen könnte. Um das Diagramm herum sind drei stilisierte Symbole angeordnet: links ein Tierkopf, oben ein menschliches Gesicht mit einem Fragezeichen und rechts ein Hundekopf. Pfeile zeigen in eine kreisförmige Bewegung, die den Prozess der Auswahl symbolisiert. Das Icon ist von einem abgerundeten Quadrat umgeben." src="https://github.com/cogneon/lernos-ai/assets/10791207/62dfb0e6-2b40-4c71-89e5-85d36b06a521" /></p>
 <p>Im Kopf des Kindes bilden sich durch Wiederholung und Korrektur feste neuronale Verbindungen, was zu einer klareren Unterscheidung zwischen Hunden und Katzen führt. Dieser Prozess ist ähnlich der Art und Weise, wie ein <strong>neuronales Netz</strong> (vgl. das Kapitel....in diesem Leitfaden) im KI-Training gestärkt wird. Es ist besonders geschickt darin, in unstrukturierten Daten Muster zu erkennen und aus diesen zu lernen.</p>
 <p>Mit jedem durchlaufenen Trainingsbild verbessert das KI-Modell seine Erkennungsfähigkeit für charakteristische Merkmale wie die Beschaffenheit des Fells, die Form der Ohren und die Beschaffenheit des Schwanzes. Es optimiert seine Vorhersagegenauigkeit, indem es relevante Muster hervorhebt und weniger wichtige vernachlässigt. Diese schrittweise Verfeinerung seiner Erkennungsleistung gleicht dem Lernprozess eines Kindes, das durch ständiges Ausprobieren und die daraus resultierenden Korrekturen lernt.</p>
