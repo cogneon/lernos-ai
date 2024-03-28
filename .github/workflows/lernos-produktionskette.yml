@@ -18,9 +18,13 @@ jobs:
       - run: rm -rf ./docs/en/*
 
       # Create Chapter List
-      - name: Create Chapter Lists
+      # de
+      - name: Create Chapter Lists de
         id: chapter_list
         run: echo "chapters-de=$(printf '%s ' ./de/src/[0-9]*.md)" >> "$GITHUB_OUTPUT"
+      # en
+      - name: Create Chapter Lists en
+        id: chapter_list
         run: echo "chapters-en=$(printf '%s ' ./en/src/[0-9]*.md)" >> "$GITHUB_OUTPUT"
       
       # Create Microsoft Word Version (docx)
