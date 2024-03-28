@@ -136,7 +136,7 @@ jobs:
             --number-sections
             --toc
             --toc-depth=2
-            -V lang=en
+            -V lang=de-de
             --template /.pandoc/templates/eisvogel.latex
             --output=./en/${{ github.event.repository.name }}-guide.pdf
             ./en/src/index.md ${{ steps.chapter_list_en.outputs.chapters-en }}
