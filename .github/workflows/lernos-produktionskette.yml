@@ -10,13 +10,20 @@ jobs:
       - uses: actions/checkout@v3
       
       # Delete Old Versions
+      # de
       - run: rm -rf ./de/${{ github.event.repository.name }}-guide.*
       - run: rm -rf ./docs/de/*
+      # en
+      # - run: rm -rf ./en/${{ github.event.repository.name }}-guide.*
+      # - run: rm -rf ./docs/en/*
 
       # Create Chapter List
-      - name: Create Chapter List
+      - name: Create Chapter Lists
         id: chapter_list
+        # de
         run: echo "chapters=$(printf '%s ' ./de/src/[0-9]*.md)" >> "$GITHUB_OUTPUT"
+        # en
+        run: echo "chapters=$(printf '%s ' ./en/src/[0-9]*.md)" >> "$GITHUB_OUTPUT"
       
       # Create Microsoft Word Version (docx)
       - uses: docker://pandoc/core
@@ -30,7 +37,7 @@ jobs:
             --toc-depth=2
             -V lang=de-de
             --output=./de/${{ github.event.repository.name }}-guide.docx
-            ./de/src/index.md ${{ steps.chapter_list.outputs.chapters }}
+            ./de/src/index.md ${{ steps.chapter_list.outputs.chapters-de }}
 
       # Create HTML Version (html)
       - uses: docker://pandoc/core
@@ -44,7 +51,7 @@ jobs:
             --toc-depth=2
             -V lang=de-de
             --output=./de/${{ github.event.repository.name }}-guide.html
-            ./de/src/index.md ${{ steps.chapter_list.outputs.chapters }}
+            ./de/src/index.md ${{ steps.chapter_list.outputs.chapters-de }}
 
       # Create eBook Version (epub)
       - uses: docker://pandoc/core
@@ -58,7 +65,7 @@ jobs:
             --toc-depth=2
             -V lang=de-de
             --output=./de/${{ github.event.repository.name }}-guide.epub
-            ./de/src/index.md ${{ steps.chapter_list.outputs.chapters }}
+            ./de/src/index.md ${{ steps.chapter_list.outputs.chapters-de }}
 
       # Create PDF Version (pdf)
       - uses: docker://pandoc/extra
@@ -73,7 +80,7 @@ jobs:
             -V lang=de-de
             --template /.pandoc/templates/eisvogel.latex
             --output=./de/${{ github.event.repository.name }}-guide.pdf
-            ./de/src/index.md ${{ steps.chapter_list.outputs.chapters }}
+            ./de/src/index.md ${{ steps.chapter_list.outputs.chapters-de }}
 
       # Create Web Version (mkdocs)
       - uses: actions/setup-python@v4
