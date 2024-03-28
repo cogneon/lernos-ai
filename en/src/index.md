@@ -1,4 +1,4 @@
-# Willkommen
+# Welcome
 
 Welcome to the **lernOS Artificial Intelligence (AI) Guide**. The guide is available for testing in a first version 0.1. In the [lernOS KI MOOC](https://loscon.lernos.org/) from **6.5.-21.6.2024** we will put the guide to the practical test and create a version 1.0 with your feedback. You can already register for the AI MOOC [via meetup.com](https://www.meetup.com/cogneon/events/297769514/). We will share our experiences at the [lernOS Convention 2024](https://loscon.lernos.org/de/).
 
