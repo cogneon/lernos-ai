@@ -28,6 +28,7 @@ jobs:
         run: echo "chapters-en=$(printf '%s ' ./en/src/[0-9]*.md)" >> "$GITHUB_OUTPUT"
       
       # Create Microsoft Word Version (docx)
+      # de
       - uses: docker://pandoc/core
         with:
           args: >-
@@ -39,35 +40,48 @@ jobs:
             --toc-depth=2
             -V lang=de-de
             --output=./de/${{ github.event.repository.name }}-guide.docx
-            ./de/src/index.md ${{ steps.chapter_list.outputs.chapters-de }}
+            ./de/src/index.md ${{ steps.chapter_list_de.outputs.chapters-de }}
+      # en
+      - uses: docker://pandoc/core
+        with:
+          args: >-
+            ./en/metadata.yaml
+            --standalone
+            --resource-path=./en/src
+            --number-sections
+            --toc
+            --toc-depth=2
+            -V lang=en-GB
+            --output=./en/${{ github.event.repository.name }}-guide.docx
+            ./en/src/index.md ${{ steps.chapter_list_en.outputs.chapters-en }}
 
       # Create HTML Version (html)
-      - uses: docker://pandoc/core
-        with:
-          args: >-
-            ./de/metadata.yaml
-            --standalone
-            --resource-path=./de/src
-            --number-sections
-            --toc
-            --toc-depth=2
-            -V lang=de-de
-            --output=./de/${{ github.event.repository.name }}-guide.html
-            ./de/src/index.md ${{ steps.chapter_list.outputs.chapters-de }}
+      #- uses: docker://pandoc/core
+      #  with:
+      #    args: >-
+      #      ./de/metadata.yaml
+      #      --standalone
+      #      --resource-path=./de/src
+      #      --number-sections
+      #      --toc
+      #      --toc-depth=2
+      #      -V lang=de-de
+      #      --output=./de/${{ github.event.repository.name }}-guide.html
+      #      ./de/src/index.md ${{ steps.chapter_list.outputs.chapters-de }}
 
       # Create eBook Version (epub)
-      - uses: docker://pandoc/core
-        with:
-          args: >-
-            ./de/metadata.yaml
-            --standalone
-            --resource-path=./de/src
-            --number-sections
-            --toc
-            --toc-depth=2
-            -V lang=de-de
-            --output=./de/${{ github.event.repository.name }}-guide.epub
-            ./de/src/index.md ${{ steps.chapter_list.outputs.chapters-de }}
+      #- uses: docker://pandoc/core
+      #  with:
+      #    args: >-
+      #      ./de/metadata.yaml
+      #      --standalone
+      #      --resource-path=./de/src
+      #      --number-sections
+      #      --toc
+      #      --toc-depth=2
+      #      -V lang=de-de
+      #      --output=./de/${{ github.event.repository.name }}-guide.epub
+      #      ./de/src/index.md ${{ steps.chapter_list.outputs.chapters-de }}
 
       # Create PDF Version (pdf)
       # de
@@ -85,19 +99,19 @@ jobs:
             --output=./de/${{ github.event.repository.name }}-guide.pdf
             ./de/src/index.md ${{ steps.chapter_list_de.outputs.chapters-de }}
       # en
-      - uses: docker://pandoc/extra
-        with:
-          args: >-
-            ./en/metadata.yaml
-            --standalone
-            --resource-path=./en/src
-            --number-sections
-            --toc
-            --toc-depth=2
-            -V lang=en-GB
-            --template /.pandoc/templates/eisvogel.latex
-            --output=./en/${{ github.event.repository.name }}-guide.pdf
-            ./en/src/index.md ${{ steps.chapter_list_en.outputs.chapters-en }}
+      #- uses: docker://pandoc/extra
+      #  with:
+      #    args: >-
+      #      ./en/metadata.yaml
+      #      --standalone
+      #      --resource-path=./en/src
+      #      --number-sections
+      #      --toc
+      #      --toc-depth=2
+      #      -V lang=en-GB
+      #      --template /.pandoc/templates/eisvogel.latex
+      #      --output=./en/${{ github.event.repository.name }}-guide.pdf
+      #      ./en/src/index.md ${{ steps.chapter_list_en.outputs.chapters-en }}
 
 
       # WEBVERSIONEN
