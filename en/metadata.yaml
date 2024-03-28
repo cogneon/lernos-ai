@@ -1,7 +1,7 @@
 ---
-title: "lernOS KI Leitfaden"
-subtitle: "KI wird den Menschen nicht ersetzen - aber der Mensch mit KI wird den Menschen ohne KI ersetzen"
-date: "Version 0.x (10.08.2023)"
+title: "lernOS AI Guide"
+subtitle: "Artificial Intelligence for all"
+date: "Version 0.1 (30.04.2024)"
 titlepage: true
 titlepage-color: "ff6600"
 titlepage-text-color: "ffffff"
@@ -10,7 +10,7 @@ links-as-notes: true
 lof: false
 toc: true
 toc-own-page: true
-toc-depth: 3
+toc-depth: 2
 logo: src/images/lernOS-logo-white-4000px.png
 logo-width: 300px
 ---
