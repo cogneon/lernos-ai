@@ -1,0 +1,2809 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-GB" xml:lang="en-GB">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>lernOS KI Leitfaden</title>
+  <style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">lernOS KI Leitfaden</h1>
+<p class="subtitle">KI wird den Menschen nicht ersetzen - aber der
+Mensch mit KI wird den Menschen ohne KI ersetzen</p>
+<p class="date">Version 0.x (10.08.2023)</p>
+</header>
+<nav id="TOC" role="doc-toc">
+<ul>
+<li><a href="#welcome" id="toc-welcome"><span
+class="toc-section-number">1</span> Welcome</a></li>
+<li><a href="#about-lernos" id="toc-about-lernos"><span
+class="toc-section-number">2</span> About lernOS</a></li>
+<li><a href="#basics" id="toc-basics"><span
+class="toc-section-number">3</span> Basics</a>
+<ul>
+<li><a href="#further-information-and-links"
+id="toc-further-information-and-links"><span
+class="toc-section-number">3.1</span> Further information and
+links</a></li>
+<li><a href="#artificial-intelligence-and-machine-learning"
+id="toc-artificial-intelligence-and-machine-learning"><span
+class="toc-section-number">3.2</span> Artificial intelligence and
+machine learning</a></li>
+<li><a href="#neural-networks" id="toc-neural-networks"><span
+class="toc-section-number">3.3</span> Neural networks</a></li>
+<li><a href="#human-and-machine-learning"
+id="toc-human-and-machine-learning"><span
+class="toc-section-number">3.4</span> Human and machine
+learning</a></li>
+<li><a href="#fields-of-application-for-artificial-intelligence"
+id="toc-fields-of-application-for-artificial-intelligence"><span
+class="toc-section-number">3.5</span> Fields of application for
+artificial intelligence</a></li>
+<li><a href="#ai-models" id="toc-ai-models"><span
+class="toc-section-number">3.6</span> AI models</a></li>
+<li><a href="#ai-tools-and-services"
+id="toc-ai-tools-and-services"><span
+class="toc-section-number">3.7</span> AI tools and services</a></li>
+<li><a href="#creating-prompts" id="toc-creating-prompts"><span
+class="toc-section-number">3.8</span> Creating prompts</a></li>
+<li><a
+href="#ai-and-society-a-reflection-on-implications-and-responsibility"
+id="toc-ai-and-society-a-reflection-on-implications-and-responsibility"><span
+class="toc-section-number">3.9</span> AI and society: a reflection on
+implications and responsibility</a></li>
+</ul></li>
+<li><a href="#lernpfad" id="toc-lernpfad"><span
+class="toc-section-number">4</span> Lernpfad</a></li>
+<li><a href="#appendix" id="toc-appendix"><span
+class="toc-section-number">5</span> Appendix</a>
+<ul>
+<li><a href="#acknowledgements" id="toc-acknowledgements"><span
+class="toc-section-number">5.1</span> Acknowledgements</a></li>
+<li><a href="#change-history" id="toc-change-history"><span
+class="toc-section-number">5.2</span> Change History</a></li>
+</ul></li>
+</ul>
+</nav>
+<h1 data-number="1" id="welcome"><span
+class="header-section-number">1</span> Welcome</h1>
+<p>Welcome to the <strong>lernOS Artificial Intelligence (AI)
+Guide</strong>. The guide is available for testing in a first version
+0.1. In the <a href="https://loscon.lernos.org/">lernOS KI MOOC</a> from
+<strong>6.5.-21.6.2024</strong> we will put the guide to the practical
+test and create a version 1.0 with your feedback. You can already
+register for the AI MOOC <a
+href="https://www.meetup.com/cogneon/events/297769514/">via
+meetup.com</a>. We will share our experiences at the <a
+href="https://loscon.lernos.org/de/">lernOS Convention 2024</a>.</p>
+<p><img src="images/kimooc24-key-visual-1000px.jpg" /></p>
+<p><strong>Aim of the guide:</strong> To introduce people with no prior
+knowledge of AI to the topic of artificial intelligence so that they can
+make an informed decision about how/where they are affected and what
+benefits they could gain from AI. The technologies/examples should work
+in and outside of organizations (internet and intranet).</p>
+<p><strong>Target group:</strong> Users (people sitting in front of the
+“screen”) not developers; however, users should understand the
+background. The guide is written for use inside (context: intranet) and
+outside (context: internet) organizations.</p>
+<h1 data-number="2" id="about-lernos"><span
+class="header-section-number">2</span> About lernOS</h1>
+<p>lernOS is a method of self-organization for people living and working
+in the 21st century. To be successful today, you have to constantly
+learn, organize and develop yourself. No one else is responsible for
+this process. You have to take care of it yourself (self-directed,
+lifelong learning).</p>
+<p>lernOS guides are licensed under <a
+href="https://creativecommons.org/licenses/by/4.0/deed">Creative Commons
+Attribution 4.0 International</a> (CC BY 4.0):</p>
+<p><img src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></p>
+<p><strong>You may:</strong></p>
+<ul>
+<li><strong>Share</strong> - reproduce and redistribute the material in
+any format or medium.</li>
+<li><strong>Edit</strong> - remix, modify and build upon the material
+for any purpose, even commercially.</li>
+</ul>
+<p><strong>Under the following conditions:</strong></p>
+<ul>
+<li><strong>Attribution</strong> - You must give appropriate credit,
+include a link to the license, and indicate if changes have been made.
+This credit may be given in any reasonable manner, but not in a way that
+suggests the licensor is endorsing you or your use.</li>
+<li><strong>No Other Restrictions</strong> - You may not use any
+additional terms or technical procedures that legally prohibit others
+from doing anything that the License permits.</li>
+</ul>
+<h1 data-number="3" id="basics"><span
+class="header-section-number">3</span> Basics</h1>
+<h2 data-number="3.1" id="further-information-and-links"><span
+class="header-section-number">3.1</span> Further information and
+links</h2>
+<p><strong>Note:</strong> Artificial intelligence is a dynamic field of
+knowledge. You can find current links e.g. at huggingface.com/papers and
+the board artint on CODDIT. Subscribe to newsletters, blogs, vLogs and
+podcasts to stay up to date.</p>
+<p><strong>Books:</strong></p>
+<ul>
+<li><p>🇩🇪 <a href="https://amzn.to/474vhXX">The electronic mirror: human
+thinking and artificial intelligence</a> (*) by Manuela Lenzen (<a
+href="https://www1.wdr.de/mediathek/audio/wdr5/wdr5-das-philosophische-radio/audio-manuela-lenzen-kuenstliche-intelligenz-100.html">podcast
+episode</a> with the author)</p></li>
+<li><p>🇩🇪 <a href="https://amzn.to/4ao2HUG">The secret behind ChatGPT:
+How the AI works and why it works</a> (*) by Stephen Wolfram</p></li>
+</ul>
+<p><strong>Courses:</strong></p>
+<ul>
+<li>🇩🇪 <a href="https://open.hpi.de/courses/kipraxis2021">Artificial
+Intelligence and Machine Learning in Practice</a> - four-week free
+course from openHPI that teaches you how machine learning works in
+practice without any technical background knowledge</li>
+<li>🇩🇪 <a href="https://open.hpi.de/courses/kizukunft2023">What does
+generative AI mean for our society?</a> - four-week free course from
+openHPI on the opportunities, risks and fields of application of
+technologies such as ChatGPT</li>
+<li><a href="https://course.elementsofai.com/de/">Elements of AI</a> -
+course from the University of Helsinki on topics related to machine
+learning and neural networks</li>
+<li><a href="https://www.coursera.org/learn/ai-for-everyone-de">AI for
+everyone</a> - Free course by Andrew Ng on Coursera</li>
+</ul>
+<p><strong>Websites:</strong></p>
+<ul>
+<li>🇩🇪 <a href="https://www.ki-campus.org">KI-Campus</a> - Learning
+platform for artificial intelligence, Stifterverband für die Deutsche
+Wissenschaft</li>
+<li><a
+href="https://ai-guide.future.mozilla.org/content/ai-basics/">Mozilla AI
+Guide - AI Basics</a> - Course from Mozilla on Artificial Intelligence,
+Machine Learning, Large Language Models and related technologies</li>
+<li><a href="https://www.futurepedia.io/">Futurepedia</a> - directory of
+AI tools that is updated daily</li>
+<li><a href="https://huggingface.co/papers">Hugging Face Daily
+Papers</a> - daily updated articles on AI from the scientific community
+(email notification available)</li>
+</ul>
+<p><strong>Blogs:</strong></p>
+<ul>
+<li>🇩🇪 <a href="https://www.scil.ch/tag/ai-ki/">SCIL Blog Category
+AI/KI</a>, category AI-KI in the blog of the Swiss Competence Center for
+Innovations in Learning (SCIL) of the University of St.Gallen</li>
+</ul>
+<p><strong>Podcasts:</strong></p>
+<ul>
+<li>🇩🇪 <a href="https://kiupdate.podigee.io/">KI Update</a> - Podcast by
+Heise on the consequences of generative AI for our work, our free time
+and society</li>
+<li>🇩🇪 <a href="https://www.deutschlandfunk.de/ki-verstehen-102.html">KI
+Verstehen</a> - Podcast by Deutschlandfunk with weekly answers to
+questions about dealing with artificial intelligence.</li>
+<li><a href="https://www.latent.space/podcast">Latent Space - The AI
+Engineer Podcast</a> - the podcast by and for AI engineers
+(technical)</li>
+<li><a href="https://lexfridman.com/podcast/">Lex Fridman Podcast</a> -
+follow along with well-known people from the AI scene, e.g.</li>
+</ul>
+<p><strong>Videos:</strong></p>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=2IK3DFHRFfw">Generative AI
+in a nutshell</a> - Informative explanatory video in
+sketchnoting/graphic recording style by Henrik Kniberg (18 min.)</li>
+<li>🇩🇪 <a
+href="https://www.arte.tv/de/videos/115067-000-A/schlaue-neue-welt-das-ki-wettrennen/">Smart
+New World - The AI Race</a> - Arte documentary presenting the current
+race of nations for the leading role in AI with examples and interviews
+of well-known AI personalities (1h 28 min.)</li>
+</ul>
+<p><strong>Communities:</strong></p>
+<ul>
+<li><a href="https://laion.ai">LAION</a> - non-profit organization that
+provides open data sets, tools and models for AI and runs a community on
+Discord</li>
+<li><a href="https://huggingface.co/">Hugging Face</a> - open source
+community for sharing code repositories, models, datasets and apps for
+machine learning</li>
+</ul>
+<p>*Note: Links marked with an asterisk are affiliate links.</p>
+<h2 data-number="3.2"
+id="artificial-intelligence-and-machine-learning"><span
+class="header-section-number">3.2</span> Artificial intelligence and
+machine learning</h2>
+<p>The title of this LernOS guide is <strong>“Artificial
+Intelligence”</strong>. In this basic chapter, we want to bring some
+order to the terminology we encounter. At the same time, we want to
+clarify what we are dealing with in this guide: With the part of AI
+applications that are labelled with the term <strong>“Machine
+Learning”</strong> and <strong>“Generative AI”</strong>. However,
+artificial intelligence as a whole encompasses many more specialisations
+that we are confronted with in our everyday lives, but which we will not
+cover here: voice assistants such as Siri and Alexa, automatic
+translations such as Google Tanslate, facial recognition for unlocking
+our mobile phones or personal recommendation systems based on our
+previous consumer behaviour, to name but a few.</p>
+<p>In this guide, we will limit ourselves to the <strong>AI
+applications</strong> that <strong>citizens</strong> and
+<strong>employees</strong> are likely to come into direct contact with
+<strong>in their everyday lives</strong> and that they themselves also
+use.</p>
+<p><img src="./images/lernos-ki-spiegelei.png" /></p>
+<p>In this infographic, we have presented a hierarchical and
+chronological categorisation of the key stages in the development of
+artificial intelligence. From its first mention around 1956 to
+Generative AI in 2021, it can be seen as a journey from theoretical
+concepts to practical applications with increasing depth and complexity.
+Since the mid-20th century, the landscape has changed from simple,
+rule-based algorithms to complex learning systems capable of taking on
+and performing human-like tasks.</p>
+<h3 data-number="3.2.1" id="artificial-intelligence-ai"><span
+class="header-section-number">3.2.1</span> Artificial intelligence
+(AI)</h3>
+<p><strong>Artificial Intelligence (AI)</strong>, a term first coined
+around 1956, is the fundamental concept for the development of
+intelligent machines. The beginnings were characterised by the desire to
+create machines that could imitate basic human intelligence processes.
+Early AI systems were able to perform simple tasks such as solving logic
+puzzles or playing chess. The focus was on programming specific rules
+that enabled machines to fulfil certain tasks. AI is the most
+comprehensive term and today represents the entire field of computer
+science that aims to create intelligent machines that can mimic or
+surpass human intelligence. It is about systems that are able to perform
+tasks that normally require human thought, such as visual perception,
+speech recognition and decision making. This includes everything from
+simple programmed processes to complex systems that can learn and adapt.
+Think of this as the outermost circle, the umbrella term under which
+more specialised concepts and applications can be subsumed.</p>
+<h3 data-number="3.2.2" id="machine-learning-ml"><span
+class="header-section-number">3.2.2</span> Machine Learning (ML)</h3>
+<p><strong>Machine Learning (ML)</strong>: Introduced in 1997, is a
+specific area within AI that focuses on enabling machines to learn from
+data. It marks the transition from rigid, rule-based AI to adaptive
+systems. Significant progress has been made with the introduction of
+machine learning, a more specific discipline that enables machines to
+improve over time to make decisions or predictions. Machine learning
+encompasses a variety of techniques that enable computers to recognise
+patterns in data and use these insights for future tasks.</p>
+<h3 data-number="3.2.3" id="deep-learning"><span
+class="header-section-number">3.2.3</span> Deep Learning</h3>
+<p><strong>Deep learning</strong>: Even more specifically within machine
+learning is deep learning. Deep learning marked a breakthrough in the
+ability of machines to process unstructured data such as images and
+human language. This technique is inspired by the way the human brain
+works. Here, layers of neural networks are used to process large amounts
+of data, recognise complex patterns in data and make decisions. Within
+Generative AI</p>
+<h3 data-number="3.2.4" id="generative-ai"><span
+class="header-section-number">3.2.4</span> Generative AI</h3>
+<p><strong>Generative AI</strong>: It represents the current pinnacle of
+AI development based on deep learning. It goes beyond simply recognising
+patterns and can generate new, original content that did not exist
+before. It is able to create new written, visual and audio content based
+on specifications or existing data. Generative AI can thus also create
+content that was not yet available in the training data for the model,
+such as pieces of music, works of art or texts that are almost
+indistinguishable from human creations.</p>
+<h3 data-number="3.2.5"
+id="large-language-models-llm-diffusion-models-dm"><span
+class="header-section-number">3.2.5</span> Large Language Models (LLM)
+&amp; Diffusion Models (DM)</h3>
+<p>Within Generative AI, <strong>Large Language Models (LLMs)</strong>,
+such as the well-known GPT (Generative Pre-trained Transformer from
+OpenAI), have proven to be crucial. These models specialise in
+understanding and generating human language and have attracted a lot of
+attention and widespread use due to their ability to produce coherent
+and relevant text. LLMs have enabled new applications in translation,
+summarisation and code generation. Another specialisation within
+Generative AI is <strong>Diffusion Models</strong>. These models
+represent an innovation in image generation and are capable of producing
+high-quality images that are almost indistinguishable from real ones.
+They expand the possibilities in image synthesis and offer new tools for
+designers and creatives.</p>
+<p>Each of these steps expanded the possibilities of AI and shifted the
+focus from rigid, rule-based approaches to adaptive and self-learning
+systems that are able to deal with a variety of data and demonstrate
+human-like creativity. AI is the foundation, machine learning is the
+method by which systems learn from data, deep learning is a
+sophisticated technique that utilises deep neural networks, and
+generative AI is the pinnacle of innovation that enables new creations
+to emerge. Each level builds on the knowledge and techniques of the
+previous one and becomes more specific and complex.</p>
+<h3 data-number="3.2.6"
+id="important-milestones-in-artificial-intelligence"><span
+class="header-section-number">3.2.6</span> Important milestones in
+artificial intelligence</h3>
+<p>The history of artificial intelligence goes back to the 1950s. The
+following table gives you an overview of the most important
+milestones:</p>
+<table>
+<colgroup>
+<col style="width: 4%" />
+<col style="width: 95%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Year</th>
+<th>Milestone</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>1950</strong></td>
+<td>Alan Turing develops the <a
+href="https://en.wikipedia.org/wiki/Turing_test">Turing Test</a>
+(originally Imitation Game) to test the intelligent behaviour of a
+machine.</td>
+</tr>
+<tr class="even">
+<td><strong>1956</strong></td>
+<td>The <a
+href="https://en.wikipedia.org/wiki/Dartmouth_workshop">Dartmouth
+Workshop</a> is the birth of <strong>artificial intelligence</strong> as
+a specialised field.</td>
+</tr>
+<tr class="odd">
+<td><strong>1959</strong></td>
+<td>Allen Newell and Herbert A. Simon develop the <a
+href="https://en.wikipedia.org/wiki/Logic_Theorist">Logic Theorist</a>,
+the first AI programme.</td>
+</tr>
+<tr class="even">
+<td><strong>1966</strong></td>
+<td>Joseph Weizenbaum develops <a
+href="https://en.wikipedia.org/wiki/ELIZA">ELIZA</a>, which enables
+communication between humans and machines in natural language.</td>
+</tr>
+<tr class="odd">
+<td><strong>1967</strong></td>
+<td><a href="https://en.wikipedia.org/wiki/Dendral">Dendral</a> is being
+developed, a rule-based system for chemical analysis, a major AI
+achievement.</td>
+</tr>
+<tr class="even">
+<td><strong>1969</strong></td>
+<td><a href="https://en.wikipedia.org/wiki/Shakey_the_robot">Shakey the
+Robot</a> will be the first mobile robot that can think logically and
+solve problems.</td>
+</tr>
+<tr class="odd">
+<td><strong>1970er</strong></td>
+<td><a href="https://en.wikipedia.org/wiki/Expert_system">Expert
+systems</a> with manually created rules are being developed.</td>
+</tr>
+<tr class="even">
+<td><strong>1973</strong></td>
+<td>The <a href="https://en.wikipedia.org/wiki/AI_winter">AI winter</a>
+is beginning due to high expectations and unfulfilled goals in AI
+research.</td>
+</tr>
+<tr class="odd">
+<td><strong>1980er Jahre</strong></td>
+<td><a href="https://en.wikipedia.org/wiki/Expert_system">Expert
+systems</a> are gaining in popularity. They use rules to imitate human
+expertise in narrow areas.</td>
+</tr>
+<tr class="even">
+<td><strong>1997</strong></td>
+<td>The <a
+href="https://en.wikipedia.org/wiki/Long_short-term_memory">Long
+Short-Term Memory</a> (LSTM) is published as an important algorithm for
+<strong>machine learning</strong>.</td>
+</tr>
+<tr class="odd">
+<td><strong>1997</strong></td>
+<td>IBM <a
+href="https://en.wikipedia.org/wiki/Deep_Blue_(chess_computer)">Deep
+Blue</a> defeats world chess champion Garry Kasparov, demonstrating the
+potential of AI.</td>
+</tr>
+<tr class="even">
+<td><strong>2011</strong></td>
+<td><a href="https://en.wikipedia.org/wiki/IBM_Watson">IBM Watson</a>
+wins the game show Jeopardy! and demonstrates the natural language
+processing of AI.</td>
+</tr>
+<tr class="odd">
+<td><strong>2011</strong></td>
+<td>Apple’s voice assistant <a
+href="https://en.wikipedia.org/wiki/Siri">Siri</a> comes onto the
+market.</td>
+</tr>
+<tr class="even">
+<td><strong>2012</strong></td>
+<td>Geoffrey Hinton’s <a
+href="https://en.wikipedia.org/wiki/Deep_learning">Deep Learning</a>
+techniques are reviving interest in neural networks.</td>
+</tr>
+<tr class="odd">
+<td><strong>2014</strong></td>
+<td><a href="https://en.wikipedia.org/wiki/Google_DeepMind">Google
+DeepMind</a> is developing a neural network that learns to play video
+games.</td>
+</tr>
+<tr class="even">
+<td><strong>2016</strong></td>
+<td><a href="https://en.wikipedia.org/wiki/AlphaGo">AlphaGo</a> from
+DeepMind defeats the Go world champion Lee Sedol and proves the
+strategic thinking of AI.</td>
+</tr>
+<tr class="odd">
+<td><strong>2017</strong></td>
+<td>The <strong>Deep Learning</strong> architecture <a
+href="https://en.wikipedia.org/wiki/Transformer_(machine-learning_model)">Transformer</a>
+is proposed, which requires less training time than previous
+architectures (RNN, LSTM)</td>
+</tr>
+<tr class="even">
+<td><strong>2021</strong></td>
+<td>The term <a
+href="https://en.wikipedia.org/wiki/Foundation_models">Foundation
+Model</a> was first used by the Stanford Institute for Human-Centered
+Artificial Intelligence’s (HAI) Center for Research on Foundation Models
+(CRFM).</td>
+</tr>
+<tr class="odd">
+<td><strong>2021</strong></td>
+<td>The <strong>generative AI</strong> <a
+href="https://en.wikipedia.org/wiki/DALL-E">DALL-E</a> for generating
+images from text is published.</td>
+</tr>
+<tr class="even">
+<td><strong>2021</strong></td>
+<td><a href="https://en.wikipedia.org/wiki/Ameca_(robot)">Ameca</a> is a
+humanoid robot developed by Engineered Arts. Ameca is primarily intended
+as a platform for the further development of robotics technologies for
+human-robot interaction. The interaction can be controlled either by
+GPT-3 or human telepresence.</td>
+</tr>
+<tr class="odd">
+<td><strong>2022</strong></td>
+<td>The chatbot <a
+href="https://en.wikipedia.org/wiki/ChatGPT">ChatGPT</a>, which uses the
+Large Language Model GPT-3.5, is published.</td>
+</tr>
+</tbody>
+</table>
+<h2 data-number="3.3" id="neural-networks"><span
+class="header-section-number">3.3</span> Neural networks</h2>
+<p>The so-called <strong>transformer architecture</strong> of generative
+AI such as GPT involves <strong>artificial neural networks</strong>
+(ANN), which are modelled on the functioning of natural neural networks,
+e.g. in a brain.</p>
+<p>The neurons in a neural network are arranged in
+<strong>layers</strong> one behind the other. We speak of the
+<strong>input layer</strong> (green), the <strong>output layer</strong>
+(yellow) and the **hidden layersv (blue).</p>
+<p><img src="images/neural-network.png"
+title="Simplified representation of an artificial neural network, source: Wikipedia" /></p>
+<p>A single artificial neuron is connected to all neurons in the
+upstream layer. The connections should not be thought of as switches
+(on/off). Instead, the signals of all inputs are weighted and used as
+network input with a transfer function. An activation function leads to
+the activation of the neuron (the neuron fires), taking into account a
+threshold value. The weightings correspond to the parameters of the
+network (a Llama 2 7B model, for example, has 7 billion such
+parameters).</p>
+<p><img src="images/kuenstliches-neuron.png"
+title="Schematic for an artificial neuron, source: Wikipedia CC BY SA 3.0" /></p>
+<p>When training a neural network, you start with random parameters. In
+the training process, the parameters are set through a process of
+machine learning by calculating an error function so that the neural
+network provides the most correct answers possible.</p>
+<p>This <a
+href="https://www.youtube.com/watch?v=aircAruvnKk">explanatory video</a>
+shows how a neural network can recognise numbers (e.g. the postcode on a
+letter). A 28x28 pixel image is used as the input layer (784 inputs).
+The network used has two hidden layers. The output layer has ten outputs
+(indicators for the numbers 0-9).</p>
+<h2 data-number="3.4" id="human-and-machine-learning"><span
+class="header-section-number">3.4</span> Human and machine learning</h2>
+<p>Let’s imagine <strong>a child sees a dog</strong> for the first time.
+The child is fascinated by this new animal and shouts enthusiastically
+“Woof woof!”. In its childlike enthusiasm, it initially calls every
+four-legged friend a “woof woof”. Only gradually, through observation
+and with the help of his parents, does he learn to recognise the subtle
+differences between various animals such as dogs and cats.</p>
+<p>This process of exploration and adaptation can also be found in
+machine learning. <strong>Computer programmes learn from
+examples</strong> without being explicitly programmed. In the beginning,
+they do not yet recognise the subtle differences between different
+categories. By <strong>analysing large amounts of data</strong> (the
+“training”), they gradually learn to recognise patterns and classify
+data correctly.</p>
+<p>It made sense for us to visualise the entire process as a
+<strong>cycle of seven steps</strong>. We opted for this representation
+in order to compare human and machine learning. For processes that are
+based exclusively on machine learning, various representations can be
+found in the literature. [Schematic representation of the machine
+learning process. It is important to note that the learning process is
+not completed after one run, but takes place in several loops. This is
+another similarity between human and machine learning.</p>
+<figure>
+<img
+src="https://github.com/cogneon/lernos-ai/assets/10791207/db59996b-86e8-4101-94f3-fa210b198c59"
+alt="A circular infographic illustrating a process showing the steps in the machine learning cycle. Starting with ‘Problem definition’ at the top, followed by ‘Data collection’, ‘Model selection’, ‘Training’, ‘Validation’, ‘Application’ and back to ‘Feedback’. Each step is connected by an arrow indicating the transition to the next step. The steps are represented by orange rectangles with corresponding icons that stand out on a black background, symbolising the continuous and iterative nature of machine learning." />
+<figcaption aria-hidden="true">A circular infographic illustrating a
+process showing the steps in the machine learning cycle. Starting with
+‘Problem definition’ at the top, followed by ‘Data collection’, ‘Model
+selection’, ‘Training’, ‘Validation’, ‘Application’ and back to
+‘Feedback’. Each step is connected by an arrow indicating the transition
+to the next step. The steps are represented by orange rectangles with
+corresponding icons that stand out on a black background, symbolising
+the continuous and iterative nature of machine learning.</figcaption>
+</figure>
+<p>Let’s take a concrete example to explain the entire learning process:
+An AI application needs to learn to distinguish between pictures of dogs
+and cats.</p>
+<h3 data-number="3.4.1" id="situation"><span
+class="header-section-number">3.4.1</span> Situation</h3>
+<figure>
+<img
+src="https://github.com/cogneon/lernos-ai/assets/10791207/5eabaebd-e0c7-4d24-a2f2-3e6910bb1e23"
+alt="1_Problem definition - An icon showing a simplified, stylised outline of a cat positioned on the left and a similar outline of a dog positioned on the right, with an arrow pointing from the cat to the dog. The icon is framed in a rounded square" />
+<figcaption aria-hidden="true">1_Problem definition - An icon showing a
+simplified, stylised outline of a cat positioned on the left and a
+similar outline of a dog positioned on the right, with an arrow pointing
+from the cat to the dog. The icon is framed in a rounded
+square</figcaption>
+</figure>
+<p>With children, the initial situation for the start of a learning
+process is not as explicit as in an AI project, but rather triggered by
+intrinsic motivation or by a learning stimulus stimulated by the
+environment. Children are curious and want to understand the world
+around them. In our specific example, a child wants to learn to
+recognise the differences between a dog and a cat. Generalised to AI,
+this means that it should classify images.</p>
+<h3 data-number="3.4.2" id="data-collection"><span
+class="header-section-number">3.4.2</span> Data collection</h3>
+<figure>
+<img
+src="https://github.com/cogneon/lernos-ai/assets/10791207/47859dbb-dc55-4fda-afc5-e1e55125d95f"
+alt="2_Data collection - An icon representing a stylised clipboard with the faces of a cat and a dog at the top, followed by several lines of text and arrows pointing downwards. This indicates a data collection or listing process. The icon is placed in a rounded square frame" />
+<figcaption aria-hidden="true">2_Data collection - An icon representing
+a stylised clipboard with the faces of a cat and a dog at the top,
+followed by several lines of text and arrows pointing downwards. This
+indicates a data collection or listing process. The icon is placed in a
+rounded square frame</figcaption>
+</figure>
+<p>In the real world, the child sees many different dogs and cats. It
+recognises animals when they have 4 legs and a tail and says “woof
+woof”. The parents help the child by pointing to the animals and naming
+them. In this way, the child associates the pictures and sounds of the
+animals with the correct terms.</p>
+<p>Thousands of pictures of dogs and cats are collected for the AI and
+labelled accordingly. This data may need to be cleaned up to remove
+errors or irrelevant information.</p>
+<h3 data-number="3.4.3" id="model-selection"><span
+class="header-section-number">3.4.3</span> Model selection</h3>
+<figure>
+<img
+src="https://github.com/cogneon/lernos-ai/assets/10791207/62dfb0e6-2b40-4c71-89e5-85d36b06a521"
+alt="3_Model selection - An icon that represents a cycle with a simplified diagram with branches and points in the centre, which could stand for decision-making or model selection. Three stylised symbols are arranged around the diagram: an animal head on the left, a human face with a question mark at the top and a dog’s head on the right. Arrows point in a circular motion symbolising the process of selection. The icon is surrounded by a rounded square" />
+<figcaption aria-hidden="true">3_Model selection - An icon that
+represents a cycle with a simplified diagram with branches and points in
+the centre, which could stand for decision-making or model selection.
+Three stylised symbols are arranged around the diagram: an animal head
+on the left, a human face with a question mark at the top and a dog’s
+head on the right. Arrows point in a circular motion symbolising the
+process of selection. The icon is surrounded by a rounded
+square</figcaption>
+</figure>
+<p>Firm neural connections form in the child’s mind through repetition
+and correction, leading to a clearer distinction between dogs and cats.
+This process is similar to the way a <strong>neural network</strong>
+(see the chapter….in this guide) is strengthened in AI training. It is
+particularly adept at recognising patterns in unstructured data and
+learning from them.</p>
+<p>With each training image passed, the AI model improves its ability to
+recognise characteristic features such as the texture of the fur, the
+shape of the ears and the nature of the tail. It optimises its
+prediction accuracy by highlighting relevant patterns and neglecting
+less important ones. This gradual refinement of its recognition
+performance is similar to the learning process of a child, which learns
+through constant trial and error and the resulting corrections.</p>
+<h3 data-number="3.4.4" id="training"><span
+class="header-section-number">3.4.4</span> Training</h3>
+<figure>
+<img
+src="https://github.com/cogneon/lernos-ai/assets/10791207/4311b263-232a-4a51-baff-9aed34a0a9c9"
+alt="4_Training - An icon with two images connected by an arrow, representing a process. On the left is a stylised image of a shadowy animal with a head and four legs, and on the right is an image of a detailed cat in profile view. This depicts the process of learning or training, moving from a simple representation to a more complex state. The whole is placed in a rounded square frame" />
+<figcaption aria-hidden="true">4_Training - An icon with two images
+connected by an arrow, representing a process. On the left is a stylised
+image of a shadowy animal with a head and four legs, and on the right is
+an image of a detailed cat in profile view. This depicts the process of
+learning or training, moving from a simple representation to a more
+complex state. The whole is placed in a rounded square
+frame</figcaption>
+</figure>
+<p>The child learns through repetition and feedback from the parent. If
+it calls a dog a cat, it is corrected. In this way, the child refines
+its inner model with each correction.</p>
+<p>There are two basic types of training in AI:</p>
+<ul>
+<li>In supervised learning (<strong>Supervised Learning</strong>)
+(https://en.wikipedia.org/wiki/Supervised_learning), the model is given
+the correct classification for all training data. It learns the relevant
+features based on these labels. Neural networks also belong to this
+learning category.</li>
+<li>In unsupervised learning (<strong>Unsupervised
+Learning</strong>)(https://en.wikipedia.org/wiki/Unsupervised_learning),
+the model only receives the data without labels. It has to recognise
+similarities itself and group the data. In this way, it independently
+discovers patterns and structures. Unsupervised learning can be used as
+a supplementary method during training to give the model an even deeper
+understanding. It helps the model to recognise latent features and
+relationships between the data that might not be detected by supervised
+learning alone.</li>
+</ul>
+<p>The addition or combination of neural networks with supervised
+learning is called <strong>deep learning</strong>, a term that is also
+frequently used in AI discussions.</p>
+<p>Just as a child improves its discrimination skills through repetition
+and correction, the AI model optimises its performance iteratively
+through many training runs and adjustments. After sufficient training,
+it can then also reliably classify new data.</p>
+<h3 data-number="3.4.5" id="validation"><span
+class="header-section-number">3.4.5</span> Validation</h3>
+<figure>
+<img
+src="https://github.com/cogneon/lernos-ai/assets/10791207/6e3dab7b-a0e0-43ca-868d-9e66bf61403f"
+alt="5_Validation - An icon representing a validation process, centred around a microchip with a question mark. Various symbols are arranged around the chip: two different dogs at the bottom, a cat, a human silhouette and a question mark at the top, as well as mathematical symbols such as plus signs and multiplication signs. This indicates the merging of different elements and their verification. The picture is framed in a rounded square" />
+<figcaption aria-hidden="true">5_Validation - An icon representing a
+validation process, centred around a microchip with a question mark.
+Various symbols are arranged around the chip: two different dogs at the
+bottom, a cat, a human silhouette and a question mark at the top, as
+well as mathematical symbols such as plus signs and multiplication
+signs. This indicates the merging of different elements and their
+verification. The picture is framed in a rounded square</figcaption>
+</figure>
+<p>Just as a child has to learn to recognise dogs and cats correctly in
+new situations, an AI model has to prove that it is able to generalise
+data and not just learn it by heart. To do this, new test data is used
+to check the model’s ability to classify correctly. If the results are
+inadequate, the model needs to be improved to understand the underlying
+rules and not just memorise individual features. Just as parents
+challenge and correct a child when necessary, validation helps to test
+and improve the AI model. This concept is crucial in machine learning
+and allows the model to continuously improve its performance.</p>
+<h3 data-number="3.4.6" id="application"><span
+class="header-section-number">3.4.6</span> Application</h3>
+<figure>
+<img
+src="https://github.com/cogneon/lernos-ai/assets/10791207/1f0b7fec-a8eb-481a-9c8f-13fbbb6a1c92"
+alt="6_Application - An icon representing the application of learnt knowledge in different situations. On the left is a child with a magnifying glass observing various animals, including a bird and a dog. In the centre is a computer monitor with a complex network and a cat on the screen, suggesting a trained AI model. On the right is a pointer pointing to the network, symbolising the application of the model to new data. The whole is framed in a rounded square" />
+<figcaption aria-hidden="true">6_Application - An icon representing the
+application of learnt knowledge in different situations. On the left is
+a child with a magnifying glass observing various animals, including a
+bird and a dog. In the centre is a computer monitor with a complex
+network and a cat on the screen, suggesting a trained AI model. On the
+right is a pointer pointing to the network, symbolising the application
+of the model to new data. The whole is framed in a rounded
+square</figcaption>
+</figure>
+<p>After training, the AI model can apply the knowledge it has learnt,
+similar to how a child uses its knowledge to correctly recognise and
+name new animals outside. The trained model can be used in various
+applications, such as an image analysis app or a recommendation system.
+It applies its learnt knowledge to new data and enables it to solve
+useful tasks. Just as a child recognises different animals and applies
+this knowledge in practice, a trained AI model is used in real
+systems.</p>
+<h3 data-number="3.4.7" id="feedback"><span
+class="header-section-number">3.4.7</span> Feedback</h3>
+<figure>
+<img
+src="https://github.com/cogneon/lernos-ai/assets/10791207/8db0d25b-adef-45e6-b11d-dcc42c94c4b8"
+alt="7_Feedback - An icon symbolising the feedback process, with an open book in the centre and an arrow forming a circle moving outwards from the book and back again. This suggests a continuous cycle of learning and improvement, where information is absorbed, applied and then used as feedback for further improvement. The design is framed in a rounded square" />
+<figcaption aria-hidden="true">7_Feedback - An icon symbolising the
+feedback process, with an open book in the centre and an arrow forming a
+circle moving outwards from the book and back again. This suggests a
+continuous cycle of learning and improvement, where information is
+absorbed, applied and then used as feedback for further improvement. The
+design is framed in a rounded square</figcaption>
+</figure>
+<p>Regular feedback is essential for the child to learn and develop. For
+example, games that promote the differentiation of colours and shapes or
+interactive educational tools that impart knowledge in a playful way
+continue to challenge and support them. The same applies to an AI model
+that is constantly refined by continuously analysing user interactions
+in a photo sorting app or by incorporating new, diverse image data sets.
+Just as a child learns about new animal species and deepens its
+knowledge by visiting a zoo or leafing through an animal book, the AI
+model expands its recognition capabilities by introducing additional,
+different images or through feedback from users who report
+misclassifications. This ongoing interaction, whether through human
+feedback or new data inputs, allows the model to remain adaptive and
+adjust to the changing world.</p>
+<h3 data-number="3.4.8" id="reflection-questions"><span
+class="header-section-number">3.4.8</span> Reflection questions</h3>
+<p>What is your own opinion on the following points that are being
+discussed in connection with the further development of machine
+learning? Which aspects of the future make you skeptical, which do you
+view more positively if they happen? Do you believe in these
+potentials?</p>
+<ol type="1">
+<li><strong>Learning processes and adaptability</strong>: Machine
+learning models will be able not only to replicate the complexity of
+human learning processes, but also to adapt to new situations by
+integrating emotional and social contexts and responding flexibly to
+change.</li>
+<li><strong>Generalization and transfer learning</strong>: Advances in
+machine learning enable systems to generalize with minimal amounts of
+data and transfer knowledge across different domains, similar to the
+human capacity to learn from a few examples and apply insights in
+different contexts.</li>
+<li><strong>Autonomous motivation and contextual understanding</strong>:
+Future machine learning models will gain a deep understanding of context
+and nuance and develop their own form of “motivation”, enabling them to
+act in a context-aware and autonomous manner.</li>
+<li><strong>Interactive learning and continuous improvement</strong>: By
+integrating interactive and social feedback mechanisms, machine learning
+systems will provide a learning experience that enables continuous
+improvement and resembles the human learning experience.</li>
+</ol>
+<h2 data-number="3.5"
+id="fields-of-application-for-artificial-intelligence"><span
+class="header-section-number">3.5</span> Fields of application for
+artificial intelligence</h2>
+<p>For generative AI, there is unfortunately not yet a nice diagram
+similar to the <a
+href="https://ojs.aaai.org/aimagazine/index.php/aimagazine/article/view/2168">AI
+Landscape of the Association for the Advancement of Artificial
+Intelligence</a> (AAAI) that shows <strong>in which areas of our lives
+and work AI plays or can play a role</strong>. On the Hugging Face
+platform, the <a href="https://huggingface.co/models">Classification of
+Models</a> provides a categorization of fields of application for
+artificial intelligence, albeit a very technical one. McKinsey describes
+possible fields of application in the article <a
+href="https://www.mckinsey.com/featured-insights/mckinsey-%20explainers/whats-the-future-of-generative-ai-an-early-view-in-15-charts">What’s
+the future of generative AI?</a> in more detail:</p>
+<table>
+<colgroup>
+<col style="width: 6%" />
+<col style="width: 26%" />
+<col style="width: 67%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Modality</th>
+<th>Field of application</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Text</strong></td>
+<td>Create content</td>
+<td>Communication: Create personalized emails and posts<br/>Personnel:
+Create interview questions and job descriptions</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Chatbots and assistants</td>
+<td>Kommunikation: Chatbots für Webseiten im Internet und Intranet</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>Search</td>
+<td>Natural language search instead of keyword search</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Analysis and synthesis</td>
+<td>Sales: Analyze customer interaction<br/>Legal: Summarize laws and
+regulatory documents</td>
+</tr>
+<tr class="odd">
+<td><strong>Code</strong></td>
+<td>Create code</td>
+<td>IT: Application development<br/>IT: Enabling low-code and
+no-code</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Create prototypes of applications and designs</td>
+<td>IT: Design prototypes and user interfaces quickly</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>Datensätze generieren</td>
+<td>IT: Improving AI model quality through data sets</td>
+</tr>
+<tr class="even">
+<td><strong>Image</strong></td>
+<td>Create images</td>
+<td>Communication: generate unique images (instead of stock photos)</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>Edit images</td>
+<td>Communication: Remove or change image backgrounds</td>
+</tr>
+<tr class="even">
+<td><strong>Audio</strong></td>
+<td>Generate text-to-speech</td>
+<td>Training: Creating voiceover voices</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>Generate sounds</td>
+<td>Media: Generate background noise or music</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Edit audio</td>
+<td>Communication: Editing podcasts without a new recording</td>
+</tr>
+<tr class="odd">
+<td><strong>Video</strong></td>
+<td>Create video</td>
+<td>Training: create short educational videos with AI avatars</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Edit video</td>
+<td>Marketing: Personalize standard videos<br/>Communication: Remove
+backgrounds from videos</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>Translate and adapt language</td>
+<td>Communication: Dubbing, replace original language with
+voiceover<br/>Meetings: Live translation in meetings</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Swapping faces and making adjustments</td>
+<td>Communication: Translation with changes in lip movement for other
+languages</td>
+</tr>
+<tr class="odd">
+<td><strong>3D &amp; VR</strong></td>
+<td>Generate 3D objects</td>
+<td>Video games: Create characters and objects</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Designing products and making them tangible</td>
+<td>Product development: speed up the development process</td>
+</tr>
+</tbody>
+</table>
+<p>As described in the <strong>HBR article</strong> <a
+href="https://hbr.org/2023/09/where-should-your-company-start-with-genai">Where
+Should Your Company Start with GenAI?</a>, organizations and all
+individual knowledge workers should find out whether and how their
+activities are affected by generative AI. The article suggests the WINS
+meme, which you can use to check how much effort your own activities
+involve in dealing with texts (Words), images (Images), numbers
+(Numbers) and audio (Sounds). The degree to which you are affected
+depends on the effort and degree of digitization in the respective
+activity.</p>
+<p>If you do not have a <strong>personal knowledge map with an overview
+of your tasks</strong>, you can use the 🇩🇪 <a
+href="https://lit.bibb.de/vufind/Record/DS-131131">categories of
+knowledge-intensive activities of the Federal Institute for Vocational
+Education and Training</a> as a starting point:</p>
+<ol type="1">
+<li>research</li>
+<li>develop</li>
+<li>research</li>
+<li>documenting</li>
+<li>training</li>
+<li>teaching</li>
+<li>organizing external work processes</li>
+</ol>
+<h2 data-number="3.6" id="ai-models"><span
+class="header-section-number">3.6</span> AI models</h2>
+<p>This chapter provides an overview of <strong>AI models</strong> and
+divides them into different service groups. They form the basis for a
+wide range of tools and services, some of which are presented in the
+chapter of the same name. The models differ from one another, so the
+decision as to which model is most suitable for your own AI projects is
+based on the respective requirements. This is because the results of
+applications that work with generative AI depend largely on the
+underlying model.</p>
+<h3 data-number="3.6.1" id="why-do-we-talk-about-models"><span
+class="header-section-number">3.6.1</span> Why do we talk about
+models?</h3>
+<p>A model is an abstraction, a system of structures, regularities and
+probabilities “learned” from the training data. There is no
+comprehensive formal language learning for languages, as they are
+(still) far too complex for prompt processing in dialogs. The AI
+application interprets each request anew. It generates the answers on
+the basis of the models obtained from the training data. This
+illustrates the dependency on the data selected in the training
+phase.</p>
+<p>And even if a generative AI application creates grammatically and
+stylistically perfect-sounding texts: It remains a fuzzy approximation
+based on probabilities. This is why we observe so-called
+“hallucinations” with answers that make no sense in terms of
+content.</p>
+<h3 data-number="3.6.2" id="how-are-ai-models-created"><span
+class="header-section-number">3.6.2</span> How are AI models
+created?</h3>
+<p>For example, suppose you want to learn how to paint realistic
+portraits. You can study hundreds of famous paintings to see how they
+capture details such as lighting, facial features, facial expressions
+and lighting. Similarly, AI models work by studying a large amount of
+data. The AI model analyzes this training data and recognizes patterns
+and relationships between different elements. The more data it studies,
+the better it understands the subtleties.</p>
+<p>If the training data consists of images, drawings or photos of
+animals, landscapes or everyday objects, an AI can generate images or
+photos based on the trained image generation model. It is less able to
+understand text, which is why texts in AI-generated photos rarely
+work.</p>
+<p>For code or text generation, for example, other AI models are trained
+using huge amounts of code and text data. They recognize the patterns
+and structures of programming languages, sentence structures and word
+usage in human languages. The more data they analyze, the better these
+large language models (LLMs) become at generating meaningful code or
+text.</p>
+<h3 data-number="3.6.3" id="the-key-transformer-attention"><span
+class="header-section-number">3.6.3</span> The key: Transformer &amp;
+Attention</h3>
+<p>Before the publication of the so-called <a
+href="https://en.wikipedia.org/wiki/Generative_pre-trained_transformer">Transformer</a>
+in 2017, generating natural language was one of the most challenging
+tasks - despite the already highly developed neural networks.
+Transformer and Attention are important developments for Large Language
+Models to capture complex speech patterns and generate human-like
+text.</p>
+<p>The Transformer is a neural network model developed specifically for
+processing sequences. It consists of several layers of attention
+mechanisms that allow the model to focus on different parts of the input
+sequence. The attention mechanisms are a key concept in the Transformer
+model because they allow complex relationships between words in a text
+to be recognized and context-dependent predictions to be made based on
+them.</p>
+<p>Previous concepts based word predictions solely on previous words. In
+contrast, the Transformer attention mechanism allows words to be
+predicted bidirectionally - i.e. on the basis of both previous and
+subsequent words.</p>
+<figure>
+<img src="./images/lernos-ki-abb-modelle.png" alt="KI Model Timeline" />
+<figcaption aria-hidden="true">KI Model Timeline</figcaption>
+</figure>
+<p>This development of LLMs is shown in the diagram above. As we can
+see, the first modern models were introduced shortly after the
+development of the Transformers. The graph shows that more and more
+models are now being developed and published under an open source
+license.</p>
+<h3 data-number="3.6.4" id="examples-of-generative-ai-models"><span
+class="header-section-number">3.6.4</span> Examples of generative AI
+models</h3>
+<p>In order to understand the differences, the tables provide brief
+information on various AI models. This is a snapshot, as the AI models
+are being further developed and trained. Therefore, the version
+designation of the respective models is essential for the qualitative
+assessment of the generated content. Especially when the scope of the
+training data is significantly increased. Added to the short info:</p>
+<ul>
+<li><strong>Model size</strong>: Model size is an important factor for
+the performance of a language model. AI applications that access a
+larger model can understand and generate more complex relationships.
+They are therefore more versatile than models trained for specific
+application areas. A high number of parameters makes models more
+expensive in computational terms. In practice, a balance must be struck
+between the results and the energy consumption required to achieve
+them.</li>
+<li><strong>Usage license</strong>: Models with an open source license
+have a published source code. They can be modified and used by others.
+Open source models can usually be used free of charge, subject to
+compliance with the license conditions.</li>
+</ul>
+<p><strong>Models for text generation / code</strong></p>
+<p>AI models can understand input text (or spoken language) and then
+generate new text that is similar to content written by humans. This can
+be language translations, text enhancements, chatbot dialogs, style
+transfers or the generation of content such as outlines, blog posts,
+articles, course questions. In the same way, appropriately trained AIs
+also write software code.</p>
+<table>
+<colgroup>
+<col style="width: 14%" />
+<col style="width: 75%" />
+<col style="width: 7%" />
+<col style="width: 2%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td>Description of the model</td>
+<td>Brief info</td>
+<td style="text-align: center;">Modellgröße in Mrd. Parameter</td>
+<td style="text-align: center;">Open Source</td>
+</tr>
+<tr class="even">
+<td><a
+href="https://blog.google/technology/ai/google-gemini-ai"><strong>Gemini</strong></a></td>
+<td>Based on experimental language models, Google designed this model to
+be multimodal from the ground up. It can interpret different types of
+information - text, code, image, audio or video. The model is trained
+for demanding logical tasks, translations and natural language
+generation.</td>
+<td style="text-align: center;">8.000</td>
+<td style="text-align: center;">N</td>
+</tr>
+<tr class="odd">
+<td><a href="https://openai.com/gpt-4"><strong>GPT</strong></a></td>
+<td>The abbreviation of the best-known model stands for <em>Generative
+Pre-trained Transformer.</em> Provider OpenAI trains the model for
+dialogs, text generation or code development. The input processes text,
+speech or image material. The language model is improved iteratively
+through reinforcement learning with human feedback (Reinforcement
+Learning from Human Feedback, RLHF).</td>
+<td style="text-align: center;">175 (GPT-3)<br/>1.000 (GPT-4)<br/>2.000
+(GPT-5)</td>
+<td style="text-align: center;">N</td>
+</tr>
+<tr class="even">
+<td><a href="https://leam.ai"><strong>LEAM</strong></a></td>
+<td>The abbreviation stands for <em>Large European AI Models,</em> whose
+development takes particular account of European values and high
+requirements in terms of data protection, transparency and bias. At the
+same time, the design of the training of AI models is to become more
+sustainable.</td>
+<td style="text-align: center;">k.A.</td>
+<td style="text-align: center;">?</td>
+</tr>
+<tr class="odd">
+<td><a
+href="https://laion.ai/blog-de/leo-lm"><strong>LeoLM</strong></a></td>
+<td>The abbreviation stands for <em>Linguistically Enhanced Open
+Language Model,</em> the first open and commercially available German
+basic language model. It is based on a version of <em>LLaMA</em>.</td>
+<td style="text-align: center;">k.A.</td>
+<td style="text-align: center;">?</td>
+</tr>
+<tr class="even">
+<td><a href="https://ai.meta.com/llama"><strong>LLaMA</strong></a></td>
+<td>Provider Meta trains the model variants <em>LLaMA Chat</em> for
+dialogs and <em>Code LLaMA</em> with code-specific data sets for
+software development.</td>
+<td style="text-align: center;">65 (LLaMA)<br/>70 (LLaMA-2)</td>
+<td style="text-align: center;">J</td>
+</tr>
+<tr class="odd">
+<td><a
+href="https://docs.aleph-alpha.com/docs/introduction/model-card"><strong>Luminous</strong></a></td>
+<td>Aleph Alpha is a language model trained in five European languages:
+German, English, French, Italian and Spanish. The input for text
+development can be done with text or combined with images.</td>
+<td style="text-align: center;">200</td>
+<td style="text-align: center;">N</td>
+</tr>
+<tr class="even">
+<td><a
+href="https://platform.openai.com/docs/models/whisper"><strong>Whisper</strong></a></td>
+<td>Universally applicable model from Open AI that offers multilingual
+recognition of speech in audio files and outputs the result as text or
+translated text.</td>
+<td style="text-align: center;">k.A.</td>
+<td style="text-align: center;">J</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Models for image generation</strong></p>
+<p>AI models can generate new images that resemble real objects or
+scenes on the basis of text input (sometimes also image files). This
+includes tasks such as image synthesis, style transfer or image
+enhancement (super-resolution). Tools for improving photos or moving
+images are called upscalers.</p>
+<p>They use what is known as diffusion, which describes the distribution
+of particles in space. Similar to this, the AI changes individual pixels
+in an image continuously and in interaction with each other based on
+learned information in order to generate new content.</p>
+<table style="width:100%;">
+<colgroup>
+<col style="width: 14%" />
+<col style="width: 83%" />
+<col style="width: 2%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td>Description of the model</td>
+<td>Brief info</td>
+<td style="text-align: center;">Open Source</td>
+</tr>
+<tr class="even">
+<td><a
+href="https://platform.openai.com/docs/models/dall-e"><strong>DALL•E</strong></a></td>
+<td>The Open AI model understands descriptions in natural language in
+order to create detailed and real-looking photos and works of art. The
+model is used as a basis in many applications.</td>
+<td style="text-align: center;">N</td>
+</tr>
+<tr class="odd">
+<td><a href="https://firefly.adobe.com"><strong>Firefly
+Image</strong></a></td>
+<td>Adobe’s image generation model relies on licensed photos from its
+own image database and public domain image material. Individual training
+with your own works is currently being developed for version 2. The
+model generates similarly high-quality images as DALL-E.</td>
+<td style="text-align: center;">J</td>
+</tr>
+<tr class="even">
+<td><a href="https://huggingface.co/blog/lora"><strong>LoRA Stable
+Diffusion</strong></a></td>
+<td>The abbreviation stands for <em>Learn On Reconstruction and
+Attention.</em> The model is a combination of algorithms for the
+fine-tuning of images and image style training. After training with
+selected images, the AI recognizes a certain style and then applies it
+to other image data. </td>
+<td style="text-align: center;">J</td>
+</tr>
+<tr class="odd">
+<td><a
+href="https://docs.midjourney.com"><strong>Midourney</strong></a></td>
+<td>The Midjourney research lab model generates high-quality,
+hyper-realistic images based on text input. There are artistic styles
+and creative filters to customize generated images. The model is
+appreciated for its unique combination of technical performance,
+artistic flair and a lively community.</td>
+<td style="text-align: center;">N</td>
+</tr>
+<tr class="even">
+<td><a
+href="https://prompthero.com/openjourney-prompts"><strong>OpenJourney</strong></a></td>
+<td>OpenJourney is a free, open-source text-to-image model developed by
+PromptHero. It can generate AI art in the style of Midjourney.
+HuggingFace. Users prefer Openjourney for its ability to generate
+stunning images with minimal input and its suitability as a base model
+for fine-tuning.</td>
+<td style="text-align: center;">J</td>
+</tr>
+</tbody>
+</table>
+<p>You will come across <a
+href="https://laion.ai"><strong>LAION</strong></a> in this context: The
+abbreviation stands for <em>Large-scale Artificial Intelligence Open
+Network.</em> It represents the largest publicly accessible training
+dataset.</p>
+<p><strong>Models for audio/video generation</strong></p>
+<p>This chapter is intended to give you an introduction to the topic of
+AI models. In addition to the models focused on for text and image
+generation, there are other models that can be used to generate
+natural-looking speech. Applications for artificially generated speech
+output have been in use for a long time, but the results rarely sound
+like a speaking voice.</p>
+<p>The new AI models take speech synthesis to a new level. Other models
+can be used to compose music. Models trained on moving images generate
+smooth, high-quality videos.</p>
+<p>Based on these models, it is possible to generate deepfakes.</p>
+<h3 data-number="3.6.5" id="models-in-motion"><span
+class="header-section-number">3.6.5</span> Models in
+motion<a id="models-in-motion"></a></h3>
+<p>As the models are the basis for the performance of an AI application,
+a lot of development is invested in them. This chapter is therefore only
+a snapshot. Stay tuned to the developments with the blogs of <a
+href="https://www.deeplearning.ai/the-batch/tag/letters">Andrew Ng</a>
+or <a href="https://huggingface.co/blog">HuggingFace</a>.</p>
+<p><strong>Note:</strong> Please keep an eye on these discussions about
+models and their training data:</p>
+<ul>
+<li>Legal actions have been filed by art creators against Stability AI
+or Midjourney for using copyrighted works in training.</li>
+<li>Software developers are suing companies like GitHub, Microsoft or
+OpenAI for using their open source code as training data for AI
+development.</li>
+</ul>
+<h2 data-number="3.7" id="ai-tools-and-services"><span
+class="header-section-number">3.7</span> AI tools and services</h2>
+<p>In this section, we give you an overview of how you can get to know
+AI-supported work with various tools and services. We have divided them
+into different areas, which, like the tools and services, are still in
+flux.</p>
+<p>We asked ourselves the following questions when making our
+selection:</p>
+<ul>
+<li>Is the tool/service usable for beginners?</li>
+<li>Can it be used free of charge?</li>
+<li>Are the user interface and explanatory help also available in
+German?</li>
+<li>Can we assume that the requirements of the GDPR are taken into
+account?</li>
+<li>Which 3 to 5 are currently our best recommendations?</li>
+</ul>
+<p>(Registration is often required as a minimum.)</p>
+<figure>
+<img src="./images/lernos-ki-tools-services-202402-de.png"
+alt="Overview AI Tools and Services" />
+<figcaption aria-hidden="true">Overview AI Tools and
+Services</figcaption>
+</figure>
+<h3 data-number="3.7.1" id="tips-recommendations"><span
+class="header-section-number">3.7.1</span> Tips &amp;
+recommendations</h3>
+<p>There is so much going on here that we could add to or expand this
+section every day. Free offers may use older AI applications that are
+less powerful or have less up-to-date information. Those who use paid
+tools often have a wider range of functions.</p>
+<p>With some tools and services, it makes sense to make entries in
+English despite the German-language interface. The AIs have often been
+trained with English-language data.</p>
+<p>Well-known Office applications such as Microsoft 365 are gradually
+offering corporate customers corresponding extensions or integrations.
+Keep an eye on these providers in any case:</p>
+<ul>
+<li><a
+href="https://chat.openai.com/auth/login"><strong>ChatGPT</strong></a>:
+Communication via text, audio and image input as well as image
+generation in a paid Plus version.</li>
+<li><a
+href="https://support.microsoft.com/de-de/copilot"><strong>Microsoft 365
+Copilot</strong></a>: AI-supported assistance in Microsoft products for
+text creation, summaries, text revisions, image search or generation of
+presentations.</li>
+</ul>
+<h3 data-number="3.7.2" id="ai-supported-multimodal-tools"><span
+class="header-section-number">3.7.2</span> AI-supported, multimodal
+tools</h3>
+<p>These offerings provide several tools for the various application
+areas under one roof.</p>
+<ul>
+<li><a href="https://www.bing.com/search"><strong>Bing Chat /
+Copilot</strong></a>: Communication via text, audio and image input as
+well as code generation on the basis of <em>GPT-4;</em> Image generation
+with <em>Dall-E 3;</em> Range of functions depends on operating system,
+German-language, free basic use.</li>
+<li><a href="https://tools.fobizz.com"><strong>Fobizz
+Tools</strong></a>: Tools for schools and further education for chats
+with historical figures, text summaries, converting spoken content into
+text, handwriting recognition, image generation, free basic use,
+GDPR-compliant. Test different AI models with one registration (Image:
+<em>Dall-E 2, Stable Diffusion;</em> Text &amp; Chat: _Luminous
+Extended, GPT3.5 turbo, GPT4, Open Assistant, Claude 2).</li>
+<li><a
+href="https://neuroflash.com/de/free-content-generatoren"><strong>Neuroflash</strong></a>:
+<em>ChatFlash, ContentFlash, ImageFlash</em> and
+<em>PerformanceFlash</em> for text creation, text revision, image
+creation, German-language, free basic use, GDPR-compliant.</li>
+<li><a href="https://poe.com"><strong>Poe</strong></a>: Test various AI
+models in chat with one registration (currently including <em>ChatGPT
+&amp; GPT-4, Claude Instant &amp; Claude 2, StableDiffusionXL, PaLM,
+Llama 2),</em> free basic use.</li>
+<li><a href="https://you.com"><strong>You.Com</strong></a>: Tools
+<em>YouChat, YouCode, YouImagine, YouWrite</em> for research, text
+creation, code assistance and image generation, English-language, free
+basic use.</li>
+</ul>
+<h3 data-number="3.7.3" id="ai-supported-text-tools"><span
+class="header-section-number">3.7.3</span> AI-supported text tools</h3>
+<p>AI text tools allow you to interact with the tool as if you were
+having a conversation with another person. They support online research
+and provide a wide range of assistance with text creation, translations
+and revisions.</p>
+<ul>
+<li><a href="https://audiopen.ai"><strong>AudioPen</strong></a>:
+Generates monolingual or multilingual text from multilingual, even
+indistinct or stitched language input, can revise texts in style in paid
+version, free basic use.</li>
+<li><a href="https://gemini.google.com/"><strong>Gemini</strong></a>
+(formerly <a
+href="https://bard.google.com/chat"><strong>Bard</strong></a>): AI
+experiment from Google that can be used to generate translations and
+texts, German-language, free basic use.</li>
+<li><a href="https://www.bing.com/search"><strong>Bing Chat /
+Copilot</strong></a>: Communication via text, audio and image input on
+the basis of _GPT-4;_functional scope depends on the operating system,
+German-language, free use.</li>
+<li><a href="https://blogmojo.ai"><strong>BlogMojo</strong></a>: Text
+creation with style of the individual blog, German-language, free basic
+use, GDPR-compliant.</li>
+<li><a
+href="https://chat.openai.com/auth/login"><strong>ChatGPT</strong></a>:
+Text chat for text development, translation, text editing etc. with data
+status until January 2023, free basic use.</li>
+<li><a href="https://claude.ai"><strong>Claude 2</strong></a>: Can be
+used in Europe via <strong>Fobizz Tools</strong> and
+<strong>Poe</strong> (see above).</li>
+<li><a href="https://deepl.com"><strong>Deepl</strong></a>: Translations
+and DeeplWrite for text improvement with various style selections,
+German-language, free basic use, GDPR-compliant.</li>
+<li><a
+href="https://app.aleph-alpha.com/jumpstart"><strong>Luminous</strong></a>:
+Sentiment analysis and text generation categorized according to various
+application scenarios, English-language interface, free basic use,
+GDPR-compliant.</li>
+<li><a href="https://pi.ai/talk"><strong>Pi</strong></a>: Text chat with
+voice output on various topics as an empathic counterpart,
+English-language, free to use.</li>
+</ul>
+<h3 data-number="3.7.4" id="ai-powered-coding-tools"><span
+class="header-section-number">3.7.4</span> AI-powered coding tools</h3>
+<p>Code tools with AI are innovative programs that help developers work
+more efficiently. They generate short code snippets, open discussions
+about different approaches and provide explanations for code fragments.
+They can also be used to revise existing code in order to improve its
+quality.</p>
+<ul>
+<li><a href="https://aws.amazon.com/de/codewhisperer"><strong>AWS
+CodeWhisperer</strong></a>: Code assistance for Amazon Web Services
+cloud developments with code suggestions and security scans, supports 15
+programming languages, can be used in a free individual tariff,
+DSGVO-compliant.</li>
+<li><a href="https://www.bing.com/search"><strong>Bing Chat /
+Copilot</strong></a>: Code assistance for various programming languages,
+German-language, free basic use.</li>
+<li><a
+href="https://chat.openai.com/auth/login"><strong>ChatGPT</strong></a>:
+Code assistance for various programming languages with a focus on
+<em>Python,</em> German-language, free basic use.</li>
+<li><a href="https://github.com/features/copilot"><strong>Github
+Copilot</strong></a>: Code assistance that provides suggestions and
+optimizations for software code, free trial use.</li>
+<li><strong>YouCode:</strong> Code assistance (see above)</li>
+</ul>
+<h3 data-number="3.7.5" id="ai-supported-image-tools"><span
+class="header-section-number">3.7.5</span> AI-supported image tools</h3>
+<p>Image tools use AI to generate and optimize photos and graphics. Text
+instructions are processed, understood and used accordingly to generate
+suitable images. They are able to generate so-called deepfakes: photos
+(or videos) in which the facial features of a person are transferred to
+the image of another person.</p>
+<ul>
+<li><a href="https://www.adobe.com/de/express"><strong>Adobe
+Express</strong></a>: Generation of images as well as editing and
+enhancement of images, German-language, free basic use.</li>
+<li><a href="https://bing.com/create"><strong>Bing Creator</strong></a>:
+Image generation with <em>DALL-E,</em> German-language, free basic
+use.</li>
+<li><a href="https://civitai.com"><strong>CivitAI</strong></a>: Image
+generation with template selection and text prompt, English language,
+registration required, free basic use.</li>
+<li>Use <strong>Midjourney</strong> (for a fee) via <strong>Poe</strong>
+(see above).</li>
+<li><a href="https://stablediffusionweb.com/WebUI"><strong>Stable
+Diffusion WebUI</strong></a> <strong>/</strong> <a
+href="https://stablediffusionweb.com/app"><strong>Stable Difusion
+App</strong></a>: in addition to the online tool, can also be used
+offline and without a subscription on your own computer.</li>
+</ul>
+<h3 data-number="3.7.6" id="ai-supported-audio-tools"><span
+class="header-section-number">3.7.6</span> AI-supported audio tools</h3>
+<p>Audio tools with AI allow voice input to control applications. They
+can generate natural-looking speech based on text input. Some tools
+replace the audio track of a video file, for example with a translation
+of the spoken text, for so-called dubbing. Other tools are capable of
+voice cloning, i.e. transferring the characteristics of a spoken voice
+to a synthesized voice output.</p>
+<ul>
+<li><a href="https://audiopen.ai"><strong>AudioPen</strong></a>:
+Generates monolingual or multilingual text from multilingual, even
+slurred or stitched speech input, free basic use.</li>
+<li><a href="https://www.descript.com"><strong>Descript</strong></a>:
+Tool that generates summaries and social media posts from voice
+recordings, offers speech generated from text and voice cloning with
+<em>AI Voices</em>, free basic use.</li>
+<li><a href="https://elevenlabs.io"><strong>ElevenLabs</strong></a>:
+Generates high-quality audio from text input with emotions in many
+languages, large selection of voices, dubbing of videos, voice cloning
+and audiobook development, free basic use.</li>
+<li><a href="https://murf.ai"><strong>Murf</strong></a>: High-quality
+German-language voices, free basic use, GDPR-compliant.</li>
+<li><a
+href="https://goodsnooze.gumroad.com/l/macwhisper"><strong>MacWhisper</strong></a>:
+Fast, secure and accurate speech recognition on MacOS or iOS devices,
+100 supported languages, free basic use.</li>
+</ul>
+<h3 data-number="3.7.7" id="ai-supported-video-tools"><span
+class="header-section-number">3.7.7</span> AI-supported video tools</h3>
+<p>Video tools use AI to generate suitable videos from text input or
+animate human-like avatars whose movements and facial expressions look
+very realistic. By transferring the characteristics of a real person to
+a person in a video, some tools can create so-called deepfakes that look
+extremely realistic.</p>
+<ul>
+<li><a href="https://www.flexclip.com/de"><strong>FlexClip</strong></a>:
+Video editor with many AI-supported functions for generating videos from
+text input or video editing, German-language, free basic use.</li>
+<li><a href="https://www.heygen.com"><strong>Heygen</strong></a>: Video
+generation with human avatars in many languages from text script, free
+demo video, GDPR-compliant.</li>
+<li><a href="https://www.synthesia.io"><strong>Synthesia</strong></a>:
+Multilingual generation of videos with real-looking avatars from text
+input, free demo video.</li>
+<li><a href="https://pictory.ai"><strong>Pictory</strong></a>: Converts
+text input into videos or creates short videos from video content, free
+basic use.</li>
+</ul>
+<h3 data-number="3.7.8"
+id="additional-ai-tools-discover-even-more-possibilities"><span
+class="header-section-number">3.7.8</span> Additional AI tools: Discover
+even more possibilities</h3>
+<p>In addition to well-known AI applications, there are numerous other
+exciting tools. For example:</p>
+<ul>
+<li><a href="https://auphonic.com"><strong>Auphonic</strong></a>:
+Improve the audio quality of video / audio, free basic use,
+GDPR-compliant.</li>
+<li><a href="https://gamma.app"><strong>Gamma</strong></a>: Creates
+presentation with content from briefing (up to 100 characters), English
+interface, processes multilingual input and can generate slides with
+German-sounding text, free basic use.</li>
+<li><a
+href="https://miro.com/de/assist"><strong>MiroAssist</strong></a>: AI
+extension for online whiteboards with Miro. fee-based Miro use, Miro is
+GDPR-compliant.</li>
+<li><a href="https://www.semanticscholar.org"><strong>Semantic
+Scholar</strong></a>: AI-driven search and research tools for the global
+research community, free of charge.</li>
+</ul>
+<p>Various online platforms, such as <a
+href=""><strong>Futurepedia</strong></a>, provide an overview of the
+broad and constantly growing range of AI-supported tools:</p>
+<ul>
+<li><a
+href="https://www.futurepedia.io"><strong>Futurepedia</strong></a></li>
+<li><a href="https://www.futuretools.io"><strong>Future
+Tools</strong></a></li>
+<li><a href="https://theresanaiforthat.com"><strong>There’s an AI for
+that</strong></a></li>
+</ul>
+<h2 data-number="3.8" id="creating-prompts"><span
+class="header-section-number">3.8</span> Creating prompts</h2>
+<p>The following basic chapter is intended to give you a compact guide
+for the simple and at the same time optimized creation of queries and
+dialogues in interaction with generative AI. These recommendations can
+help you in the learning path both in catas 2 and 3 for explorative
+handling and dialog with AI as well as in catas 6 and 7 for active
+prompt creation and collaboration with AI and especially in catas 9 and
+10 for advanced and confident prompting. And now have fun learning and
+practicing!</p>
+<h3 data-number="3.8.1" id="what-actually-is-a-prompt"><span
+class="header-section-number">3.8.1</span> What actually is a
+prompt?</h3>
+<p>In IT, the term “prompt” refers to the request to the user to make an
+entry in a text-based console (source: 🇩🇪 <a
+href="https://de.wikipedia.org/wiki/Prompt">https://de.wikipedia.org/wiki/Prompt</a>).
+In chat-based AI systems, such as ChatGPT, the prompt stands for the
+input text that a user sends to the language model in order to receive a
+response. The language model (Large Language Model or LLM) generates a
+response by predicting the most likely continuation of the text based on
+learned patterns and information. The quality of the response depends to
+a large extent on the prompt itself. It is therefore worth learning how
+to create prompts in such a way that they generate the user’s desired
+output as well as possible.</p>
+<h3 data-number="3.8.2" id="prompt-engineering"><span
+class="header-section-number">3.8.2</span> Prompt engineering</h3>
+<p>The process of optimizing the prompt is referred to as “prompt
+engineering”. There are also numerous sources and handouts on the
+Internet that provide tips for creating prompts under this term (see
+e.g. <a
+href="https://cookbook.openai.com/articles/related_resources">collection
+of links on prompt engineering in the OpenAI Cookbook</a> for an
+extensive collection). However, although so much has been written about
+prompting, it is actually anything but difficult. Prof. Ethan Mollick
+writes (translated from the article <a
+href="https://www.oneusefulthing.org/p/working-with-ai-two-paths-to-prompting">Working
+with AI: Two paths to prompting</a>): “The most important message is
+that you learn how to use AI by using AI. […] The more you use AI, the
+more you develop a sense of what it is good and not so good for”. It is
+therefore much more important than prompt engineering to learn how to
+use an AI system by using it. Prof. Mollick writes on X (formerly
+Twitter) that he observes that users get the “hang of it” after about 10
+hours of using the strongest possible AI system (such as GPT-4). So the
+first step is often to get started and write with the AI chatbot in a
+similar way to a human.</p>
+<p><strong>Write as if to a human:</strong> Many people use the prompt
+in a similar way to the search slot of a search engine or database. With
+search engines and databases, it was important to reduce the question to
+as few and as precise search terms as possible. The whole thing had to
+remain concise, because too much context would only have led to
+inappropriate hits. Interestingly, these rules no longer apply to
+language models such as ChatGPT. Input in colloquial language is not a
+problem and more detailed input usually even leads to better answers and
+not to the model being “confused”. In a sense, therefore, to use AI
+chatbots effectively, we need to train ourselves to do the very
+behaviors that search slots have trained us to do for the longest
+time.</p>
+<p><strong>Prompt improvement by example:</strong> In this section we
+look at specific examples to demonstrate how to make prompts more
+effective. A well-formulated prompt is critical to the quality of the
+response you receive from an AI system. Possible problems in prompt
+creation can include ambiguous input, unclear intentions, suggestively
+worded questions or the mixing of different topics. The aim of these
+examples is to gain a better understanding of precise and well
+thought-out prompts.</p>
+<p><em>Example 1: Unclear intention:</em></p>
+<ul>
+<li><strong>Bad prompt:</strong> “Talking about plants.”</li>
+<li><strong>Why it’s bad:</strong> The prompt is unclear and doesn’t
+give a specific instruction or question.</li>
+<li><strong>Better prompt:</strong> “Can you tell me about the
+importance of plants to the ecosystem?”</li>
+</ul>
+<p><em>Example 2: Suggestive prompts:</em></p>
+<ul>
+<li><strong>Bad prompt:</strong> “Are cell phone rays really harmful to
+your health?”</li>
+<li><strong>Why it’s bad:</strong> This prompt could lead to
+misinformation as it implies an unproven claim.</li>
+<li><strong>Better prompt:</strong> “What does current research say
+about the effects of cell phone radiation on health?”</li>
+</ul>
+<p><em>Example 3: Mixed aspects:</em></p>
+<ul>
+<li><strong>Bad prompt:</strong> “How do I bake a cake and what is the
+history of baking?”</li>
+<li><strong>Why it’s bad:</strong> This prompt combines two different
+topics, which can lead to a confusing or disjointed answer.</li>
+<li><strong>Better prompt:</strong> “Can you give me a simple recipe for
+a chocolate cake?”</li>
+</ul>
+<h3 data-number="3.8.3" id="elements-of-a-good-prompt"><span
+class="header-section-number">3.8.3</span> Elements of a good
+prompt</h3>
+<p>This section is about the essential components of an effective
+prompt. We identify key elements, such as the language model persona,
+introduction, customized content, format and additional information,
+that are helpful in creating a clear and targeted prompt and illustrate
+how these elements are applied in practice with an example. Finally, you
+will gain an insight into advanced prompting techniques that you can use
+to further improve the efficiency and effectiveness of communication
+with AI models.</p>
+<p>The following structure has proven effective for writing good
+prompts:</p>
+<table>
+<colgroup>
+<col style="width: 22%" />
+<col style="width: 77%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Category</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Persona</td>
+<td>What role should the language model play?</td>
+</tr>
+<tr class="even">
+<td>Introduction</td>
+<td>What do I expect from the language model? Usually starts with an
+action word.</td>
+</tr>
+<tr class="odd">
+<td>Individual content</td>
+<td>The actual text to be processed.</td>
+</tr>
+<tr class="even">
+<td>Format</td>
+<td>If necessary, what format do I expect from the output?</td>
+</tr>
+<tr class="odd">
+<td>Additional Information</td>
+<td>Other relevant information that makes the context more
+specific.</td>
+</tr>
+</tbody>
+</table>
+<p>Here is a completed example:</p>
+<table>
+<colgroup>
+<col style="width: 12%" />
+<col style="width: 87%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Category</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Persona</td>
+<td>You are a travel consultant and an expert in customizing trips to
+foreign countries.</td>
+</tr>
+<tr class="even">
+<td>Introduction</td>
+<td>I finally have time during the coming summer vacation to go on a
+really big trip with my partner.</td>
+</tr>
+<tr class="odd">
+<td>Individual content</td>
+<td>Create an itinerary for me for a two-week trip to Japan. Include
+cultural sights, local cuisine and outdoor activities.</td>
+</tr>
+<tr class="even">
+<td>Format</td>
+<td>The list should be structured by vacation days. Divide each vacation
+day by stations and cities that I will visit (such as Tokyo, Kyoto and
+Osaka).</td>
+</tr>
+<tr class="odd">
+<td>Additional Information</td>
+<td>I am particularly interested in historical sites and am a lover of
+sushi. I would also like to go on a hike.</td>
+</tr>
+</tbody>
+</table>
+<h3 data-number="3.8.4" id="prompting-tipps-von-openai"><span
+class="header-section-number">3.8.4</span> Prompting-Tipps von
+OpenAI</h3>
+<p>Auch OpenAI (die Entwickler von ChatGPT) beschreiben in ihrem Artikel
+<a href="https://platform.openai.com/docs/guides/prompt-engineering/prompt-engineering">Prompt
+Engineering</a> genauer, was aus ihrer Sicht einen “guten” Prompt
+ausmacht:</p>
+<ol type="1">
+<li><p><strong>Sei spezifisch</strong>: Stelle sicher, dass die Anfragen
+alle wichtigen Details oder den Kontext enthalten, damit das Modell
+nicht raten muss, was Du meinst. Je genauer Du den Hintergrund, Dein
+Anliegen und die Art der erwarteten Ausgabe beschreibst, umso besser
+wird die Antwort sein.</p></li>
+<li><p><strong>Sei modular</strong>: Zerlege komplexe Aufgaben in eine
+Reihe von einfacheren Aufgaben, die nacheinander ausgeführt werden
+können. Nutze Struktur, wie z. B. Stichpunkte, um Aspekte klar zu
+unterteilen.</p></li>
+<li><p><strong>Be patient</strong>: Ask the model to describe the path
+to the answer first instead of answering immediately. You will get
+better answers if the model first develops a solution (“chain of
+thought”) and then carries it out.</p></li>
+<li><p><strong>Be complementary</strong>: When too little information is
+available, language models tend to invent inaccurate answers. Therefore,
+provide the model with relevant and up-to-date information so that it
+can answer better. If you need access to sources (such as documents or
+books), use AI systems that can process data.</p></li>
+<li><p><strong>Be accurate</strong>: Generative AIs are not the best
+solution for every task. For example, language models such as GPT-3.5
+are good at developing a solution procedure, but not particularly good
+and reliable at computing. Therefore, use other tools (such as GPT-4
+with code interpreter) to perform operations that the model cannot
+perform independently.</p></li>
+<li><p><strong>Be evaluative</strong>: Create and compare different
+prompts systematically to better assess and optimize the effect of the
+prompt and the performance of the model.</p></li>
+</ol>
+<h3 data-number="3.8.5" id="providing-examples"><span
+class="header-section-number">3.8.5</span> Providing examples</h3>
+<p>Another helpful technique to achieve better results is one-shot and
+few-shot learning. These methods are used to demonstrate to the AI model
+what exactly is expected. The AI model can then base its answer on the
+examples and is more likely to answer in the way the user expects.</p>
+<p>In one-shot learning, the model is presented with a single example
+that demonstrates the desired task or response form. The model uses this
+example as a template for what it should produce.</p>
+<p>Here is an example of one-shot prompting:</p>
+<blockquote>
+<p>Create a short commitment for my participation in the panel
+discussion “AI &amp; Work” on 05.03.2030.</p>
+<p>Use the following example for the answer:</p>
+<p>INPUT</p>
+<p>Formulate a short and polite reply to a conference invitation.</p>
+<p>ANSWER</p>
+<p>Dear Ms. Müller,</p>
+<p>Thank you for the invitation to the Digital Innovations Conference
+2024. I am very pleased to be able to participate and contribute to the
+panel on AI technologies. Please send me more information on the
+logistical details.</p>
+<p>With best regards,</p>
+<p>Anna Schmidt</p>
+</blockquote>
+<p>In few-shot learning, the model is given several examples to
+demonstrate a wider range of cases or variations of a task. This helps
+the model to better understand the task and adapt to different scenarios
+or contexts.</p>
+<p>Here is an example of Few-Shot Prompting:</p>
+<blockquote>
+<p>Assign examples to different forms of teaching and learning for
+me.</p>
+<p>Base your answer on the following examples:</p>
+<blockquote>
+<p>Watching a learning video -&gt; self-directed learning</p>
+<p>Attend a lecture -&gt; lecture</p>
+<p>Solve math problems -&gt; self-directed learning</p>
+<p>Learning with other students -&gt; collaborative learning</p>
+</blockquote>
+<p>Continue with these examples:</p>
+<blockquote>
+<p>Create a summary -&gt;</p>
+<p>Discuss the learning content with a learning partner by telephone
+-&gt;</p>
+</blockquote>
+</blockquote>
+<h3 data-number="3.8.6" id="advanced-prompting"><span
+class="header-section-number">3.8.6</span> Advanced prompting</h3>
+<p>Good examples of advanced prompts are</p>
+<ol type="1">
+<li><p>the ideation-prompt from <a
+href="https://github.com/carterleffen/chatgpt-prompts/blob/main/ideation.prompt">chatgpt-prompts/ideation.prompt
+at main - carterleffen/chatgpt-prompts (github.com)</a></p></li>
+<li><p>the example by Prof. Ethan Mollick in the article <a
+href="https://www.oneusefulthing.org/p/working-with-ai-two-paths-to-prompting">Working
+with AI: Two paths to prompting - by Ethan Mollick
+(oneusefulthing.org)</a> in the section “Structured Prompting”</p></li>
+<li><p>the case study 🇩🇪 <a
+href="https://www.e-lehre.de/2024/02/07/chatgpt-als-lerncoach">LerncoachGPT</a>
+as a prototype for a learning coach by Simon Roderus</p></li>
+<li><p>professor synapse prompt: <a
+href="https://github.com/ProfSynapse/Synapse_CoR/blob/main/GPTprompt.txt">Synapse_CoR/GPTprompt.txt
+at main - ProfSynapse/Synapse_CoR (github.com)</a> or also <a
+href="https://github.com/ProfSynapse/Super_Synapse/blob/main/prompt.txt">Super_Synapse/prompt.txt
+at main - ProfSynapse/Super_Synapse (github.com)</a></p></li>
+</ol>
+<p><strong>Tip:</strong> Advanced prompts work much better in more
+powerful AI systems such as GPT-4.</p>
+<h3 data-number="3.8.7" id="if-you-want-to-go-even-deeper"><span
+class="header-section-number">3.8.7</span> If you want to go even deeper
+…</h3>
+<p>There are numerous good compilations on prompt techniques, such
+as</p>
+<ul>
+<li><a
+href="https://cookbook.openai.com/articles/related_resources">Collection
+of links to prompt engineering in the OpenAI Cookbook</a></li>
+<li>Awesome-Prompt-Engineering](https://github.com/promptslab/Awesome-Prompt-Engineering)</li>
+</ul>
+<p>There are also collections of prompts, such as <a
+href="https://flowgpt.com">FlowGPT</a> or <a
+href="https://github.com/f/awesome-chatgpt-prompts">awesome-chatgpt-prompts</a></p>
+<h3 data-number="3.8.8" id="improve-prompts-together-with-the-ai"><span
+class="header-section-number">3.8.8</span> Improve prompts together with
+the AI</h3>
+<p>You can ask the AI to improve the prompt together with you. Often all
+you need to do is enter something like:</p>
+<blockquote>
+<p>Help me improve my prompt by asking me questions about anything that
+is unclear and then issuing a revised version of the prompt.</p>
+</blockquote>
+<p>There are much more comprehensive and elaborate prompts for
+improvement, such as <a
+href="https://flowgpt.com/p/chatgpt-4-prompt-improvement">ChatGPT 4
+Prompt Improvement (flowgpt.com)</a> (you can view the prompt via the
+“View Prompt” button). There are also GPTs, such as <a
+href="https://chat.openai.com/g/g-uSEqrEWdX-pro-prompter">Pro
+Prompter</a> or the <a
+href="https://chat.openai.com/g/g-qfoOICq1l-prompt-professor">ChatGPT -
+Prompt Professor</a>, which can help you to improve the prompts.</p>
+<h3 data-number="3.8.9"
+id="outlook-prompt-engineering-is-likely-to-become-less-important"><span
+class="header-section-number">3.8.9</span> Outlook: “Prompt engineering”
+is likely to become less important</h3>
+<p>At the same time, however, the question arises as to whether we
+really want to or should delve deeper into prompt engineering. On the
+one hand, the prompting techniques mentioned here and in the katas form
+a solid basis for collaboration with AI. On the other hand, prompt
+engineering is likely to become less and less important as AI systems
+continue to develop, if they improve through continuous learning and
+adapt user input directly and appropriately. For example,
+image-generating AIs (such as DALL-E3) are already able to generate the
+prompt for the image themselves. It is clear that this field is
+currently moving forward very dynamically and is constantly optimizing
+itself.</p>
+<h2 data-number="3.9"
+id="ai-and-society-a-reflection-on-implications-and-responsibility"><span
+class="header-section-number">3.9</span> AI and society: a reflection on
+implications and responsibility</h2>
+<p>In today’s digital era, Artificial Intelligence (AI) is a key
+technology that is reshaping our social and professional interactions.
+This chapter encourages reflection and discussion on the implications of
+AI in the context of your organization and society. We have identified 7
+aspects that are discussed in the context of “AI and society”. For each
+aspect, questions have been compiled for self-reflection and discussion
+with your learning group:</p>
+<ul>
+<li><strong>Workplaces and automation</strong></li>
+<li><strong>Transparency and comprehensibility</strong></li>
+<li><strong>Distortions and discrimination</strong></li>
+<li><strong>Privacy and data protection</strong></li>
+<li><strong>Digital dependency</strong></li>
+<li><strong>Ethics and value system</strong></li>
+<li><strong>Regulation</strong></li>
+</ul>
+<h3 data-number="3.9.1" id="jobs-and-automation"><span
+class="header-section-number">3.9.1</span> Jobs and automation</h3>
+<p>AI and automation will fundamentally change many areas of work and
+professional fields. This triggers both hopes and fears. The loss of
+jobs through automation is being discussed, especially for lower-skilled
+jobs, particularly in the office sector. On the other hand, relieving
+people of monotonous subtasks can also create space for more creative
+tasks. In many areas, such as medical diagnostics or environmental
+management, AI is already demonstrating a level of performance in many
+tasks that is comparable to that of humans. New activities and
+professions will emerge in data management and AI training. Overall,
+however, there could be a new polarization between the qualified
+employees who use and deploy AI for themselves and those who lose their
+“market value” by not using it.</p>
+<p><strong>Questions for reflection:</strong></p>
+<ul>
+<li>What specific effects do you expect AI and automation to have on
+jobs and activities in your company?</li>
+<li>How are the effects being discussed?</li>
+<li>What opportunities do AI-supported assistance systems offer for
+simplifying certain tasks? What new and creative activities could
+arise?</li>
+<li>How do you yourself view the development of AI? Do you see
+opportunities or risks for your own development? Where would you like to
+benefit from AI and use it yourself? Where are you cautious or
+skeptical?</li>
+</ul>
+<h3 data-number="3.9.2" id="transparency-and-traceability"><span
+class="header-section-number">3.9.2</span> Transparency and
+traceability</h3>
+<p>Traceability plays an important role in AI systems on two levels:</p>
+<ul>
+<li><p><strong>Training material</strong>: It is not always possible to
+trace which material an AI was trained on. Depending on the training
+material, an AI generates distortions in the analysis process (e.g. with
+regard to gender or other characteristics) and even political
+“beliefs”.</p></li>
+<li><p><strong>Results</strong>: Transparency of AI systems is crucial
+for trust and accountability. What happens in the black box between a
+prompt and the output, especially when automated decisions are made
+based on AI responses. With today’s AI systems, it is not possible to
+understand how the result comes about. Research in the field of <a
+href="https://de.wikipedia.org/wiki/Explainable_Artificial_Intelligence">“Explainable
+AI”</a> promises to remedy this situation.</p></li>
+</ul>
+<p><strong>Reflection questions:</strong></p>
+<ul>
+<li>How does my organization ensure the transparency and traceability of
+AI systems?</li>
+<li>Can we explain the decision-making processes of our AI systems in an
+understandable way or are they a black box?</li>
+<li>How transparent do we make the algorithm models and training data
+used to customers and users?</li>
+<li>What monitoring and testing systems are in place to identify and
+correct incorrect decisions made by AI?</li>
+<li>How do we communicate openly with customers if errors do occur?</li>
+<li>Do we educate and train our employees to monitor AI systems
+competently?</li>
+<li>How can we as a company contribute to greater transparency and
+comprehensibility of AI?</li>
+</ul>
+<h3 data-number="3.9.3" id="bias-and-discrimination"><span
+class="header-section-number">3.9.3</span> Bias and discrimination</h3>
+<p>AI systems can reflect and reinforce existing biases and
+discrimination if the underlying data is unfair or contains stereotypes.
+The use of AI systems in applicant selection or in the financial and
+insurance sector, for example when granting loans, is frequently
+discussed. Algorithmic biases in AI systems can take various forms, such
+as gender bias, racial bias and age discrimination.</p>
+<p><strong>Reflection questions:</strong></p>
+<ul>
+<li>Does the data used to train AI in our organization potentially
+contain hidden biases and prejudices?</li>
+<li>Does the data reflect the diversity of society or only small
+privileged groups?</li>
+<li>How diverse and interdisciplinary are the teams that develop
+AI?</li>
+<li>What testing methods are available to detect and eliminate
+discrimination in AI systems?</li>
+<li>How can more awareness of this issue be created?</li>
+</ul>
+<h3 data-number="3.9.4" id="privacy-and-data-protection"><span
+class="header-section-number">3.9.4</span> Privacy and data
+protection</h3>
+<p>The use of AI raises a number of questions regarding the handling of
+personal data. Data protection violations due to improper handling of AI
+systems can have serious consequences.It should be remembered that many
+providers, especially of free AI tools, use user input to train their
+models.The greatest data protection risk here is that confidential data
+from input in prompts is unknowingly transferred to the provider’s large
+language model.</p>
+<p><strong>Reflection questions:</strong></p>
+<ul>
+<li>What personal customer data do we use for our AI systems?Is the data
+correctly pseudonymized?</li>
+<li>How transparent do we make the use of customer data by AI? What
+consent do we obtain?</li>
+<li>How do we ensure that AI systems do not use data in an uncontrolled
+manner for unintended purposes? What would be the consequences if
+internal company data were to end up in publicly accessible
+systems?</li>
+<li>Are data protection impact assessments carried out before AI systems
+are used?</li>
+<li>How do we train and sensitize our employees to handle data securely
+and responsibly?</li>
+</ul>
+<h3 data-number="3.9.5" id="digital-dependency"><span
+class="header-section-number">3.9.5</span> Digital dependency</h3>
+<p>AI has the potential to enhance our cognitive abilities and improve
+decision-making, but it also harbors the risk of creating
+dependencies.As AI moves into more and more areas of life, the
+progressive acquisition of specific skills by people is becoming
+increasingly important in order to maintain their sovereignty and not
+trade it for a deep dependence on technology.Put simply, will AI make us
+smarter or dumber?Will relying on AI disempower us to a certain
+extent?</p>
+<p><strong>Reflection questions:</strong></p>
+<ul>
+<li>Which skills will become more important in a working world shaped by
+AI?Creativity, social skills, problem solving,…</li>
+<li>Do we offer exchange forums to reduce fears of AI and gain
+confidence in dealing with it?</li>
+<li>Will humans remain the final decision-making authority for critical
+AI applications or will we leave important processes entirely to the
+algorithm?</li>
+<li>How do we strengthen media literacy in order to recognize and
+counteract undesirable developments?</li>
+</ul>
+<h3 data-number="3.9.6" id="ethics-and-value-system"><span
+class="header-section-number">3.9.6</span> Ethics and value system</h3>
+<p>The ethical dimension of AI encompasses various concerns, such as
+fairness and responsibility. The debate is about who AI should serve:
+The good of all people and not just a few corporations.Investigative
+journalists have also examined the work of so-called “clickworkers”.
+Workers from low-wage countries (Kenya, Pakistan, Venezuela) train the
+models by, for example, linking texts and images, which machines are not
+yet able to do so well on their own, or filtering out unwanted responses
+from chatbots. The globalization of this round-the-clock business
+supports constant price undercutting.A key question is accountability
+throughout the value chain of AI use and who is accountable, especially
+when AI systems - perhaps even autonomously - make faulty or harmful
+decisions? Should manufacturers be liable? Or the users?</p>
+<p><strong>Reflection questions:</strong></p>
+<ul>
+<li>What ethical guidelines for AI exist in my company? Who was involved
+in their creation?</li>
+<li>Do the guidelines also reflect my personal values such as justice,
+responsibility, protection of intellectual property and
+sustainability?</li>
+<li>Are processes in place to discuss ethical issues across
+disciplines?</li>
+<li>How can compliance with ethical principles be ensured throughout the
+entire development process of AI systems?</li>
+<li>What training is needed to increase awareness and skills in ethics,
+responsibility and AI?</li>
+</ul>
+<h3 data-number="3.9.7" id="regulation"><span
+class="header-section-number">3.9.7</span> Regulation</h3>
+<p>The area of tension here is the balance of interests between
+exploiting innovation potential and minimizing risk. Some fear that
+regulation will hinder innovation. Others see risks for society and
+democracy if AI is used completely unregulated. In this context, it is
+important to discuss the level of regulation so that it can be effective
+- national, European, international or sector-specific for particularly
+sensitive areas. In this context, the role of voluntary commitments and
+certifications should also be emphasized as an alternative to
+regulations with sanctions.</p>
+<p><strong>Questions for reflection:</strong></p>
+<ul>
+<li>Where might there be risks in my company that require
+regulation?</li>
+<li>Are there already internal rules or principles for responsible AI in
+my company? Should this be expanded?</li>
+<li>How can high AI standards and the ability to innovate be ensured at
+the same time?</li>
+<li>Should there be broad societal debates on regulation? How can we
+contribute constructively?</li>
+</ul>
+<h1 data-number="4" id="lernpfad"><span
+class="header-section-number">4</span> Lernpfad</h1>
+<p>Welcome to the <strong>learning path of the lernOS AI guide</strong>.
+The central <strong>goal</strong> for this learning path is to create
+and publish at least <strong>one AI-supported blog/LinkedIn
+post</strong> (🇩🇪 <a
+href="https://www.linkedin.com/feed/update/urn:li:activity:7110171493103198209/">example:
+with summary interview</a>) or to pursue <strong>your own learning
+project</strong> using AI and produce results. The aim of this learning
+project can be extended as desired (several posts, multilingual,
+podcast, video, etc.).</p>
+<figure>
+<img src="./images/lernpfad-sketchnote.png"
+alt="Visualisation by Katrin Mäntele unter (CC BY)" />
+<figcaption aria-hidden="true">Visualisation by <a
+href="https://www.linkedin.com/in/katrin-maentele/">Katrin Mäntele</a>
+unter (CC BY)</figcaption>
+</figure>
+<p>A <strong>lernOS learning path</strong> is a <strong>compilation of
+katas</strong> (exercises) with which you can learn new skills and
+develop a new learning attitude (mindset) over time. A learning path can
+be completed within a <strong>learnOS sprint</strong> (13 weeks). We
+recommend doing <strong>one kata per week</strong> if you can complete
+the guide in 12 weeks. However, it is also possible to go through the
+kata in a different way or to use them in a more modular way.</p>
+<h3 data-number="4.0.1" id="task-clarify-the-framework-conditions"><span
+class="header-section-number">4.0.1</span> Task: Clarify the framework
+conditions</h3>
+<p><strong>Week 0</strong> is the week before you really get started
+with the exercises in the learning path. At the end of week 0, the
+following things should be determined:</p>
+<ol type="1">
+<li>whether you will learn alone, in tandem or in a circle</li>
+<li>which tools you will use for self-organisation (e.g. a video
+conferencing tool for Tandem or Circle and a OneNote for
+documentation)</li>
+<li>for Tandem and Circle: on which dates and at what frequency the
+meetings take place (recommendation: 1 hour per week)</li>
+<li>when you have reserved some additional learning time in your
+calendar (recommendation: 1-2 hours per week).</li>
+<li>for Tandem and Circle: Whether you go through the katas before your
+meetings and discuss them in the meeting or only complete them in your
+weekly meetings.</li>
+</ol>
+<h3 data-number="4.0.2"
+id="task-get-to-know-each-other-and-talk-about-your-expectations"><span
+class="header-section-number">4.0.2</span> Task: Get to know each other
+and talk about your expectations!</h3>
+<p>The most important task in the first week is to get to know each
+other better. Therefore, introduce yourselves to each other and talk
+about your expectations of the group and your learning journey.</p>
+<p><strong>Tip:</strong> If someone in your group is already using an AI
+tool, ask the AI which icebreakers they would recommend for your
+situation to get to know each other.</p>
+<p>You can use these questions as starters:</p>
+<ul>
+<li>What does AI mean to you personally?</li>
+<li>What expectations do you have of the learning path?</li>
+<li>How do you notice that participation in the learning path was
+successful for you?</li>
+<li>How much previous experience does each of you have with the
+topic?</li>
+</ul>
+<p>An important part of <strong>competent use of AI systems</strong> is
+developing an intuitive understanding of what AI is good for and how
+best to write or speak to it. At the same time, it is also important to
+recognise <strong>dangers</strong> and avoid them. This kata shows you
+how the persuasive power of voice-based AIs can become dangerous if
+these dangers are not recognised.</p>
+<p>The aim of this task is to develop a sound understanding of the
+strengths and limitations of AI systems. By creating and testing your
+own prompts, you will learn how AI responds to different requests. This
+will help you to interact more effectively with AI and set realistic
+expectations of its performance.</p>
+<h3 data-number="4.0.3"
+id="task-train-your-intuition-in-dealing-with-the-ai"><span
+class="header-section-number">4.0.3</span> Task: Train your intuition in
+dealing with the AI</h3>
+<ol type="1">
+<li><strong>Develop your own prompts:</strong> Develop 3-5 simple
+prompts based on the examples and learning content from the previous
+weeks. These can be questions, requests for explanations or creative
+tasks. Try to develop a variety of prompts - some that you think the AI
+can answer well and others that may be more challenging for it. This
+will give you a broader picture of the system’s strengths and
+weaknesses.</li>
+<li><strong>Experiment with the AI:</strong> Test your created prompts
+with an AI, such as ChatGPT. Pay attention to the way the AI reacts to
+different requests and the answers it provides.</li>
+<li><strong>Reflection:</strong> After you have tried out all the
+prompts, reflect on your experiences. What types of queries were
+answered well by the AI? Which questions did the AI have difficulties
+with?</li>
+</ol>
+<h3 data-number="4.0.4" id="task-make-an-ai-hallucinate"><span
+class="header-section-number">4.0.4</span> Task: Make an AI
+hallucinate!</h3>
+<p>This task consists of trying to make an AI hallucinate. A
+hallucination refers to the phenomenon where an AI system generates
+inaccurate, fabricated or misleading information that is not based on
+real data or facts. This often happens due to the limitations of the
+training dataset and the AI’s inability to account for real-time
+information or external context.</p>
+<p>Here are a few ways to induce hallucination:</p>
+<ul>
+<li><strong>Requests for specific but non-existent facts or
+details:</strong> Asking the AI for specific dates, events or details
+that do not exist or are made up can cause it to construct answers that
+turn out to be hallucinations as they are not based on real
+information.</li>
+<li><strong>Very vague and ambiguous queries:</strong> Asking vague or
+ambiguous questions can confuse the AI and lead to hallucinatory answers
+as it tries to make sense of incomplete information.</li>
+<li><strong>Fictional or hypothetical scenarios:</strong> The AI can
+easily hallucinate when answering questions about fictional or
+hypothetical scenarios as it cannot distinguish between real and
+fictional information.</li>
+</ul>
+<p>Try out the AI platforms available to you to see how easily they can
+hallucinate.</p>
+<p>You will soon realise that this is not so easy, as most AI systems
+are now good at avoiding hallucinations. “Weaker” AI models hallucinate
+much more often than stronger AI models. For example, GPT-3.5 is easier
+to get to hallucinate than GPT-4.0. It is even easier with particularly
+small models such as “pplx-7b-chat”, which is available via <a
+href="https://labs.perplexity.ai">Perplexity Labs</a>.</p>
+<p><strong>Example: Summary of a non-existent news article::</strong>
+The language model “pplx-7b-chat” from <a
+href="https://labs.perplexity.ai">Perplexity Labs</a> is given the
+following task</p>
+<blockquote>
+<p>Summarise this newspaper article from 12.12.2030 for me:
+https://www.zeit.de/2030/12/angewandte-künstliche-intelligenz-wird-pflichtfach-in-schulen.</p>
+</blockquote>
+<p>produced this answer:</p>
+<blockquote>
+<p>The article from the times writes about the introduction of the
+subject “Applied Artificial Intelligence” in schools from the year 2030.
+The aim is to be able to teach students the basic concepts and
+technologies of AI so that they can later use them in their professional
+activities. […]</p>
+</blockquote>
+<p><strong>Tip:</strong> If you have more direct access to the settings
+of an AI system, you can use the so-called “temperature” to set how
+creatively or precisely the AI should respond. You can do this in the <a
+href="https://platform.openai.com/playground?mode=chat">OpenAI API
+Playground</a>, for example. But even without a temperature setting, you
+can control the creativity of the model by using linguistic instructions
+such as “answer creatively and add appropriate information” for more
+creativity or “answer conscientiously and follow my instructions
+exactly” for more accuracy.</p>
+<p>In Kata 7, the <strong>effective collaboration between humans and
+AI</strong> was discussed and it was shown that the correct use of AI
+systems can increase productivity. You also learnt a structured approach
+- consisting of persona, introduction, individual content, format and
+additional information - to create better prompts. This kata builds on
+these foundations and focuses on <strong>advanced techniques for
+creating prompts</strong>.</p>
+<p>Read the chapter <a href="1-8-prompts-create.md">Creating prompts</a>
+first!</p>
+<h3 data-number="4.0.5" id="task-prompts-with-multiple-subtasks"><span
+class="header-section-number">4.0.5</span> Task: Prompts with multiple
+subtasks</h3>
+<p>The use of multi-level prompts is suitable for processing complex
+tasks and requests. They consist of a structured series of subtasks to
+achieve a specific result and are particularly useful when a single
+request is not sufficient to gather the required information or solve a
+complex problem.</p>
+<p><strong>Procedure:</strong></p>
+<ol type="1">
+<li><strong>Goal definition</strong> Start with a clear definition of
+the goal. You can use the structure described in [Kata 7], for
+example.</li>
+<li><strong>Divide into subtasks</strong> Derive smaller subtasks from
+the goal, each of which is geared towards a specific aspect of the
+overall task. Write a separate instruction for each subtask.</li>
+</ol>
+<p><strong>Example: Creating a concept for a learning event</strong></p>
+<p>Objective: To create a concept for a half-day learning event in a
+company in which participants learn about the application and
+possibilities of generative AI and try it out in practice. The event
+should be interactive and suitable for beginners.</p>
+<p>Sub-tasks:</p>
+<ol type="1">
+<li>create a presentation title and outline for a short introduction to
+the basics of generative AI, including its main application areas such
+as text and image generation.</li>
+<li>think of 3 practical exercises that the participants can use to try
+out the content themselves in a low-threshold way.</li>
+<li>create key points for a motivating closing speech to be given by the
+entrepreneur’s board of directors.</li>
+</ol>
+<p>In this kata, we deepen the skills gained from kata 10 for confident
+prompting in another task. Continue to refer to the chapter <a
+href="1-8-prompts-erstellen.md">Creating prompts</a>!</p>
+<h3 data-number="4.0.6"
+id="task-flipped-interaction-when-the-ai-asks-you"><span
+class="header-section-number">4.0.6</span> Task: Flipped Interaction:
+When the AI asks you!</h3>
+<p>The article <a href="https://arxiv.org/pdf/2302.11382.pdf">A Prompt
+Pattern Catalog to Enhance Prompt Engineering with ChatGPT</a> offers a
+helpful catalog of effective prompt patterns. One of these patterns is
+the “flipped interaction” pattern, in which the usual interaction
+dynamic is reversed: Instead of the user asking questions, they ask the
+language model (LLM) to ask questions in order to achieve a specific
+goal.</p>
+<p><strong>Procedure:</strong></p>
+<ol type="1">
+<li><strong>Goal setting</strong>: The user defines a goal and the model
+asks targeted questions in response.</li>
+<li><strong>Duration and structure</strong>: The user defines how long
+the question phase should last and how many questions are asked per
+round.</li>
+<li><strong>Specificity and context</strong>: The more specific the
+instructions and context, the more effectively the model can gather
+information.</li>
+</ol>
+<p><strong>Beispiel: KI-Wissenscheck</strong></p>
+<p>Use the following prompt:</p>
+<blockquote>
+<p>I would like to assess and expand my knowledge in the field of
+Artificial Intelligence (AI). Please ask me basic questions about AI
+topics to assess my current understanding. Focus on elementary concepts
+such as “generative AI”, “Large Language Models” (LLMs) or
+“hallucinations” and avoid too difficult content. Start with simple
+questions and gradually increase the level of difficulty based on my
+answers. The aim is to find out what level my knowledge is at and which
+areas I should deepen.</p>
+</blockquote>
+<p><strong>Tip:</strong> You can use the “Flipped Interaction” pattern
+to let the AI improve your prompt. Ask the AI to ask you questions about
+your original prompt and give you suggestions for improvements. This
+helps you to recognize ambiguities in your prompt and to formulate it
+more precisely. Finally, you ask the AI to formulate the improved prompt
+for you. This not only makes your prompt more precise, but also
+increases the efficiency and accuracy of the AI.</p>
+<p>The time has come. After 12 weeks, the <strong>last round of the
+learning path</strong> is coming to an end and it’s time to review these
+<strong>weeks</strong>. At the end, you are welcome to discuss what the
+biggest insights, surprises or challenges were for you in dealing with
+AI.</p>
+<p>The following questions can serve as a common thread:</p>
+<ul>
+<li>What do you take away as key experiences / highlights from the last
+few weeks?</li>
+<li>What were the most important milestones / development steps for
+you?</li>
+<li>What did you miss or fall short of in the Circle or when creating
+with the help of AI?</li>
+<li>What plans do you have for your topic / project in conjunction with
+your AI and what would you like to achieve next?</li>
+<li>What activities or requirements could there be in the future to link
+your human and artificial intelligence even better?</li>
+</ul>
+<p><strong>Tip:</strong> The review was very much about how you
+perceived and interpreted your learning journey and your experiences.
+However, you can imagine that another person may have perceived and
+interpreted the same results very differently. Use a chat-based AI to
+generate other perspectives. First describe your learning journey in a
+matter-of-fact way, including important events. Then write how you
+perceived and evaluated your learning journey. Then ask the AI to invent
+three people with different personalities and simulate for them how they
+would have assessed your learning journey.</p>
+<p><strong>Final tip: Celebrate success</strong> Yay, hooray, you did it
+- you studied together for several weeks/days, you didn’t give up, you
+kept at it and you learned so much about AI and prompting, not just
+theoretically, but hopefully in practice too! And during this time you
+have built up a relationship of trust with each other that is at least
+as valuable as the work you have done together and from which you will
+benefit for a long time to come. So now is the time to celebrate your
+success. Perhaps get together for a small final event (in person or
+online) and enjoy your learning success! The AI can be a good source of
+ideas for this. The guide team wishes you much joy and success in the
+future and looks forward to your feedback!</p>
+<p>In this kata, you will lay the <strong>foundations for working with
+artificial intelligence</strong>. One focus is on the question of what
+responsible use of AI looks like for you and what framework conditions
+exist for this in your context (e.g. school, university, company).</p>
+<p>Read through the section from the basic chapter <a
+href="1-9-ai-and-society.md">AI &amp; Society</a> and think about what a
+responsible use of AI systems could look like. ### Task: What can
+actually happen? Think about how AI systems work and then answer the
+following questions: - What types of inputs and outputs are common in AI
+platforms and tools? - Think about what data (generative) AIs can use
+for processes such as training. - What would be threat scenarios that
+could arise for your organisation/workplace from irresponsible use of AI
+platforms?</p>
+<h3 data-number="4.0.7"
+id="task-determine-the-framework-conditions-for-the-use-of-ai"><span
+class="header-section-number">4.0.7</span> Task: Determine the framework
+conditions for the use of AI</h3>
+<p>In order to organise the use of AI systems in your company
+effectively and responsibly, it is important that you first familiarise
+yourself with the company-specific requirements and guidelines. You can
+usually find this information on your company’s intranet. Make sure that
+you always keep an eye on the guidelines relevant to you to ensure that
+you implement them in your daily work environment. If certain katas in
+this guide cannot be implemented in your company, it is advisable that
+you independently think of alternative tasks that comply with your
+company’s guidelines.</p>
+<p>If your company does not yet have a framework, here are a few general
+recommendations:</p>
+<ul>
+<li><strong>Permitted platforms:</strong> Find out which websites and AI
+platforms are permitted to be used in your company. Some companies only
+allow selected platforms. Also consider whether you are allowed to
+register on AI platforms with your work contact details.</li>
+<li><strong>Confidential data:</strong> Most companies have critical
+company data, the unwanted publication of which would pose a high risk.
+Therefore, always pay attention to which data you are allowed to enter
+on which AI platform.</li>
+<li><strong>Personal data:</strong> Also consider the risks posed by
+personal data. Data protection laws and company regulations usually
+stipulate that personal data may only be entered into systems that have
+been authorised for this purpose.</li>
+<li><strong>Terms of use &amp; third-party rights:</strong> Pay
+attention to the terms of use, but also to copyright and third-party
+rights. Generative AI may harbour the risk of creating copyrighted
+content.</li>
+<li><strong>Check outputs:</strong> The outputs of AI platforms are
+based on probabilities and are therefore not reliable. Therefore, check
+the results carefully before you use them for yourself or your
+work.</li>
+<li><strong>No illegal use:</strong> Although most AI platforms have
+good security mechanisms, in certain cases it is possible to use them to
+create dangerous or illegal content such as malicious code. Therefore,
+only use AI systems within the permitted framework. Even if it is
+tempting, especially in a business context, refrain from trying to
+outwit AI systems or use them differently than intended!</li>
+<li><strong>Be careful with unknown providers:</strong> Favour providers
+of AI platforms that are known to be trustworthy and are transparent
+about which data they use and how.</li>
+</ul>
+<p>If possible, use an existing, concise profile of your company’s most
+important requirements with regard to the use of AI platforms or, if
+necessary, work towards its creation in order to distribute it
+appropriately within your organisation.</p>
+<p>In this kata, you <strong>select an AI tool/chatbot</strong> with
+which you can take your <strong>first steps into the world of generative
+AI</strong> and explore it.</p>
+<p>To deepen your knowledge of artificial intelligence, it is
+recommended that you familiarise yourself with the different types of
+AI. The chapter <a href="1-6-ai-models.md">AI models</a> gives you an
+overview of this. Another helpful introductory resource is the chapter
+<a href="1-7-ai-tools-services.md">AI tools and services</a>, which
+gives you an insight into the various tools and services available in
+the field of generative artificial intelligence. This is particularly
+important for the following tasks and will be taken up again and
+deepened later in [Kata 5].</p>
+<h3 data-number="4.0.8"
+id="task-select-an-ai-chatbot-or-try-out-several-chatbots"><span
+class="header-section-number">4.0.8</span> Task: Select an AI chatbot or
+try out several chatbots</h3>
+<p>There are various options open to you when entering the world of AI
+chatbots. Firstly, you should check which AI platforms are allowed to be
+used in your company. If there is no recommended AI tool in your
+company, <a href="https://copilot.microsoft.com">Microsoft Copilot</a>,
+the free version of <a href="https://chat.openai.com">ChatGPT</a> is
+often a good starting point. The AI <a href="https://pi.ai/talk">Pi</a>
+is also worth considering, as it is easy to use without prior
+registration.</p>
+<p>Choose a tool that can be used in your company and get access.</p>
+<p><strong>Tip:</strong> If you try out the same input in several
+chatbots, you will get a better feel for similarities and differences
+and learn which AI technology is better suited to which tasks.</p>
+<h3 data-number="4.0.9" id="task-start-with-your-first-experiment"><span
+class="header-section-number">4.0.9</span> Task: Start with your first
+experiment</h3>
+<p>Now that you’ve familiarised yourself with choosing and accessing an
+AI chatbot, it’s time for your first experiment. Start by typing the
+sentence “I’m packing my …” into the chatbot and watch how it responds.
+You will probably notice that the chatbot responds with something like
+“suitcase”. This is because the chatbot responds in such a way that the
+AI determines the most likely subsequent words or word groups for the
+part of the sentence you entered. This experiment helps you to develop a
+deeper understanding of how AI chatbots process language and respond to
+user input.</p>
+<h3 data-number="4.0.10" id="consolidation-can-ais-joke"><span
+class="header-section-number">4.0.10</span> Consolidation: Can AIs
+joke?</h3>
+<p>One possible exercise to deepen your understanding of AI is to ask an
+AI joking questions. This method was presented on the 🇩🇪 <a
+href="https://ebildungslabor.de/blog/ki-einstieg-mit-chatgpt-scherzfragen/">eBildungslabor.de
+blog</a> and allows the reactions and limitations of AI systems to be
+explored in a humorous way. The task is to formulate joke questions and
+observe whether and how the AI recognises them and responds humorously.
+This approach not only provides entertainment, but also insights</p>
+<p>In this kata, you will learn about the <strong>development steps of
+AI</strong> and learn to categorise the different terms (e.g. AI,
+machine learning, deep learning, LLM) in the field of artificial
+intelligence. You will also be able to carry out <strong>targeted inputs
+using generative AI</strong> in initial small exercises.</p>
+<p>Read through the first sections of the basics chapter <a
+href="1-2-ai-machine-learning.md">AI and machine learning</a>.
+Chat-based AI systems, such as ChatGPT, are designed to interact in
+dialogue and work best when a conversation continues. While a single
+exchange can provide basic information, the strengths of AI are
+particularly evident in continued interaction. Through follow-up
+questions, clarifications and further discussion, the AI can develop a
+deeper understanding of the user’s concerns and thus provide more
+relevant and precise answers. In addition, a dialogue enables the AI to
+better grasp the context and respond to it, which is often more
+difficult with a one-off query. Therefore, the conversation (“dialogue”)
+between human and artificial intelligence is often an important key to a
+more effective use of AI-based chat systems.</p>
+<h3 data-number="4.0.11"
+id="task-specifically-query-the-ais-knowledge"><span
+class="header-section-number">4.0.11</span> Task: specifically query the
+AI’s knowledge</h3>
+<p>Have a selected chatbot (or several) explain to you how an AI chatbot
+actually works. Think about the areas in which the AI could support you.
+You may already find the first ideas for your own blog post or your own
+small learning project here. The following examples can serve as a
+guide:</p>
+<ul>
+<li>Template for a speech / script</li>
+<li>Structuring content for a presentation</li>
+<li>Discussion guide</li>
+<li>Have a concept developed</li>
+<li>Brainstorming regarding a topic area</li>
+</ul>
+<p>If necessary, decide on a medium (text or image) and have it
+generated by the AI tool/chatbot in a first attempt.</p>
+<h3 data-number="4.0.12" id="task-conduct-a-dialogue"><span
+class="header-section-number">4.0.12</span> Task: Conduct a
+dialogue</h3>
+<p>Take 10-15 minutes for a longer dialogue with a chat-based AI. Allow
+the chat to develop like a conversation by asking questions and giving
+feedback. If you come to a “dead end”, simply ask the AI how you could
+continue the conversation.</p>
+<p><strong>Tip:</strong> Some AI systems such as <a
+href="https://chat.openai.com">ChatGPT</a> offer a voice chat function
+that makes the dialogue feel more natural, almost a bit like talking to
+a human. Did you know that you can continue the conversation at any time
+and revise your request or simply restart it completely?</p>
+<h3 data-number="4.0.13" id="reflection-check-in"><span
+class="header-section-number">4.0.13</span> Reflection check-in</h3>
+<ul>
+<li>Think about what you have been able to take away from the first 4
+weeks / katas so far. Why don’t you ask the AI which reflection method
+they would suggest and apply it?</li>
+<li>Then briefly present the current status of your draft blog post or
+your AI learning project.</li>
+<li>Feel free to use different criteria for reflection, e.g. application
+experience, open questions and experience beyond the application.</li>
+<li>What are three specific lessons learnt so far from your
+perspective?</li>
+</ul>
+<p><strong>Tip 1:</strong> Did you know that you can also give your AI a
+persona or frame it accordingly (e.g. answer in the style of Ernest
+Hemingway, Marcel Reich-Ranicki, Agatha Christie, Joane K. Rowling)?</p>
+<p><strong>Tip 2:</strong> Chat-based AIs are good at applying
+frameworks or models (e.g. from business, research or psychology) to
+specific scenarios. For example, ask ChatGPT something like: “Create a
+SWOT analysis for the sale of particularly lightweight premium
+smartphones in Switzerland”.</p>
+<p>In a previous kata, we discussed <a
+href="1-7-ai-tools-services.md">AI tools and services</a> for the first
+time. In this kata, we want to take this up again and go into it in more
+depth by linking it to <strong>real, practice-orientated AI application
+fields</strong>. Basically, AI tools can be assigned to the following
+<strong>categories</strong>:</p>
+<ol type="1">
+<li>AI-supported coding aids (support for prompting)</li>
+<li>AI-supported text tools (text generation and editing)</li>
+<li>AI-supported image tools (image generation and editing)</li>
+<li>AI-supported audio tools (sound generation and editing)</li>
+<li>AI-supported video tools (video generation and editing)</li>
+<li>AI-supported multi-tools (tools that make various of the above
+categories usable in combination)</li>
+</ol>
+<p>You know your workplace / project and the associated activities best.
+Think about which of the tool categories are or could be important for
+you and your work. For example, if you work a lot with texts (whether
+reading, writing or summarising), AI-supported text tools will most
+likely be of particular interest. If, on the other hand, you work a lot
+with audio and/or video (e.g. with a view to creating digital learning
+content or designing marketing activities), it is best to take a special
+look at AI-supported audio and/or video tools.</p>
+<h3 data-number="4.0.14"
+id="task-get-to-know-ai-application-areas"><span
+class="header-section-number">4.0.14</span> Task: Get to know AI
+application areas</h3>
+<p>To help you get started, use the following compilation of possible <a
+href="1-5-ai-application-areas.md">AI application areas</a>. Take a look
+at these at your leisure and think about which application areas arise
+for your workplace / project.</p>
+<h3 data-number="4.0.15" id="task-formulate-application-scenarios"><span
+class="header-section-number">4.0.15</span> Task: Formulate application
+scenarios</h3>
+<p>Formulate 2-3 short application scenarios (use cases) and describe
+the specific work steps in which AI tools from the above categories and
+fields of application could help you.</p>
+<ul>
+<li><strong>Example 1</strong>: “I regularly write interview transcripts
+as part of my work. AI-supported audio tools could ideally help me to
+record conversations and summarise them in conjunction with AI-supported
+text tools.”</li>
+<li><strong>Example 2</strong>: “Part of my job is to enrich texts from
+our marketing department with suitable visual material. AI-supported
+image tools could support me in designing suitable motifs that are
+adapted to our communication guidelines.”</li>
+</ul>
+<h3 data-number="4.0.16" id="deepening-two-additional-tools"><span
+class="header-section-number">4.0.16</span> Deepening: two additional
+tools</h3>
+<p>Decide on at least two tools that you would like to test. Gain access
+to these tools. If this is not feasible, for example for cost and / or
+authorisation reasons, look for alternatives that fulfil the same
+purpose. Once you have found suitable tools, try them out in the
+application scenarios you have described. Make a note of your
+experiences and share them with other interested parties.</p>
+<p>Last week, you learnt about the different <strong>categories and
+fields of application</strong> to which most AI tools can be assigned.
+You also asked yourself whether and how individual tools can support you
+in your work. You received the answer to these questions by formulating
+<strong>concrete application scenarios for your practice/your
+work</strong> and optionally using and testing individual tools.</p>
+<p>Review your experiences from the last week and think about the
+overarching learning objective of this guide. The aim is to create a
+<strong>blog post</strong> with the help of AI or alternatively
+<strong>your personal learning project</strong>. Background information:
+What is a blog post: 🇩🇪 <a
+href="https://www.seo-analyse.com/seo-lexikon/b/blogpost/">Blog post
+definition</a></p>
+<h3 data-number="4.0.17"
+id="task-outline-your-blog-postlearning-project-idea"><span
+class="header-section-number">4.0.17</span> Task: Outline your blog
+post/learning project idea</h3>
+<ul>
+<li>What exactly should your blog post or learning project be
+about?</li>
+<li>How should your blog post or learning project be structured and what
+elements should it contain?</li>
+<li>Which AI tools can help you with which elements? At this point, use
+the information on the categories from [Kata 5] once again</li>
+</ul>
+<h3 data-number="4.0.18"
+id="task-start-a-first-attempt-at-realisation"><span
+class="header-section-number">4.0.18</span> Task: Start a first attempt
+at realisation</h3>
+<p>Once you have answered these questions, select suitable categories
+and fields of application from the [Kata 5] that you need to realise
+your idea with the corresponding tool available.</p>
+<p>And off you go! We hope you enjoy the next steps in realising your
+idea!</p>
+<ul>
+<li><strong>Note:</strong> The length of the blog post / learning
+project is just as irrelevant as the quality of your writing. What
+matters is that you deepen your experience with AI tools and get a good
+feel for the opportunities and challenges.</li>
+<li><strong>Note (only for the practical “blog post” variant):</strong>
+If you do not have access to a real blog post, you can also create or
+prepare the article in a common word processing programme.</li>
+</ul>
+<p>###In-depth: AI as a feedback partner</p>
+<p>The AI can support you further as a feedback partner. Share your
+previous results with it and get feedback on what you can improve. In
+this context, you may also want to use the findings from Kata “AI as a
+dialogue partner” again.</p>
+<p>To get started with this kata, we recommend that you first take a
+look at the chapter <a href="1-4-machine-vs-human-learning.md">Machine
+vs. human learning</a> to gain a better understanding of the background
+to the <strong>interplay between humans and machines</strong>. Your
+<strong>prompting skills</strong> will then be expanded in direct
+dialogue with generative AI.</p>
+<p>AI systems can be used in very different ways and the way in which
+they are used has a significant impact on the results. Studies show that
+knowledge workers can increase their productivity and the quality of
+results by collaborating with AI (see 🇩🇪 <a
+href="https://www.faz.net/pro/d-economy/kuenstliche-intelligenz/ki-macht-wissensarbeiter-schneller-und-besser-19183974.html">AI
+makes knowledge workers faster and better (faz.net)</a>). However, this
+increase in productivity can only be utilised if AI systems are used
+correctly.</p>
+<p>One observation is that beginners in particular initially use AI in a
+similar way to a search engine, in the sense of “input in - answer out”.
+While this use is legitimate, there are much better ways to use AI. The
+first step is to explore and find out how the AI reacts differently to
+different inputs (“prompts”).</p>
+<h3 data-number="4.0.19" id="task-prompting-hacks"><span
+class="header-section-number">4.0.19</span> Task: Prompting hacks</h3>
+<p>In this kata, please follow the recommended, step-by-step prompt
+structure from our short guide <a href="1-8-prompts-create.md">Create
+prompts</a>. Now consider the following questions for your blog post /
+learning project:</p>
+<ul>
+<li><strong>Persona</strong>: What role should the language model or AI
+take on as an assistant (e.g. software developer:in, university
+professor:in, press spokesperson:in)?</li>
+<li><strong>Introduction</strong>: What do I expect from the language
+model? Usually starts with an action word (e.g. Describe me, Explain to
+me, Create me).</li>
+<li><strong>Individual content</strong>: The actual text to be
+processed.</li>
+<li><strong>Format</strong>: If necessary, what format do I expect the
+output to be (e.g. code, paper, press release, infographic)?</li>
+<li><strong>Additional information</strong>: Other relevant information
+that makes a context more specific (e.g. writing style, filter, history,
+technique, method).</li>
+</ul>
+<p>The more experience you gain with the AI, the easier it is to
+intuitively enter suitable prompts. Remember: The best results are
+achieved, as already shown in [Kata 3], in interaction with the AI.
+Therefore, use the first response to your input to enter into a dialogue
+with the AI! These attempts are then deepened in the extended prompting
+in [Kata 9] and [Kata 10].</p>
+<h3 data-number="4.0.20"
+id="deepening-creating-more-complex-prompts"><span
+class="header-section-number">4.0.20</span> Deepening: Creating more
+complex prompts</h3>
+<p>Create a more complex prompt that leads to an initial summarising
+(PowerPoint) presentation or a concept for the topic of your blog post
+or learning project via the AI. You can then further refine this in
+interaction with the AI and have it tested for different target groups,
+e.g. from a consultant’s point of view for decision-makers, from a
+marketing point of view for a customer or from a training point of view
+for your learners.</p>
+<h3 data-number="4.0.21" id="reflection-check-in-1"><span
+class="header-section-number">4.0.21</span> Reflection check-in</h3>
+<ul>
+<li>Think about what you have learnt from the last few weeks and present
+these results to each other. What were the particular challenges or
+highlights? Where were you able to experience quick wins or even moments
+of happiness and where did barriers and moments of frustration come to
+light?</li>
+<li>Reflect critically in your group on the current status of your blog
+post or your AI learning project and use the examples to show each other
+the limits of your AI tool use (e.g. AI impulses to increase the level
+of creativity vs. AI spinning together incorrect information and thereby
+creating distortions or even manipulating content).</li>
+</ul>
+<h3 data-number="4.0.22" id="deepening-visualising-results"><span
+class="header-section-number">4.0.22</span> Deepening: Visualising
+results</h3>
+<p>Let the AI summarise your documented results as a visualised
+contribution, which you can also publish later if necessary (in text,
+image or audio-visual form).</p>
+<p><strong>Tip:</strong> The AI can support you as a feedback partner in
+your reflection. Share your results so far and get feedback on what you
+can improve.</p>
+<h1 data-number="5" id="appendix"><span
+class="header-section-number">5</span> Appendix</h1>
+<h2 data-number="5.1" id="acknowledgements"><span
+class="header-section-number">5.1</span> Acknowledgements</h2>
+<p>A big thank you to the many projects and preparatory work that make
+the creation and management of lernOS guides possible.</p>
+<p>Many thanks to the entire team that created the content for the first
+version of the guide: Benedikt Scheerer, Doris Schuppe, Ellen Braun,
+Oliver Ewinger, Hans Gaertner, Marcel Kirchner, Moritz Meissner, Oliver
+Pincus, Simon Roderus, Stefan Strobel, Susann Schulz, Tilo Eissmann,
+Thomas Küll, Ute Reichert, Simon Dückert.</p>
+<h2 data-number="5.2" id="change-history"><span
+class="header-section-number">5.2</span> Change History</h2>
+<table>
+<colgroup>
+<col style="width: 9%" />
+<col style="width: 25%" />
+<col style="width: 51%" />
+<col style="width: 13%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Version</th>
+<th>Edited by</th>
+<th>Description Change</th>
+<th>Date</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>0.1</td>
+<td>Simon Dückert</td>
+<td>First version of the guide created</td>
+<td>03.04.2024</td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>
