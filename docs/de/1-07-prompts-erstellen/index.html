@@ -1229,6 +1229,27 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://learningcircles.p2pu.org/de/course/1356/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    P2PU Kurs
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -1322,67 +1343,21 @@
 <h3 id="elemente-eines-guten-prompts">Elemente eines guten Prompts</h3>
 <p>In diesem Abschnitt geht es um die wesentlichen Komponenten eines effektiven Prompts. Wir identifizieren Schlüsselelemente, wie die Persona des Sprachmodells, die Einleitung, den individuellen Inhalt, das Format und zusätzliche Informationen, die für die Erstellung eines klaren und zielgerichteten Prompts hilfreich sind und veranschaulichen anhand eines Beispiels, wie diese Elemente in der Praxis angewendet werden. Abschließend bekommst Du einen Einblick in fortgeschrittene Prompt-Techniken, mit denen Du die Effizienz und Effektivität der Kommunikation mit KI-Modellen weiter verbessern kannst.</p>
 <p>Für das Schreiben von guten Prompts hat sich der folgende Aufbau bewährt:</p>
-<table>
-<thead>
-<tr>
-<th>Kategorie</th>
-<th>Beschreibung</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Persona</td>
-<td>Welche Rolle soll das Sprachmodell übernehmen?</td>
-</tr>
-<tr>
-<td>Einleitung</td>
-<td>Was erwarte ich vom Sprachmodell? Beginnt normalerweise mit einem Aktionswort.</td>
-</tr>
-<tr>
-<td>Individueller Inhalt</td>
-<td>Der eigentliche Text der verarbeitet werden soll.</td>
-</tr>
-<tr>
-<td>Format</td>
-<td>Wenn notwendig, welches Format erwarte ich von der Ausgabe?</td>
-</tr>
-<tr>
-<td>Zusätzliche Information</td>
-<td>Weitere relevante Informationen, die den Kontext spezifischer machen.</td>
-</tr>
-</tbody>
-</table>
-<p>Hier ein ausgefülltes Beispiel:</p>
-<table>
-<thead>
-<tr>
-<th>Kategorie</th>
-<th>Beschreibung</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Persona</td>
-<td>Du bist Reiseberater und Experte für die individuelle Ausgestaltung von Reisen in fremde Länder.</td>
-</tr>
-<tr>
-<td>Einleitung</td>
-<td>Ich habe in den kommenden Sommerferien endlich Zeit, gemeinsam mit meinem Partner mal wieder eine richtig große Reise zu unternehmen.</td>
-</tr>
-<tr>
-<td>Individueller Inhalt</td>
-<td>Erstelle für mich einen Reiseplan für eine zweiwöchige Reise nach Japan. Berücksichtige dabei kulturelle Sehenswürdigkeiten, lokale Küche und Outdoor-Aktivitäten.</td>
-</tr>
-<tr>
-<td>Format</td>
-<td>Die Liste sollte nach Urlaubstagen strukturiert sein. Unterteile jeden Urlaubstag nach Stationen und Städten, die ich besuchen werde (wie z. B. Tokio, Kyoto und Osaka).</td>
-</tr>
-<tr>
-<td>Zusätzliche Information</td>
-<td>Ich interessiere mich besonders für historische Stätten und bin ein Liebhaber von Sushi. Zudem möchte ich gerne eine Wanderung machen.</td>
-</tr>
-</tbody>
-</table>
+<ul>
+<li><strong>Persona:</strong> Welche Rolle soll das Sprachmodell übernehmen?</li>
+<li><strong>Einleitung:</strong> Was erwarte ich vom Sprachmodell? Beginnt normalerweise mit einem Aktionswort.</li>
+<li><strong>Individueller Inhalt:</strong> Der eigentliche Text der verarbeitet werden soll.</li>
+<li><strong>Format:</strong> Wenn notwendig, welches Format erwarte ich von der Ausgabe?</li>
+<li><strong>Zusätzliche Information:</strong> Weitere relevante Informationen, die den Kontext spezifischer machen.</li>
+</ul>
+<p>Hier ein konkretes Beispiel:</p>
+<ul>
+<li><strong>Persona:</strong> Du bist Reiseberater und Experte für die individuelle Ausgestaltung von Reisen in fremde Länder.</li>
+<li><strong>Einleitung:</strong> Ich habe in den kommenden Sommerferien endlich Zeit, gemeinsam mit meinem Partner mal wieder eine richtig große Reise zu unternehmen.</li>
+<li><strong>Individueller Inhalt:</strong> Erstelle für mich einen Reiseplan für eine zweiwöchige Reise nach Japan. Berücksichtige dabei kulturelle Sehenswürdigkeiten, lokale Küche und Outdoor-Aktivitäten.</li>
+<li><strong>Format:</strong> Die Liste sollte nach Urlaubstagen strukturiert sein. Unterteile jeden Urlaubstag nach Stationen und Städten, die ich besuchen werde (wie z. B. Tokio, Kyoto und Osaka).</li>
+<li><strong>Zusätzliche Information:</strong> Ich interessiere mich besonders für historische Stätten und bin ein Liebhaber von Sushi. Zudem möchte ich gerne eine Wanderung machen.</li>
+</ul>
 <h3 id="prompting-tipps-von-openai">Prompting-Tipps von OpenAI</h3>
 <p>Auch OpenAI (die Entwickler von ChatGPT) beschreiben in ihrem Artikel <a href="https://platform.openai.com/docs/guides/prompt-engineering/prompt-engineering">Prompt Engineering</a> genauer, was aus ihrer Sicht einen "guten" Prompt ausmacht:</p>
 <ol>
@@ -1409,49 +1384,46 @@
 <p>Eine weitere hilfreiche Technik, um bessere Ergebnisse zu erzielen, ist das One-Shot- und Few-Shot-Learning. Diese Methoden dienen dazu, dem KI-Modell zu demonstrieren, was genau erwartet wird. Das KI-Modell kann sich bei der Antwort dann an den Beispielen orientieren und antwortet eher so, wie es der Nutzer erwartet.</p>
 <p>Beim One-Shot Learning wird dem Modell ein einziges Beispiel präsentiert, das die gewünschte Aufgabe oder Antwortform demonstriert. Das Modell nutzt dieses Beispiel als Vorlage für das, was es produzieren soll. </p>
 <p>Hier ein Beispiel für das One-Shot Prompting:</p>
-<blockquote>
-<p>Erstelle eine kurze Zusage für meine Teilnahme an der Paneldiskussion "KI &amp; Arbeit" am 05.03.2030.</p>
-<p>Nutze für die Antwort das folgende Beispiel:</p>
-<p>EINGABE</p>
-<p>Formuliere eine kurze und höfliche Antwort auf eine Konferenzeinladung.</p>
-<p>ANTWORT</p>
-<p>Sehr geehrte Frau Müller,</p>
-<p>vielen Dank für die Einladung zur Digital Innovations Konferenz 2024. Ich freue mich sehr, teilnehmen und zum Panel über KI-Technologien beitragen zu können. Bitte senden Sie mir weitere Informationen zu den logistischen Details.</p>
-<p>Mit besten Grüßen,</p>
-<p>Anna Schmidt</p>
-</blockquote>
+<pre><code>Erstelle eine kurze Zusage für meine Teilnahme an der Paneldiskussion &quot;KI &amp; Arbeit&quot; am 05.03.2030.
+
+Nutze für die Antwort das folgende Beispiel:
+
+EINGABE
+
+Formuliere eine kurze und höfliche Antwort auf eine Konferenzeinladung.
+
+ANTWORT
+
+Sehr geehrte Frau Müller,
+
+vielen Dank für die Einladung zur Digital Innovations Konferenz 2024. Ich freue mich sehr, teilnehmen und zum Panel über KI-Technologien beitragen zu können. Bitte senden Sie mir weitere Informationen zu den logistischen Details.
+
+Mit besten Grüßen,
+Anna Schmidt
+</code></pre>
 <p>Beim Few-Shot Learning werden dem Modell mehrere Beispiele gegeben, um eine breitere Palette von Fällen oder Variationen einer Aufgabe zu demonstrieren. Dies hilft dem Modell, die Aufgabenstellung besser zu verstehen und sich auf verschiedene Szenarien oder Kontexte einzustellen.</p>
 <p>Hier ein Beispiel für das Few-Shot Prompting:</p>
-<blockquote>
-<p>Ordne für mich Beispiele verschiedenen Lehr- und Lernformen zu.</p>
-<p>Orientiere Dich bei der Antwort an folgenden Beispielen:</p>
-<blockquote>
-<p>Lernvideo anschauen -&gt; selbstgesteuertes Lernen</p>
-<p>Eine Vorlesung besuchen -&gt; Lehrvortrag</p>
-<p>Mathematik-Aufgaben lösen -&gt; selbstgesteuertes Lernen</p>
-<p>Mit anderen Studierenden Lernen -&gt; kollaboratives Lernen</p>
-</blockquote>
-<p>Mache mit diesen Beispielen weiter:</p>
-<blockquote>
-<p>Eine Zusammenfassung erstellen -&gt;</p>
-<p>Mit einer Lernpartnerin die Lerninhalte telefonisch besprechen -&gt; </p>
-</blockquote>
-</blockquote>
+<pre><code>Ordne für mich Beispiele verschiedenen Lehr- und Lernformen zu.
+
+Orientiere Dich bei der Antwort an folgenden Beispielen:
+
+- Lernvideo anschauen -&gt; selbstgesteuertes Lernen
+- Eine Vorlesung besuchen -&gt; Lehrvortrag
+- Mathematik-Aufgaben lösen -&gt; selbstgesteuertes Lernen
+- Mit anderen Studierenden Lernen -&gt; kollaboratives Lernen
+
+Mache mit diesen Beispielen weiter:
+
+- Eine Zusammenfassung erstellen -&gt;
+- Mit einer Lernpartnerin die Lerninhalte telefonisch besprechen -&gt; 
+</code></pre>
 <h3 id="fortgeschrittenes-prompting">Fortgeschrittenes Prompting</h3>
 <p>Gute Beispiele für fortgeschrittene Prompts sind:</p>
 <ol>
-<li>
-<p>Der ideation-prompt von <a href="https://github.com/carterleffen/chatgpt-prompts/blob/main/ideation.prompt">chatgpt-prompts/ideation.prompt at main · carterleffen/chatgpt-prompts (github.com)</a></p>
-</li>
-<li>
-<p>Das Beispiel von Prof. Ethan Mollick im Artikel <a href="https://www.oneusefulthing.org/p/working-with-ai-two-paths-to-prompting">Working with AI: Two paths to prompting - by Ethan Mollick (oneusefulthing.org)</a> im Abschnitt "Structured Prompting"</p>
-</li>
-<li>
-<p>Die Fallstudie <a href="https://www.e-lehre.de/2024/02/07/chatgpt-als-lerncoach">LerncoachGPT</a> als Prototyp für einen Lerncoach von Simon Roderus </p>
-</li>
-<li>
-<p>Professor Synapse Prompt: <a href="https://github.com/ProfSynapse/Synapse_CoR/blob/main/GPTprompt.txt">Synapse_CoR/GPTprompt.txt at main · ProfSynapse/Synapse_CoR (github.com)</a> oder auch <a href="https://github.com/ProfSynapse/Super_Synapse/blob/main/prompt.txt">Super_Synapse/prompt.txt at main · ProfSynapse/Super_Synapse (github.com)</a></p>
-</li>
+<li>Der ideation-prompt von <a href="https://github.com/carterleffen/chatgpt-prompts/blob/main/ideation.prompt">chatgpt-prompts/ideation.prompt at main · carterleffen/chatgpt-prompts (github.com)</a></li>
+<li>Das Beispiel von Prof. Ethan Mollick im Artikel <a href="https://www.oneusefulthing.org/p/working-with-ai-two-paths-to-prompting">Working with AI: Two paths to prompting - by Ethan Mollick (oneusefulthing.org)</a> im Abschnitt "Structured Prompting"</li>
+<li>Die Fallstudie <a href="https://www.e-lehre.de/2024/02/07/chatgpt-als-lerncoach">LerncoachGPT</a> als Prototyp für einen Lerncoach von Simon Roderus </li>
+<li>Professor Synapse Prompt: <a href="https://github.com/ProfSynapse/Synapse_CoR/blob/main/GPTprompt.txt">Synapse_CoR/GPTprompt.txt at main · ProfSynapse/Synapse_CoR (github.com)</a> oder auch <a href="https://github.com/ProfSynapse/Super_Synapse/blob/main/prompt.txt">Super_Synapse/prompt.txt at main · ProfSynapse/Super_Synapse (github.com)</a></li>
 </ol>
 <p><strong>Tipp:</strong> Fortgeschrittene Prompts funktionieren wesentlich besser in leistungsfähigeren KI-Systemen wie z. B. GPT-4. </p>
 <h3 id="wenn-du-noch-tiefer-gehen-willst">Wenn Du noch tiefer gehen willst ...</h3>
@@ -1463,9 +1435,9 @@
 <p>Ebenso gibt es Sammlungen von Prompts, wie z. B. <a href="https://flowgpt.com">FlowGPT</a> oder <a href="https://github.com/f/awesome-chatgpt-prompts">awesome-chatgpt-prompts</a></p>
 <h3 id="prompts-gemeinsam-mit-der-ki-verbessern">Prompts gemeinsam mit der KI verbessern</h3>
 <p>Du kannst die KI bitten, mit Dir gemeinsam den Prompt zu verbessern. Oft reicht dafür bereits eine Eingabe, wie:</p>
-<blockquote>
-<p>Helfe mir meinen Prompt zu verbessern, indem Du mir zu allem, was unklar ist Nachfragen stellst und dann eine überarbeitete Version des Prompts ausgibst.</p>
-</blockquote>
+<pre><code>Helfe mir meinen Prompt zu verbessern, indem Du mir zu allem, was unklar
+ist Nachfragen stellst und dann eine überarbeitete Version des Prompts ausgibst.
+</code></pre>
 <p>Es gibt viel umfangreichere und elaboriertere Prompts zur Verbesserung, wie z. B. <a href="https://flowgpt.com/p/chatgpt-4-prompt-improvement">ChatGPT 4 Prompt Improvement (flowgpt.com)</a> (Du kannst den Prompt über den Button "View Prompt" einsehen). Ebenso gibt es GPTs, wie z. B. <a href="https://chat.openai.com/g/g-uSEqrEWdX-pro-prompter">Pro Prompter</a> oder den <a href="https://chat.openai.com/g/g-qfoOICq1l-prompt-professor">ChatGPT - Prompt Professor</a>, die Dir bei der Verbesserung der Prompts helfen können.</p>
 <h3 id="ausblick-prompt-engineering-wird-voraussichtlich-an-bedeutung-verlieren">Ausblick: "Prompt Engineering"" wird voraussichtlich an Bedeutung verlieren</h3>
 <p>Gleichzeitig stellt sich aber auch die Frage, ob man wirklich noch tiefer in das "Prompt Engineering" eintauchen will oder sollte. Denn: Einerseits bilden die hier und in den Katas genannten Prompting-Techniken eine solide Basis für die Zusammenarbeit mit der KI. Andererseits wird Prompt Engineering - je mehr sich KI-Systeme weiterentwickeln - aller Voraussicht nach immer mehr an Bedeutung verlieren, wenn sich diese durch permanentes Lernen verbessern und die Nutzereingaben direkt geeignet anpassen. So ist es z. B. jetzt schon bei Bildgenerierenden KIs (wie z. B. DALL-E3) so, dass der Prompt für das Bild durch die KI selbst erstellt werden kann. Feststeht, dass sich dieses Feld derzeit sehr dynamisch voranbewegt und fortwährend selbst optimiert.</p>
