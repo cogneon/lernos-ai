@@ -1270,14 +1270,17 @@
 <p>You will soon realise that this is not so easy, as most AI systems are now good at avoiding hallucinations. "Weaker" AI models hallucinate much more often than stronger AI models. For example, GPT-3.5 is easier to get to hallucinate than GPT-4.0. It is even easier with particularly small models such as "pplx-7b-chat", which is available via <a href="https://labs.perplexity.ai">Perplexity Labs</a>.</p>
 <p><strong>Example: Summary of a non-existent news article::</strong>
 The language model "pplx-7b-chat" from <a href="https://labs.perplexity.ai">Perplexity Labs</a> is given the following task </p>
-<blockquote>
-<p>Summarise this newspaper article from 12.12.2030 for me:
-https://www.zeit.de/2030/12/angewandte-künstliche-intelligenz-wird-pflichtfach-in-schulen.</p>
-</blockquote>
+<pre><code>Summarise this newspaper article from 12.12.2030 for me:
+https://www.zeit.de/2030/12/angewandte-künstliche-
+intelligenz-wird-pflichtfach-in-schulen.
+</code></pre>
 <p>produced this answer:</p>
-<blockquote>
-<p>The article from the times writes about the introduction of the subject "Applied Artificial Intelligence" in schools from the year 2030. The aim is to be able to teach students the basic concepts and technologies of AI so that they can later use them in their professional activities. [...]</p>
-</blockquote>
+<pre><code>The article from the times writes about the introduction of
+the subject &quot;Applied Artificial Intelligence&quot; in schools from
+the year 2030. The aim is to be able to teach students the
+basic concepts and technologies of AI so that they can later
+use them in their professional activities. [...]
+</code></pre>
 <p><strong>Tip:</strong> If you have more direct access to the settings of an AI system, you can use the so-called "temperature" to set how creatively or precisely the AI should respond. You can do this in the <a href="https://platform.openai.com/playground?mode=chat">OpenAI API Playground</a>, for example. But even without a temperature setting, you can control the creativity of the model by using linguistic instructions such as "answer creatively and add appropriate information" for more creativity or "answer conscientiously and follow my instructions exactly" for more accuracy.</p>
 
 <!-- Source file information -->

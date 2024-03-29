@@ -1343,121 +1343,71 @@ It is therefore much more important than prompt engineering to learn how to use 
 <h3 id="elements-of-a-good-prompt">Elements of a good prompt</h3>
 <p>This section is about the essential components of an effective prompt. We identify key elements, such as the language model persona, introduction, customized content, format and additional information, that are helpful in creating a clear and targeted prompt and illustrate how these elements are applied in practice with an example. Finally, you will gain an insight into advanced prompting techniques that you can use to further improve the efficiency and effectiveness of communication with AI models.</p>
 <p>The following structure has proven effective for writing good prompts:</p>
-<table>
-<thead>
-<tr>
-<th>Category</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Persona</td>
-<td>What role should the language model play?</td>
-</tr>
-<tr>
-<td>Introduction</td>
-<td>What do I expect from the language model? Usually starts with an action word.</td>
-</tr>
-<tr>
-<td>Individual content</td>
-<td>The actual text to be processed.</td>
-</tr>
-<tr>
-<td>Format</td>
-<td>If necessary, what format do I expect from the output?</td>
-</tr>
-<tr>
-<td>Additional Information</td>
-<td>Other relevant information that makes the context more specific.</td>
-</tr>
-</tbody>
-</table>
-<p>Here is a completed example:</p>
-<table>
-<thead>
-<tr>
-<th>Category</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Persona</td>
-<td>You are a travel consultant and an expert in customizing trips to foreign countries.</td>
-</tr>
-<tr>
-<td>Introduction</td>
-<td>I finally have time during the coming summer vacation to go on a really big trip with my partner.</td>
-</tr>
-<tr>
-<td>Individual content</td>
-<td>Create an itinerary for me for a two-week trip to Japan. Include cultural sights, local cuisine and outdoor activities.</td>
-</tr>
-<tr>
-<td>Format</td>
-<td>The list should be structured by vacation days. Divide each vacation day by stations and cities that I will visit (such as Tokyo, Kyoto and Osaka).</td>
-</tr>
-<tr>
-<td>Additional Information</td>
-<td>I am particularly interested in historical sites and am a lover of sushi. I would also like to go on a hike.</td>
-</tr>
-</tbody>
-</table>
+<ul>
+<li><strong>Persona:</strong> What role should the language model play?</li>
+<li><strong>Introduction:</strong> What do I expect from the language model? Usually starts with an action word.</li>
+<li><strong>Individual content:</strong> The actual text to be processed.</li>
+<li><strong>Format:</strong> If necessary, what format do I expect from the output?</li>
+<li><strong>Additional Information:</strong> Other relevant information that makes the context more specific.</li>
+</ul>
+<p>Here is a complete example:</p>
+<ul>
+<li><strong>Persona:</strong> You are a travel consultant and an expert in customizing trips to foreign countries.</li>
+<li><strong>Introduction:</strong> I finally have time during the coming summer vacation to go on a really big trip with my partner.</li>
+<li><strong>Individual content:</strong> Create an itinerary for me for a two-week trip to Japan. Include cultural sights, local cuisine and outdoor activities.</li>
+<li><strong>Format:</strong> The list should be structured by vacation days. Divide each vacation day by stations and cities that I will visit (such as Tokyo, Kyoto and Osaka).</li>
+<li><strong>Additional Information:</strong> I am particularly interested in historical sites and am a lover of sushi. I would also like to go on a hike.</li>
+</ul>
 <h3 id="prompting-tipps-von-openai">Prompting-Tipps von OpenAI</h3>
 <p>Auch OpenAI (die Entwickler von ChatGPT) beschreiben in ihrem Artikel <a href="https://platform.openai.com/docs/guides/prompt-engineering/prompt-engineering">Prompt Engineering</a> genauer, was aus ihrer Sicht einen "guten" Prompt ausmacht:</p>
 <ol>
-<li>
-<p><strong>Sei spezifisch</strong>: Stelle sicher, dass die Anfragen alle wichtigen Details oder den Kontext enthalten, damit das Modell nicht raten muss, was Du meinst. Je genauer Du den Hintergrund, Dein Anliegen und die Art der erwarteten Ausgabe beschreibst, umso besser wird die Antwort sein.</p>
-</li>
-<li>
-<p><strong>Sei modular</strong>: Zerlege komplexe Aufgaben in eine Reihe von einfacheren Aufgaben, die nacheinander ausgeführt werden können. Nutze Struktur, wie z. B. Stichpunkte, um Aspekte klar zu unterteilen.</p>
-</li>
-<li>
-<p><strong>Be patient</strong>: Ask the model to describe the path to the answer first instead of answering immediately. You will get better answers if the model first develops a solution ("chain of thought") and then carries it out.</p>
-</li>
-<li>
-<p><strong>Be complementary</strong>: When too little information is available, language models tend to invent inaccurate answers. Therefore, provide the model with relevant and up-to-date information so that it can answer better. If you need access to sources (such as documents or books), use AI systems that can process data. </p>
-</li>
-<li>
-<p><strong>Be accurate</strong>: Generative AIs are not the best solution for every task. For example, language models such as GPT-3.5 are good at developing a solution procedure, but not particularly good and reliable at computing. Therefore, use other tools (such as GPT-4 with code interpreter) to perform operations that the model cannot perform independently.</p>
-</li>
-<li>
-<p><strong>Be evaluative</strong>: Create and compare different prompts systematically to better assess and optimize the effect of the prompt and the performance of the model.</p>
-</li>
+<li><strong>Sei spezifisch</strong>: Stelle sicher, dass die Anfragen alle wichtigen Details oder den Kontext enthalten, damit das Modell nicht raten muss, was Du meinst. Je genauer Du den Hintergrund, Dein Anliegen und die Art der erwarteten Ausgabe beschreibst, umso besser wird die Antwort sein.</li>
+<li><strong>Sei modular</strong>: Zerlege komplexe Aufgaben in eine Reihe von einfacheren Aufgaben, die nacheinander ausgeführt werden können. Nutze Struktur, wie z. B. Stichpunkte, um Aspekte klar zu unterteilen.</li>
+<li><strong>Be patient</strong>: Ask the model to describe the path to the answer first instead of answering immediately. You will get better answers if the model first develops a solution ("chain of thought") and then carries it out.</li>
+<li><strong>Be complementary</strong>: When too little information is available, language models tend to invent inaccurate answers. Therefore, provide the model with relevant and up-to-date information so that it can answer better. If you need access to sources (such as documents or books), use AI systems that can process data. </li>
+<li><strong>Be accurate</strong>: Generative AIs are not the best solution for every task. For example, language models such as GPT-3.5 are good at developing a solution procedure, but not particularly good and reliable at computing. Therefore, use other tools (such as GPT-4 with code interpreter) to perform operations that the model cannot perform independently.</li>
+<li><strong>Be evaluative</strong>: Create and compare different prompts systematically to better assess and optimize the effect of the prompt and the performance of the model.</li>
 </ol>
 <h3 id="providing-examples">Providing examples</h3>
 <p>Another helpful technique to achieve better results is one-shot and few-shot learning. These methods are used to demonstrate to the AI model what exactly is expected. The AI model can then base its answer on the examples and is more likely to answer in the way the user expects.</p>
 <p>In one-shot learning, the model is presented with a single example that demonstrates the desired task or response form. The model uses this example as a template for what it should produce. </p>
 <p>Here is an example of one-shot prompting:</p>
-<blockquote>
-<p>Create a short commitment for my participation in the panel discussion "AI &amp; Work" on 05.03.2030.</p>
-<p>Use the following example for the answer:</p>
-<p>INPUT</p>
-<p>Formulate a short and polite reply to a conference invitation.</p>
-<p>ANSWER</p>
-<p>Dear Ms. Müller,</p>
-<p>Thank you for the invitation to the Digital Innovations Conference 2024. I am very pleased to be able to participate and contribute to the panel on AI technologies. Please send me more information on the logistical details.</p>
-<p>With best regards,</p>
-<p>Anna Schmidt</p>
-</blockquote>
+<pre><code>Create a short commitment for my participation in the panel discussion &quot;AI &amp; Work&quot;
+on 05.03.2030.
+
+Use the following example for the answer:
+
+INPUT
+
+Formulate a short and polite reply to a conference invitation.
+
+ANSWER
+
+Dear Ms. Müller,
+
+Thank you for the invitation to the Digital Innovations Conference 2024.
+I am very pleased to be able to participate and contribute to the panel
+on AI technologies. Please send me more information on the logistical details.
+
+With best regards,
+Anna Schmidt
+</code></pre>
 <p>In few-shot learning, the model is given several examples to demonstrate a wider range of cases or variations of a task. This helps the model to better understand the task and adapt to different scenarios or contexts.</p>
 <p>Here is an example of Few-Shot Prompting:</p>
-<blockquote>
-<p>Assign examples to different forms of teaching and learning for me.</p>
-<p>Base your answer on the following examples:</p>
-<blockquote>
-<p>Watching a learning video -&gt; self-directed learning</p>
-<p>Attend a lecture -&gt; lecture</p>
-<p>Solve math problems -&gt; self-directed learning</p>
-<p>Learning with other students -&gt; collaborative learning</p>
-</blockquote>
-<p>Continue with these examples:</p>
-<blockquote>
-<p>Create a summary -&gt;</p>
-<p>Discuss the learning content with a learning partner by telephone -&gt; </p>
-</blockquote>
-</blockquote>
+<pre><code>Assign examples to different forms of teaching and learning for me.
+
+Base your answer on the following examples:
+
+- Watching a learning video -&gt; self-directed learning
+- Attend a lecture -&gt; lecture
+- Solve math problems -&gt; self-directed learning
+- Learning with other students -&gt; collaborative learning
+
+Continue with these examples:
+
+- Create a summary -&gt;
+- Discuss the learning content with a learning partner by telephone -&gt; 
+</code></pre>
 <h3 id="advanced-prompting">Advanced prompting</h3>
 <p>Good examples of advanced prompts are</p>
 <ol>
@@ -1484,9 +1434,9 @@ It is therefore much more important than prompt engineering to learn how to use 
 <p>There are also collections of prompts, such as <a href="https://flowgpt.com">FlowGPT</a> or <a href="https://github.com/f/awesome-chatgpt-prompts">awesome-chatgpt-prompts</a></p>
 <h3 id="improve-prompts-together-with-the-ai">Improve prompts together with the AI</h3>
 <p>You can ask the AI to improve the prompt together with you. Often all you need to do is enter something like:</p>
-<blockquote>
-<p>Help me improve my prompt by asking me questions about anything that is unclear and then issuing a revised version of the prompt.</p>
-</blockquote>
+<pre><code>Help me improve my prompt by asking me questions about anything
+that is unclear and then issuing a revised version of the prompt.
+</code></pre>
 <p>There are much more comprehensive and elaborate prompts for improvement, such as <a href="https://flowgpt.com/p/chatgpt-4-prompt-improvement">ChatGPT 4 Prompt Improvement (flowgpt.com)</a> (you can view the prompt via the "View Prompt" button). There are also GPTs, such as <a href="https://chat.openai.com/g/g-uSEqrEWdX-pro-prompter">Pro Prompter</a> or the <a href="https://chat.openai.com/g/g-qfoOICq1l-prompt-professor">ChatGPT - Prompt Professor</a>, which can help you to improve the prompts.</p>
 <h3 id="outlook-prompt-engineering-is-likely-to-become-less-important">Outlook: "Prompt engineering" is likely to become less important</h3>
 <p>At the same time, however, the question arises as to whether we really want to or should delve deeper into prompt engineering. On the one hand, the prompting techniques mentioned here and in the katas form a solid basis for collaboration with AI. On the other hand, prompt engineering is likely to become less and less important as AI systems continue to develop, if they improve through continuous learning and adapt user input directly and appropriately. For example, image-generating AIs (such as DALL-E3) are already able to generate the prompt for the image themselves. It is clear that this field is currently moving forward very dynamically and is constantly optimizing itself.</p>
