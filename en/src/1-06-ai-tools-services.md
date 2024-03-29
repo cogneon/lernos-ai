@@ -49,7 +49,7 @@ AI text tools allow you to interact with the tool as if you were having a conver
 - [**ChatGPT**](https://chat.openai.com/auth/login): Text chat for text development, translation, text editing etc. with data status until January 2023, free basic use. 
 - [**Claude 2**](https://claude.ai): Can be used in Europe via **Fobizz Tools** and **Poe** (see above).
 - [**Deepl**](https://deepl.com): Translations and DeeplWrite for text improvement with various style selections, German-language, free basic use, GDPR-compliant.
-- [**Luminous**](https://app.aleph-alpha.com/jumpstart): Sentiment analysis and text generation categorized according to various application scenarios, English-language interface, free basic use, GDPR-compliant.
+- [**Luminous**](https://app.aleph-alpha.com/): Sentiment analysis and text generation categorized according to various application scenarios, English-language interface, free basic use, GDPR-compliant.
 - [**Pi**](https://pi.ai/talk): Text chat with voice output on various topics as an empathic counterpart, English-language, free to use.
 
 

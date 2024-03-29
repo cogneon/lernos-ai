@@ -49,7 +49,7 @@ KI-Text-Tools ermöglichen die Interaktion mit dem Tool wie in einer Unterhaltun
 - [**ChatGPT**](https://chat.openai.com/auth/login): Textchat zur Textentwicklung, Übersetzung, Textbearbeitung etc. mit Datenstand bis Januar 2023, kostenfreie Basis-Nutzung. 
 - [**Claude 2**](https://claude.ai): Kann in Europa via **Fobizz Tools** und **Poe** (s.o.) genutzt werden.
 - [**Deepl**](https://deepl.com): Übersetzungen und DeeplWrite zur Textverbesserung mit verschiedenen Stilauswahlen, deutschsprachig, kostenfreie Basis-Nutzung, DSGVO-konform.
-- [**Luminous**](https://app.aleph-alpha.com/jumpstart): Sentiment-Analysen und Textgenerierung eingeteilt nach verschiedenen Anwendungsszenarien, englischsprachige Oberfläche, kostenfreie Basis-Nutzung, DSGVO-konform.
+- [**Luminous**](https://app.aleph-alpha.com/): Sentiment-Analysen und Textgenerierung eingeteilt nach verschiedenen Anwendungsszenarien, englischsprachige Oberfläche, kostenfreie Basis-Nutzung, DSGVO-konform.
 - [**Pi**](https://pi.ai/talk): Textchat mit Sprachausgabe zu verschiedenen Themen als empathisches Gegenüber, englischsprachig, kostenfreie Nutzung.
 
 
