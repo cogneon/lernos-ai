@@ -1,6 +1,6 @@
 ## Weiterführende Informationen und Links
 
-Die Künstliche Intelligenz ist ein sehr dynamisches Wissensgebiet. Deswegen muss die folgende Liste mit Quellen immer als veraltet angesehen werden. Aktuelle Links findest du z.B. in den [Daily Papers von Hugging](https://huggingface.com/papers), der Community [artificial auf Reddit](https://www.reddit.com/r/artificial/) und dem [Hashtag #GenerativeAI auf Linkedin](https://www.linkedin.com/feed/hashtag/?keywords=generativeai). Abonniere Dir auch Newsletter, Hashtags, Blogs, vLogs und Podcasts, um auf dem Laufenden zu bleiben.
+Die Künstliche Intelligenz ist ein sehr dynamisches Wissensgebiet. Deswegen muss die folgende Liste mit Quellen immer als veraltet angesehen werden. Aktuelle Links findest du z.B. in den [Daily Papers von Hugging](https://huggingface.co/papers), der Community [artificial auf Reddit](https://www.reddit.com/r/artificial/) und dem [Hashtag #GenerativeAI auf Linkedin](https://www.linkedin.com/feed/hashtag/?keywords=generativeai). Abonniere Dir auch Newsletter, Hashtags, Blogs, vLogs und Podcasts, um auf dem Laufenden zu bleiben.
 
 **Bücher:**
 
