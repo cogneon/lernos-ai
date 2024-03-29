@@ -41,26 +41,20 @@ This section is about the essential components of an effective prompt. We identi
 
 The following structure has proven effective for writing good prompts:
 
-| Category               | Description                                                                   |
-| ----------------------- | ------------------------------------------------------------------------------ |
-| Persona                 | What role should the language model play?                                 |
-| Introduction              | What do I expect from the language model? Usually starts with an action word. |
-| Individual content    | The actual text to be processed.                              |
-| Format                  | If necessary, what format do I expect from the output?                    |
-| Additional Information | Other relevant information that makes the context more specific.          |
+- **Persona:** What role should the language model play?
+- **Introduction:** What do I expect from the language model? Usually starts with an action word.
+- **Individual content:** The actual text to be processed.
+- **Format:** If necessary, what format do I expect from the output?
+- **Additional Information:** Other relevant information that makes the context more specific.
 
 
+Here is a complete example:
 
-Here is a completed example:
-
-| Category               | Description                                                                                                                                                             |
-| ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Persona                 | You are a travel consultant and an expert in customizing trips to foreign countries.                                                                         |
-| Introduction              | I finally have time during the coming summer vacation to go on a really big trip with my partner.                                     |
-| Individual content    | Create an itinerary for me for a two-week trip to Japan. Include cultural sights, local cuisine and outdoor activities.       |
-| Format                  | The list should be structured by vacation days. Divide each vacation day by stations and cities that I will visit (such as Tokyo, Kyoto and Osaka). |
-| Additional Information | I am particularly interested in historical sites and am a lover of sushi. I would also like to go on a hike.                                   |
-
+- **Persona:** You are a travel consultant and an expert in customizing trips to foreign countries.
+- **Introduction:** I finally have time during the coming summer vacation to go on a really big trip with my partner.
+- **Individual content:** Create an itinerary for me for a two-week trip to Japan. Include cultural sights, local cuisine and outdoor activities.
+- **Format:** The list should be structured by vacation days. Divide each vacation day by stations and cities that I will visit (such as Tokyo, Kyoto and Osaka).
+- **Additional Information:** I am particularly interested in historical sites and am a lover of sushi. I would also like to go on a hike.
 
 
 ### Prompting-Tipps von OpenAI
@@ -68,19 +62,12 @@ Here is a completed example:
 Auch OpenAI (die Entwickler von ChatGPT) beschreiben in ihrem Artikel <a href="https://platform.openai.com/docs/guides/prompt-engineering/prompt-engineering">Prompt Engineering</a> genauer, was aus ihrer Sicht einen "guten" Prompt ausmacht:
 
 1. **Sei spezifisch**: Stelle sicher, dass die Anfragen alle wichtigen Details oder den Kontext enthalten, damit das Modell nicht raten muss, was Du meinst. Je genauer Du den Hintergrund, Dein Anliegen und die Art der erwarteten Ausgabe beschreibst, umso besser wird die Antwort sein.
-
 2. **Sei modular**: Zerlege komplexe Aufgaben in eine Reihe von einfacheren Aufgaben, die nacheinander ausgeführt werden können. Nutze Struktur, wie z. B. Stichpunkte, um Aspekte klar zu unterteilen.
-
 3. **Be patient**: Ask the model to describe the path to the answer first instead of answering immediately. You will get better answers if the model first develops a solution ("chain of thought") and then carries it out.
-
 4. **Be complementary**: When too little information is available, language models tend to invent inaccurate answers. Therefore, provide the model with relevant and up-to-date information so that it can answer better. If you need access to sources (such as documents or books), use AI systems that can process data. 
-
 5. **Be accurate**: Generative AIs are not the best solution for every task. For example, language models such as GPT-3.5 are good at developing a solution procedure, but not particularly good and reliable at computing. Therefore, use other tools (such as GPT-4 with code interpreter) to perform operations that the model cannot perform independently.
-
 6. **Be evaluative**: Create and compare different prompts systematically to better assess and optimize the effect of the prompt and the performance of the model.
    
-
-
 
 ### Providing examples
 
@@ -90,46 +77,47 @@ In one-shot learning, the model is presented with a single example that demonstr
 
 Here is an example of one-shot prompting:
 
-> Create a short commitment for my participation in the panel discussion "AI & Work" on 05.03.2030.
-> 
-> Use the following example for the answer:
-> 
-> INPUT
-> 
-> Formulate a short and polite reply to a conference invitation.
-> 
-> ANSWER
-> 
-> Dear Ms. Müller,
-> 
-> Thank you for the invitation to the Digital Innovations Conference 2024. I am very pleased to be able to participate and contribute to the panel on AI technologies. Please send me more information on the logistical details.
-> 
-> With best regards,
-> 
-> Anna Schmidt
+```
+Create a short commitment for my participation in the panel discussion "AI & Work"
+on 05.03.2030.
+
+Use the following example for the answer:
+
+INPUT
+
+Formulate a short and polite reply to a conference invitation.
+
+ANSWER
+
+Dear Ms. Müller,
+
+Thank you for the invitation to the Digital Innovations Conference 2024.
+I am very pleased to be able to participate and contribute to the panel
+on AI technologies. Please send me more information on the logistical details.
+
+With best regards,
+Anna Schmidt
+```
 
 In few-shot learning, the model is given several examples to demonstrate a wider range of cases or variations of a task. This helps the model to better understand the task and adapt to different scenarios or contexts.
 
 Here is an example of Few-Shot Prompting:
 
-> Assign examples to different forms of teaching and learning for me.
-> 
-> Base your answer on the following examples:
-> 
->> Watching a learning video -> self-directed learning
->> 
->> Attend a lecture -> lecture
->> 
->> Solve math problems -> self-directed learning
->> 
->> Learning with other students -> collaborative learning
->
-> 
-> Continue with these examples:
-> 
->> Create a summary ->
->> 
->> Discuss the learning content with a learning partner by telephone -> 
+```
+Assign examples to different forms of teaching and learning for me.
+
+Base your answer on the following examples:
+
+- Watching a learning video -> self-directed learning
+- Attend a lecture -> lecture
+- Solve math problems -> self-directed learning
+- Learning with other students -> collaborative learning
+
+Continue with these examples:
+
+- Create a summary ->
+- Discuss the learning content with a learning partner by telephone -> 
+```
 
 ### Advanced prompting
 
@@ -159,7 +147,10 @@ There are also collections of prompts, such as [FlowGPT](https://flowgpt.com) or
 
 You can ask the AI to improve the prompt together with you. Often all you need to do is enter something like:
 
-> Help me improve my prompt by asking me questions about anything that is unclear and then issuing a revised version of the prompt.
+```
+Help me improve my prompt by asking me questions about anything
+that is unclear and then issuing a revised version of the prompt.
+```
 
 There are much more comprehensive and elaborate prompts for improvement, such as [ChatGPT 4 Prompt Improvement (flowgpt.com)](https://flowgpt.com/p/chatgpt-4-prompt-improvement) (you can view the prompt via the "View Prompt" button). There are also GPTs, such as [Pro Prompter](https://chat.openai.com/g/g-uSEqrEWdX-pro-prompter) or the [ChatGPT - Prompt Professor](https://chat.openai.com/g/g-qfoOICq1l-prompt-professor), which can help you to improve the prompts.
 
