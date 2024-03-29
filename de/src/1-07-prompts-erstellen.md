@@ -92,19 +92,24 @@ Beim One-Shot Learning wird dem Modell ein einziges Beispiel präsentiert, das d
 Hier ein Beispiel für das One-Shot Prompting:
 
 ```
-Erstelle eine kurze Zusage für meine Teilnahme an der Paneldiskussion "KI & Arbeit" am 05.03.2030.
+Erstelle eine kurze Zusage für meine Teilnahme an der
+Paneldiskussion "KI & Arbeit" am 05.03.2030.
 
 Nutze für die Antwort das folgende Beispiel:
 
 EINGABE
 
-Formuliere eine kurze und höfliche Antwort auf eine Konferenzeinladung.
+Formuliere eine kurze und höfliche Antwort
+auf eine Konferenzeinladung.
 
 ANTWORT
 
 Sehr geehrte Frau Müller,
 
-vielen Dank für die Einladung zur Digital Innovations Konferenz 2024. Ich freue mich sehr, teilnehmen und zum Panel über KI-Technologien beitragen zu können. Bitte senden Sie mir weitere Informationen zu den logistischen Details.
+vielen Dank für die Einladung zur Digital Innovations Konferenz 2024.
+Ich freue mich sehr, teilnehmen und zum Panel über KI-Technologien
+beitragen zu können. Bitte senden Sie mir weitere Informationen
+zu den logistischen Details.
 
 Mit besten Grüßen,
 Anna Schmidt
