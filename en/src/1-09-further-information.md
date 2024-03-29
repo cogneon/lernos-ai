@@ -1,6 +1,6 @@
 ## Further information and links
 
-Artificial intelligence is a very dynamic field of knowledge. Therefore, the following list of sources must always be considered outdated. Current links can be found, for example, in the [Daily Papers from Hugging](https://huggingface.com/papers), the community [artificial on Reddit](https://www.reddit.com/r/artificial/) and the [hashtag #GenerativeAI on Linkedin](https://www.linkedin.com/feed/hashtag/?keywords=generativeai). Also subscribe to newsletters, hashtags, blogs, vLogs and podcasts to stay up to date.
+Artificial intelligence is a very dynamic field of knowledge. Therefore, the following list of sources must always be considered outdated. Current links can be found, for example, in the [Daily Papers from Hugging](https://huggingface.co/papers), the community [artificial on Reddit](https://www.reddit.com/r/artificial/) and the [hashtag #GenerativeAI on Linkedin](https://www.linkedin.com/feed/hashtag/?keywords=generativeai). Also subscribe to newsletters, hashtags, blogs, vLogs and podcasts to stay up to date.
 
 **Books:**
 
