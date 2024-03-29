@@ -46,25 +46,21 @@ In diesem Abschnitt geht es um die wesentlichen Komponenten eines effektiven Pro
 
 Für das Schreiben von guten Prompts hat sich der folgende Aufbau bewährt:
 
-| Kategorie               | Beschreibung                                                                   |
-| ----------------------- | ------------------------------------------------------------------------------ |
-| Persona                 | Welche Rolle soll das Sprachmodell übernehmen?                                 |
-| Einleitung              | Was erwarte ich vom Sprachmodell? Beginnt normalerweise mit einem Aktionswort. |
-| Individueller Inhalt    | Der eigentliche Text der verarbeitet werden soll.                              |
-| Format                  | Wenn notwendig, welches Format erwarte ich von der Ausgabe?                    |
-| Zusätzliche Information | Weitere relevante Informationen, die den Kontext spezifischer machen.          |
+- **Persona:** Welche Rolle soll das Sprachmodell übernehmen?
+- **Einleitung:** Was erwarte ich vom Sprachmodell? Beginnt normalerweise mit einem Aktionswort.
+- **Individueller Inhalt:** Der eigentliche Text der verarbeitet werden soll.
+- **Format:** Wenn notwendig, welches Format erwarte ich von der Ausgabe?
+- **Zusätzliche Information:** Weitere relevante Informationen, die den Kontext spezifischer machen.
 
 
 
-Hier ein ausgefülltes Beispiel:
+Hier ein konkretes Beispiel:
 
-| Kategorie               | Beschreibung                                                                                                                                                             |
-| ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Persona                 | Du bist Reiseberater und Experte für die individuelle Ausgestaltung von Reisen in fremde Länder.                                                                         |
-| Einleitung              | Ich habe in den kommenden Sommerferien endlich Zeit, gemeinsam mit meinem Partner mal wieder eine richtig große Reise zu unternehmen.                                     |
-| Individueller Inhalt    | Erstelle für mich einen Reiseplan für eine zweiwöchige Reise nach Japan. Berücksichtige dabei kulturelle Sehenswürdigkeiten, lokale Küche und Outdoor-Aktivitäten.       |
-| Format                  | Die Liste sollte nach Urlaubstagen strukturiert sein. Unterteile jeden Urlaubstag nach Stationen und Städten, die ich besuchen werde (wie z. B. Tokio, Kyoto und Osaka). |
-| Zusätzliche Information | Ich interessiere mich besonders für historische Stätten und bin ein Liebhaber von Sushi. Zudem möchte ich gerne eine Wanderung machen.                                   |
+- **Persona:** Du bist Reiseberater und Experte für die individuelle Ausgestaltung von Reisen in fremde Länder.
+- **Einleitung:** Ich habe in den kommenden Sommerferien endlich Zeit, gemeinsam mit meinem Partner mal wieder eine richtig große Reise zu unternehmen.
+- **Individueller Inhalt:** Erstelle für mich einen Reiseplan für eine zweiwöchige Reise nach Japan. Berücksichtige dabei kulturelle Sehenswürdigkeiten, lokale Küche und Outdoor-Aktivitäten.
+- **Format:** Die Liste sollte nach Urlaubstagen strukturiert sein. Unterteile jeden Urlaubstag nach Stationen und Städten, die ich besuchen werde (wie z. B. Tokio, Kyoto und Osaka).
+- **Zusätzliche Information:** Ich interessiere mich besonders für historische Stätten und bin ein Liebhaber von Sushi. Zudem möchte ich gerne eine Wanderung machen.
 
 
 
@@ -95,58 +91,53 @@ Beim One-Shot Learning wird dem Modell ein einziges Beispiel präsentiert, das d
 
 Hier ein Beispiel für das One-Shot Prompting:
 
-> Erstelle eine kurze Zusage für meine Teilnahme an der Paneldiskussion "KI & Arbeit" am 05.03.2030.
-> 
-> Nutze für die Antwort das folgende Beispiel:
-> 
-> EINGABE
-> 
-> Formuliere eine kurze und höfliche Antwort auf eine Konferenzeinladung.
-> 
-> ANTWORT
-> 
-> Sehr geehrte Frau Müller,
-> 
-> vielen Dank für die Einladung zur Digital Innovations Konferenz 2024. Ich freue mich sehr, teilnehmen und zum Panel über KI-Technologien beitragen zu können. Bitte senden Sie mir weitere Informationen zu den logistischen Details.
-> 
-> Mit besten Grüßen,
-> 
-> Anna Schmidt
+```
+Erstelle eine kurze Zusage für meine Teilnahme an der Paneldiskussion "KI & Arbeit" am 05.03.2030.
+
+Nutze für die Antwort das folgende Beispiel:
+
+EINGABE
+
+Formuliere eine kurze und höfliche Antwort auf eine Konferenzeinladung.
+
+ANTWORT
+
+Sehr geehrte Frau Müller,
+
+vielen Dank für die Einladung zur Digital Innovations Konferenz 2024. Ich freue mich sehr, teilnehmen und zum Panel über KI-Technologien beitragen zu können. Bitte senden Sie mir weitere Informationen zu den logistischen Details.
+
+Mit besten Grüßen,
+Anna Schmidt
+```
 
 Beim Few-Shot Learning werden dem Modell mehrere Beispiele gegeben, um eine breitere Palette von Fällen oder Variationen einer Aufgabe zu demonstrieren. Dies hilft dem Modell, die Aufgabenstellung besser zu verstehen und sich auf verschiedene Szenarien oder Kontexte einzustellen.
 
 Hier ein Beispiel für das Few-Shot Prompting:
 
-> Ordne für mich Beispiele verschiedenen Lehr- und Lernformen zu.
-> 
-> Orientiere Dich bei der Antwort an folgenden Beispielen:
-> 
->> Lernvideo anschauen -> selbstgesteuertes Lernen
->> 
->> Eine Vorlesung besuchen -> Lehrvortrag
->> 
->> Mathematik-Aufgaben lösen -> selbstgesteuertes Lernen
->> 
->> Mit anderen Studierenden Lernen -> kollaboratives Lernen
->
-> 
-> Mache mit diesen Beispielen weiter:
-> 
->> Eine Zusammenfassung erstellen ->
->> 
->> Mit einer Lernpartnerin die Lerninhalte telefonisch besprechen -> 
+```
+Ordne für mich Beispiele verschiedenen Lehr- und Lernformen zu.
+
+Orientiere Dich bei der Antwort an folgenden Beispielen:
+
+- Lernvideo anschauen -> selbstgesteuertes Lernen
+- Eine Vorlesung besuchen -> Lehrvortrag
+- Mathematik-Aufgaben lösen -> selbstgesteuertes Lernen
+- Mit anderen Studierenden Lernen -> kollaboratives Lernen
+
+Mache mit diesen Beispielen weiter:
+
+- Eine Zusammenfassung erstellen ->
+- Mit einer Lernpartnerin die Lerninhalte telefonisch besprechen -> 
+```
 
 ### Fortgeschrittenes Prompting
 
 Gute Beispiele für fortgeschrittene Prompts sind:
 
 1. Der ideation-prompt von [chatgpt-prompts/ideation.prompt at main · carterleffen/chatgpt-prompts (github.com)](https://github.com/carterleffen/chatgpt-prompts/blob/main/ideation.prompt)
-
-2. Das Beispiel von Prof. Ethan Mollick im Artikel [Working with AI: Two paths to prompting - by Ethan Mollick (oneusefulthing.org)](https://www.oneusefulthing.org/p/working-with-ai-two-paths-to-prompting) im Abschnitt "Structured Prompting"
-
-3. Die Fallstudie [LerncoachGPT](https://www.e-lehre.de/2024/02/07/chatgpt-als-lerncoach) als Prototyp für einen Lerncoach von Simon Roderus 
-   
-5. Professor Synapse Prompt: [Synapse_CoR/GPTprompt.txt at main · ProfSynapse/Synapse_CoR (github.com)](https://github.com/ProfSynapse/Synapse_CoR/blob/main/GPTprompt.txt) oder auch [Super_Synapse/prompt.txt at main · ProfSynapse/Super_Synapse (github.com)](https://github.com/ProfSynapse/Super_Synapse/blob/main/prompt.txt)
+1. Das Beispiel von Prof. Ethan Mollick im Artikel [Working with AI: Two paths to prompting - by Ethan Mollick (oneusefulthing.org)](https://www.oneusefulthing.org/p/working-with-ai-two-paths-to-prompting) im Abschnitt "Structured Prompting"
+1. Die Fallstudie [LerncoachGPT](https://www.e-lehre.de/2024/02/07/chatgpt-als-lerncoach) als Prototyp für einen Lerncoach von Simon Roderus 
+1. Professor Synapse Prompt: [Synapse_CoR/GPTprompt.txt at main · ProfSynapse/Synapse_CoR (github.com)](https://github.com/ProfSynapse/Synapse_CoR/blob/main/GPTprompt.txt) oder auch [Super_Synapse/prompt.txt at main · ProfSynapse/Super_Synapse (github.com)](https://github.com/ProfSynapse/Super_Synapse/blob/main/prompt.txt)
 
 **Tipp:** Fortgeschrittene Prompts funktionieren wesentlich besser in leistungsfähigeren KI-Systemen wie z. B. GPT-4. 
 
@@ -164,7 +155,10 @@ Ebenso gibt es Sammlungen von Prompts, wie z. B. [FlowGPT](https://flowgpt.com) 
 
 Du kannst die KI bitten, mit Dir gemeinsam den Prompt zu verbessern. Oft reicht dafür bereits eine Eingabe, wie:
 
-> Helfe mir meinen Prompt zu verbessern, indem Du mir zu allem, was unklar ist Nachfragen stellst und dann eine überarbeitete Version des Prompts ausgibst.
+```
+Helfe mir meinen Prompt zu verbessern, indem Du mir zu allem, was unklar
+ist Nachfragen stellst und dann eine überarbeitete Version des Prompts ausgibst.
+```
 
 Es gibt viel umfangreichere und elaboriertere Prompts zur Verbesserung, wie z. B. [ChatGPT 4 Prompt Improvement (flowgpt.com)](https://flowgpt.com/p/chatgpt-4-prompt-improvement) (Du kannst den Prompt über den Button "View Prompt" einsehen). Ebenso gibt es GPTs, wie z. B. [Pro Prompter](https://chat.openai.com/g/g-uSEqrEWdX-pro-prompter) oder den [ChatGPT - Prompt Professor](https://chat.openai.com/g/g-qfoOICq1l-prompt-professor), die Dir bei der Verbesserung der Prompts helfen können.
 
