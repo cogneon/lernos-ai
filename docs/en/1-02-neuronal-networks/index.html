@@ -1227,10 +1227,9 @@
 <!-- Markdown content -->
 <h2 id="neural-networks">Neural networks</h2>
 <p>The so-called <strong>transformer architecture</strong> of generative AI such as GPT involves <strong>artificial neural networks</strong> (ANN), which are modelled on the functioning of natural neural networks, e.g. in a brain.</p>
-<p>The neurons in a neural network are arranged in <strong>layers</strong> one behind the other. We speak of the <strong>input layer</strong> (green), the <strong>output layer</strong> (yellow) and the **hidden layersv (blue).</p>
-<p><img alt="" src="../images/neural-network.png" title="Simplified representation of an artificial neural network, source: Wikipedia" /></p>
+<p>The neurons in a neural network are arranged in <strong>layers</strong> one behind the other. We speak of the <strong>input layer</strong> (red), the <strong>output layer</strong> (green) and the <strong>hidden layers</strong> (blue).</p>
+<p><img alt="" src="../images/neural-network.png" title="By Glosser.ca - Own work, Derivative of File:Artificial neural network.svg, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=24913461" /></p>
 <p>A single artificial neuron is connected to all neurons in the upstream layer. The connections should not be thought of as switches (on/off). Instead, the signals of all inputs are weighted and used as network input with a transfer function. An activation function leads to the activation of the neuron (the neuron fires), taking into account a threshold value. The weightings correspond to the parameters of the network (a Llama 2 7B model, for example, has 7 billion such parameters).</p>
-<p><img alt="" src="../images/kuenstliches-neuron.png" title="Schematic for an artificial neuron, source: Wikipedia CC BY SA 3.0" /></p>
 <p>When training a neural network, you start with random parameters. In the training process, the parameters are set through a process of machine learning by calculating an error function so that the neural network provides the most correct answers possible.</p>
 <p>This <a href="https://www.youtube.com/watch?v=aircAruvnKk">explanatory video</a> shows how a neural network can recognise numbers (e.g. the postcode on a letter). A 28x28 pixel image is used as the input layer (784 inputs). The network used has two hidden layers. The output layer has ten outputs (indicators for the numbers 0-9).</p>
 
