@@ -8,10 +8,7 @@ Welcome to the **lernOS Artificial Intelligence (AI) Guide**. The guide is avail
 
 **Target group:** Users (people sitting in front of the "screen") not developers; however, users should understand the background. The guide is written for use inside (context: intranet) and outside (context: internet) organizations.
 
----
 **Note:** This page was translated with DeepL and not proofread by native speakers. Generated information may be false.
-
----
 
 # About lernOS
 
