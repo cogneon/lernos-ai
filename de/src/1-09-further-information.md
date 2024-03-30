@@ -13,7 +13,8 @@ Die Künstliche Intelligenz ist ein sehr dynamisches Wissensgebiet. Deswegen mus
 
 1. [AI Applications and Prompt Engineering](https://www.edx.org/learn/computer-programming/edx-ai-applications-and-prompt-engineering) - 1-wöchiger Kurs mit 5-10 Stunden von edX
 1. [Artificial Intelligence for Beginners](https://microsoft.github.io/AI-For-Beginners/) - Lernpfad mit acht Modulen von Microsoft ([Mindmap zum Kurs](https://microsoft.github.io/AI-For-Beginners/))
-1. [Elements of AI](https://course.elementsofai.com/de/) - Kurs von der Universität Helsinki zu Themen rund um Machine Learning und Neuronale Netze 
+1. [Elements of AI](https://course.elementsofai.com/de/) - Kurs von der Universität Helsinki zu Themen rund um Machine Learning und Neuronale Netze
+1. [Get started with Copilot for Microsoft 365](https://learn.microsoft.com/en-us/training/paths/get-started-with-microsoft-365-copilot/) - kostenloser Kurs von Microsoft zu Copilot für Microsoft 365
 1. [Introduction to Artificial Intelligence with Python](https://www.edx.org/learn/artificial-intelligence/harvard-university-cs50-s-introduction-to-artificial-intelligence-with-python) - 7-wöchiger Kurs (10-30 Stunden/Woche) der Harvard University
 1. [Introduction to Generative AI](https://www.cloudskillsboost.google/paths/118) - Lernpfad mit fünf Modulen von Google
 1. [KI für alle](https://www.coursera.org/learn/ai-for-everyone-de) - Kostenloser Kurs von Andrew Ng auf Coursera

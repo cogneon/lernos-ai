@@ -13,7 +13,8 @@ Artificial intelligence is a very dynamic field of knowledge. Therefore, the fol
 
 1. [AI Applications and Prompt Engineering](https://www.edx.org/learn/computer-programming/edx-ai-applications-and-prompt-engineering) - 1-week course with 5-10 hours from edX
 1. [Artificial Intelligence for Beginners](https://microsoft.github.io/AI-For-Beginners/) - Learning path with eight modules from Microsoft ([Mindmap to the course](https://microsoft.github.io/AI-For-Beginners/))
-1. [Elements of AI](https://course.elementsofai.com/de/) - Course from the University of Helsinki on topics related to machine learning and neural networks 
+1. [Elements of AI](https://course.elementsofai.com/de/) - Course from the University of Helsinki on topics related to machine learning and neural networks
+1. [Get started with Copilot for Microsoft 365](https://learn.microsoft.com/en-us/training/paths/get-started-with-microsoft-365-copilot/) - free course from Microsoft on Copilot for Microsoft 365
 1. [Introduction to Artificial Intelligence with Python](https://www.edx.org/learn/artificial-intelligence/harvard-university-cs50-s-introduction-to-artificial-intelligence-with-python) - 7-week course (10-30 hours/week) from Harvard University
 1. [Introduction to Generative AI](https://www.cloudskillsboost.google/paths/118) - learning path with five modules from Google
 1. [AI for Everyone](https://www.coursera.org/learn/ai-for-everyone-de) - Free course by Andrew Ng on Coursera
