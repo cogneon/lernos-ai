@@ -9,6 +9,12 @@ Artificial intelligence is a very dynamic field of knowledge. Therefore, the fol
 1. Wolfram, S.: [The secret behind ChatGPT: How AI works and why it works](https://amzn.to/4ao2HUG) (*)
 1. Zweig, K.: [The AI did it!: From absurd to deadly: The pitfalls of artificial intelligence](https://amzn.to/4avI5sI), Heyne, 2023. (*)
 
+### Studies
+1. Brynjolfsson, E., et.al. (2023): [Generative AI at Work](https://www.nber.org/system/files/working_papers/w31161/w31161.pdf) (N=5,179) - 14% more productivity in customer service through generative AI
+1. Fraunhofer IAO (2024): [Potentials of Generative AI for SMEs](https://www.digital.iao.fraunhofer.de/de/leistungen/KI/GenerativeKI.html)
+1. bidt (2023): [Distribution and acceptance of generative AI in Germany and in German workplaces](https://www.bidt.digital/publikation/verbreitung-und-akzeptanz-generativer-ki-in-deutschland-und-an-deutschen-arbeitsplaetzen/) (N=3,000)
+1. McKinsey (2023): [The economic potential of generative AI](https://www.mckinsey.com/de/news/presse/genai-ist-ein-hilfsmittel-um-die-produktivitaet-zu-steigern-und-das-globale-wirtschaftswachstum-anzukurbeln) - Generative AI brings the greatest value to customer service, marketing & sales, software development and research & development
+
 **Courses:**
 
 1. [AI Applications and Prompt Engineering](https://www.edx.org/learn/computer-programming/edx-ai-applications-and-prompt-engineering) - 1-week course with 5-10 hours from edX
