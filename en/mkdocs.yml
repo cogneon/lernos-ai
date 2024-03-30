@@ -7,29 +7,29 @@ nav:
     - Welcome: index.md
     - Basics:
       - AI & Machine Learning: 1-01-ai-machine-learning.md
-      - Neural networks: 1-02-neuronal-networks.md
-      - Machine vs. human learning: 1-03-machine-vs-human-learning.md
-      - AI application areas: 1-04-ai-application-areas.md
-      - AI models: 1-05-ai-models.md
-      - AI tools & services: 1-06-ai-tools-services.md
-      - Create prompts: 1-07-prompts-erstellen.md
-      - AI & society: 1-08-ai-and-society.md
-      - Further information: 1-09-further-information.md
+      - Neural Networks: 1-02-neuronal-networks.md
+      - Machine vs. Human Learning: 1-03-machine-vs-human-learning.md
+      - AI Application Areas: 1-04-ai-application-areas.md
+      - AI Models: 1-05-ai-models.md
+      - AI Tools & Services: 1-06-ai-tools-services.md
+      - Create Prompts: 1-07-prompts-erstellen.md
+      - AI & Society: 1-08-ai-and-society.md
+      - Further Information: 1-09-further-information.md
     - Learning Pathway:
       - Introduction: 2-00-learning-pathway.md
       - Preparation & Get together (Kata 0): 2-01-kata-0.md
-      - Create awareness (Kata 1): 2-02-kata-1.md
-      - Getting started with the AI (Kata 2): 2-03-kata-2.md
-      - AI as a dialogue partner (Kata 3): 2-04-kata-3.md
-      - Reflection on learning outcomes (Kata 4): 2-05-kata-4.md
-      - Fields of application in your own workplace (Kata 5): 2-06-kata-5.md
-      - Consolidation of your learning objective (Kata 6): 2-07-kata-6.md
-      - Collaboration with AI (Kata 7): 2-08-kata-7.md
-      - Reflection on learning outcomes (Kata 8): 2-09-kata-8.md
-      -  AI as dreamer, hallucinator or liar (Kata 9): 2-10-kata-9.md
-      - Confident prompting part 1 (Kata 10): 2-11-kata-10.md
-      - Confident prompting part 2 (Kata 11): 2-11-kata-11.md
-      - Review and Lessons Learned (Kata 12): 2-12-kata-12.md
+      - Create Awareness (Kata 1): 2-02-kata-1.md
+      - Getting Started With The AI (Kata 2): 2-03-kata-2.md
+      - AI As A Dialogue Partner (Kata 3): 2-04-kata-3.md
+      - Reflection On Learning Outcomes (Kata 4): 2-05-kata-4.md
+      - Fields Of Application In Your Own Workplace (Kata 5): 2-06-kata-5.md
+      - Consolidation Of Your Learning Objective (Kata 6): 2-07-kata-6.md
+      - Collaboration With AI (Kata 7): 2-08-kata-7.md
+      - Reflection On Learning Outcomes (Kata 8): 2-09-kata-8.md
+      -  AI As Dreamer, Hallucinator or Liar (Kata 9): 2-10-kata-9.md
+      - Confident Prompting Part 1 (Kata 10): 2-11-kata-10.md
+      - Confident Prompting Part 2 (Kata 11): 2-11-kata-11.md
+      - Review And Lessons Learned (Kata 12): 2-12-kata-12.md
     - Appendix: 3-00-appendix.md
     - Download:
       - PDF-Version: https://github.com/cogneon/lernos-ai/blob/master/en/lernos-ai-guide.pdf
