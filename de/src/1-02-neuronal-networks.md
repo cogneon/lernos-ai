@@ -2,13 +2,11 @@
 
 Bei der sog. **Transformer-Architektur** von generativer KI wie z.B. GPT handelt es sich um **künstliche Neuronale Netze** (KNN), die der Funktionsweise von natürlichen neuronales Netzen wie z.B. in einem Gehirn nachempfunden sind.
 
-Die Neuronen in einem neuronalen Netz werden dabei in **Schichten** (Layern) hintereinander angeordnet. Man spricht von der **Eingabeschicht** (input layer, grün), der **Ausgabeschicht** (output layer, gelb) und den **versteckten Schichtenv (hidden layer, blau).
+Die Neuronen in einem neuronalen Netz werden dabei in **Schichten** (Layern) hintereinander angeordnet. Man spricht von der **Eingabeschicht** (rot), der **Ausgabeschicht** (grün) und den **versteckten Schichten** (blau).
 
-![](images/neural-network.png "Vereinfachte Darstellung eines künstlichen neuronalen Netzes, Quelle: Wikipedia")
+![](images/neural-network.png "By Glosser.ca - Own work, Derivative of File:Artificial neural network.svg, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=24913461")
 
 Ein einzelnes künstliches Neuron ist dabei mit allen Neuronen der vorgelagerten Schicht verbunden. Die Verbindingen darf man sich nicht wie Schalter (ein/aus) vorstellen. Vielmehr werden die Signale aller Eingaben gewichtet und mit einer Übertragungsfunktion als Netzeingabe verwendet. Eine Aktivierungsfunktion führt unter Berücksichtigung eines Schwellwerts zur Aktivierung des Neurons (das Neuron feuert). Die Gewichtungen entsprechen den Parametern des Netzes (ein Llama 2 7B Modell hat z.B. 7 Milliarden solcher Parameter).
-
-![](images/kuenstliches-neuron.png "Schema für ein künstliches Neuron, Quelle: Wikipedia CC BY SA 3.0")
 
 Beim Training eines neuronalen Netzwerks startet man mit zufälligen Parametern. Im Trainingsprozess werden die Parameter durch einen Prozess des maschinellen Lernens  über die Berechnung einer Fehlerfunktion so eingestellt, dass das neuronale Netz möglichst richtige Antworten liefert.
 
