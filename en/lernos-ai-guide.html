@@ -1665,83 +1665,34 @@ to further improve the efficiency and effectiveness of communication
 with AI models.</p>
 <p>The following structure has proven effective for writing good
 prompts:</p>
-<table>
-<colgroup>
-<col style="width: 22%" />
-<col style="width: 77%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Category</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Persona</td>
-<td>What role should the language model play?</td>
-</tr>
-<tr class="even">
-<td>Introduction</td>
-<td>What do I expect from the language model? Usually starts with an
-action word.</td>
-</tr>
-<tr class="odd">
-<td>Individual content</td>
-<td>The actual text to be processed.</td>
-</tr>
-<tr class="even">
-<td>Format</td>
-<td>If necessary, what format do I expect from the output?</td>
-</tr>
-<tr class="odd">
-<td>Additional Information</td>
-<td>Other relevant information that makes the context more
-specific.</td>
-</tr>
-</tbody>
-</table>
-<p>Here is a completed example:</p>
-<table>
-<colgroup>
-<col style="width: 12%" />
-<col style="width: 87%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Category</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Persona</td>
-<td>You are a travel consultant and an expert in customizing trips to
-foreign countries.</td>
-</tr>
-<tr class="even">
-<td>Introduction</td>
-<td>I finally have time during the coming summer vacation to go on a
-really big trip with my partner.</td>
-</tr>
-<tr class="odd">
-<td>Individual content</td>
-<td>Create an itinerary for me for a two-week trip to Japan. Include
-cultural sights, local cuisine and outdoor activities.</td>
-</tr>
-<tr class="even">
-<td>Format</td>
-<td>The list should be structured by vacation days. Divide each vacation
-day by stations and cities that I will visit (such as Tokyo, Kyoto and
-Osaka).</td>
-</tr>
-<tr class="odd">
-<td>Additional Information</td>
-<td>I am particularly interested in historical sites and am a lover of
-sushi. I would also like to go on a hike.</td>
-</tr>
-</tbody>
-</table>
+<ul>
+<li><strong>Persona:</strong> What role should the language model
+play?</li>
+<li><strong>Introduction:</strong> What do I expect from the language
+model? Usually starts with an action word.</li>
+<li><strong>Individual content:</strong> The actual text to be
+processed.</li>
+<li><strong>Format:</strong> If necessary, what format do I expect from
+the output?</li>
+<li><strong>Additional Information:</strong> Other relevant information
+that makes the context more specific.</li>
+</ul>
+<p>Here is a complete example:</p>
+<ul>
+<li><strong>Persona:</strong> You are a travel consultant and an expert
+in customizing trips to foreign countries.</li>
+<li><strong>Introduction:</strong> I finally have time during the coming
+summer vacation to go on a really big trip with my partner.</li>
+<li><strong>Individual content:</strong> Create an itinerary for me for
+a two-week trip to Japan. Include cultural sights, local cuisine and
+outdoor activities.</li>
+<li><strong>Format:</strong> The list should be structured by vacation
+days. Divide each vacation day by stations and cities that I will visit
+(such as Tokyo, Kyoto and Osaka).</li>
+<li><strong>Additional Information:</strong> I am particularly
+interested in historical sites and am a lover of sushi. I would also
+like to go on a hike.</li>
+</ul>
 <h3 data-number="3.7.4" id="prompting-tipps-von-openai"><span
 class="header-section-number">3.7.4</span> Prompting-Tipps von
 OpenAI</h3>
@@ -1750,33 +1701,33 @@ OpenAI</h3>
 Engineering</a> genauer, was aus ihrer Sicht einen “guten” Prompt
 ausmacht:</p>
 <ol type="1">
-<li><p><strong>Sei spezifisch</strong>: Stelle sicher, dass die Anfragen
+<li><strong>Sei spezifisch</strong>: Stelle sicher, dass die Anfragen
 alle wichtigen Details oder den Kontext enthalten, damit das Modell
 nicht raten muss, was Du meinst. Je genauer Du den Hintergrund, Dein
 Anliegen und die Art der erwarteten Ausgabe beschreibst, umso besser
-wird die Antwort sein.</p></li>
-<li><p><strong>Sei modular</strong>: Zerlege komplexe Aufgaben in eine
+wird die Antwort sein.</li>
+<li><strong>Sei modular</strong>: Zerlege komplexe Aufgaben in eine
 Reihe von einfacheren Aufgaben, die nacheinander ausgeführt werden
 können. Nutze Struktur, wie z. B. Stichpunkte, um Aspekte klar zu
-unterteilen.</p></li>
-<li><p><strong>Be patient</strong>: Ask the model to describe the path
-to the answer first instead of answering immediately. You will get
-better answers if the model first develops a solution (“chain of
-thought”) and then carries it out.</p></li>
-<li><p><strong>Be complementary</strong>: When too little information is
+unterteilen.</li>
+<li><strong>Be patient</strong>: Ask the model to describe the path to
+the answer first instead of answering immediately. You will get better
+answers if the model first develops a solution (“chain of thought”) and
+then carries it out.</li>
+<li><strong>Be complementary</strong>: When too little information is
 available, language models tend to invent inaccurate answers. Therefore,
 provide the model with relevant and up-to-date information so that it
 can answer better. If you need access to sources (such as documents or
-books), use AI systems that can process data.</p></li>
-<li><p><strong>Be accurate</strong>: Generative AIs are not the best
+books), use AI systems that can process data.</li>
+<li><strong>Be accurate</strong>: Generative AIs are not the best
 solution for every task. For example, language models such as GPT-3.5
 are good at developing a solution procedure, but not particularly good
 and reliable at computing. Therefore, use other tools (such as GPT-4
 with code interpreter) to perform operations that the model cannot
-perform independently.</p></li>
-<li><p><strong>Be evaluative</strong>: Create and compare different
-prompts systematically to better assess and optimize the effect of the
-prompt and the performance of the model.</p></li>
+perform independently.</li>
+<li><strong>Be evaluative</strong>: Create and compare different prompts
+systematically to better assess and optimize the effect of the prompt
+and the performance of the model.</li>
 </ol>
 <h3 data-number="3.7.5" id="providing-examples"><span
 class="header-section-number">3.7.5</span> Providing examples</h3>
@@ -1788,43 +1739,43 @@ examples and is more likely to answer in the way the user expects.</p>
 that demonstrates the desired task or response form. The model uses this
 example as a template for what it should produce.</p>
 <p>Here is an example of one-shot prompting:</p>
-<blockquote>
-<p>Create a short commitment for my participation in the panel
-discussion “AI &amp; Work” on 05.03.2030.</p>
-<p>Use the following example for the answer:</p>
-<p>INPUT</p>
-<p>Formulate a short and polite reply to a conference invitation.</p>
-<p>ANSWER</p>
-<p>Dear Ms. Müller,</p>
-<p>Thank you for the invitation to the Digital Innovations Conference
-2024. I am very pleased to be able to participate and contribute to the
-panel on AI technologies. Please send me more information on the
-logistical details.</p>
-<p>With best regards,</p>
-<p>Anna Schmidt</p>
-</blockquote>
+<pre><code>Create a short commitment for my participation in the panel discussion &quot;AI &amp; Work&quot;
+on 05.03.2030.
+
+Use the following example for the answer:
+
+INPUT
+
+Formulate a short and polite reply to a conference invitation.
+
+ANSWER
+
+Dear Ms. Müller,
+
+Thank you for the invitation to the Digital Innovations Conference 2024.
+I am very pleased to be able to participate and contribute to the panel
+on AI technologies. Please send me more information on the logistical details.
+
+With best regards,
+Anna Schmidt</code></pre>
 <p>In few-shot learning, the model is given several examples to
 demonstrate a wider range of cases or variations of a task. This helps
 the model to better understand the task and adapt to different scenarios
 or contexts.</p>
 <p>Here is an example of Few-Shot Prompting:</p>
-<blockquote>
-<p>Assign examples to different forms of teaching and learning for
-me.</p>
-<p>Base your answer on the following examples:</p>
-<blockquote>
-<p>Watching a learning video -&gt; self-directed learning</p>
-<p>Attend a lecture -&gt; lecture</p>
-<p>Solve math problems -&gt; self-directed learning</p>
-<p>Learning with other students -&gt; collaborative learning</p>
-</blockquote>
-<p>Continue with these examples:</p>
-<blockquote>
-<p>Create a summary -&gt;</p>
-<p>Discuss the learning content with a learning partner by telephone
--&gt;</p>
-</blockquote>
-</blockquote>
+<pre><code>Assign examples to different forms of teaching and learning for me.
+
+Base your answer on the following examples:
+
+- Watching a learning video -&gt; self-directed learning
+- Attend a lecture -&gt; lecture
+- Solve math problems -&gt; self-directed learning
+- Learning with other students -&gt; collaborative learning
+
+Continue with these examples:
+
+- Create a summary -&gt;
+- Discuss the learning content with a learning partner by telephone -&gt; </code></pre>
 <h3 data-number="3.7.6" id="advanced-prompting"><span
 class="header-section-number">3.7.6</span> Advanced prompting</h3>
 <p>Good examples of advanced prompts are</p>
@@ -1866,10 +1817,8 @@ class="header-section-number">3.7.8</span> Improve prompts together with
 the AI</h3>
 <p>You can ask the AI to improve the prompt together with you. Often all
 you need to do is enter something like:</p>
-<blockquote>
-<p>Help me improve my prompt by asking me questions about anything that
-is unclear and then issuing a revised version of the prompt.</p>
-</blockquote>
+<pre><code>Help me improve my prompt by asking me questions about anything
+that is unclear and then issuing a revised version of the prompt.</code></pre>
 <p>There are much more comprehensive and elaborate prompts for
 improvement, such as <a
 href="https://flowgpt.com/p/chatgpt-4-prompt-improvement">ChatGPT 4
@@ -2749,18 +2698,15 @@ href="https://labs.perplexity.ai">Perplexity Labs</a>.</p>
 The language model “pplx-7b-chat” from <a
 href="https://labs.perplexity.ai">Perplexity Labs</a> is given the
 following task</p>
-<blockquote>
-<p>Summarise this newspaper article from 12.12.2030 for me:
-https://www.zeit.de/2030/12/angewandte-künstliche-intelligenz-wird-pflichtfach-in-schulen.</p>
-</blockquote>
+<pre><code>Summarise this newspaper article from 12.12.2030 for me:
+https://www.zeit.de/2030/12/angewandte-künstliche-
+intelligenz-wird-pflichtfach-in-schulen.</code></pre>
 <p>produced this answer:</p>
-<blockquote>
-<p>The article from the times writes about the introduction of the
-subject “Applied Artificial Intelligence” in schools from the year 2030.
-The aim is to be able to teach students the basic concepts and
-technologies of AI so that they can later use them in their professional
-activities. […]</p>
-</blockquote>
+<pre><code>The article from the times writes about the introduction of
+the subject &quot;Applied Artificial Intelligence&quot; in schools from
+the year 2030. The aim is to be able to teach students the
+basic concepts and technologies of AI so that they can later
+use them in their professional activities. [...]</code></pre>
 <p><strong>Tip:</strong> If you have more direct access to the settings
 of an AI system, you can use the so-called “temperature” to set how
 creatively or precisely the AI should respond. You can do this in the <a
