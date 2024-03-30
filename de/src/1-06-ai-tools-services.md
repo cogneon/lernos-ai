@@ -12,7 +12,7 @@ Für die Auswahl haben wir uns jeweils folgende Fragen gestellt: 
 
 (Oft ist zumindest eine Registrierung erforderlich.)
 
-![Übersicht Tools Services KI](./images/lernos-ki-tools-services-202402-de.png)
+![Übersicht Tools Services KI](./images/ai-tools-services.png)
 
 
 ### Tipps & Empfehlungen

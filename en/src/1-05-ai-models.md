@@ -26,7 +26,7 @@ The Transformer is a neural network model developed specifically for processing 
 
 Previous concepts based word predictions solely on previous words. In contrast, the Transformer attention mechanism allows words to be predicted bidirectionally - i.e. on the basis of both previous and subsequent words. 
 
-![KI Model Timeline](./images/lernos-ki-abb-modelle.png)
+![KI Modelle Zeitstrahl](./images/ai-models-timeline.png)
 
 This development of LLMs is shown in the diagram above. As we can see, the first modern models were introduced shortly after the development of the Transformers. The graph shows that more and more models are now being developed and published under an open source license.
 

@@ -26,7 +26,7 @@ Der Transformer ist ein neuronales Netzwerkmodell, das speziell für die Verarbe
 
 Vorhergehende Konzepte basieren Wortvorhersagen ausschließlich auf der Grundlage früherer Wörter. Im Gegensatz dazu ermöglicht der Aufmerksamkeits-Mechanismus der Transformer, Wörter bidirektional vorherzusagen – also auf der Grundlage sowohl der vorherigen als auch der nachfolgenden Wörter. 
 
-![KI Modelle Zeitleiste](./images/lernos-ki-abb-modelle.png)
+![KI Modelle Zeitleiste](./images/ai-models-timeline.png)
 
 Diese Entwicklung von LLMs zeigt die obige Grafik. Wie wir sehen können, wurden die ersten modernen Modelle kurz nach der Entwicklung der Transformer vorgestellt. Die Grafik zeigt, dass es inzwischen mehr und mehr zur Entwicklung von Modellen kommt, die mit einer Open Source-Lizenz veröffentlicht werden.
 
