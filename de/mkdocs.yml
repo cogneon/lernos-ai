@@ -2,6 +2,7 @@ site_name: lernOS KI Leitfaden
 site_url: https://ai.lernos.org/de
 docs_dir: src
 site_dir: ../docs/de
+edit_uri: ''
 
 nav:
     - Willkommen: index.md
@@ -75,6 +76,7 @@ extra:
          - name: English
            link: https://ai.lernos.org/en
            lang: en
+    generator: false
 
 plugins:
   - search

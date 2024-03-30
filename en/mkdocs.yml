@@ -2,6 +2,7 @@ site_name: lernOS AI Guide
 site_url: https://ai.lernos.org/en/
 docs_dir: src
 site_dir: ../docs/en
+edit_uri: ''
 
 nav:
     - Welcome: index.md
@@ -75,6 +76,7 @@ extra:
          - name: German
            link: https://ai.lernos.org/de
            lang: de
+    generator: false
 
 plugins:
   - search
