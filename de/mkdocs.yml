@@ -53,7 +53,8 @@ theme:
       logo: material/home
       repo: fontawesome/brands/github
     features:
-      - toc.integrate 
+      - toc.integrate
+      - search.share
 
 extra_css:
   - stylesheets/extra.css
