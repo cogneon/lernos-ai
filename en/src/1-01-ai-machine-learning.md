@@ -4,7 +4,7 @@ The title of this LernOS guide is **"Artificial Intelligence "**. In this basic 
 
 In this guide, we will limit ourselves to the **AI applications** that **citizens** and **employees** are likely to come into direct contact with **in their everyday lives** and that they themselves also use.
 
-![](./images/lernos-ki-spiegelei.png)
+![Artificial intelligence from 1956 to today](./images/lernos-ki-spiegelei.png)
 
 In this infographic, we have presented a hierarchical and chronological categorisation of the key stages in the development of artificial intelligence.  From its first mention around 1956 to Generative AI in 2021, it can be seen as a journey from theoretical concepts to practical applications with increasing depth and complexity. Since the mid-20th century, the landscape has changed from simple, rule-based algorithms to complex learning systems capable of taking on and performing human-like tasks.
 

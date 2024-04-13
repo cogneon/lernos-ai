@@ -79,8 +79,6 @@ Auch OpenAI (die Entwickler von ChatGPT) beschreiben in ihrem Artikel <a href="h
 5. **Sei passgenau**: Generative KIs sind nicht die beste Lösung für jede Aufgabe. So sind Sprachmodelle, wie GPT-3.5 z. B. gut in der Entwicklung eines Lösungsvorgehens, aber nicht besonders gut und zuverlässig im Rechnen. Nutze deshalb weitere Tools (wie z. B. GPT-4 mit Code-Interpreter) um Operationen durchzuführen, die das Modell nicht selbstständig ausführen kann.
 
 6. **Sei evaluativ**: Erstelle und vergleiche unterschiedliche Prompts systematisch, um die Wirkung des Prompts und die Leistungsfähigkeit des Modelles besser einschätzen und optimieren zu können.
-   
-
 
 
 ### Bereitstellen von Beispielen

@@ -6,7 +6,7 @@ Dieser Prozess der Erkundung und Anpassung findet sich auch beim maschinellen Le
 
 Für uns war es sinnvoll, den gesamten Prozess als **Kreislauf von insgesamt sieben Schritten** darzustellen. Wir haben uns für diese Darstellung entschieden, um menschliches und maschinelles Lernen gegenüberzustellen. Für Prozesse, die ausschließlich auf maschinellem Lernen basieren, findet man in der Literatur verschiedene Darstellungen. [Schematische Darstellung des maschinellen Lernprozesses. Wichtig ist, dass der Lernprozess nach einem Durchlauf nicht abgeschlossen ist, sondern in mehreren Schleifen erfolgt. Auch das ist eine Gemeimsamkeit zwischen dem menschlichen und dem maschinellen Lernen.
 
-![](images/human-and-machine-learning.png)
+![Menschliches und maschinelles Lernen](images/human-and-machine-learning.png)
 
 Nehmen wir zur Erläuterung des gesamten Lernprozesses ein konkretes Beispiel: Eine KI-Anwendung soll lernen, Bilder von Hunden und Katzen zu unterscheiden.
 
@@ -32,8 +32,8 @@ Das Kind lernt durch Wiederholung und Rückmeldung der Eltern. Wenn es einen Hun
    
 In der KI gibt es zwei grundlegende Arten des Trainings:
 
-- Beim überwachten Lernen (**Supervised Learning**) (https://en.wikipedia.org/wiki/Supervised_learning) bekommt das Modell zu allen Trainingsdaten die korrekte Klassifikation. Anhand dieser Labels lernt es die relevanten Merkmale. In diese Lernkategorie gehören auch neuronale Netze.
-- Beim unüberwachten Lernen (**Unsupervised Learning**)(https://en.wikipedia.org/wiki/Unsupervised_learning) erhält das Modell nur die Daten ohne Labels. Es muss selbst Ähnlichkeiten erkennen und die Daten gruppieren. So entdeckt es eigenständig Muster und Strukturen. Das unüberwachte Lernen kann als ergänzende Methode beim Training eingesetzt werden, um dem Modell noch tiefergehendes Verständnis zu ermöglichen. Es hilft dem Modell, latente Merkmale und Zusammenhänge zwischen den Daten zu erfassen, die möglicherweise nicht durch das überwachte Lernen allein erfasst werden könnten.
+- Beim überwachten Lernen ([Supervised Learning](https://en.wikipedia.org/wiki/Supervised_learning)) bekommt das Modell zu allen Trainingsdaten die korrekte Klassifikation. Anhand dieser Labels lernt es die relevanten Merkmale. In diese Lernkategorie gehören auch neuronale Netze.
+- Beim unüberwachten Lernen ([Unsupervised Learning](https://en.wikipedia.org/wiki/Unsupervised_learning)) erhält das Modell nur die Daten ohne Labels. Es muss selbst Ähnlichkeiten erkennen und die Daten gruppieren. So entdeckt es eigenständig Muster und Strukturen. Das unüberwachte Lernen kann als ergänzende Methode beim Training eingesetzt werden, um dem Modell noch tiefergehendes Verständnis zu ermöglichen. Es hilft dem Modell, latente Merkmale und Zusammenhänge zwischen den Daten zu erfassen, die möglicherweise nicht durch das überwachte Lernen allein erfasst werden könnten.
 
 Die Ergänzung bzw. die Kombination von neuronalen Netzen mit dem überwachten Lernen nennt man **Deep Learning**, ein Begriff, der auch häufig in der KI-Diskussion auftaucht.
 

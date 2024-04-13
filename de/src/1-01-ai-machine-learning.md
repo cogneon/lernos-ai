@@ -4,7 +4,7 @@ Der Titel dieses  LernOS Leitfadens ist **“Künstliche Intelligenz”**. In de
 
 Wir beschränken uns in diesem Leitfaden auf die **KI-Anwendungen**, mit denen **Bürger:innen** und **Mitarbeiter:innen** voraussichtlich direkt **in ihrem Alltag in Berührung kommen** und die sie selbst auch nutzen.
 
-![](./images/lernos-ki-spiegelei.png)
+![Künstliche Intelligenz von 1956 bis heute](./images/lernos-ki-spiegelei.png)
 
 Wir haben in dieser Infographik eine hierarchische und gleichzeitig zeitliche Einordnung der wesentlichen Entwicklungsschritte der Künstliche Intelligenz dargestellt.  Seit ihrer ersten Erwähnung um 1956 bis zur Generativen KI 2021 kann sie als eine Reise von theoretischen Konzepten zu praktischen Anwendungen mit zunehmender Tiefe und Komplexität betrachtet werden. Seit Mitte des 20. Jahrhunderts hat sich die Landschaft von einfachen, regelbasierten Algorithmen zu komplexen Lernsystemen gewandelt, die in der Lage sind, menschenähnliche Aufgaben zu übernehmen und zu erfüllen.
 

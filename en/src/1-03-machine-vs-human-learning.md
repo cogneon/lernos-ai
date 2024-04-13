@@ -6,7 +6,7 @@ This process of exploration and adaptation can also be found in machine learning
 
 It made sense for us to visualise the entire process as a **cycle of seven steps**. We opted for this representation in order to compare human and machine learning. For processes that are based exclusively on machine learning, various representations can be found in the literature. [Schematic representation of the machine learning process. It is important to note that the learning process is not completed after one run, but takes place in several loops. This is another similarity between human and machine learning.
 
-![](images/human-and-machine-learning.png)
+![Human and machine learning](images/human-and-machine-learning.png)
 
 Let's take a concrete example to explain the entire learning process: An AI application needs to learn to distinguish between pictures of dogs and cats.
 
@@ -32,8 +32,8 @@ The child learns through repetition and feedback from the parent. If it calls a 
    
 There are two basic types of training in AI:
 
-- In supervised learning (**Supervised Learning**) (https://en.wikipedia.org/wiki/Supervised_learning), the model is given the correct classification for all training data. It learns the relevant features based on these labels. Neural networks also belong to this learning category.
-- In unsupervised learning (**Unsupervised Learning**)(https://en.wikipedia.org/wiki/Unsupervised_learning), the model only receives the data without labels. It has to recognise similarities itself and group the data. In this way, it independently discovers patterns and structures. Unsupervised learning can be used as a supplementary method during training to give the model an even deeper understanding. It helps the model to recognise latent features and relationships between the data that might not be detected by supervised learning alone.
+- In supervised learning ([Supervised Learning](https://en.wikipedia.org/wiki/Supervised_learning)), the model is given the correct classification for all training data. It learns the relevant features based on these labels. Neural networks also belong to this learning category.
+- In unsupervised learning ([Unsupervised Learning](https://en.wikipedia.org/wiki/Unsupervised_learning)), the model only receives the data without labels. It has to recognise similarities itself and group the data. In this way, it independently discovers patterns and structures. Unsupervised learning can be used as a supplementary method during training to give the model an even deeper understanding. It helps the model to recognise latent features and relationships between the data that might not be detected by supervised learning alone.
 
 The addition or combination of neural networks with supervised learning is called **deep learning**, a term that is also frequently used in AI discussions.
 

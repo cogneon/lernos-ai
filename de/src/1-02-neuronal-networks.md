@@ -4,7 +4,7 @@ Bei der sog. **Transformer-Architektur** von generativer KI wie z.B. GPT handelt
 
 Die Neuronen in einem neuronalen Netz werden dabei in **Schichten** (Layern) hintereinander angeordnet. Man spricht von der **Eingabeschicht** (rot), der **Ausgabeschicht** (grün) und den **versteckten Schichten** (blau).
 
-![](images/neural-network.png "By Glosser.ca - Own work, Derivative of File:Artificial neural network.svg, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=24913461")
+![Neuronales Netzwerk mit Input-, Hidden- und Output-Schichten](images/neural-network.png)
 
 Ein einzelnes künstliches Neuron ist dabei mit allen Neuronen der vorgelagerten Schicht verbunden. Die Verbindingen darf man sich nicht wie Schalter (ein/aus) vorstellen. Vielmehr werden die Signale aller Eingaben gewichtet und mit einer Übertragungsfunktion als Netzeingabe verwendet. Eine Aktivierungsfunktion führt unter Berücksichtigung eines Schwellwerts zur Aktivierung des Neurons (das Neuron feuert). Die Gewichtungen entsprechen den Parametern des Netzes (ein Llama 2 7B Modell hat z.B. 7 Milliarden solcher Parameter).
 

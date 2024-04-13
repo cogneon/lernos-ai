@@ -4,7 +4,7 @@ The so-called **transformer architecture** of generative AI such as GPT involves
 
 The neurons in a neural network are arranged in **layers** one behind the other. We speak of the **input layer** (red), the **output layer** (green) and the **hidden layers** (blue).
 
-![](images/neural-network.png "By Glosser.ca - Own work, Derivative of File:Artificial neural network.svg, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=24913461   ")
+![Neural network with input, hidden, and output layers](images/neural-network.png)
 
 A single artificial neuron is connected to all neurons in the upstream layer. The connections should not be thought of as switches (on/off). Instead, the signals of all inputs are weighted and used as network input with a transfer function. An activation function leads to the activation of the neuron (the neuron fires), taking into account a threshold value. The weightings correspond to the parameters of the network (a Llama 2 7B model, for example, has 7 billion such parameters).
 
