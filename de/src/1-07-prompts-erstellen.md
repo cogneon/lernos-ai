@@ -63,22 +63,16 @@ Hier ein konkretes Beispiel:
 - **Zusätzliche Information:** Ich interessiere mich besonders für historische Stätten und bin ein Liebhaber von Sushi. Zudem möchte ich gerne eine Wanderung machen.
 
 
-
 ### Prompting-Tipps von OpenAI
 
 Auch OpenAI (die Entwickler von ChatGPT) beschreiben in ihrem Artikel <a href="https://platform.openai.com/docs/guides/prompt-engineering/prompt-engineering">Prompt Engineering</a> genauer, was aus ihrer Sicht einen "guten" Prompt ausmacht:
 
 1. **Sei spezifisch**: Stelle sicher, dass die Anfragen alle wichtigen Details oder den Kontext enthalten, damit das Modell nicht raten muss, was Du meinst. Je genauer Du den Hintergrund, Dein Anliegen und die Art der erwarteten Ausgabe beschreibst, umso besser wird die Antwort sein.
-
-2. **Sei modular**: Zerlege komplexe Aufgaben in eine Reihe von einfacheren Aufgaben, die nacheinander ausgeführt werden können. Nutze Struktur, wie z. B. Stichpunkte, um Aspekte klar zu unterteilen.
-
-3. **Sei geduldig**: Fordere das Modell auf, zuerst den Weg zur Antwort zu beschreiben, anstatt sofort zu antworten. Du bekommst bessere Antworten, wenn das Modell zuerst einen Lösungsweg ("chain of thought") entwickelt und diesen anschließend durchführt.
-
-4. **Sei ergänzend**: Wenn zu wenig Informationen verfügbar sind neigen Sprachmodelle dazu, unzutreffende Antworten zu erfinden. Versorge das Modell deshalb mit relevanten und aktuellen Informationen, damit es besser antworten kann. Wenn Du Zugriff auf Quellen (wie z. B. Dokumente oder Bücher) brauchst, dann nutze KI-Systeme, die Daten verarbeiten können. 
-
-5. **Sei passgenau**: Generative KIs sind nicht die beste Lösung für jede Aufgabe. So sind Sprachmodelle, wie GPT-3.5 z. B. gut in der Entwicklung eines Lösungsvorgehens, aber nicht besonders gut und zuverlässig im Rechnen. Nutze deshalb weitere Tools (wie z. B. GPT-4 mit Code-Interpreter) um Operationen durchzuführen, die das Modell nicht selbstständig ausführen kann.
-
-6. **Sei evaluativ**: Erstelle und vergleiche unterschiedliche Prompts systematisch, um die Wirkung des Prompts und die Leistungsfähigkeit des Modelles besser einschätzen und optimieren zu können.
+1. **Sei modular**: Zerlege komplexe Aufgaben in eine Reihe von einfacheren Aufgaben, die nacheinander ausgeführt werden können. Nutze Struktur, wie z. B. Stichpunkte, um Aspekte klar zu unterteilen.
+1. **Sei geduldig**: Fordere das Modell auf, zuerst den Weg zur Antwort zu beschreiben, anstatt sofort zu antworten. Du bekommst bessere Antworten, wenn das Modell zuerst einen Lösungsweg ("chain of thought") entwickelt und diesen anschließend durchführt.
+1. **Sei ergänzend**: Wenn zu wenig Informationen verfügbar sind neigen Sprachmodelle dazu, unzutreffende Antworten zu erfinden. Versorge das Modell deshalb mit relevanten und aktuellen Informationen, damit es besser antworten kann. Wenn Du Zugriff auf Quellen (wie z. B. Dokumente oder Bücher) brauchst, dann nutze KI-Systeme, die Daten verarbeiten können. 
+1. **Sei passgenau**: Generative KIs sind nicht die beste Lösung für jede Aufgabe. So sind Sprachmodelle, wie GPT-3.5 z. B. gut in der Entwicklung eines Lösungsvorgehens, aber nicht besonders gut und zuverlässig im Rechnen. Nutze deshalb weitere Tools (wie z. B. GPT-4 mit Code-Interpreter) um Operationen durchzuführen, die das Modell nicht selbstständig ausführen kann.
+1. **Sei evaluativ**: Erstelle und vergleiche unterschiedliche Prompts systematisch, um die Wirkung des Prompts und die Leistungsfähigkeit des Modelles besser einschätzen und optimieren zu können.
 
 
 ### Bereitstellen von Beispielen
