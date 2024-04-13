@@ -27,7 +27,7 @@ Well-known Office applications such as Microsoft 365 are gradually offering corp
 - [**Microsoft 365 Copilot**](https://support.microsoft.com/de-de/copilot): AI-supported assistance in Microsoft products for text creation, summaries, text revisions, image search or generation of presentations.
 
 
-### AI-supported, multimodal tools
+### Multimodal AI tools
 
 These offerings provide several tools for the various application areas under one roof.
 
@@ -38,7 +38,7 @@ These offerings provide several tools for the various application areas under on
 - [**You.Com**](https://you.com): Tools _YouChat, YouCode, YouImagine, YouWrite_ for research, text creation, code assistance and image generation, English-language, free basic use.
 
 
-### AI-supported text tools
+### AI tools for text
 
 AI text tools allow you to interact with the tool as if you were having a conversation with another person. They support online research and provide a wide range of assistance with text creation, translations and revisions.
 
@@ -53,7 +53,7 @@ AI text tools allow you to interact with the tool as if you were having a conver
 - [**Pi**](https://pi.ai/talk): Text chat with voice output on various topics as an empathic counterpart, English-language, free to use.
 
 
-### AI-powered coding tools
+### AI tools for code
 
 Code tools with AI are innovative programs that help developers work more efficiently. They generate short code snippets, open discussions about different approaches and provide explanations for code fragments. They can also be used to revise existing code in order to improve its quality.
 
@@ -64,18 +64,18 @@ Code tools with AI are innovative programs that help developers work more effici
 - **YouCode:** Code assistance (see above)
 
 
-### AI-supported image tools
+### AI tools for images
 
 Image tools use AI to generate and optimize photos and graphics. Text instructions are processed, understood and used accordingly to generate suitable images. They are able to generate so-called deepfakes: photos (or videos) in which the facial features of a person are transferred to the image of another person.
 
 - [**Adobe Express**](https://www.adobe.com/de/express): Generation of images as well as editing and enhancement of images, German-language, free basic use.
 - [**Bing Creator**](https://bing.com/create): Image generation with _DALL-E,_ German-language, free basic use.
 - [**CivitAI**](https://civitai.com): Image generation with template selection and text prompt, English language, registration required, free basic use.
-- Use **Midjourney** (for a fee) via **Poe** (see above).
+- Use **Midjourney** (for a fee) use via Discord, web interface or **Poe** (see above).
 - [**Stable Diffusion WebUI**](https://stablediffusionweb.com/WebUI) **/** [**Stable Difusion App**](https://stablediffusionweb.com/app): in addition to the online tool, can also be used offline and without a subscription on your own computer.
 
 
-### AI-supported audio tools
+### AI tools for audio
 
 Audio tools with AI allow voice input to control applications. They can generate natural-looking speech based on text input. Some tools replace the audio track of a video file, for example with a translation of the spoken text, for so-called dubbing. Other tools are capable of voice cloning, i.e. transferring the characteristics of a spoken voice to a synthesized voice output.
 
@@ -86,7 +86,7 @@ Audio tools with AI allow voice input to control applications. They can generate
 - [**MacWhisper**](https://goodsnooze.gumroad.com/l/macwhisper): Fast, secure and accurate speech recognition on MacOS or iOS devices, 100 supported languages, free basic use.
 
 
-### AI-supported video tools
+### AI tools for video
 
 Video tools use AI to generate suitable videos from text input or animate human-like avatars whose movements and facial expressions look very realistic. By transferring the characteristics of a real person to a person in a video, some tools can create so-called deepfakes that look extremely realistic.
 

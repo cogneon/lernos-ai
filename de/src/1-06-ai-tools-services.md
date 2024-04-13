@@ -27,7 +27,7 @@ Bekannte Office-Anwendungen wie Microsoft 365 bieten der Unternehmens-Kundschaft
 - [**Microsoft 365 Copilot**](https://support.microsoft.com/de-de/copilot): KI-gestützte Assistenz in den Microsoft Produkten für Texterstellung, Zusammenfassungen, Textüberarbeitungen, Bildersuche oder Generierung von Präsentationen.
 
 
-### KI-gestützte, multimodale Tools
+### Multimodale KI-Tools
 
 Diese Angebote bieten gleich mehrere Werkzeuge für die verschiedenen Anwendungsgebiete unter einem Dach.
 
@@ -38,7 +38,7 @@ Diese Angebote bieten gleich mehrere Werkzeuge für die verschiedenen Anwendungs
 - [**You.Com**](https://you.com): Tools _YouChat, YouCode, YouImagine, YouWrite_ für Recherche, Texterstellung, Code-Assistenz und Bildgenerierung, englischsprachig, kostenfreie Basis-Nutzung.
 
 
-### KI-gestützte Text-Tools
+### KI-Tools für Text
 
 KI-Text-Tools ermöglichen die Interaktion mit dem Tool wie in einer Unterhaltung mit einem anderen Menschen. Sie unterstützen die Online-Recherche und geben vielfältige Hilfestellung bei der Texterstellung, ebenso bei Übersetzungen und Überarbeitungen.
 
@@ -53,7 +53,7 @@ KI-Text-Tools ermöglichen die Interaktion mit dem Tool wie in einer Unterhaltun
 - [**Pi**](https://pi.ai/talk): Textchat mit Sprachausgabe zu verschiedenen Themen als empathisches Gegenüber, englischsprachig, kostenfreie Nutzung.
 
 
-### KI-gestützte Codierungshilfen
+### KI-Tools für Code
 
 Code-Tools mit KI sind innovative Programme, die Entwickler:innen helfen, effizienter zu arbeiten. Sie generieren kurze Code-Snippets, eröffnen Diskussionen über verschiedene Lösungsansätze und bieten Erklärungen zu Code-Fragmenten. Außerdem können sie zur Überarbeitung bestehenden Codes eingesetzt werden, um dessen Qualität zu verbessern.
 
@@ -64,18 +64,18 @@ Code-Tools mit KI sind innovative Programme, die Entwickler:innen helfen, effizi
 - **YouCode:** Code-Assistenz (s.o.)
 
 
-### KI-gestützte Bild-Tools
+### KI-Tools für Bilder
 
 Bild-Tools nutzen KI für die Erzeugung und Optimierung von Fotos und Grafiken. Textanweisungen werden verarbeitet, verstanden und entsprechend für die Generierung von passenden Bildern verwendet. Sie sind in der Lage, so genannte Deepfakes zu erzeugen: Fotos (oder Videos) in denen die Gesichtszüge einer Person auf die Aufnahme eines anderen Menschen übertragen werden.
 
 - [**Adobe Express**](https://www.adobe.com/de/express): Generierung von Bildern sowie Bearbeitung und Verbesserung von Bildern, deutschsprachig, kostenfreie Basis-Nutzung.
 - [**Bing Creator**](https://bing.com/create): Bildgenerierung mit _DALL-E,_ deutschsprachig, kostenfreie Basis-Nutzung.
 - [**CivitAI**](https://civitai.com): Bildgenerierung mit Vorlagenauswahl und Text-Prompt, englischsprachig, Registrierung erforderlich, kostenfreie Basis-Nutzung.
-- **Midjourney** (kostenpflichtig) via **Poe** nutzen (s.o.).
+- **Midjourney** (kostenpflichtig) über Discord, Web-Interface oder **Poe** nutzen (s.o.).
 - [**Stable Diffusion WebUI**](https://stablediffusionweb.com/WebUI) **/** [**Stable Difusion App**](https://stablediffusionweb.com/app): neben Online-Tool auch offline und ohne Abo auf dem eigenen Computer nutzbar.
 
 
-### KI-gestützte Audio-Tools
+### KI-Tools für Audio
 
 Audio-Tools mit KI erlauben die Spracheingabe zur Steuerung von Anwendungen. Sie können aufgrund von Textinputs natürlich wirkende Sprache erzeugen. Einige Tools ersetzen die Tonspur einer Videodatei, zum Beispiel mit einer Übersetzung des gesprochenen Textes, für das so genannte Dubbing. Andere Tools beherrschen das Voice Cloning, die Übertragung der Besonderheiten einer gesprochenen Stimme auf eine synthetisierte Sprachausgabe.
 
@@ -86,7 +86,7 @@ Audio-Tools mit KI erlauben die Spracheingabe zur Steuerung von Anwendungen. Sie
 - [**MacWhisper**](https://goodsnooze.gumroad.com/l/macwhisper): Schnelle, sichere und genaue Spracherkennung auf MacOS- oder iOS-Geräten, 100 unterstützte Sprachen, kostenfreie Basis-Nutzung.
 
 
-### KI-gestützte Video-Tools
+### KI-Tools für Video
 
 Video-Tools generieren mit KI aus Texteingaben passende Videos oder animieren menschenähnliche Avatare, deren Bewegung und Mimik sehr realistisch wirken. Durch die Übertragung von Besonderheiten eines realen Menschen auf eine Person in einem Video können einige Tools so genannte Deepfakes erzeugen, die enorm realitätsgetreu wirken.
 
