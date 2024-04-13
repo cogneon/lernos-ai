@@ -4,7 +4,7 @@ Das folgende Grundlagen-Kapitel soll Dir eine kompakte Orientierungshilfe für d
 
 ### Was ist eigentlich ein Prompt?
 
-In der IT bezeichnet der Begriff "Prompt" die Aufforderung an den Nutzer, eine Eingabe in eine textbasierte Konsole zu tätigen (Quelle: [https://de.wikipedia.org/wiki/Prompt](https://de.wikipedia.org/wiki/Prompt)). Bei chatbasierten KI-Systemen, wie ChatGPT steht der Prompt für den Eingabetext, den ein Benutzer an das Sprachmodell sendet, um eine Antwort zu erhalten. Das Sprachmodell (Large Language Model bzw. LLM) generiert eine Antwort durch die Vorhersage der wahrscheinlichsten Fortsetzung des Textes, basierend auf gelernten Mustern und Informationen. Die Qualität der Antwort hängt in starkem Maße von dem Prompt selbst ab. Es lohnt sich deshalb zu erlernen, wie man Prompts so erstellen kann, dass diese die vom Nutzer gewünschten Ausgaben so gut wie möglich erzeugen.
+In der IT bezeichnet der Begriff [Prompt](https://en.wikipedia.org/wiki/Command-line_interface#Command_prompt) die Aufforderung an den Nutzer, eine Eingabe in eine textbasierte Konsole zu tätigen. Bei chatbasierten KI-Systemen, wie ChatGPT steht der Prompt für den Eingabetext, den ein Benutzer an das Sprachmodell sendet, um eine Antwort zu erhalten. Das Sprachmodell (Large Language Model bzw. LLM) generiert eine Antwort durch die Vorhersage der wahrscheinlichsten Fortsetzung des Textes, basierend auf gelernten Mustern und Informationen. Die Qualität der Antwort hängt in starkem Maße von dem Prompt selbst ab. Es lohnt sich deshalb zu erlernen, wie man Prompts so erstellen kann, dass diese die vom Nutzer gewünschten Ausgaben so gut wie möglich erzeugen.
 
 ### Prompt Engineering
 
