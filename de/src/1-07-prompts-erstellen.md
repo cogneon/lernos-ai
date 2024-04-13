@@ -138,7 +138,7 @@ Gute Beispiele für fortgeschrittene Prompts sind:
 
 **Tipp:** Fortgeschrittene Prompts funktionieren wesentlich besser in leistungsfähigeren KI-Systemen wie z. B. GPT-4. 
 
-### Wenn Du noch tiefer gehen willst ...
+### Wenn Du noch tiefer gehen willst
 
 Es gibt zahlreiche gute Zusammenstellungen zu Prompt-Techniken, wie z.B.
 

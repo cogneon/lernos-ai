@@ -133,7 +133,7 @@ Good examples of advanced prompts are
 
 **Tip:** Advanced prompts work much better in more powerful AI systems such as GPT-4. 
 
-### If you want to go even deeper ...
+### If you want to go even deeper
 
 There are numerous good compilations on prompt techniques, such as
 
