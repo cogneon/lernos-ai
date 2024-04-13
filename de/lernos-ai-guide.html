@@ -168,7 +168,7 @@
 <header id="title-block-header">
 <h1 class="title">lernOS KI Leitfaden</h1>
 <p class="subtitle">Künstliche Intelligenz für alle</p>
-<p class="date">Version 0.1 (30.04.2024)</p>
+<p class="date">Version 0.2 (30.04.2024)</p>
 </header>
 <nav id="TOC" role="doc-toc">
 <ul>
@@ -279,7 +279,7 @@ class="toc-section-number">5.2</span> Änderungshistorie</a></li>
 <h1 data-number="1" id="willkommen"><span
 class="header-section-number">1</span> Willkommen</h1>
 <p>Herzlich willkommen im <strong>lernOS Künstliche Intelligenz (KI)
-Leitfaden</strong>. Der Leitfaden steht in einer ersten Version 0.1 zur
+Leitfaden</strong>. Der Leitfaden steht in einer ersten Version 0.2 zur
 Verprobung bereit. Im <a href="https://loscon.lernos.org/">lernOS KI
 MOOC</a> vom <strong>6.5.-21.6.2024</strong> werden wir den Leitfaden
 dem Praxistest unterziehen und mit Eurem Feedback eine Version 1.0
@@ -354,7 +354,12 @@ früheren Konsumverhalten, um nur einige zu nennen.</p>
 und <strong>Mitarbeiter:innen</strong> voraussichtlich direkt <strong>in
 ihrem Alltag in Berührung kommen</strong> und die sie selbst auch
 nutzen.</p>
-<p><img src="./images/lernos-ki-spiegelei.png" /></p>
+<figure>
+<img src="./images/lernos-ki-spiegelei.png"
+alt="Künstliche Intelligenz von 1956 bis heute" />
+<figcaption aria-hidden="true">Künstliche Intelligenz von 1956 bis
+heute</figcaption>
+</figure>
 <p>Wir haben in dieser Infographik eine hierarchische und gleichzeitig
 zeitliche Einordnung der wesentlichen Entwicklungsschritte der
 Künstliche Intelligenz dargestellt. Seit ihrer ersten Erwähnung um 1956
@@ -614,8 +619,12 @@ Netzen wie z.B. in einem Gehirn nachempfunden sind.</p>
 spricht von der <strong>Eingabeschicht</strong> (rot), der
 <strong>Ausgabeschicht</strong> (grün) und den <strong>versteckten
 Schichten</strong> (blau).</p>
-<p><img src="images/neural-network.png"
-title="By Glosser.ca - Own work, Derivative of File:Artificial neural network.svg, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=24913461" /></p>
+<figure>
+<img src="images/neural-network.png"
+alt="Neuronales Netzwerk mit Input-, Hidden- und Output-Schichten" />
+<figcaption aria-hidden="true">Neuronales Netzwerk mit Input-, Hidden-
+und Output-Schichten</figcaption>
+</figure>
 <p>Ein einzelnes künstliches Neuron ist dabei mit allen Neuronen der
 vorgelagerten Schicht verbunden. Die Verbindingen darf man sich nicht
 wie Schalter (ein/aus) vorstellen. Vielmehr werden die Signale aller
@@ -661,34 +670,16 @@ dass der Lernprozess nach einem Durchlauf nicht abgeschlossen ist,
 sondern in mehreren Schleifen erfolgt. Auch das ist eine Gemeimsamkeit
 zwischen dem menschlichen und dem maschinellen Lernen.</p>
 <figure>
-<img
-src="https://github.com/cogneon/lernos-ai/assets/10791207/db59996b-86e8-4101-94f3-fa210b198c59"
-alt="Ein kreisförmige Infografik, die einen Prozess illustriert, welcher die Schritte im Maschinenlernzyklus darstellt. Beginnend mit der ‘Problemdefinition’ oben, gefolgt von ‘Datensammlung’, ‘Modellauswahl’, ‘Training’, ‘Validierung’, ‘Anwendung’ und zurück zu ‘Feedback’. Jeder Schritt ist durch einen Pfeil verbunden, der den Übergang zum nächsten Schritt anzeigt. Die Schritte sind durch orange Rechtecke mit entsprechenden Icons repräsentiert, die auf schwarzem Hintergrund hervorstechen, was den kontinuierlichen und iterativen Charakter des Maschinenlernens symbolisiert." />
-<figcaption aria-hidden="true">Ein kreisförmige Infografik, die einen
-Prozess illustriert, welcher die Schritte im Maschinenlernzyklus
-darstellt. Beginnend mit der ‘Problemdefinition’ oben, gefolgt von
-‘Datensammlung’, ‘Modellauswahl’, ‘Training’, ‘Validierung’, ‘Anwendung’
-und zurück zu ‘Feedback’. Jeder Schritt ist durch einen Pfeil verbunden,
-der den Übergang zum nächsten Schritt anzeigt. Die Schritte sind durch
-orange Rechtecke mit entsprechenden Icons repräsentiert, die auf
-schwarzem Hintergrund hervorstechen, was den kontinuierlichen und
-iterativen Charakter des Maschinenlernens symbolisiert.</figcaption>
+<img src="images/human-and-machine-learning.png"
+alt="Menschliches und maschinelles Lernen" />
+<figcaption aria-hidden="true">Menschliches und maschinelles
+Lernen</figcaption>
 </figure>
 <p>Nehmen wir zur Erläuterung des gesamten Lernprozesses ein konkretes
 Beispiel: Eine KI-Anwendung soll lernen, Bilder von Hunden und Katzen zu
 unterscheiden.</p>
 <h3 data-number="3.3.1" id="situation"><span
 class="header-section-number">3.3.1</span> Situation</h3>
-<figure>
-<img
-src="https://github.com/cogneon/lernos-ai/assets/10791207/5eabaebd-e0c7-4d24-a2f2-3e6910bb1e23"
-alt="1_Problemdefinition - Ein Icon, das einen vereinfachten, stilisierten Umriss einer Katze zeigt, die links positioniert ist, und einen ähnlichen Umriss eines Hundes, der rechts positioniert ist, mit einem Pfeil, der von der Katze zum Hund zeigt. Das Icon ist in einem abgerundeten Quadrat eingefasst." />
-<figcaption aria-hidden="true">1_Problemdefinition - Ein Icon, das einen
-vereinfachten, stilisierten Umriss einer Katze zeigt, die links
-positioniert ist, und einen ähnlichen Umriss eines Hundes, der rechts
-positioniert ist, mit einem Pfeil, der von der Katze zum Hund zeigt. Das
-Icon ist in einem abgerundeten Quadrat eingefasst.</figcaption>
-</figure>
 <p>Bei Kindern ist die Ausgangssituation für den Beginn eines
 Lernprozesses nicht so explizit wie in einem KI-Projekt, sondern eher
 durch eine intrinsische Motivation ausgelöst oder durch einen von der
@@ -699,17 +690,6 @@ erkennen. Generalisiert übertragen auf die KI heißt das, dass sie Bilder
 klassifizieren soll.</p>
 <h3 data-number="3.3.2" id="datensammlung"><span
 class="header-section-number">3.3.2</span> Datensammlung</h3>
-<figure>
-<img
-src="https://github.com/cogneon/lernos-ai/assets/10791207/47859dbb-dc55-4fda-afc5-e1e55125d95f"
-alt="2_Datensammlung - Ein Icon, das eine stilisierte Klemmmappe darstellt, auf der oben die Gesichter einer Katze und eines Hundes zu sehen sind, gefolgt von mehreren Zeilen Text und Pfeilen, die nach unten zeigen. Dies deutet auf einen Prozess der Datenerfassung oder -auflistung hin. Das Icon ist in einem abgerundeten Quadratrahmen platziert." />
-<figcaption aria-hidden="true">2_Datensammlung - Ein Icon, das eine
-stilisierte Klemmmappe darstellt, auf der oben die Gesichter einer Katze
-und eines Hundes zu sehen sind, gefolgt von mehreren Zeilen Text und
-Pfeilen, die nach unten zeigen. Dies deutet auf einen Prozess der
-Datenerfassung oder -auflistung hin. Das Icon ist in einem abgerundeten
-Quadratrahmen platziert.</figcaption>
-</figure>
 <p>In der realen Welt sieht das Kind viele verschiedene Hunde und
 Katzen. Es erkennt Tiere, wenn sie 4 Beine haben und einen Schwanz und
 sagt “Wau wau”. Die Eltern helfen dem Kind, indem sie auf die Tiere
@@ -721,20 +701,6 @@ bereinigt werden, um Fehler oder irrelevante Informationen zu
 entfernen.</p>
 <h3 data-number="3.3.3" id="modellauswahl"><span
 class="header-section-number">3.3.3</span> Modellauswahl</h3>
-<figure>
-<img
-src="https://github.com/cogneon/lernos-ai/assets/10791207/62dfb0e6-2b40-4c71-89e5-85d36b06a521"
-alt="3_Modellauswahl - Ein Icon, das einen Kreislauf darstellt, in dessen Zentrum sich ein vereinfachtes Diagramm mit Verzweigungen und Punkten befindet, das für eine Entscheidungsfindung oder Modellauswahl stehen könnte. Um das Diagramm herum sind drei stilisierte Symbole angeordnet: links ein Tierkopf, oben ein menschliches Gesicht mit einem Fragezeichen und rechts ein Hundekopf. Pfeile zeigen in eine kreisförmige Bewegung, die den Prozess der Auswahl symbolisiert. Das Icon ist von einem abgerundeten Quadrat umgeben." />
-<figcaption aria-hidden="true">3_Modellauswahl - Ein Icon, das einen
-Kreislauf darstellt, in dessen Zentrum sich ein vereinfachtes Diagramm
-mit Verzweigungen und Punkten befindet, das für eine
-Entscheidungsfindung oder Modellauswahl stehen könnte. Um das Diagramm
-herum sind drei stilisierte Symbole angeordnet: links ein Tierkopf, oben
-ein menschliches Gesicht mit einem Fragezeichen und rechts ein
-Hundekopf. Pfeile zeigen in eine kreisförmige Bewegung, die den Prozess
-der Auswahl symbolisiert. Das Icon ist von einem abgerundeten Quadrat
-umgeben.</figcaption>
-</figure>
 <p>Im Kopf des Kindes bilden sich durch Wiederholung und Korrektur feste
 neuronale Verbindungen, was zu einer klareren Unterscheidung zwischen
 Hunden und Katzen führt. Dieser Prozess ist ähnlich der Art und Weise,
@@ -752,33 +718,20 @@ Lernprozess eines Kindes, das durch ständiges Ausprobieren und die
 daraus resultierenden Korrekturen lernt.</p>
 <h3 data-number="3.3.4" id="training"><span
 class="header-section-number">3.3.4</span> Training</h3>
-<figure>
-<img
-src="https://github.com/cogneon/lernos-ai/assets/10791207/4311b263-232a-4a51-baff-9aed34a0a9c9"
-alt="4_Training - Ein Icon mit zwei Bildern, die durch einen Pfeil verbunden sind, was einen Prozess darstellt. Auf der linken Seite ist ein stilisiertes Bild eines schemenhaften Tieres mit Kopf und vier Beinen, und auf der rechten Seite befindet sich die Darstellung einer detaillierten Katze in Profilansicht. Dies bildet den Prozess des Lernens oder Trainings ab, bei dem von einer einfachen Darstellung zu einem komplexeren Zustand übergegangen wird. Das Ganze ist in einem abgerundeten Quadratrahmen platziert." />
-<figcaption aria-hidden="true">4_Training - Ein Icon mit zwei Bildern,
-die durch einen Pfeil verbunden sind, was einen Prozess darstellt. Auf
-der linken Seite ist ein stilisiertes Bild eines schemenhaften Tieres
-mit Kopf und vier Beinen, und auf der rechten Seite befindet sich die
-Darstellung einer detaillierten Katze in Profilansicht. Dies bildet den
-Prozess des Lernens oder Trainings ab, bei dem von einer einfachen
-Darstellung zu einem komplexeren Zustand übergegangen wird. Das Ganze
-ist in einem abgerundeten Quadratrahmen platziert.</figcaption>
-</figure>
 <p>Das Kind lernt durch Wiederholung und Rückmeldung der Eltern. Wenn es
 einen Hund als Katze bezeichnet, wird es korrigiert. So verfeinert das
 Kind mit jeder Korrektur sein inneres Modell.</p>
 <p>In der KI gibt es zwei grundlegende Arten des Trainings:</p>
 <ul>
-<li>Beim überwachten Lernen (<strong>Supervised Learning</strong>)
-(https://en.wikipedia.org/wiki/Supervised_learning) bekommt das Modell
-zu allen Trainingsdaten die korrekte Klassifikation. Anhand dieser
-Labels lernt es die relevanten Merkmale. In diese Lernkategorie gehören
-auch neuronale Netze.</li>
-<li>Beim unüberwachten Lernen (<strong>Unsupervised
-Learning</strong>)(https://en.wikipedia.org/wiki/Unsupervised_learning)
-erhält das Modell nur die Daten ohne Labels. Es muss selbst
-Ähnlichkeiten erkennen und die Daten gruppieren. So entdeckt es
+<li>Beim überwachten Lernen (<a
+href="https://en.wikipedia.org/wiki/Supervised_learning">Supervised
+Learning</a>) bekommt das Modell zu allen Trainingsdaten die korrekte
+Klassifikation. Anhand dieser Labels lernt es die relevanten Merkmale.
+In diese Lernkategorie gehören auch neuronale Netze.</li>
+<li>Beim unüberwachten Lernen (<a
+href="https://en.wikipedia.org/wiki/Unsupervised_learning">Unsupervised
+Learning</a>) erhält das Modell nur die Daten ohne Labels. Es muss
+selbst Ähnlichkeiten erkennen und die Daten gruppieren. So entdeckt es
 eigenständig Muster und Strukturen. Das unüberwachte Lernen kann als
 ergänzende Methode beim Training eingesetzt werden, um dem Modell noch
 tiefergehendes Verständnis zu ermöglichen. Es hilft dem Modell, latente
@@ -796,19 +749,6 @@ genügend Training kann es dann auch neue Daten zuverlässig
 klassifizieren.</p>
 <h3 data-number="3.3.5" id="validierung"><span
 class="header-section-number">3.3.5</span> Validierung</h3>
-<figure>
-<img
-src="https://github.com/cogneon/lernos-ai/assets/10791207/6e3dab7b-a0e0-43ca-868d-9e66bf61403f"
-alt="5_Validierung - Ein Icon, das einen Validierungsprozess darstellt, zentriert um einen Mikrochip mit einem Fragezeichen. Um den Chip herum sind verschiedene Symbole angeordnet: zwei verschiedene Hunde unten, eine Katze, eine menschliche Silhouette und ein Fragezeichen oben, sowie mathematische Symbole wie Pluszeichen und Multiplikationszeichen. Dies deutet die Zusammenführung verschiedener Elemente und deren Überprüfung an. Das Bild ist in einen abgerundeten Quadrat eingefasst." />
-<figcaption aria-hidden="true">5_Validierung - Ein Icon, das einen
-Validierungsprozess darstellt, zentriert um einen Mikrochip mit einem
-Fragezeichen. Um den Chip herum sind verschiedene Symbole angeordnet:
-zwei verschiedene Hunde unten, eine Katze, eine menschliche Silhouette
-und ein Fragezeichen oben, sowie mathematische Symbole wie Pluszeichen
-und Multiplikationszeichen. Dies deutet die Zusammenführung
-verschiedener Elemente und deren Überprüfung an. Das Bild ist in einen
-abgerundeten Quadrat eingefasst.</figcaption>
-</figure>
 <p>Ähnlich wie ein Kind lernen muss, Hunde und Katzen auch in neuen
 Situationen richtig zu erkennen, muss ein KI-Modell beweisen, dass es in
 der Lage ist, Daten zu generalisieren und nicht nur auswendig gelernt
@@ -823,20 +763,6 @@ ermöglicht es dem Modell, seine Leistung kontinuierlich zu
 verbessern.</p>
 <h3 data-number="3.3.6" id="anwendung"><span
 class="header-section-number">3.3.6</span> Anwendung</h3>
-<figure>
-<img
-src="https://github.com/cogneon/lernos-ai/assets/10791207/1f0b7fec-a8eb-481a-9c8f-13fbbb6a1c92"
-alt="6_Anwendung - Ein Icon, das die Anwendung gelernten Wissens in verschiedenen Situationen darstellt. Links ist ein Kind mit einer Lupe abgebildet, das verschiedene Tiere beobachtet, darunter ein Vogel und ein Hund. Im Zentrum steht ein Computermonitor mit einem komplexen Netzwerk und einer Katze auf dem Bildschirm, was auf ein trainiertes KI-Modell hindeutet. Rechts ist ein Zeigestab, der auf das Netzwerk weist, was die Anwendung des Modells auf neue Daten symbolisiert. Das Ganze ist in einem abgerundeten Quadrat eingerahmt." />
-<figcaption aria-hidden="true">6_Anwendung - Ein Icon, das die Anwendung
-gelernten Wissens in verschiedenen Situationen darstellt. Links ist ein
-Kind mit einer Lupe abgebildet, das verschiedene Tiere beobachtet,
-darunter ein Vogel und ein Hund. Im Zentrum steht ein Computermonitor
-mit einem komplexen Netzwerk und einer Katze auf dem Bildschirm, was auf
-ein trainiertes KI-Modell hindeutet. Rechts ist ein Zeigestab, der auf
-das Netzwerk weist, was die Anwendung des Modells auf neue Daten
-symbolisiert. Das Ganze ist in einem abgerundeten Quadrat
-eingerahmt.</figcaption>
-</figure>
 <p>Nach dem Training kann das KI-Modell sein gelerntes Wissen anwenden,
 ähnlich wie ein Kind sein Wissen nutzt, um neue Tiere draußen korrekt zu
 erkennen und zu benennen. Das trainierte Modell kann in verschiedenen
@@ -847,18 +773,6 @@ verschiedene Tiere erkennt und dieses Wissen praktisch anwendet, findet
 ein trainiertes KI-Modell Anwendung in realen Systemen.</p>
 <h3 data-number="3.3.7" id="feedback"><span
 class="header-section-number">3.3.7</span> Feedback</h3>
-<figure>
-<img
-src="https://github.com/cogneon/lernos-ai/assets/10791207/8db0d25b-adef-45e6-b11d-dcc42c94c4b8"
-alt="7_Feedback - Ein Icon, das den Feedback-Prozess symbolisiert, mit einem offenen Buch in der Mitte und einem Pfeil, der einen Kreis bildet, der sich von dem Buch aus nach außen und wieder zurück bewegt. Dies deutet einen kontinuierlichen Lern- und Verbesserungszyklus an, bei dem Informationen aufgenommen, angewandt und dann als Feedback für weitere Verbesserungen verwendet werden. Das Design ist in einem abgerundeten Quadrat eingefasst." />
-<figcaption aria-hidden="true">7_Feedback - Ein Icon, das den
-Feedback-Prozess symbolisiert, mit einem offenen Buch in der Mitte und
-einem Pfeil, der einen Kreis bildet, der sich von dem Buch aus nach
-außen und wieder zurück bewegt. Dies deutet einen kontinuierlichen Lern-
-und Verbesserungszyklus an, bei dem Informationen aufgenommen, angewandt
-und dann als Feedback für weitere Verbesserungen verwendet werden. Das
-Design ist in einem abgerundeten Quadrat eingefasst.</figcaption>
-</figure>
 <p>Regelmäßiges Feedback ist für das Kind unerlässlich, um zu lernen und
 sich weiterzuentwickeln. So wird es beispielsweise durch Spiele, die die
 Unterscheidung von Farben und Formen fördern, oder durch interaktive
@@ -924,113 +838,117 @@ href="https://www.mckinsey.com/featured-insights/mckinsey-%20explainers/whats-th
 the future of generative AI?</a> anwendungsnäher:</p>
 <table>
 <colgroup>
-<col style="width: 6%" />
-<col style="width: 26%" />
-<col style="width: 67%" />
+<col style="width: 28%" />
+<col style="width: 71%" />
 </colgroup>
 <thead>
 <tr class="header">
-<th>Modalität</th>
-<th>Anwendungsfeld</th>
+<th>Modalität/Anwendungsfeld</th>
 <th>Beispiel</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>Text</strong></td>
+<td><strong>TEXT</strong></td>
+<td></td>
+</tr>
+<tr class="even">
 <td>Inhalte erstellen</td>
 <td>Kommunikation: Personalisierte Emails und Posts
 erstellen<br/>Personal: Interview-Fragen und Job-Beschreibungen
 erstellen</td>
 </tr>
-<tr class="even">
-<td></td>
+<tr class="odd">
 <td>Chatbots und Assistenten</td>
 <td>Kommunikation: Chatbots für Webseiten im Internet und Intranet</td>
 </tr>
-<tr class="odd">
-<td></td>
+<tr class="even">
 <td>Suche</td>
 <td>Natürlichsprachige Suche statt Schlagwortsuche</td>
 </tr>
-<tr class="even">
-<td></td>
+<tr class="odd">
 <td>Analyse und Synthese</td>
 <td>Vertrieb: Kundeninteraktion analysieren<br/>Recht: Gesetze und
 regulatorische Dokumente zusammenfassen</td>
 </tr>
+<tr class="even">
+<td><strong>CODE</strong></td>
+<td></td>
+</tr>
 <tr class="odd">
-<td><strong>Code</strong></td>
 <td>Code erstellen</td>
 <td>IT: Anwendungserstellung<br/>IT: Low-Code und No-Code
 ermöglichen</td>
 </tr>
 <tr class="even">
-<td></td>
 <td>Prototypen von Anwendungen und Designs erstellen</td>
 <td>IT: Prototypen und Benutzeroberflächen schnell designen</td>
 </tr>
 <tr class="odd">
-<td></td>
 <td>Datensätze generieren</td>
 <td>IT: KI-Modellqualität durch Datensätze verbessern</td>
 </tr>
 <tr class="even">
-<td><strong>Bild</strong></td>
+<td><strong>BILD</strong></td>
+<td></td>
+</tr>
+<tr class="odd">
 <td>Bilder erstellen</td>
 <td>Kommunikation: einzigartige Bilder generieren (statt
 Stockfotos)</td>
 </tr>
-<tr class="odd">
-<td></td>
+<tr class="even">
 <td>Bilder bearbeiten</td>
 <td>Kommunikation: Bild-Hintergründe entfernen oder verändern</td>
 </tr>
+<tr class="odd">
+<td><strong>AUDIO</strong></td>
+<td></td>
+</tr>
 <tr class="even">
-<td><strong>Audio</strong></td>
 <td>Text-to-Speech generieren</td>
 <td>Training: Voiceover Stimmen erzeugen</td>
 </tr>
 <tr class="odd">
-<td></td>
 <td>Sounds generieren</td>
 <td>Medien: Hintergrundgeräusche oder -Musik erzeugen</td>
 </tr>
 <tr class="even">
-<td></td>
 <td>Audio bearbeiten</td>
 <td>Kommunikation: Podcasts editieren ohne neue Aufnahme</td>
 </tr>
 <tr class="odd">
-<td><strong>Video</strong></td>
+<td><strong>VIDEO</strong></td>
+<td></td>
+</tr>
+<tr class="even">
 <td>Video erstellen</td>
 <td>Training: kurze Lernvideos mit AI-Avataren erzeugen</td>
 </tr>
-<tr class="even">
-<td></td>
+<tr class="odd">
 <td>Video bearbeiten</td>
 <td>Marketing: Standard-Videos personalisieren<br/>Kommunikation:
 Hintergründe von Videos entfernen</td>
 </tr>
-<tr class="odd">
-<td></td>
+<tr class="even">
 <td>Sprache übersetzen und anpassen</td>
 <td>Kommunikation: Dubbing, Originalsprache durch Voiceover
 ersetzen<br/>Meetings: Live-Übersetzung in Besprechungen</td>
 </tr>
-<tr class="even">
-<td></td>
+<tr class="odd">
 <td>Gesichtstausch und Anpassungen vornehmen</td>
 <td>Kommunikation: Übersetzung mit Veränderung der Lippenbewegung für
 andere Sprachen</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><strong>3D &amp; VR</strong></td>
+<td></td>
+</tr>
+<tr class="odd">
 <td>3D-Objekte generieren</td>
 <td>Videospiele: Charaktere und Objekte erstellen</td>
 </tr>
 <tr class="even">
-<td></td>
 <td>Produkte designen und erfahrbar machen</td>
 <td>Produktentwicklung: Entwicklungsprozess beschleunigen</td>
 </tr>
@@ -1175,89 +1093,78 @@ Kursfragen sein. Genauso schreiben entsprechend trainierte KIs auch
 Software-Code.</p>
 <table>
 <colgroup>
-<col style="width: 18%" />
-<col style="width: 18%" />
-<col style="width: 31%" />
-<col style="width: 31%" />
+<col style="width: 91%" />
+<col style="width: 8%" />
 </colgroup>
 <thead>
 <tr class="header">
-<th>Bezeichnung des Modells</th>
-<th>Kurzinfo</th>
-<th style="text-align: center;">Modellgröße in Mrd. Parameter</th>
-<th style="text-align: center;">Open Source</th>
+<th>Modell</th>
+<th style="text-align: center;">Modellgröße (Mrd. Parameter),
+Lizenz</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><a
-href="https://blog.google/technology/ai/google-gemini-ai"><strong>Gemini</strong></a></td>
-<td>Nach experimentellen Sprachmodellen konzipierte Google dieses Modell
-von Grund auf multimodal. Es kann verschiedene Arten von Informationen –
+href="https://blog.google/technology/ai/google-gemini-ai"><strong>Gemini</strong></a> -
+Nach experimentellen Sprachmodellen konzipierte Google dieses Modell von
+Grund auf multimodal. Es kann verschiedene Arten von Informationen –
 Text, Code, Bild, Audio oder Video – interpretieren. Das Modell wird auf
 anspruchsvolle logische Aufgaben, Übersetzungen und zur Generierung
 natürlicher Sprache trainiert.</td>
-<td style="text-align: center;">8.000</td>
-<td style="text-align: center;">N</td>
+<td style="text-align: center;">8.000, closed source</td>
 </tr>
 <tr class="even">
-<td><a href="https://openai.com/gpt-4"><strong>GPT</strong></a></td>
-<td>Die Abkürzung des bekanntesten Modells steht für <em>Generative
-Pre-trained Transformer.</em> Anbieter OpenAI trainiert das Modell für
-Dialoge, Textgenerierung oder auch Code-Entwicklung. Die Eingabe
-verarbeitet Text, Sprache oder Bildmaterial. Das Sprachmodell wird
-iterativ durch Verstärkungslernen mit menschlichem Feedback
-(Reinforcement Learning from Human Feedback, RLHF) verbessert.</td>
-<td style="text-align: center;">175 (GPT-3)<br/>1.000 (GPT-4)<br/>2.000
-(GPT-5)</td>
-<td style="text-align: center;">N</td>
+<td><a href="https://openai.com/gpt-4"><strong>GPT</strong></a> - Die
+Abkürzung des bekanntesten Modells steht für <em>Generative Pre-trained
+Transformer.</em> Anbieter OpenAI trainiert das Modell für Dialoge,
+Textgenerierung oder auch Code-Entwicklung. Die Eingabe verarbeitet
+Text, Sprache oder Bildmaterial. Das Sprachmodell wird iterativ durch
+Verstärkungslernen mit menschlichem Feedback (Reinforcement Learning
+from Human Feedback, RLHF) verbessert.</td>
+<td style="text-align: center;">1.000 (GPT-4), closed source</td>
 </tr>
 <tr class="odd">
-<td><a href="https://leam.ai"><strong>LEAM</strong></a></td>
-<td>Die Abkürzung steht für <em>Large European AI Models,</em> deren
-Entwicklung berücksichtigt insbesondere europäische Werteinstellungen
-und hohe Anforderungen in Bezug auf Datenschutz, Transparenz und
+<td><a href="https://leam.ai"><strong>LEAM</strong></a> - Die Abkürzung
+steht für <em>Large European AI Models,</em> deren Entwicklung
+berücksichtigt insbesondere europäische Werteinstellungen und hohe
+Anforderungen in Bezug auf Datenschutz, Transparenz und
 Voreingenommenheit. Gleichzeitig soll die Gestaltung des Trainings von
 KI-Modellen nachhaltiger werden.</td>
-<td style="text-align: center;">k.A.</td>
-<td style="text-align: center;">?</td>
+<td style="text-align: center;">k.A., ?</td>
 </tr>
 <tr class="even">
 <td><a
-href="https://laion.ai/blog-de/leo-lm"><strong>LeoLM</strong></a></td>
-<td>Die Abkürzung steht für <em>Linguistically Enhanced Open Language
+href="https://laion.ai/blog-de/leo-lm"><strong>LeoLM</strong></a> - Die
+Abkürzung steht für <em>Linguistically Enhanced Open Language
 Model,</em> das erste offen und kommerziell verfügbare deutsche
 Basis-Sprachmodell. Es basiert auf einer Version von
 <em>LLaMA</em>.</td>
-<td style="text-align: center;">k.A.</td>
-<td style="text-align: center;">?</td>
+<td style="text-align: center;">k.A., ?</td>
 </tr>
 <tr class="odd">
-<td><a href="https://ai.meta.com/llama"><strong>LLaMA</strong></a></td>
-<td>Anbieter Meta trainiert die Modellvarianten <em>LLaMA Chat</em> für
+<td><a href="https://ai.meta.com/llama"><strong>LLaMA</strong></a> -
+Anbieter Meta trainiert die Modellvarianten <em>LLaMA Chat</em> für
 Dialoge sowie <em>Code LLaMA</em> mit code-spezifischen Datensätzen für
 die Softwareentwicklung.</td>
-<td style="text-align: center;">65 (LLaMA)<br/>70 (LLaMA-2)</td>
-<td style="text-align: center;">J</td>
+<td style="text-align: center;">70 (LLaMA-2), open source</td>
 </tr>
 <tr class="even">
 <td><a
-href="https://docs.aleph-alpha.com/docs/introduction/model-card"><strong>Luminous</strong></a></td>
-<td>Von Aleph Alpha ist ein in fünf europäischen Sprachen trainiertes
+href="https://docs.aleph-alpha.com/docs/introduction/model-card"><strong>Luminous</strong></a> -
+Von Aleph Alpha ist ein in fünf europäischen Sprachen trainiertes
 Sprachmodell: Deutsch, Englisch, Französisch, Italienisch und Spanisch.
 Die Eingabe zur Textentwicklung kann mit Text oder kombiniert mit
 Bildern erfolgen.</td>
-<td style="text-align: center;">200</td>
-<td style="text-align: center;">N</td>
+<td style="text-align: center;">200, closed source</td>
 </tr>
 <tr class="odd">
 <td><a
-href="https://platform.openai.com/docs/models/whisper"><strong>Whisper</strong></a></td>
-<td>Universell einsetzbares Modell von Open AI, das die mehrsprachige
+href="https://platform.openai.com/docs/models/whisper"><strong>Whisper</strong></a> -
+Universell einsetzbares Modell von Open AI, das die mehrsprachige
 Erkennung von Sprache in Audiodateien bietet und das Ergebnis als Text
 oder übersetzten Text ausgibt.</td>
-<td style="text-align: center;">k.A.</td>
-<td style="text-align: center;">J</td>
+<td style="text-align: center;">k.A., open source</td>
 </tr>
 </tbody>
 </table>
@@ -1273,67 +1180,63 @@ Pixel in einem Bild fortlaufend und in Interaktion miteinander basierend
 auf gelernten Informationen, um neue Inhalte zu erzeugen. </p>
 <table>
 <colgroup>
-<col style="width: 27%" />
-<col style="width: 27%" />
-<col style="width: 45%" />
+<col style="width: 96%" />
+<col style="width: 3%" />
 </colgroup>
 <thead>
 <tr class="header">
-<th>Bezeichnung des Modells</th>
-<th>Kurzinfo</th>
+<th>Modell</th>
 <th style="text-align: center;">Open Source</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><a
-href="https://platform.openai.com/docs/models/dall-e"><strong>DALL•E</strong></a></td>
-<td>Das Modell von Open AI versteht Beschreibungen in natürlicher
-Sprache, um daraufhin detaillierte und real wirkende Fotos und
-Kunstwerke zu erstellen. Das Modell wird in vielen Anwendungen als Basis
-genutzt.</td>
-<td style="text-align: center;">N</td>
+href="https://platform.openai.com/docs/models/dall-e"><strong>DALL•E</strong></a> -
+Das Modell von Open AI versteht Beschreibungen in natürlicher Sprache,
+um daraufhin detaillierte und real wirkende Fotos und Kunstwerke zu
+erstellen. Das Modell wird in vielen Anwendungen als Basis genutzt.</td>
+<td style="text-align: center;">closed source</td>
 </tr>
 <tr class="even">
 <td><a href="https://firefly.adobe.com"><strong>Firefly
-Image</strong></a></td>
-<td>Das Modell zur Bildgenerierung von Adobe setzt auf lizenzierte Fotos
-der eigenen Bilddatenbank und gemeinfreies Bildmaterial. Für die Version
-2 ist das individuelle Trainieren mit eigenen Werken in der Entwicklung.
-Das Modell generiert ähnlich hochwertige Bilder wie DALL•E.</td>
-<td style="text-align: center;">J</td>
+Image</strong></a> - Das Modell zur Bildgenerierung von Adobe setzt auf
+lizenzierte Fotos der eigenen Bilddatenbank und gemeinfreies
+Bildmaterial. Für die Version 2 ist das individuelle Trainieren mit
+eigenen Werken in der Entwicklung. Das Modell generiert ähnlich
+hochwertige Bilder wie DALL•E.</td>
+<td style="text-align: center;">closed source</td>
 </tr>
 <tr class="odd">
 <td><a href="https://huggingface.co/blog/lora"><strong>LoRA Stable
-Diffusion</strong></a></td>
-<td>Die Abkürzung steht für <em>Learn On Reconstruction and
-Attention.</em> Das Modell ist eine Kombination von Algorithmen für das
-Fine-Tuning von Bildern und Bildstil-Training. Nach Training mit
-ausgewählten Bildern erkennt die KI einen bestimmten Stil, um diesen
-dann auf andere Bilddaten anzuwenden. </td>
-<td style="text-align: center;">J</td>
+Diffusion</strong></a> - Die Abkürzung steht für <em>Learn On
+Reconstruction and Attention.</em> Das Modell ist eine Kombination von
+Algorithmen für das Fine-Tuning von Bildern und Bildstil-Training. Nach
+Training mit ausgewählten Bildern erkennt die KI einen bestimmten Stil,
+um diesen dann auf andere Bilddaten anzuwenden.</td>
+<td style="text-align: center;">open source</td>
 </tr>
 <tr class="even">
 <td><a
-href="https://docs.midjourney.com"><strong>Midourney</strong></a></td>
-<td>Das Modell des Forschungslabors Midjourney generiert hochwertige,
+href="https://docs.midjourney.com"><strong>Midourney</strong></a> - Das
+Modell des Forschungslabors Midjourney generiert hochwertige,
 hyperrealistische Bilder auf der Grundlage von Texteingaben. Es gibt
 künstlerische Stile sowie kreative Filter zur Anpassung erzeugter
 Bilder. Das Modell wird für seine einzigartige Verknüpfung von
 technischer Leistungsfähigkeit, künstlerischem Flair und einer
 lebendigen Community geschätzt.</td>
-<td style="text-align: center;">N</td>
+<td style="text-align: center;">closed source</td>
 </tr>
 <tr class="odd">
 <td><a
-href="https://huggingface.co/prompthero/openjourney"><strong>OpenJourney</strong></a></td>
-<td>OpenJourney ist ein von PromptHero entwickeltes kostenloses,
+href="https://huggingface.co/prompthero/openjourney"><strong>OpenJourney</strong></a> -
+OpenJourney ist ein von PromptHero entwickeltes kostenloses,
 quelloffenes Text-Bild-Modell. Es kann KI-Kunst im Stil von Midjourney
 generieren. HuggingFace. Die Benutzer bevorzugen Openjourney wegen
 seiner Fähigkeit, mit minimalen Eingaben beeindruckende Bilder zu
 erzeugen, und wegen seiner Eignung als Basismodell für die
 Feinabstimmung.</td>
-<td style="text-align: center;">J</td>
+<td style="text-align: center;">open source</td>
 </tr>
 </tbody>
 </table>
@@ -1355,8 +1258,7 @@ hoher Qualität.</p>
 <p>Auf der Basis dieser Modelle ist es möglich, Deepfakes zu
 generieren. </p>
 <h3 data-number="3.5.5" id="modelle-in-bewegung"><span
-class="header-section-number">3.5.5</span> Modelle in
-Bewegung<a id="modelle-in-bewegung"></a></h3>
+class="header-section-number">3.5.5</span> Modelle in Bewegung</h3>
 <p>Da die Modelle die Basis für die Leistungsfähigkeit einer
 KI-Anwendung darstellen, wird darin viel Entwicklung investiert. Dieses
 Kapitel ist daher nur eine Momentaufnahme. Bleib dran an den
@@ -1393,8 +1295,9 @@ berücksichtigt werden?</li>
 <p>(Oft ist zumindest eine Registrierung erforderlich.)</p>
 <figure>
 <img src="./images/ai-tools-services.png"
-alt="Übersicht Tools Services KI" />
-<figcaption aria-hidden="true">Übersicht Tools Services KI</figcaption>
+alt="Übersicht KI-Tools und -Services" />
+<figcaption aria-hidden="true">Übersicht KI-Tools und
+-Services</figcaption>
 </figure>
 <h3 data-number="3.6.1" id="tipps-empfehlungen"><span
 class="header-section-number">3.6.1</span> Tipps &amp; Empfehlungen</h3>
@@ -1420,9 +1323,8 @@ Copilot</strong></a>: KI-gestützte Assistenz in den Microsoft Produkten
 für Texterstellung, Zusammenfassungen, Textüberarbeitungen, Bildersuche
 oder Generierung von Präsentationen.</li>
 </ul>
-<h3 data-number="3.6.2" id="ki-gestützte-multimodale-tools"><span
-class="header-section-number">3.6.2</span> KI-gestützte, multimodale
-Tools</h3>
+<h3 data-number="3.6.2" id="multimodale-ki-tools"><span
+class="header-section-number">3.6.2</span> Multimodale KI-Tools</h3>
 <p>Diese Angebote bieten gleich mehrere Werkzeuge für die verschiedenen
 Anwendungsgebiete unter einem Dach.</p>
 <ul>
@@ -1454,8 +1356,8 @@ StableDiffusionXL, PaLM, Llama 2),</em> kostenfreie Basis-Nutzung.</li>
 Texterstellung, Code-Assistenz und Bildgenerierung, englischsprachig,
 kostenfreie Basis-Nutzung.</li>
 </ul>
-<h3 data-number="3.6.3" id="ki-gestützte-text-tools"><span
-class="header-section-number">3.6.3</span> KI-gestützte Text-Tools</h3>
+<h3 data-number="3.6.3" id="ki-tools-für-text"><span
+class="header-section-number">3.6.3</span> KI-Tools für Text</h3>
 <p>KI-Text-Tools ermöglichen die Interaktion mit dem Tool wie in einer
 Unterhaltung mit einem anderen Menschen. Sie unterstützen die
 Online-Recherche und geben vielfältige Hilfestellung bei der
@@ -1497,9 +1399,8 @@ Basis-Nutzung, DSGVO-konform.</li>
 Sprachausgabe zu verschiedenen Themen als empathisches Gegenüber,
 englischsprachig, kostenfreie Nutzung.</li>
 </ul>
-<h3 data-number="3.6.4" id="ki-gestützte-codierungshilfen"><span
-class="header-section-number">3.6.4</span> KI-gestützte
-Codierungshilfen</h3>
+<h3 data-number="3.6.4" id="ki-tools-für-code"><span
+class="header-section-number">3.6.4</span> KI-Tools für Code</h3>
 <p>Code-Tools mit KI sind innovative Programme, die Entwickler:innen
 helfen, effizienter zu arbeiten. Sie generieren kurze Code-Snippets,
 eröffnen Diskussionen über verschiedene Lösungsansätze und bieten
@@ -1524,8 +1425,8 @@ Copilot</strong></a>: Code-Assistenz, die Vorschläge und Optimierungen
 für Softwarecode liefert, kostenfreie Testnutzung.</li>
 <li><strong>YouCode:</strong> Code-Assistenz (s.o.)</li>
 </ul>
-<h3 data-number="3.6.5" id="ki-gestützte-bild-tools"><span
-class="header-section-number">3.6.5</span> KI-gestützte Bild-Tools</h3>
+<h3 data-number="3.6.5" id="ki-tools-für-bilder"><span
+class="header-section-number">3.6.5</span> KI-Tools für Bilder</h3>
 <p>Bild-Tools nutzen KI für die Erzeugung und Optimierung von Fotos und
 Grafiken. Textanweisungen werden verarbeitet, verstanden und
 entsprechend für die Generierung von passenden Bildern verwendet. Sie
@@ -1543,16 +1444,16 @@ Basis-Nutzung.</li>
 <li><a href="https://civitai.com"><strong>CivitAI</strong></a>:
 Bildgenerierung mit Vorlagenauswahl und Text-Prompt, englischsprachig,
 Registrierung erforderlich, kostenfreie Basis-Nutzung.</li>
-<li><strong>Midjourney</strong> (kostenpflichtig) via
-<strong>Poe</strong> nutzen (s.o.).</li>
+<li><strong>Midjourney</strong> (kostenpflichtig) über Discord,
+Web-Interface oder <strong>Poe</strong> nutzen (s.o.).</li>
 <li><a href="https://stablediffusionweb.com/WebUI"><strong>Stable
 Diffusion WebUI</strong></a> <strong>/</strong> <a
 href="https://stablediffusionweb.com/app"><strong>Stable Difusion
 App</strong></a>: neben Online-Tool auch offline und ohne Abo auf dem
 eigenen Computer nutzbar.</li>
 </ul>
-<h3 data-number="3.6.6" id="ki-gestützte-audio-tools"><span
-class="header-section-number">3.6.6</span> KI-gestützte Audio-Tools</h3>
+<h3 data-number="3.6.6" id="ki-tools-für-audio"><span
+class="header-section-number">3.6.6</span> KI-Tools für Audio</h3>
 <p>Audio-Tools mit KI erlauben die Spracheingabe zur Steuerung von
 Anwendungen. Sie können aufgrund von Textinputs natürlich wirkende
 Sprache erzeugen. Einige Tools ersetzen die Tonspur einer Videodatei,
@@ -1580,8 +1481,8 @@ href="https://goodsnooze.gumroad.com/l/macwhisper"><strong>MacWhisper</strong></
 Schnelle, sichere und genaue Spracherkennung auf MacOS- oder
 iOS-Geräten, 100 unterstützte Sprachen, kostenfreie Basis-Nutzung.</li>
 </ul>
-<h3 data-number="3.6.7" id="ki-gestützte-video-tools"><span
-class="header-section-number">3.6.7</span> KI-gestützte Video-Tools</h3>
+<h3 data-number="3.6.7" id="ki-tools-für-video"><span
+class="header-section-number">3.6.7</span> KI-Tools für Video</h3>
 <p>Video-Tools generieren mit KI aus Texteingaben passende Videos oder
 animieren menschenähnliche Avatare, deren Bewegung und Mimik sehr
 realistisch wirken. Durch die Übertragung von Besonderheiten eines
@@ -1649,13 +1550,13 @@ Prompten weiterhelfen. Und nun viel Spaß beim Lernen und Trainieren!</p>
 <h3 data-number="3.7.1" id="was-ist-eigentlich-ein-prompt"><span
 class="header-section-number">3.7.1</span> Was ist eigentlich ein
 Prompt?</h3>
-<p>In der IT bezeichnet der Begriff “Prompt” die Aufforderung an den
-Nutzer, eine Eingabe in eine textbasierte Konsole zu tätigen (Quelle: <a
-href="https://de.wikipedia.org/wiki/Prompt">https://de.wikipedia.org/wiki/Prompt</a>).
-Bei chatbasierten KI-Systemen, wie ChatGPT steht der Prompt für den
-Eingabetext, den ein Benutzer an das Sprachmodell sendet, um eine
-Antwort zu erhalten. Das Sprachmodell (Large Language Model bzw. LLM)
-generiert eine Antwort durch die Vorhersage der wahrscheinlichsten
+<p>In der IT bezeichnet der Begriff <a
+href="https://en.wikipedia.org/wiki/Command-line_interface#Command_prompt">Prompt</a>
+die Aufforderung an den Nutzer, eine Eingabe in eine textbasierte
+Konsole zu tätigen. Bei chatbasierten KI-Systemen, wie ChatGPT steht der
+Prompt für den Eingabetext, den ein Benutzer an das Sprachmodell sendet,
+um eine Antwort zu erhalten. Das Sprachmodell (Large Language Model bzw.
+LLM) generiert eine Antwort durch die Vorhersage der wahrscheinlichsten
 Fortsetzung des Textes, basierend auf gelernten Mustern und
 Informationen. Die Qualität der Antwort hängt in starkem Maße von dem
 Prompt selbst ab. Es lohnt sich deshalb zu erlernen, wie man Prompts so
@@ -1786,35 +1687,35 @@ OpenAI</h3>
 Engineering</a> genauer, was aus ihrer Sicht einen “guten” Prompt
 ausmacht:</p>
 <ol type="1">
-<li><p><strong>Sei spezifisch</strong>: Stelle sicher, dass die Anfragen
+<li><strong>Sei spezifisch</strong>: Stelle sicher, dass die Anfragen
 alle wichtigen Details oder den Kontext enthalten, damit das Modell
 nicht raten muss, was Du meinst. Je genauer Du den Hintergrund, Dein
 Anliegen und die Art der erwarteten Ausgabe beschreibst, umso besser
-wird die Antwort sein.</p></li>
-<li><p><strong>Sei modular</strong>: Zerlege komplexe Aufgaben in eine
+wird die Antwort sein.</li>
+<li><strong>Sei modular</strong>: Zerlege komplexe Aufgaben in eine
 Reihe von einfacheren Aufgaben, die nacheinander ausgeführt werden
 können. Nutze Struktur, wie z. B. Stichpunkte, um Aspekte klar zu
-unterteilen.</p></li>
-<li><p><strong>Sei geduldig</strong>: Fordere das Modell auf, zuerst den
+unterteilen.</li>
+<li><strong>Sei geduldig</strong>: Fordere das Modell auf, zuerst den
 Weg zur Antwort zu beschreiben, anstatt sofort zu antworten. Du bekommst
 bessere Antworten, wenn das Modell zuerst einen Lösungsweg (“chain of
-thought”) entwickelt und diesen anschließend durchführt.</p></li>
-<li><p><strong>Sei ergänzend</strong>: Wenn zu wenig Informationen
+thought”) entwickelt und diesen anschließend durchführt.</li>
+<li><strong>Sei ergänzend</strong>: Wenn zu wenig Informationen
 verfügbar sind neigen Sprachmodelle dazu, unzutreffende Antworten zu
 erfinden. Versorge das Modell deshalb mit relevanten und aktuellen
 Informationen, damit es besser antworten kann. Wenn Du Zugriff auf
 Quellen (wie z. B. Dokumente oder Bücher) brauchst, dann nutze
-KI-Systeme, die Daten verarbeiten können.</p></li>
-<li><p><strong>Sei passgenau</strong>: Generative KIs sind nicht die
-beste Lösung für jede Aufgabe. So sind Sprachmodelle, wie GPT-3.5 z. B.
-gut in der Entwicklung eines Lösungsvorgehens, aber nicht besonders gut
-und zuverlässig im Rechnen. Nutze deshalb weitere Tools (wie z. B. GPT-4
-mit Code-Interpreter) um Operationen durchzuführen, die das Modell nicht
-selbstständig ausführen kann.</p></li>
-<li><p><strong>Sei evaluativ</strong>: Erstelle und vergleiche
+KI-Systeme, die Daten verarbeiten können.</li>
+<li><strong>Sei passgenau</strong>: Generative KIs sind nicht die beste
+Lösung für jede Aufgabe. So sind Sprachmodelle, wie GPT-3.5 z. B. gut in
+der Entwicklung eines Lösungsvorgehens, aber nicht besonders gut und
+zuverlässig im Rechnen. Nutze deshalb weitere Tools (wie z. B. GPT-4 mit
+Code-Interpreter) um Operationen durchzuführen, die das Modell nicht
+selbstständig ausführen kann.</li>
+<li><strong>Sei evaluativ</strong>: Erstelle und vergleiche
 unterschiedliche Prompts systematisch, um die Wirkung des Prompts und
 die Leistungsfähigkeit des Modelles besser einschätzen und optimieren zu
-können.</p></li>
+können.</li>
 </ol>
 <h3 data-number="3.7.5" id="bereitstellen-von-beispielen"><span
 class="header-section-number">3.7.5</span> Bereitstellen von
@@ -1894,9 +1795,9 @@ at main · ProfSynapse/Super_Synapse (github.com)</a></li>
 wesentlich besser in leistungsfähigeren KI-Systemen wie z. B. GPT-4.</p>
 <h3 data-number="3.7.7" id="wenn-du-noch-tiefer-gehen-willst"><span
 class="header-section-number">3.7.7</span> Wenn Du noch tiefer gehen
-willst …</h3>
+willst</h3>
 <p>Es gibt zahlreiche gute Zusammenstellungen zu Prompt-Techniken, wie
-z.B.</p>
+z.B.:</p>
 <ul>
 <li><a
 href="https://cookbook.openai.com/articles/related_resources">Linksammlung
@@ -1927,8 +1828,8 @@ Prompt Professor</a>, die Dir bei der Verbesserung der Prompts helfen
 können.</p>
 <h3 data-number="3.7.9"
 id="ausblick-prompt-engineering-wird-voraussichtlich-an-bedeutung-verlieren"><span
-class="header-section-number">3.7.9</span> Ausblick: “Prompt
-Engineering”” wird voraussichtlich an Bedeutung verlieren</h3>
+class="header-section-number">3.7.9</span> Ausblick: Prompt Engineering
+wird voraussichtlich an Bedeutung verlieren</h3>
 <p>Gleichzeitig stellt sich aber auch die Frage, ob man wirklich noch
 tiefer in das “Prompt Engineering” eintauchen will oder sollte. Denn:
 Einerseits bilden die hier und in den Katas genannten
@@ -1954,13 +1855,13 @@ Zusammenhang mit „KI und Gesellschaft“ diskutiert werden. Zu jedem
 Aspekt sind Fragen zusammengestellt zur Selbstreflexion und zur
 Diskussion mit Deiner Lerngruppe:</p>
 <ul>
-<li><strong>Arbeitsplätze und Automatisierung</strong></li>
-<li><strong>Transparenz und Naschvollziehbarkeit</strong></li>
-<li><strong>Verzerrungen und Diskriminierungen</strong></li>
-<li><strong>Privatsphäre und Datenschutz</strong></li>
-<li><strong>Digitale Abhängigkeit</strong></li>
-<li><strong>Ethik und Wertesystem</strong></li>
-<li><strong>Regulierung</strong></li>
+<li>Arbeitsplätze und Automatisierung</li>
+<li>Transparenz und Naschvollziehbarkeit</li>
+<li>Verzerrungen und Diskriminierungen</li>
+<li>Privatsphäre und Datenschutz</li>
+<li>Digitale Abhängigkeit</li>
+<li>Ethik und Wertesystem</li>
+<li>Regulierung</li>
 </ul>
 <h3 data-number="3.8.1" id="arbeitsplätze-und-automatisierung"><span
 class="header-section-number">3.8.1</span> Arbeitsplätze und
@@ -1997,19 +1898,19 @@ Nachvollziehbarkeit</h3>
 <p>Nachvollziehbarkeit spielt bei KI-Systemen auf zwei Ebenen eine
 wichtige Rolle:</p>
 <ul>
-<li><p><strong>Trainingsmaterial</strong>: Es ist nicht immer
+<li><strong>Trainingsmaterial</strong>: Es ist nicht immer
 nachvollziehbar, auf welchem Material eine KI trainiert wurde. Je nach
 Trainingsmaterial erzeugt eine KI im Analysevorgang Verzerrungen (z.B.
 bezüglich Geschlecht oder anderen Merkmalen) bis hin zu politischen
-“Überzeugungen”.</p></li>
-<li><p><strong>Ergebnisse</strong>: Die Transparenz von KI-Systemen ist
+“Überzeugungen”.</li>
+<li><strong>Ergebnisse</strong>: Die Transparenz von KI-Systemen ist
 entscheidend für Vertrauen und Verantwortlichkeit. Was passiert in der
 Black Box zwischen einem Prompt und dem Output, insbesondere wenn auf
 der Basis der KI-Antworten automatisierte Entscheidungen getroffen
 werden. Bei heutigen KI-Systemen ist nicht nachvollziehbar, wie das
 Ergebnis zustande kommt. Die Forschung im Bereich <a
 href="https://de.wikipedia.org/wiki/Explainable_Artificial_Intelligence">“Explainable
-AI”</a> verspricht hier Abhilfe zu schaffen.</p></li>
+AI”</a> verspricht hier Abhilfe zu schaffen.</li>
 </ul>
 <p><strong>Reflexionsfragen:</strong></p>
 <ul>
@@ -2260,6 +2161,8 @@ von KI-Tools, das täglich aktualisiert wird</li>
 <li><a href="https://huggingface.co/papers">Hugging Face Daily
 Papers</a> - täglich aktuelle Artikel zu KI aus der Wissenschaft
 (Email-Benachrichtigung verfügbar)</li>
+<li><a href="https://www.flexos.work/ai-top-100">AI for Work Top 100</a>
+- Die 100 meistgenutzten KI-Tools für die Arbeit</li>
 </ol>
 <h3 data-number="3.9.5" id="weblogs-und-news"><span
 class="header-section-number">3.9.5</span> Weblogs und News</h3>
@@ -2297,9 +2200,12 @@ Engineer Podcast</a> - der Podcast von und für KI-Ingenieure
 (technisch)</li>
 <li><a href="https://lexfridman.com/podcast/">Lex Fridman Podcast</a> -
 folgen mit bekannten Personen der KI-Szene</li>
+<li><a
+href="https://podcasts.apple.com/de/podcast/the-next-wave/id1524660520">The
+Next Wave</a> - Podcast mit Matt Wolfe und Nathan Lands</li>
 </ol>
-<h3 data-number="3.9.7" id="videos"><span
-class="header-section-number">3.9.7</span> Videos</h3>
+<h3 data-number="3.9.7" id="videos-vlogs"><span
+class="header-section-number">3.9.7</span> Videos &amp; vLogs</h3>
 <ol type="1">
 <li><a href="https://www.youtube.com/watch?v=2IK3DFHRFfw">Generative AI
 in a nutshell</a> - Informatives Erklärvideo im Sketchnoting-/Graphic
@@ -2624,13 +2530,13 @@ praxisorientierten KI-Anwendungsfeldern</strong> verknüpfen.
 Grundsätzlich lassen sich KI-Tools den folgenden
 <strong>Kategorien</strong> zuordnen:</p>
 <ol type="1">
-<li>KI-gestützte Codierungshilfen (Unterstützung beim Prompting)</li>
-<li>KI-gestützte Text-Tools (Textgenerierung- und bearbeitung)</li>
-<li>KI-gestützte Bild-Tools (Bildgenerierung- und bearbeitung)</li>
-<li>KI-gestützte Audio-Tools (Tongenerierung und -bearbeitung)</li>
-<li>KI-gestützte Video-Tools (Videogenerierung und -bearbeitung)</li>
-<li>KI-gestützte Multi-Tools (Tools, die verschiedene der o.g.
-Kategorien kombiniert nutzbar machen)</li>
+<li>KI-Tools für Code (Unterstützung beim Prompting)</li>
+<li>KI-Tools für Text (Textgenerierung- und bearbeitung)</li>
+<li>KI-Tools für Bilder (Bildgenerierung- und bearbeitung)</li>
+<li>KI-Tools für Audio (Tongenerierung und -bearbeitung)</li>
+<li>KI-Tools für Video (Videogenerierung und -bearbeitung)</li>
+<li>Multimodale KI-Tools (Tools, die verschiedene der o.g. Kategorien
+kombiniert nutzbar machen)</li>
 </ol>
 <p>Du selbst kennst Deinen Arbeitsplatz / Dein Projekt und die damit
 verbundenen Tätigkeiten am besten. Überlege Dir, welche der
@@ -3064,6 +2970,12 @@ vielleicht zu einem gemeinsamen kleinen Abschluss-Event (persönlich oder
 online) und genießt Euren Lernerfolg! Die KI kann Euch ggf. ein guter
 Ideengeber dafür sein. Das Leitfaden-Team wünscht Euch viel Freude und
 Erfolg weiterhin und freut sich auf Euer Feedback!</p>
+<p><strong>Eine kleine Bitte noch:</strong> öffne die <a
+href="https://lernos.org/de/guides/ai/">Seite zum Leitfaden auf
+lernos.org</a> und hinterlasse ganz unten eine Bewertung (z.B. Daumen
+hoch) und gerne auch einen Kommentar mit Feedback. So kann das
+Leitfaden-Team und andere Lernende von Deinen Erfahrungen profitieren.
+Vielen Dank!</p>
 <h1 data-number="5" id="anhang"><span
 class="header-section-number">5</span> Anhang</h1>
 <h2 data-number="5.1" id="danksagungen"><span
