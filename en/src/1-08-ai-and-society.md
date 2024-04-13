@@ -2,13 +2,13 @@
 
 In today's digital era, Artificial Intelligence (AI) is a key technology that is reshaping our social and professional interactions. This chapter encourages reflection and discussion on the implications of AI in the context of your organization and society. We have identified 7 aspects that are discussed in the context of "AI and society". For each aspect, questions have been compiled for self-reflection and discussion with your learning group:
 
-- **Workplaces and automation**
-- **Transparency and comprehensibility**
-- **Distortions and discrimination**
-- **Privacy and data protection**
-- **Digital dependency**
-- **Ethics and value system**
-- **Regulation**
+- Workplaces and automation
+- Transparency and comprehensibility
+- Distortions and discrimination
+- Privacy and data protection
+- Digital dependency
+- Ethics and value system
+- Regulation
 
 ### Jobs and automation
 

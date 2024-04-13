@@ -155,6 +155,6 @@ that is unclear and then issuing a revised version of the prompt.
 There are much more comprehensive and elaborate prompts for improvement, such as [ChatGPT 4 Prompt Improvement (flowgpt.com)](https://flowgpt.com/p/chatgpt-4-prompt-improvement) (you can view the prompt via the "View Prompt" button). There are also GPTs, such as [Pro Prompter](https://chat.openai.com/g/g-uSEqrEWdX-pro-prompter) or the [ChatGPT - Prompt Professor](https://chat.openai.com/g/g-qfoOICq1l-prompt-professor), which can help you to improve the prompts.
 
 
-### Outlook: "Prompt engineering" is likely to become less important
+### Outlook: Prompt engineering is likely to become less important
 
 At the same time, however, the question arises as to whether we really want to or should delve deeper into prompt engineering. On the one hand, the prompting techniques mentioned here and in the katas form a solid basis for collaboration with AI. On the other hand, prompt engineering is likely to become less and less important as AI systems continue to develop, if they improve through continuous learning and adapt user input directly and appropriately. For example, image-generating AIs (such as DALL-E3) are already able to generate the prompt for the image themselves. It is clear that this field is currently moving forward very dynamically and is constantly optimizing itself.

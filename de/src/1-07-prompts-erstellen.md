@@ -160,6 +160,6 @@ ist Nachfragen stellst und dann eine überarbeitete Version des Prompts ausgibst
 Es gibt viel umfangreichere und elaboriertere Prompts zur Verbesserung, wie z. B. [ChatGPT 4 Prompt Improvement (flowgpt.com)](https://flowgpt.com/p/chatgpt-4-prompt-improvement) (Du kannst den Prompt über den Button "View Prompt" einsehen). Ebenso gibt es GPTs, wie z. B. [Pro Prompter](https://chat.openai.com/g/g-uSEqrEWdX-pro-prompter) oder den [ChatGPT - Prompt Professor](https://chat.openai.com/g/g-qfoOICq1l-prompt-professor), die Dir bei der Verbesserung der Prompts helfen können.
 
 
-### Ausblick: "Prompt Engineering"" wird voraussichtlich an Bedeutung verlieren
+### Ausblick: Prompt Engineering wird voraussichtlich an Bedeutung verlieren
 
 Gleichzeitig stellt sich aber auch die Frage, ob man wirklich noch tiefer in das "Prompt Engineering" eintauchen will oder sollte. Denn: Einerseits bilden die hier und in den Katas genannten Prompting-Techniken eine solide Basis für die Zusammenarbeit mit der KI. Andererseits wird Prompt Engineering - je mehr sich KI-Systeme weiterentwickeln - aller Voraussicht nach immer mehr an Bedeutung verlieren, wenn sich diese durch permanentes Lernen verbessern und die Nutzereingaben direkt geeignet anpassen. So ist es z. B. jetzt schon bei Bildgenerierenden KIs (wie z. B. DALL-E3) so, dass der Prompt für das Bild durch die KI selbst erstellt werden kann. Feststeht, dass sich dieses Feld derzeit sehr dynamisch voranbewegt und fortwährend selbst optimiert.
