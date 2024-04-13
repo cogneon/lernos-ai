@@ -35,6 +35,7 @@ Die Künstliche Intelligenz ist ein sehr dynamisches Wissensgebiet. Deswegen mus
 1. [Mozilla AI Guide - AI Basics](https://ai-guide.future.mozilla.org/content/ai-basics/) - Kurs von Mozilla (englisch) zu Artificial Intelligence, Machine Learning, Large Language Models und verwandten Technologien 
 1. [Futurepedia](https://www.futurepedia.io/) - Verzeichnis von KI-Tools, das täglich aktualisiert wird
 1. [Hugging Face Daily Papers](https://huggingface.co/papers) - täglich aktuelle Artikel zu KI aus der Wissenschaft (Email-Benachrichtigung verfügbar)
+1. [AI for Work Top 100](https://www.flexos.work/ai-top-100) - Die 100 meistgenutzten KI-Tools für die Arbeit
 
 ### Weblogs und News
 
@@ -51,8 +52,9 @@ Die Künstliche Intelligenz ist ein sehr dynamisches Wissensgebiet. Deswegen mus
 1. [KI Verstehen](https://www.deutschlandfunk.de/ki-verstehen-102.html) - Podcast des Deutschlandfunk mit wöchentlichen Antworten auf Fragen zum Umgang mit Künstlicher Intelligenz.
 1. [Latent Space - The AI Engineer Podcast](https://www.latent.space/podcast) - der Podcast von und für KI-Ingenieure (technisch)
 1. [Lex Fridman Podcast](https://lexfridman.com/podcast/) - folgen mit bekannten Personen der KI-Szene
+1. [The Next Wave](https://podcasts.apple.com/de/podcast/the-next-wave/id1524660520) - Podcast mit Matt Wolfe und Nathan Lands
 
-### Videos
+### Videos & vLogs
 
 1. [Generative AI in a nutshell](https://www.youtube.com/watch?v=2IK3DFHRFfw) - Informatives Erklärvideo im Sketchnoting-/Graphic Recording-Stil von Henrik Kniberg (18 min.)
 1. [Schlaue neue Welt - Das KI-Wettrennen](https://www.arte.tv/de/videos/115067-000-A/schlaue-neue-welt-das-ki-wettrennen/) - Arte-Dokumentation zur Darstellung des aktuellen Wettlaufs der Nationen um die Führungsrolle bei KI mit Beispielen und Interviews bekannter KI-Persönlichkeiten (1h 28 min.)

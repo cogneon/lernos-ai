@@ -35,6 +35,7 @@ Artificial intelligence is a very dynamic field of knowledge. Therefore, the fol
 1. [Mozilla AI Guide - AI Basics](https://ai-guide.future.mozilla.org/content/ai-basics/) - Course from Mozilla on Artificial Intelligence, Machine Learning, Large Language Models and related technologies 
 1. [Futurepedia](https://www.futurepedia.io/) - directory of AI tools that is updated daily
 1. [Hugging Face Daily Papers](https://huggingface.co/papers) - daily updated articles on AI from the scientific community (email notification available)
+1. [AI for Work Top 100](https://www.flexos.work/ai-top-100) - Top 100 most used AI Tools for work
 
 **Weblogs und News:**
 
@@ -51,8 +52,9 @@ Artificial intelligence is a very dynamic field of knowledge. Therefore, the fol
 1. [KI Verstehen](https://www.deutschlandfunk.de/ki-verstehen-102.html) - Podcast by Deutschlandfunk with weekly answers to questions about dealing with artificial intelligence.
 1. [Latent Space - The AI Engineer Podcast](https://www.latent.space/podcast) - the podcast by and for AI engineers (technical)
 1. [Lex Fridman Podcast](https://lexfridman.com/podcast/) - follow along with well-known people in the AI scene
+1. [The Next Wave](https://podcasts.apple.com/de/podcast/the-next-wave/id1524660520) - Podcast with Matt Wolfe and Nathan Lands
 
-**Videos:**
+**Videos & vLogs:**
 
 1. [Generative AI in a nutshell](https://www.youtube.com/watch?v=2IK3DFHRFfw) - Informative explanatory video in sketchnoting/graphic recording style by Henrik Kniberg (18 min.)
 1. [Smart New World - The AI Race](https://www.arte.tv/de/videos/115067-000-A/schlaue-neue-welt-das-ki-wettrennen/) - Arte documentary presenting the current race of nations for the leading role in AI with examples and interviews of well-known AI personalities (1h 28 min.)
