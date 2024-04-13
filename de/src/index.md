@@ -1,6 +1,6 @@
 # Willkommen
 
-Herzlich willkommen im **lernOS Künstliche Intelligenz (KI) Leitfaden**. Der Leitfaden steht in einer ersten Version 0.1 zur Verprobung bereit. Im [lernOS KI MOOC](https://loscon.lernos.org/) vom **6.5.-21.6.2024** werden wir den Leitfaden dem Praxistest unterziehen und mit Eurem Feedback eine Version 1.0 erstellen. Für den KI MOOC könnt ihr Euch [über meetup.com schon anmelden](https://www.meetup.com/cogneon/events/297769514/). Die Erfahrungen werden wir bei der [lernOS Convention 2024](https://loscon.lernos.org/de/) austauschen.
+Herzlich willkommen im **lernOS Künstliche Intelligenz (KI) Leitfaden**. Der Leitfaden steht in einer ersten Version 0.2 zur Verprobung bereit. Im [lernOS KI MOOC](https://loscon.lernos.org/) vom **6.5.-21.6.2024** werden wir den Leitfaden dem Praxistest unterziehen und mit Eurem Feedback eine Version 1.0 erstellen. Für den KI MOOC könnt ihr Euch [über meetup.com schon anmelden](https://www.meetup.com/cogneon/events/297769514/). Die Erfahrungen werden wir bei der [lernOS Convention 2024](https://loscon.lernos.org/de/) austauschen.
 
 ![](images/kimooc24-key-visual-1000px.jpg)
 
