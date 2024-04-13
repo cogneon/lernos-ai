@@ -140,7 +140,7 @@ Gute Beispiele für fortgeschrittene Prompts sind:
 
 ### Wenn Du noch tiefer gehen willst
 
-Es gibt zahlreiche gute Zusammenstellungen zu Prompt-Techniken, wie z.B.
+Es gibt zahlreiche gute Zusammenstellungen zu Prompt-Techniken, wie z.B.:
 
 - [Linksammlung zu Prompt Engineering im OpenAI Cookbook](https://cookbook.openai.com/articles/related_resources)
 - [Awesome-Prompt-Engineering](https://github.com/promptslab/Awesome-Prompt-Engineering)

@@ -135,7 +135,7 @@ Good examples of advanced prompts are
 
 ### If you want to go even deeper
 
-There are numerous good compilations on prompt techniques, such as
+There are numerous good compilations on prompt techniques, such as:
 
 - [Collection of links to prompt engineering in the OpenAI Cookbook](https://cookbook.openai.com/articles/related_resources)
 - Awesome-Prompt-Engineering](https://github.com/promptslab/Awesome-Prompt-Engineering)
