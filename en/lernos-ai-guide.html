@@ -168,7 +168,7 @@
 <header id="title-block-header">
 <h1 class="title">lernOS AI Guide</h1>
 <p class="subtitle">Artificial Intelligence for all</p>
-<p class="date">Version 0.1 (30.04.2024)</p>
+<p class="date">Version 0.2 (30.04.2024)</p>
 </header>
 <nav id="TOC" role="doc-toc">
 <ul>
@@ -279,7 +279,7 @@ class="toc-section-number">5.2</span> Change History</a></li>
 class="header-section-number">1</span> Welcome</h1>
 <p>Welcome to the <strong>lernOS Artificial Intelligence (AI)
 Guide</strong>. The guide is available for testing in a first version
-0.1. In the <a href="https://loscon.lernos.org/">lernOS KI MOOC</a> from
+0.2. In the <a href="https://loscon.lernos.org/">lernOS KI MOOC</a> from
 <strong>6.5.-21.6.2024</strong> we will put the guide to the practical
 test and create a version 1.0 with your feedback. You can already
 register for the AI MOOC <a
@@ -349,7 +349,12 @@ applications</strong> that <strong>citizens</strong> and
 <strong>employees</strong> are likely to come into direct contact with
 <strong>in their everyday lives</strong> and that they themselves also
 use.</p>
-<p><img src="./images/lernos-ki-spiegelei.png" /></p>
+<figure>
+<img src="./images/lernos-ki-spiegelei.png"
+alt="Artificial intelligence from 1956 to today" />
+<figcaption aria-hidden="true">Artificial intelligence from 1956 to
+today</figcaption>
+</figure>
 <p>In this infographic, we have presented a hierarchical and
 chronological categorisation of the key stages in the development of
 artificial intelligence. From its first mention around 1956 to
@@ -592,8 +597,12 @@ e.g. in a brain.</p>
 <strong>layers</strong> one behind the other. We speak of the
 <strong>input layer</strong> (red), the <strong>output layer</strong>
 (green) and the <strong>hidden layers</strong> (blue).</p>
-<p><img src="images/neural-network.png"
-title="By Glosser.ca - Own work, Derivative of File:Artificial neural network.svg, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=24913461" /></p>
+<figure>
+<img src="images/neural-network.png"
+alt="Neural network with input, hidden, and output layers" />
+<figcaption aria-hidden="true">Neural network with input, hidden, and
+output layers</figcaption>
+</figure>
 <p>A single artificial neuron is connected to all neurons in the
 upstream layer. The connections should not be thought of as switches
 (on/off). Instead, the signals of all inputs are weighted and used as
@@ -636,33 +645,15 @@ learning process. It is important to note that the learning process is
 not completed after one run, but takes place in several loops. This is
 another similarity between human and machine learning.</p>
 <figure>
-<img
-src="https://github.com/cogneon/lernos-ai/assets/10791207/db59996b-86e8-4101-94f3-fa210b198c59"
-alt="A circular infographic illustrating a process showing the steps in the machine learning cycle. Starting with ‘Problem definition’ at the top, followed by ‘Data collection’, ‘Model selection’, ‘Training’, ‘Validation’, ‘Application’ and back to ‘Feedback’. Each step is connected by an arrow indicating the transition to the next step. The steps are represented by orange rectangles with corresponding icons that stand out on a black background, symbolising the continuous and iterative nature of machine learning." />
-<figcaption aria-hidden="true">A circular infographic illustrating a
-process showing the steps in the machine learning cycle. Starting with
-‘Problem definition’ at the top, followed by ‘Data collection’, ‘Model
-selection’, ‘Training’, ‘Validation’, ‘Application’ and back to
-‘Feedback’. Each step is connected by an arrow indicating the transition
-to the next step. The steps are represented by orange rectangles with
-corresponding icons that stand out on a black background, symbolising
-the continuous and iterative nature of machine learning.</figcaption>
+<img src="images/human-and-machine-learning.png"
+alt="Human and machine learning" />
+<figcaption aria-hidden="true">Human and machine learning</figcaption>
 </figure>
 <p>Let’s take a concrete example to explain the entire learning process:
 An AI application needs to learn to distinguish between pictures of dogs
 and cats.</p>
 <h3 data-number="3.3.1" id="situation"><span
 class="header-section-number">3.3.1</span> Situation</h3>
-<figure>
-<img
-src="https://github.com/cogneon/lernos-ai/assets/10791207/5eabaebd-e0c7-4d24-a2f2-3e6910bb1e23"
-alt="1_Problem definition - An icon showing a simplified, stylised outline of a cat positioned on the left and a similar outline of a dog positioned on the right, with an arrow pointing from the cat to the dog. The icon is framed in a rounded square" />
-<figcaption aria-hidden="true">1_Problem definition - An icon showing a
-simplified, stylised outline of a cat positioned on the left and a
-similar outline of a dog positioned on the right, with an arrow pointing
-from the cat to the dog. The icon is framed in a rounded
-square</figcaption>
-</figure>
 <p>With children, the initial situation for the start of a learning
 process is not as explicit as in an AI project, but rather triggered by
 intrinsic motivation or by a learning stimulus stimulated by the
@@ -672,16 +663,6 @@ recognise the differences between a dog and a cat. Generalised to AI,
 this means that it should classify images.</p>
 <h3 data-number="3.3.2" id="data-collection"><span
 class="header-section-number">3.3.2</span> Data collection</h3>
-<figure>
-<img
-src="https://github.com/cogneon/lernos-ai/assets/10791207/47859dbb-dc55-4fda-afc5-e1e55125d95f"
-alt="2_Data collection - An icon representing a stylised clipboard with the faces of a cat and a dog at the top, followed by several lines of text and arrows pointing downwards. This indicates a data collection or listing process. The icon is placed in a rounded square frame" />
-<figcaption aria-hidden="true">2_Data collection - An icon representing
-a stylised clipboard with the faces of a cat and a dog at the top,
-followed by several lines of text and arrows pointing downwards. This
-indicates a data collection or listing process. The icon is placed in a
-rounded square frame</figcaption>
-</figure>
 <p>In the real world, the child sees many different dogs and cats. It
 recognises animals when they have 4 legs and a tail and says “woof
 woof”. The parents help the child by pointing to the animals and naming
@@ -692,19 +673,6 @@ labelled accordingly. This data may need to be cleaned up to remove
 errors or irrelevant information.</p>
 <h3 data-number="3.3.3" id="model-selection"><span
 class="header-section-number">3.3.3</span> Model selection</h3>
-<figure>
-<img
-src="https://github.com/cogneon/lernos-ai/assets/10791207/62dfb0e6-2b40-4c71-89e5-85d36b06a521"
-alt="3_Model selection - An icon that represents a cycle with a simplified diagram with branches and points in the centre, which could stand for decision-making or model selection. Three stylised symbols are arranged around the diagram: an animal head on the left, a human face with a question mark at the top and a dog’s head on the right. Arrows point in a circular motion symbolising the process of selection. The icon is surrounded by a rounded square" />
-<figcaption aria-hidden="true">3_Model selection - An icon that
-represents a cycle with a simplified diagram with branches and points in
-the centre, which could stand for decision-making or model selection.
-Three stylised symbols are arranged around the diagram: an animal head
-on the left, a human face with a question mark at the top and a dog’s
-head on the right. Arrows point in a circular motion symbolising the
-process of selection. The icon is surrounded by a rounded
-square</figcaption>
-</figure>
 <p>Firm neural connections form in the child’s mind through repetition
 and correction, leading to a clearer distinction between dogs and cats.
 This process is similar to the way a <strong>neural network</strong>
@@ -720,37 +688,25 @@ performance is similar to the learning process of a child, which learns
 through constant trial and error and the resulting corrections.</p>
 <h3 data-number="3.3.4" id="training"><span
 class="header-section-number">3.3.4</span> Training</h3>
-<figure>
-<img
-src="https://github.com/cogneon/lernos-ai/assets/10791207/4311b263-232a-4a51-baff-9aed34a0a9c9"
-alt="4_Training - An icon with two images connected by an arrow, representing a process. On the left is a stylised image of a shadowy animal with a head and four legs, and on the right is an image of a detailed cat in profile view. This depicts the process of learning or training, moving from a simple representation to a more complex state. The whole is placed in a rounded square frame" />
-<figcaption aria-hidden="true">4_Training - An icon with two images
-connected by an arrow, representing a process. On the left is a stylised
-image of a shadowy animal with a head and four legs, and on the right is
-an image of a detailed cat in profile view. This depicts the process of
-learning or training, moving from a simple representation to a more
-complex state. The whole is placed in a rounded square
-frame</figcaption>
-</figure>
 <p>The child learns through repetition and feedback from the parent. If
 it calls a dog a cat, it is corrected. In this way, the child refines
 its inner model with each correction.</p>
 <p>There are two basic types of training in AI:</p>
 <ul>
-<li>In supervised learning (<strong>Supervised Learning</strong>)
-(https://en.wikipedia.org/wiki/Supervised_learning), the model is given
-the correct classification for all training data. It learns the relevant
-features based on these labels. Neural networks also belong to this
-learning category.</li>
-<li>In unsupervised learning (<strong>Unsupervised
-Learning</strong>)(https://en.wikipedia.org/wiki/Unsupervised_learning),
-the model only receives the data without labels. It has to recognise
-similarities itself and group the data. In this way, it independently
-discovers patterns and structures. Unsupervised learning can be used as
-a supplementary method during training to give the model an even deeper
-understanding. It helps the model to recognise latent features and
-relationships between the data that might not be detected by supervised
-learning alone.</li>
+<li>In supervised learning (<a
+href="https://en.wikipedia.org/wiki/Supervised_learning">Supervised
+Learning</a>), the model is given the correct classification for all
+training data. It learns the relevant features based on these labels.
+Neural networks also belong to this learning category.</li>
+<li>In unsupervised learning (<a
+href="https://en.wikipedia.org/wiki/Unsupervised_learning">Unsupervised
+Learning</a>), the model only receives the data without labels. It has
+to recognise similarities itself and group the data. In this way, it
+independently discovers patterns and structures. Unsupervised learning
+can be used as a supplementary method during training to give the model
+an even deeper understanding. It helps the model to recognise latent
+features and relationships between the data that might not be detected
+by supervised learning alone.</li>
 </ul>
 <p>The addition or combination of neural networks with supervised
 learning is called <strong>deep learning</strong>, a term that is also
@@ -761,18 +717,6 @@ through many training runs and adjustments. After sufficient training,
 it can then also reliably classify new data.</p>
 <h3 data-number="3.3.5" id="validation"><span
 class="header-section-number">3.3.5</span> Validation</h3>
-<figure>
-<img
-src="https://github.com/cogneon/lernos-ai/assets/10791207/6e3dab7b-a0e0-43ca-868d-9e66bf61403f"
-alt="5_Validation - An icon representing a validation process, centred around a microchip with a question mark. Various symbols are arranged around the chip: two different dogs at the bottom, a cat, a human silhouette and a question mark at the top, as well as mathematical symbols such as plus signs and multiplication signs. This indicates the merging of different elements and their verification. The picture is framed in a rounded square" />
-<figcaption aria-hidden="true">5_Validation - An icon representing a
-validation process, centred around a microchip with a question mark.
-Various symbols are arranged around the chip: two different dogs at the
-bottom, a cat, a human silhouette and a question mark at the top, as
-well as mathematical symbols such as plus signs and multiplication
-signs. This indicates the merging of different elements and their
-verification. The picture is framed in a rounded square</figcaption>
-</figure>
 <p>Just as a child has to learn to recognise dogs and cats correctly in
 new situations, an AI model has to prove that it is able to generalise
 data and not just learn it by heart. To do this, new test data is used
@@ -784,19 +728,6 @@ and improve the AI model. This concept is crucial in machine learning
 and allows the model to continuously improve its performance.</p>
 <h3 data-number="3.3.6" id="application"><span
 class="header-section-number">3.3.6</span> Application</h3>
-<figure>
-<img
-src="https://github.com/cogneon/lernos-ai/assets/10791207/1f0b7fec-a8eb-481a-9c8f-13fbbb6a1c92"
-alt="6_Application - An icon representing the application of learnt knowledge in different situations. On the left is a child with a magnifying glass observing various animals, including a bird and a dog. In the centre is a computer monitor with a complex network and a cat on the screen, suggesting a trained AI model. On the right is a pointer pointing to the network, symbolising the application of the model to new data. The whole is framed in a rounded square" />
-<figcaption aria-hidden="true">6_Application - An icon representing the
-application of learnt knowledge in different situations. On the left is
-a child with a magnifying glass observing various animals, including a
-bird and a dog. In the centre is a computer monitor with a complex
-network and a cat on the screen, suggesting a trained AI model. On the
-right is a pointer pointing to the network, symbolising the application
-of the model to new data. The whole is framed in a rounded
-square</figcaption>
-</figure>
 <p>After training, the AI model can apply the knowledge it has learnt,
 similar to how a child uses its knowledge to correctly recognise and
 name new animals outside. The trained model can be used in various
@@ -807,17 +738,6 @@ this knowledge in practice, a trained AI model is used in real
 systems.</p>
 <h3 data-number="3.3.7" id="feedback"><span
 class="header-section-number">3.3.7</span> Feedback</h3>
-<figure>
-<img
-src="https://github.com/cogneon/lernos-ai/assets/10791207/8db0d25b-adef-45e6-b11d-dcc42c94c4b8"
-alt="7_Feedback - An icon symbolising the feedback process, with an open book in the centre and an arrow forming a circle moving outwards from the book and back again. This suggests a continuous cycle of learning and improvement, where information is absorbed, applied and then used as feedback for further improvement. The design is framed in a rounded square" />
-<figcaption aria-hidden="true">7_Feedback - An icon symbolising the
-feedback process, with an open book in the centre and an arrow forming a
-circle moving outwards from the book and back again. This suggests a
-continuous cycle of learning and improvement, where information is
-absorbed, applied and then used as feedback for further improvement. The
-design is framed in a rounded square</figcaption>
-</figure>
 <p>Regular feedback is essential for the child to learn and develop. For
 example, games that promote the differentiation of colours and shapes or
 interactive educational tools that impart knowledge in a playful way
@@ -876,111 +796,115 @@ href="https://www.mckinsey.com/featured-insights/mckinsey-%20explainers/whats-th
 the future of generative AI?</a> in more detail:</p>
 <table>
 <colgroup>
-<col style="width: 6%" />
-<col style="width: 26%" />
-<col style="width: 67%" />
+<col style="width: 28%" />
+<col style="width: 71%" />
 </colgroup>
 <thead>
 <tr class="header">
-<th>Modality</th>
-<th>Field of application</th>
+<th>Modality/Field of application</th>
 <th>Example</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>Text</strong></td>
+<td><strong>TEXT</strong></td>
+<td></td>
+</tr>
+<tr class="even">
 <td>Create content</td>
 <td>Communication: Create personalized emails and posts<br/>Personnel:
 Create interview questions and job descriptions</td>
 </tr>
-<tr class="even">
-<td></td>
+<tr class="odd">
 <td>Chatbots and assistants</td>
 <td>Kommunikation: Chatbots für Webseiten im Internet und Intranet</td>
 </tr>
-<tr class="odd">
-<td></td>
+<tr class="even">
 <td>Search</td>
 <td>Natural language search instead of keyword search</td>
 </tr>
-<tr class="even">
-<td></td>
+<tr class="odd">
 <td>Analysis and synthesis</td>
 <td>Sales: Analyze customer interaction<br/>Legal: Summarize laws and
 regulatory documents</td>
 </tr>
+<tr class="even">
+<td><strong>CODE</strong></td>
+<td></td>
+</tr>
 <tr class="odd">
-<td><strong>Code</strong></td>
 <td>Create code</td>
 <td>IT: Application development<br/>IT: Enabling low-code and
 no-code</td>
 </tr>
 <tr class="even">
-<td></td>
 <td>Create prototypes of applications and designs</td>
 <td>IT: Design prototypes and user interfaces quickly</td>
 </tr>
 <tr class="odd">
-<td></td>
 <td>Datensätze generieren</td>
 <td>IT: Improving AI model quality through data sets</td>
 </tr>
 <tr class="even">
-<td><strong>Image</strong></td>
+<td><strong>IMAGE</strong></td>
+<td></td>
+</tr>
+<tr class="odd">
 <td>Create images</td>
 <td>Communication: generate unique images (instead of stock photos)</td>
 </tr>
-<tr class="odd">
-<td></td>
+<tr class="even">
 <td>Edit images</td>
 <td>Communication: Remove or change image backgrounds</td>
 </tr>
+<tr class="odd">
+<td><strong>AUDIO</strong></td>
+<td></td>
+</tr>
 <tr class="even">
-<td><strong>Audio</strong></td>
 <td>Generate text-to-speech</td>
 <td>Training: Creating voiceover voices</td>
 </tr>
 <tr class="odd">
-<td></td>
 <td>Generate sounds</td>
 <td>Media: Generate background noise or music</td>
 </tr>
 <tr class="even">
-<td></td>
 <td>Edit audio</td>
 <td>Communication: Editing podcasts without a new recording</td>
 </tr>
 <tr class="odd">
-<td><strong>Video</strong></td>
+<td><strong>VIDEO</strong></td>
+<td></td>
+</tr>
+<tr class="even">
 <td>Create video</td>
 <td>Training: create short educational videos with AI avatars</td>
 </tr>
-<tr class="even">
-<td></td>
+<tr class="odd">
 <td>Edit video</td>
 <td>Marketing: Personalize standard videos<br/>Communication: Remove
 backgrounds from videos</td>
 </tr>
-<tr class="odd">
-<td></td>
+<tr class="even">
 <td>Translate and adapt language</td>
 <td>Communication: Dubbing, replace original language with
 voiceover<br/>Meetings: Live translation in meetings</td>
 </tr>
-<tr class="even">
-<td></td>
+<tr class="odd">
 <td>Swapping faces and making adjustments</td>
 <td>Communication: Translation with changes in lip movement for other
 languages</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><strong>3D &amp; VR</strong></td>
+<td></td>
+</tr>
+<tr class="odd">
 <td>Generate 3D objects</td>
 <td>Video games: Create characters and objects</td>
 </tr>
 <tr class="even">
-<td></td>
 <td>Designing products and making them tangible</td>
 <td>Product development: speed up the development process</td>
 </tr>
@@ -1079,9 +1003,8 @@ contrast, the Transformer attention mechanism allows words to be
 predicted bidirectionally - i.e. on the basis of both previous and
 subsequent words.</p>
 <figure>
-<img src="./images/ai-models-timeline.png"
-alt="KI Modelle Zeitstrahl" />
-<figcaption aria-hidden="true">KI Modelle Zeitstrahl</figcaption>
+<img src="./images/ai-models-timeline.png" alt="AI models timeline" />
+<figcaption aria-hidden="true">AI models timeline</figcaption>
 </figure>
 <p>This development of LLMs is shown in the diagram above. As we can
 see, the first modern models were introduced shortly after the
@@ -1120,87 +1043,76 @@ articles, course questions. In the same way, appropriately trained AIs
 also write software code.</p>
 <table>
 <colgroup>
-<col style="width: 18%" />
-<col style="width: 18%" />
-<col style="width: 31%" />
-<col style="width: 31%" />
+<col style="width: 91%" />
+<col style="width: 8%" />
 </colgroup>
 <thead>
 <tr class="header">
-<th>Model Name</th>
-<th>Brief Info</th>
-<th style="text-align: center;">Modellgröße in Mrd. Parameter</th>
-<th style="text-align: center;">Open Source</th>
+<th>Model</th>
+<th style="text-align: center;">Modellgröße (Mrd. Parameter),
+Lizenz</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><a
-href="https://blog.google/technology/ai/google-gemini-ai"><strong>Gemini</strong></a></td>
-<td>Based on experimental language models, Google designed this model to
-be multimodal from the ground up. It can interpret different types of
+href="https://blog.google/technology/ai/google-gemini-ai"><strong>Gemini</strong></a> -
+Based on experimental language models, Google designed this model to be
+multimodal from the ground up. It can interpret different types of
 information - text, code, image, audio or video. The model is trained
 for demanding logical tasks, translations and natural language
 generation.</td>
-<td style="text-align: center;">8.000</td>
-<td style="text-align: center;">N</td>
+<td style="text-align: center;">8.000, closed source</td>
 </tr>
 <tr class="even">
-<td><a href="https://openai.com/gpt-4"><strong>GPT</strong></a></td>
-<td>The abbreviation of the best-known model stands for <em>Generative
+<td><a href="https://openai.com/gpt-4"><strong>GPT</strong></a> - The
+abbreviation of the best-known model stands for <em>Generative
 Pre-trained Transformer.</em> Provider OpenAI trains the model for
 dialogs, text generation or code development. The input processes text,
 speech or image material. The language model is improved iteratively
 through reinforcement learning with human feedback (Reinforcement
 Learning from Human Feedback, RLHF).</td>
-<td style="text-align: center;">175 (GPT-3)<br/>1.000 (GPT-4)<br/>2.000
-(GPT-5)</td>
-<td style="text-align: center;">N</td>
+<td style="text-align: center;">1.000 (GPT-4), closed source</td>
 </tr>
 <tr class="odd">
-<td><a href="https://leam.ai"><strong>LEAM</strong></a></td>
-<td>The abbreviation stands for <em>Large European AI Models,</em> whose
+<td><a href="https://leam.ai"><strong>LEAM</strong></a> - The
+abbreviation stands for <em>Large European AI Models,</em> whose
 development takes particular account of European values and high
 requirements in terms of data protection, transparency and bias. At the
 same time, the design of the training of AI models is to become more
 sustainable.</td>
-<td style="text-align: center;">k.A.</td>
-<td style="text-align: center;">?</td>
+<td style="text-align: center;">k.A., ?</td>
 </tr>
 <tr class="even">
 <td><a
-href="https://laion.ai/blog-de/leo-lm"><strong>LeoLM</strong></a></td>
-<td>The abbreviation stands for <em>Linguistically Enhanced Open
-Language Model,</em> the first open and commercially available German
-basic language model. It is based on a version of <em>LLaMA</em>.</td>
-<td style="text-align: center;">k.A.</td>
-<td style="text-align: center;">?</td>
+href="https://laion.ai/blog-de/leo-lm"><strong>LeoLM</strong></a> - The
+abbreviation stands for <em>Linguistically Enhanced Open Language
+Model,</em> the first open and commercially available German basic
+language model. It is based on a version of <em>LLaMA</em>.</td>
+<td style="text-align: center;">k.A., ?</td>
 </tr>
 <tr class="odd">
-<td><a href="https://ai.meta.com/llama"><strong>LLaMA</strong></a></td>
-<td>Provider Meta trains the model variants <em>LLaMA Chat</em> for
-dialogs and <em>Code LLaMA</em> with code-specific data sets for
-software development.</td>
-<td style="text-align: center;">65 (LLaMA)<br/>70 (LLaMA-2)</td>
-<td style="text-align: center;">J</td>
+<td><a href="https://ai.meta.com/llama"><strong>LLaMA</strong></a> -
+Provider Meta trains the model variants <em>LLaMA Chat</em> for dialogs
+and <em>Code LLaMA</em> with code-specific data sets for software
+development.</td>
+<td style="text-align: center;">70 (LLaMA-2), open source</td>
 </tr>
 <tr class="even">
 <td><a
-href="https://docs.aleph-alpha.com/docs/introduction/model-card"><strong>Luminous</strong></a></td>
-<td>Aleph Alpha is a language model trained in five European languages:
+href="https://docs.aleph-alpha.com/docs/introduction/model-card"><strong>Luminous</strong></a> -
+Aleph Alpha is a language model trained in five European languages:
 German, English, French, Italian and Spanish. The input for text
 development can be done with text or combined with images.</td>
-<td style="text-align: center;">200</td>
-<td style="text-align: center;">N</td>
+<td style="text-align: center;">200, closed source</td>
 </tr>
 <tr class="odd">
 <td><a
-href="https://platform.openai.com/docs/models/whisper"><strong>Whisper</strong></a></td>
-<td>Universally applicable model from Open AI that offers multilingual
+href="https://platform.openai.com/docs/models/whisper"><strong>Whisper</strong></a> -
+Universally applicable model from Open AI that offers multilingual
 recognition of speech in audio files and outputs the result as text or
 translated text.</td>
-<td style="text-align: center;">k.A.</td>
-<td style="text-align: center;">J</td>
+<td style="text-align: center;">k.A., open source</td>
 </tr>
 </tbody>
 </table>
@@ -1216,64 +1128,61 @@ in an image continuously and in interaction with each other based on
 learned information in order to generate new content.</p>
 <table>
 <colgroup>
-<col style="width: 27%" />
-<col style="width: 27%" />
-<col style="width: 45%" />
+<col style="width: 95%" />
+<col style="width: 4%" />
 </colgroup>
 <thead>
 <tr class="header">
-<th>Model Name</th>
-<th>Brief Info</th>
+<th>Model</th>
 <th style="text-align: center;">Open Source</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><a
-href="https://platform.openai.com/docs/models/dall-e"><strong>DALL-E</strong></a></td>
-<td>The Open AI model understands descriptions in natural language in
-order to create detailed and real-looking photos and works of art. The
-model is used as a basis in many applications.</td>
-<td style="text-align: center;">N</td>
+href="https://platform.openai.com/docs/models/dall-e"><strong>DALL-E</strong></a> -
+The Open AI model understands descriptions in natural language in order
+to create detailed and real-looking photos and works of art. The model
+is used as a basis in many applications.</td>
+<td style="text-align: center;">closed source</td>
 </tr>
 <tr class="even">
 <td><a href="https://firefly.adobe.com"><strong>Firefly
-Image</strong></a></td>
-<td>Adobe’s image generation model relies on licensed photos from its
-own image database and public domain image material. Individual training
-with your own works is currently being developed for version 2. The
-model generates similarly high-quality images as DALL-E.</td>
-<td style="text-align: center;">J</td>
+Image</strong></a> - Adobe’s image generation model relies on licensed
+photos from its own image database and public domain image material.
+Individual training with your own works is currently being developed for
+version 2. The model generates similarly high-quality images as
+DALL-E.</td>
+<td style="text-align: center;">closed source</td>
 </tr>
 <tr class="odd">
 <td><a href="https://huggingface.co/blog/lora"><strong>LoRA Stable
-Diffusion</strong></a></td>
-<td>The abbreviation stands for <em>Learn On Reconstruction and
-Attention.</em> The model is a combination of algorithms for the
-fine-tuning of images and image style training. After training with
-selected images, the AI recognizes a certain style and then applies it
-to other image data. </td>
-<td style="text-align: center;">J</td>
+Diffusion</strong></a> - The abbreviation stands for <em>Learn On
+Reconstruction and Attention.</em> The model is a combination of
+algorithms for the fine-tuning of images and image style training. After
+training with selected images, the AI recognizes a certain style and
+then applies it to other image data.</td>
+<td style="text-align: center;">open source</td>
 </tr>
 <tr class="even">
 <td><a
-href="https://docs.midjourney.com"><strong>Midourney</strong></a></td>
-<td>The Midjourney research lab model generates high-quality,
-hyper-realistic images based on text input. There are artistic styles
-and creative filters to customize generated images. The model is
-appreciated for its unique combination of technical performance,
-artistic flair and a lively community.</td>
-<td style="text-align: center;">N</td>
+href="https://docs.midjourney.com"><strong>Midourney</strong></a> - The
+Midjourney research lab model generates high-quality, hyper-realistic
+images based on text input. There are artistic styles and creative
+filters to customize generated images. The model is appreciated for its
+unique combination of technical performance, artistic flair and a lively
+community.</td>
+<td style="text-align: center;">closed source</td>
 </tr>
 <tr class="odd">
 <td><a
-href="https://huggingface.co/prompthero/openjourney"><strong>OpenJourney</strong></a></td>
-<td>OpenJourney is a free, open-source text-to-image model developed by
+href="https://huggingface.co/prompthero/openjourney"><strong>OpenJourney</strong></a> -
+OpenJourney is a free, open-source text-to-image model developed by
 PromptHero. It can generate AI art in the style of Midjourney.
 HuggingFace. Users prefer Openjourney for its ability to generate
 stunning images with minimal input and its suitability as a base model
 for fine-tuning.</td>
-<td style="text-align: center;">J</td>
+<td style="text-align: center;">open source</td>
 </tr>
 </tbody>
 </table>
@@ -1294,8 +1203,7 @@ can be used to compose music. Models trained on moving images generate
 smooth, high-quality videos.</p>
 <p>Based on these models, it is possible to generate deepfakes.</p>
 <h3 data-number="3.5.5" id="models-in-motion"><span
-class="header-section-number">3.5.5</span> Models in
-motion<a id="models-in-motion"></a></h3>
+class="header-section-number">3.5.5</span> Models in motion</h3>
 <p>As the models are the basis for the performance of an AI application,
 a lot of development is invested in them. This chapter is therefore only
 a snapshot. Stay tuned to the developments with the blogs of <a
@@ -1358,9 +1266,8 @@ Copilot</strong></a>: AI-supported assistance in Microsoft products for
 text creation, summaries, text revisions, image search or generation of
 presentations.</li>
 </ul>
-<h3 data-number="3.6.2" id="ai-supported-multimodal-tools"><span
-class="header-section-number">3.6.2</span> AI-supported, multimodal
-tools</h3>
+<h3 data-number="3.6.2" id="multimodal-ai-tools"><span
+class="header-section-number">3.6.2</span> Multimodal AI tools</h3>
 <p>These offerings provide several tools for the various application
 areas under one roof.</p>
 <ul>
@@ -1390,8 +1297,8 @@ Llama 2),</em> free basic use.</li>
 creation, code assistance and image generation, English-language, free
 basic use.</li>
 </ul>
-<h3 data-number="3.6.3" id="ai-supported-text-tools"><span
-class="header-section-number">3.6.3</span> AI-supported text tools</h3>
+<h3 data-number="3.6.3" id="ai-tools-for-text"><span
+class="header-section-number">3.6.3</span> AI tools for text</h3>
 <p>AI text tools allow you to interact with the tool as if you were
 having a conversation with another person. They support online research
 and provide a wide range of assistance with text creation, translations
@@ -1432,8 +1339,8 @@ GDPR-compliant.</li>
 voice output on various topics as an empathic counterpart,
 English-language, free to use.</li>
 </ul>
-<h3 data-number="3.6.4" id="ai-powered-coding-tools"><span
-class="header-section-number">3.6.4</span> AI-powered coding tools</h3>
+<h3 data-number="3.6.4" id="ai-tools-for-code"><span
+class="header-section-number">3.6.4</span> AI tools for code</h3>
 <p>Code tools with AI are innovative programs that help developers work
 more efficiently. They generate short code snippets, open discussions
 about different approaches and provide explanations for code fragments.
@@ -1457,8 +1364,8 @@ Copilot</strong></a>: Code assistance that provides suggestions and
 optimizations for software code, free trial use.</li>
 <li><strong>YouCode:</strong> Code assistance (see above)</li>
 </ul>
-<h3 data-number="3.6.5" id="ai-supported-image-tools"><span
-class="header-section-number">3.6.5</span> AI-supported image tools</h3>
+<h3 data-number="3.6.5" id="ai-tools-for-images"><span
+class="header-section-number">3.6.5</span> AI tools for images</h3>
 <p>Image tools use AI to generate and optimize photos and graphics. Text
 instructions are processed, understood and used accordingly to generate
 suitable images. They are able to generate so-called deepfakes: photos
@@ -1474,16 +1381,16 @@ use.</li>
 <li><a href="https://civitai.com"><strong>CivitAI</strong></a>: Image
 generation with template selection and text prompt, English language,
 registration required, free basic use.</li>
-<li>Use <strong>Midjourney</strong> (for a fee) via <strong>Poe</strong>
-(see above).</li>
+<li>Use <strong>Midjourney</strong> (for a fee) use via Discord, web
+interface or <strong>Poe</strong> (see above).</li>
 <li><a href="https://stablediffusionweb.com/WebUI"><strong>Stable
 Diffusion WebUI</strong></a> <strong>/</strong> <a
 href="https://stablediffusionweb.com/app"><strong>Stable Difusion
 App</strong></a>: in addition to the online tool, can also be used
 offline and without a subscription on your own computer.</li>
 </ul>
-<h3 data-number="3.6.6" id="ai-supported-audio-tools"><span
-class="header-section-number">3.6.6</span> AI-supported audio tools</h3>
+<h3 data-number="3.6.6" id="ai-tools-for-audio"><span
+class="header-section-number">3.6.6</span> AI tools for audio</h3>
 <p>Audio tools with AI allow voice input to control applications. They
 can generate natural-looking speech based on text input. Some tools
 replace the audio track of a video file, for example with a translation
@@ -1509,8 +1416,8 @@ href="https://goodsnooze.gumroad.com/l/macwhisper"><strong>MacWhisper</strong></
 Fast, secure and accurate speech recognition on MacOS or iOS devices,
 100 supported languages, free basic use.</li>
 </ul>
-<h3 data-number="3.6.7" id="ai-supported-video-tools"><span
-class="header-section-number">3.6.7</span> AI-supported video tools</h3>
+<h3 data-number="3.6.7" id="ai-tools-for-video"><span
+class="header-section-number">3.6.7</span> AI tools for video</h3>
 <p>Video tools use AI to generate suitable videos from text input or
 animate human-like avatars whose movements and facial expressions look
 very realistic. By transferring the characteristics of a real person to
@@ -1576,17 +1483,17 @@ practicing!</p>
 <h3 data-number="3.7.1" id="what-actually-is-a-prompt"><span
 class="header-section-number">3.7.1</span> What actually is a
 prompt?</h3>
-<p>In IT, the term “prompt” refers to the request to the user to make an
-entry in a text-based console (source: <a
-href="https://de.wikipedia.org/wiki/Prompt">https://de.wikipedia.org/wiki/Prompt</a>).
-In chat-based AI systems, such as ChatGPT, the prompt stands for the
-input text that a user sends to the language model in order to receive a
-response. The language model (Large Language Model or LLM) generates a
-response by predicting the most likely continuation of the text based on
-learned patterns and information. The quality of the response depends to
-a large extent on the prompt itself. It is therefore worth learning how
-to create prompts in such a way that they generate the user’s desired
-output as well as possible.</p>
+<p>In IT, the term <a
+href="https://en.wikipedia.org/wiki/Command-line_interface#Command_prompt">prompt</a>
+refers to the request to the user to make an entry in a text-based
+console. In chat-based AI systems, such as ChatGPT, the prompt stands
+for the input text that a user sends to the language model in order to
+receive a response. The language model (Large Language Model or LLM)
+generates a response by predicting the most likely continuation of the
+text based on learned patterns and information. The quality of the
+response depends to a large extent on the prompt itself. It is therefore
+worth learning how to create prompts in such a way that they generate
+the user’s desired output as well as possible.</p>
 <h3 data-number="3.7.2" id="prompt-engineering"><span
 class="header-section-number">3.7.2</span> Prompt engineering</h3>
 <p>The process of optimizing the prompt is referred to as “prompt
@@ -1801,10 +1708,10 @@ at main - ProfSynapse/Super_Synapse (github.com)</a></p></li>
 <p><strong>Tip:</strong> Advanced prompts work much better in more
 powerful AI systems such as GPT-4.</p>
 <h3 data-number="3.7.7" id="if-you-want-to-go-even-deeper"><span
-class="header-section-number">3.7.7</span> If you want to go even deeper
-…</h3>
+class="header-section-number">3.7.7</span> If you want to go even
+deeper</h3>
 <p>There are numerous good compilations on prompt techniques, such
-as</p>
+as:</p>
 <ul>
 <li><a
 href="https://cookbook.openai.com/articles/related_resources">Collection
@@ -1832,7 +1739,7 @@ href="https://chat.openai.com/g/g-qfoOICq1l-prompt-professor">ChatGPT -
 Prompt Professor</a>, which can help you to improve the prompts.</p>
 <h3 data-number="3.7.9"
 id="outlook-prompt-engineering-is-likely-to-become-less-important"><span
-class="header-section-number">3.7.9</span> Outlook: “Prompt engineering”
+class="header-section-number">3.7.9</span> Outlook: Prompt engineering
 is likely to become less important</h3>
 <p>At the same time, however, the question arises as to whether we
 really want to or should delve deeper into prompt engineering. On the
@@ -1857,13 +1764,13 @@ aspects that are discussed in the context of “AI and society”. For each
 aspect, questions have been compiled for self-reflection and discussion
 with your learning group:</p>
 <ul>
-<li><strong>Workplaces and automation</strong></li>
-<li><strong>Transparency and comprehensibility</strong></li>
-<li><strong>Distortions and discrimination</strong></li>
-<li><strong>Privacy and data protection</strong></li>
-<li><strong>Digital dependency</strong></li>
-<li><strong>Ethics and value system</strong></li>
-<li><strong>Regulation</strong></li>
+<li>Workplaces and automation</li>
+<li>Transparency and comprehensibility</li>
+<li>Distortions and discrimination</li>
+<li>Privacy and data protection</li>
+<li>Digital dependency</li>
+<li>Ethics and value system</li>
+<li>Regulation</li>
 </ul>
 <h3 data-number="3.8.1" id="jobs-and-automation"><span
 class="header-section-number">3.8.1</span> Jobs and automation</h3>
@@ -2147,6 +2054,8 @@ AI tools that is updated daily</li>
 <li><a href="https://huggingface.co/papers">Hugging Face Daily
 Papers</a> - daily updated articles on AI from the scientific community
 (email notification available)</li>
+<li><a href="https://www.flexos.work/ai-top-100">AI for Work Top 100</a>
+- Top 100 most used AI Tools for work</li>
 </ol>
 <p><strong>Weblogs und News:</strong></p>
 <ol type="1">
@@ -2182,8 +2091,11 @@ Engineer Podcast</a> - the podcast by and for AI engineers
 (technical)</li>
 <li><a href="https://lexfridman.com/podcast/">Lex Fridman Podcast</a> -
 follow along with well-known people in the AI scene</li>
+<li><a
+href="https://podcasts.apple.com/de/podcast/the-next-wave/id1524660520">The
+Next Wave</a> - Podcast with Matt Wolfe and Nathan Lands</li>
 </ol>
-<p><strong>Videos:</strong></p>
+<p><strong>Videos &amp; vLogs:</strong></p>
 <ol type="1">
 <li><a href="https://www.youtube.com/watch?v=2IK3DFHRFfw">Generative AI
 in a nutshell</a> - Informative explanatory video in
@@ -2219,10 +2131,10 @@ project can be extended as desired (several posts, multilingual,
 podcast, video, etc.).</p>
 <figure>
 <img src="./images/lernpfad-sketchnote.png"
-alt="Visualisation by Katrin Mäntele unter (CC BY)" />
+alt="Visualisation by Katrin Mäntele under (CC BY)" />
 <figcaption aria-hidden="true">Visualisation by <a
 href="https://www.linkedin.com/in/katrin-maentele/">Katrin Mäntele</a>
-unter (CC BY)</figcaption>
+under (CC BY)</figcaption>
 </figure>
 <h2 data-number="4.1" id="preparation-get-together-kata-0"><span
 class="header-section-number">4.1</span> Preparation &amp; Get together
@@ -2469,13 +2381,13 @@ it in more depth by linking it to <strong>real, practice-orientated AI
 application fields</strong>. Basically, AI tools can be assigned to the
 following <strong>categories</strong>:</p>
 <ol type="1">
-<li>AI-supported coding aids (support for prompting)</li>
-<li>AI-supported text tools (text generation and editing)</li>
-<li>AI-supported image tools (image generation and editing)</li>
-<li>AI-supported audio tools (sound generation and editing)</li>
-<li>AI-supported video tools (video generation and editing)</li>
-<li>AI-supported multi-tools (tools that make various of the above
-categories usable in combination)</li>
+<li>AI tools for code (support for prompting)</li>
+<li>AI tools for text (text generation and editing)</li>
+<li>AI tools for images (image generation and editing)</li>
+<li>AI tools for audio (sound generation and editing)</li>
+<li>AI tools fpr video (video generation and editing)</li>
+<li>Multimodal AI tools (tools that make various of the above categories
+usable in combination)</li>
 </ol>
 <p>You know your workplace / project and the associated activities best.
 Think about which of the tool categories are or could be important for
@@ -2873,6 +2785,11 @@ success. Perhaps get together for a small final event (in person or
 online) and enjoy your learning success! The AI can be a good source of
 ideas for this. The guide team wishes you much joy and success in the
 future and looks forward to your feedback!</p>
+<p><strong>One last small request:</strong> open the <a
+href="https://lernos.org/de/guides/ai/">page for this guide on
+lernos.org</a> and leave a rating (e.g. thumbs up) and a comment with
+feedback at the bottom. This way, the team of contributors and other
+learners can benefit from your experience. Thank you very much!</p>
 <h1 data-number="5" id="appendix"><span
 class="header-section-number">5</span> Appendix</h1>
 <h2 data-number="5.1" id="acknowledgements"><span

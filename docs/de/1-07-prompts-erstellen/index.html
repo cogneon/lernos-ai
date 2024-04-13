@@ -18,7 +18,7 @@
       
       
       <link rel="icon" href="../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.16">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.17">
     
     
       
@@ -567,7 +567,7 @@
           <li class="md-nav__item">
   <a href="#wenn-du-noch-tiefer-gehen-willst" class="md-nav__link">
     <span class="md-ellipsis">
-      Wenn Du noch tiefer gehen willst ...
+      Wenn Du noch tiefer gehen willst
     </span>
   </a>
   
@@ -585,7 +585,7 @@
           <li class="md-nav__item">
   <a href="#ausblick-prompt-engineering-wird-voraussichtlich-an-bedeutung-verlieren" class="md-nav__link">
     <span class="md-ellipsis">
-      Ausblick: "Prompt Engineering"" wird voraussichtlich an Bedeutung verlieren
+      Ausblick: Prompt Engineering wird voraussichtlich an Bedeutung verlieren
     </span>
   </a>
   
@@ -1312,7 +1312,7 @@
 <h2 id="prompts-erstellen">Prompts erstellen</h2>
 <p>Das folgende Grundlagen-Kapitel soll Dir eine kompakte Orientierungshilfe für die einfache und zugleich optimierte Erstellung von Anfragen und Dialogen im Zusammenspiel mit generativer KI geben. Diese Empfehlungen können Dir im Lernpfad sowohl in den Katas 2 und 3 zum explorativen Umgang und Dialog mit KI als auch in den Katas 6 und 7 zur aktiven Prompt-Erstellung und Zusammenarbeit mit KI sowie insbesondere in den Katas 9 und 10 zum erweiterten und souveränen Prompten weiterhelfen. Und nun viel Spaß beim Lernen und Trainieren!</p>
 <h3 id="was-ist-eigentlich-ein-prompt">Was ist eigentlich ein Prompt?</h3>
-<p>In der IT bezeichnet der Begriff "Prompt" die Aufforderung an den Nutzer, eine Eingabe in eine textbasierte Konsole zu tätigen (Quelle: <a href="https://de.wikipedia.org/wiki/Prompt">https://de.wikipedia.org/wiki/Prompt</a>). Bei chatbasierten KI-Systemen, wie ChatGPT steht der Prompt für den Eingabetext, den ein Benutzer an das Sprachmodell sendet, um eine Antwort zu erhalten. Das Sprachmodell (Large Language Model bzw. LLM) generiert eine Antwort durch die Vorhersage der wahrscheinlichsten Fortsetzung des Textes, basierend auf gelernten Mustern und Informationen. Die Qualität der Antwort hängt in starkem Maße von dem Prompt selbst ab. Es lohnt sich deshalb zu erlernen, wie man Prompts so erstellen kann, dass diese die vom Nutzer gewünschten Ausgaben so gut wie möglich erzeugen.</p>
+<p>In der IT bezeichnet der Begriff <a href="https://en.wikipedia.org/wiki/Command-line_interface#Command_prompt">Prompt</a> die Aufforderung an den Nutzer, eine Eingabe in eine textbasierte Konsole zu tätigen. Bei chatbasierten KI-Systemen, wie ChatGPT steht der Prompt für den Eingabetext, den ein Benutzer an das Sprachmodell sendet, um eine Antwort zu erhalten. Das Sprachmodell (Large Language Model bzw. LLM) generiert eine Antwort durch die Vorhersage der wahrscheinlichsten Fortsetzung des Textes, basierend auf gelernten Mustern und Informationen. Die Qualität der Antwort hängt in starkem Maße von dem Prompt selbst ab. Es lohnt sich deshalb zu erlernen, wie man Prompts so erstellen kann, dass diese die vom Nutzer gewünschten Ausgaben so gut wie möglich erzeugen.</p>
 <h3 id="prompt-engineering">Prompt Engineering</h3>
 <p>Der Vorgang der Optimierung des Prompts wird als "Prompt Engineering" bezeichnet. Es gibt auch zahlreiche Quellen und Handreichungen im Internet, die unter diesem Begriff Tipps für die Erstellung von Prompts bereitstellen (siehe z. B. <a href="https://cookbook.openai.com/articles/related_resources">Linksammlung zu Prompt Engineering im OpenAI Cookbook</a> für eine umfangreiche Sammlung). Doch obwohl so viel über das Prompten geschrieben wurde, ist es eigentlich alles andere als schwer. </p>
 <p>Prof. Ethan Mollick schreibt dazu (übersetzt aus dem Artikel <a href="https://www.oneusefulthing.org/p/working-with-ai-two-paths-to-prompting">Working with AI: Two paths to prompting</a>): "Die wichtigste Botschaft ist, dass Du die Nutzung der KI durch die Nutzung der KI lernst. [...] Je mehr Du die KI nutzt, desto mehr entwickelst Du ein Gefühl dafür, wofür sie sich gut und weniger gut eignet".</p>
@@ -1358,24 +1358,12 @@
 <h3 id="prompting-tipps-von-openai">Prompting-Tipps von OpenAI</h3>
 <p>Auch OpenAI (die Entwickler von ChatGPT) beschreiben in ihrem Artikel <a href="https://platform.openai.com/docs/guides/prompt-engineering/prompt-engineering">Prompt Engineering</a> genauer, was aus ihrer Sicht einen "guten" Prompt ausmacht:</p>
 <ol>
-<li>
-<p><strong>Sei spezifisch</strong>: Stelle sicher, dass die Anfragen alle wichtigen Details oder den Kontext enthalten, damit das Modell nicht raten muss, was Du meinst. Je genauer Du den Hintergrund, Dein Anliegen und die Art der erwarteten Ausgabe beschreibst, umso besser wird die Antwort sein.</p>
-</li>
-<li>
-<p><strong>Sei modular</strong>: Zerlege komplexe Aufgaben in eine Reihe von einfacheren Aufgaben, die nacheinander ausgeführt werden können. Nutze Struktur, wie z. B. Stichpunkte, um Aspekte klar zu unterteilen.</p>
-</li>
-<li>
-<p><strong>Sei geduldig</strong>: Fordere das Modell auf, zuerst den Weg zur Antwort zu beschreiben, anstatt sofort zu antworten. Du bekommst bessere Antworten, wenn das Modell zuerst einen Lösungsweg ("chain of thought") entwickelt und diesen anschließend durchführt.</p>
-</li>
-<li>
-<p><strong>Sei ergänzend</strong>: Wenn zu wenig Informationen verfügbar sind neigen Sprachmodelle dazu, unzutreffende Antworten zu erfinden. Versorge das Modell deshalb mit relevanten und aktuellen Informationen, damit es besser antworten kann. Wenn Du Zugriff auf Quellen (wie z. B. Dokumente oder Bücher) brauchst, dann nutze KI-Systeme, die Daten verarbeiten können. </p>
-</li>
-<li>
-<p><strong>Sei passgenau</strong>: Generative KIs sind nicht die beste Lösung für jede Aufgabe. So sind Sprachmodelle, wie GPT-3.5 z. B. gut in der Entwicklung eines Lösungsvorgehens, aber nicht besonders gut und zuverlässig im Rechnen. Nutze deshalb weitere Tools (wie z. B. GPT-4 mit Code-Interpreter) um Operationen durchzuführen, die das Modell nicht selbstständig ausführen kann.</p>
-</li>
-<li>
-<p><strong>Sei evaluativ</strong>: Erstelle und vergleiche unterschiedliche Prompts systematisch, um die Wirkung des Prompts und die Leistungsfähigkeit des Modelles besser einschätzen und optimieren zu können.</p>
-</li>
+<li><strong>Sei spezifisch</strong>: Stelle sicher, dass die Anfragen alle wichtigen Details oder den Kontext enthalten, damit das Modell nicht raten muss, was Du meinst. Je genauer Du den Hintergrund, Dein Anliegen und die Art der erwarteten Ausgabe beschreibst, umso besser wird die Antwort sein.</li>
+<li><strong>Sei modular</strong>: Zerlege komplexe Aufgaben in eine Reihe von einfacheren Aufgaben, die nacheinander ausgeführt werden können. Nutze Struktur, wie z. B. Stichpunkte, um Aspekte klar zu unterteilen.</li>
+<li><strong>Sei geduldig</strong>: Fordere das Modell auf, zuerst den Weg zur Antwort zu beschreiben, anstatt sofort zu antworten. Du bekommst bessere Antworten, wenn das Modell zuerst einen Lösungsweg ("chain of thought") entwickelt und diesen anschließend durchführt.</li>
+<li><strong>Sei ergänzend</strong>: Wenn zu wenig Informationen verfügbar sind neigen Sprachmodelle dazu, unzutreffende Antworten zu erfinden. Versorge das Modell deshalb mit relevanten und aktuellen Informationen, damit es besser antworten kann. Wenn Du Zugriff auf Quellen (wie z. B. Dokumente oder Bücher) brauchst, dann nutze KI-Systeme, die Daten verarbeiten können. </li>
+<li><strong>Sei passgenau</strong>: Generative KIs sind nicht die beste Lösung für jede Aufgabe. So sind Sprachmodelle, wie GPT-3.5 z. B. gut in der Entwicklung eines Lösungsvorgehens, aber nicht besonders gut und zuverlässig im Rechnen. Nutze deshalb weitere Tools (wie z. B. GPT-4 mit Code-Interpreter) um Operationen durchzuführen, die das Modell nicht selbstständig ausführen kann.</li>
+<li><strong>Sei evaluativ</strong>: Erstelle und vergleiche unterschiedliche Prompts systematisch, um die Wirkung des Prompts und die Leistungsfähigkeit des Modelles besser einschätzen und optimieren zu können.</li>
 </ol>
 <h3 id="bereitstellen-von-beispielen">Bereitstellen von Beispielen</h3>
 <p>Eine weitere hilfreiche Technik, um bessere Ergebnisse zu erzielen, ist das One-Shot- und Few-Shot-Learning. Diese Methoden dienen dazu, dem KI-Modell zu demonstrieren, was genau erwartet wird. Das KI-Modell kann sich bei der Antwort dann an den Beispielen orientieren und antwortet eher so, wie es der Nutzer erwartet.</p>
@@ -1428,8 +1416,8 @@ Mache mit diesen Beispielen weiter:
 <li>Professor Synapse Prompt: <a href="https://github.com/ProfSynapse/Synapse_CoR/blob/main/GPTprompt.txt">Synapse_CoR/GPTprompt.txt at main · ProfSynapse/Synapse_CoR (github.com)</a> oder auch <a href="https://github.com/ProfSynapse/Super_Synapse/blob/main/prompt.txt">Super_Synapse/prompt.txt at main · ProfSynapse/Super_Synapse (github.com)</a></li>
 </ol>
 <p><strong>Tipp:</strong> Fortgeschrittene Prompts funktionieren wesentlich besser in leistungsfähigeren KI-Systemen wie z. B. GPT-4. </p>
-<h3 id="wenn-du-noch-tiefer-gehen-willst">Wenn Du noch tiefer gehen willst ...</h3>
-<p>Es gibt zahlreiche gute Zusammenstellungen zu Prompt-Techniken, wie z.B.</p>
+<h3 id="wenn-du-noch-tiefer-gehen-willst">Wenn Du noch tiefer gehen willst</h3>
+<p>Es gibt zahlreiche gute Zusammenstellungen zu Prompt-Techniken, wie z.B.:</p>
 <ul>
 <li><a href="https://cookbook.openai.com/articles/related_resources">Linksammlung zu Prompt Engineering im OpenAI Cookbook</a></li>
 <li><a href="https://github.com/promptslab/Awesome-Prompt-Engineering">Awesome-Prompt-Engineering</a></li>
@@ -1441,7 +1429,7 @@ Mache mit diesen Beispielen weiter:
 ist Nachfragen stellst und dann eine überarbeitete Version des Prompts ausgibst.
 </code></pre>
 <p>Es gibt viel umfangreichere und elaboriertere Prompts zur Verbesserung, wie z. B. <a href="https://flowgpt.com/p/chatgpt-4-prompt-improvement">ChatGPT 4 Prompt Improvement (flowgpt.com)</a> (Du kannst den Prompt über den Button "View Prompt" einsehen). Ebenso gibt es GPTs, wie z. B. <a href="https://chat.openai.com/g/g-uSEqrEWdX-pro-prompter">Pro Prompter</a> oder den <a href="https://chat.openai.com/g/g-qfoOICq1l-prompt-professor">ChatGPT - Prompt Professor</a>, die Dir bei der Verbesserung der Prompts helfen können.</p>
-<h3 id="ausblick-prompt-engineering-wird-voraussichtlich-an-bedeutung-verlieren">Ausblick: "Prompt Engineering"" wird voraussichtlich an Bedeutung verlieren</h3>
+<h3 id="ausblick-prompt-engineering-wird-voraussichtlich-an-bedeutung-verlieren">Ausblick: Prompt Engineering wird voraussichtlich an Bedeutung verlieren</h3>
 <p>Gleichzeitig stellt sich aber auch die Frage, ob man wirklich noch tiefer in das "Prompt Engineering" eintauchen will oder sollte. Denn: Einerseits bilden die hier und in den Katas genannten Prompting-Techniken eine solide Basis für die Zusammenarbeit mit der KI. Andererseits wird Prompt Engineering - je mehr sich KI-Systeme weiterentwickeln - aller Voraussicht nach immer mehr an Bedeutung verlieren, wenn sich diese durch permanentes Lernen verbessern und die Nutzereingaben direkt geeignet anpassen. So ist es z. B. jetzt schon bei Bildgenerierenden KIs (wie z. B. DALL-E3) so, dass der Prompt für das Bild durch die KI selbst erstellt werden kann. Feststeht, dass sich dieses Feld derzeit sehr dynamisch voranbewegt und fortwährend selbst optimiert.</p>
 
 <!-- Source file information -->
@@ -1576,7 +1564,7 @@ ist Nachfragen stellst und dann eine überarbeitete Version des Prompts ausgibst
     <script id="__config" type="application/json">{"base": "..", "features": ["toc.integrate", "search.share"], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "In Zwischenablage kopiert", "clipboard.copy": "In Zwischenablage kopieren", "search.result.more.one": "1 weiteres Suchergebnis auf dieser Seite", "search.result.more.other": "# weitere Suchergebnisse auf dieser Seite", "search.result.none": "Keine Suchergebnisse", "search.result.one": "1 Suchergebnis", "search.result.other": "# Suchergebnisse", "search.result.placeholder": "Suchbegriff eingeben", "search.result.term.missing": "Es fehlt", "select.version": "Version ausw\u00e4hlen"}}</script>
     
     
-      <script src="../assets/javascripts/bundle.bd41221c.min.js"></script>
+      <script src="../assets/javascripts/bundle.1e8ae164.min.js"></script>
       
     
   </body>

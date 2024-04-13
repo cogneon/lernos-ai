@@ -18,7 +18,7 @@
       
       
       <link rel="icon" href="../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.16">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.17">
     
     
       
@@ -1286,7 +1286,7 @@
 <p>Before the publication of the so-called <a href="https://en.wikipedia.org/wiki/Generative_pre-trained_transformer">Transformer</a> in 2017, generating natural language was one of the most challenging tasks - despite the already highly developed neural networks. Transformer and Attention are important developments for Large Language Models to capture complex speech patterns and generate human-like text.</p>
 <p>The Transformer is a neural network model developed specifically for processing sequences. It consists of several layers of attention mechanisms that allow the model to focus on different parts of the input sequence. The attention mechanisms are a key concept in the Transformer model because they allow complex relationships between words in a text to be recognized and context-dependent predictions to be made based on them.</p>
 <p>Previous concepts based word predictions solely on previous words. In contrast, the Transformer attention mechanism allows words to be predicted bidirectionally - i.e. on the basis of both previous and subsequent words. </p>
-<p><img alt="KI Modelle Zeitstrahl" src="../images/ai-models-timeline.png" /></p>
+<p><img alt="AI models timeline" src="../images/ai-models-timeline.png" /></p>
 <p>This development of LLMs is shown in the diagram above. As we can see, the first modern models were introduced shortly after the development of the Transformers. The graph shows that more and more models are now being developed and published under an open source license.</p>
 <h3 id="examples-of-generative-ai-models">Examples of generative AI models</h3>
 <p>In order to understand the differences, the tables provide brief information on various AI models. This is a snapshot, as the AI models are being further developed and trained. Therefore, the version designation of the respective models is essential for the qualitative assessment of the generated content. Especially when the scope of the training data is significantly increased. Added to the short info:</p>
@@ -1299,54 +1299,38 @@
 <table>
 <thead>
 <tr>
-<th>Model Name</th>
-<th>Brief Info</th>
-<th style="text-align: center;">Modellgröße in Mrd. Parameter</th>
-<th style="text-align: center;">Open Source</th>
+<th>Model</th>
+<th style="text-align: center;">Modellgröße (Mrd. Parameter), Lizenz</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><a href="https://blog.google/technology/ai/google-gemini-ai"><strong>Gemini</strong></a></td>
-<td>Based on experimental language models, Google designed this model to be multimodal from the ground up. It can interpret different types of information - text, code, image, audio or video. The model is trained for demanding logical tasks, translations and natural language generation.</td>
-<td style="text-align: center;">8.000</td>
-<td style="text-align: center;">N</td>
+<td><a href="https://blog.google/technology/ai/google-gemini-ai"><strong>Gemini</strong></a> - Based on experimental language models, Google designed this model to be multimodal from the ground up. It can interpret different types of information - text, code, image, audio or video. The model is trained for demanding logical tasks, translations and natural language generation.</td>
+<td style="text-align: center;">8.000, closed source</td>
 </tr>
 <tr>
-<td><a href="https://openai.com/gpt-4"><strong>GPT</strong></a></td>
-<td>The abbreviation of the best-known model stands for <em>Generative Pre-trained Transformer.</em> Provider OpenAI trains the model for dialogs, text generation or code development. The input processes text, speech or image material. The language model is improved iteratively through reinforcement learning with human feedback (Reinforcement Learning from Human Feedback, RLHF).</td>
-<td style="text-align: center;">175 (GPT-3)<br/>1.000 (GPT-4)<br/>2.000 (GPT-5)</td>
-<td style="text-align: center;">N</td>
+<td><a href="https://openai.com/gpt-4"><strong>GPT</strong></a> - The abbreviation of the best-known model stands for <em>Generative Pre-trained Transformer.</em> Provider OpenAI trains the model for dialogs, text generation or code development. The input processes text, speech or image material. The language model is improved iteratively through reinforcement learning with human feedback (Reinforcement Learning from Human Feedback, RLHF).</td>
+<td style="text-align: center;">1.000 (GPT-4), closed source</td>
 </tr>
 <tr>
-<td><a href="https://leam.ai"><strong>LEAM</strong></a></td>
-<td>The abbreviation stands for <em>Large European AI Models,</em> whose development takes particular account of European values and high requirements in terms of data protection, transparency and bias. At the same time, the design of the training of AI models is to become more sustainable.</td>
-<td style="text-align: center;">k.A.</td>
-<td style="text-align: center;">?</td>
+<td><a href="https://leam.ai"><strong>LEAM</strong></a> - The abbreviation stands for <em>Large European AI Models,</em> whose development takes particular account of European values and high requirements in terms of data protection, transparency and bias. At the same time, the design of the training of AI models is to become more sustainable.</td>
+<td style="text-align: center;">k.A., ?</td>
 </tr>
 <tr>
-<td><a href="https://laion.ai/blog-de/leo-lm"><strong>LeoLM</strong></a></td>
-<td>The abbreviation stands for <em>Linguistically Enhanced Open Language Model,</em> the first open and commercially available German basic language model. It is based on a version of <em>LLaMA</em>.</td>
-<td style="text-align: center;">k.A.</td>
-<td style="text-align: center;">?</td>
+<td><a href="https://laion.ai/blog-de/leo-lm"><strong>LeoLM</strong></a> - The abbreviation stands for <em>Linguistically Enhanced Open Language Model,</em> the first open and commercially available German basic language model. It is based on a version of <em>LLaMA</em>.</td>
+<td style="text-align: center;">k.A., ?</td>
 </tr>
 <tr>
-<td><a href="https://ai.meta.com/llama"><strong>LLaMA</strong></a></td>
-<td>Provider Meta trains the model variants <em>LLaMA Chat</em> for dialogs and <em>Code LLaMA</em> with code-specific data sets for software development.</td>
-<td style="text-align: center;">65 (LLaMA)<br/>70 (LLaMA-2)</td>
-<td style="text-align: center;">J</td>
+<td><a href="https://ai.meta.com/llama"><strong>LLaMA</strong></a> - Provider Meta trains the model variants <em>LLaMA Chat</em> for dialogs and <em>Code LLaMA</em> with code-specific data sets for software development.</td>
+<td style="text-align: center;">70 (LLaMA-2), open source</td>
 </tr>
 <tr>
-<td><a href="https://docs.aleph-alpha.com/docs/introduction/model-card"><strong>Luminous</strong></a></td>
-<td>Aleph Alpha is a language model trained in five European languages: German, English, French, Italian and Spanish. The input for text development can be done with text or combined with images.</td>
-<td style="text-align: center;">200</td>
-<td style="text-align: center;">N</td>
+<td><a href="https://docs.aleph-alpha.com/docs/introduction/model-card"><strong>Luminous</strong></a> - Aleph Alpha is a language model trained in five European languages: German, English, French, Italian and Spanish. The input for text development can be done with text or combined with images.</td>
+<td style="text-align: center;">200, closed source</td>
 </tr>
 <tr>
-<td><a href="https://platform.openai.com/docs/models/whisper"><strong>Whisper</strong></a></td>
-<td>Universally applicable model from Open AI that offers multilingual recognition of speech in audio files and outputs the result as text or translated text.</td>
-<td style="text-align: center;">k.A.</td>
-<td style="text-align: center;">J</td>
+<td><a href="https://platform.openai.com/docs/models/whisper"><strong>Whisper</strong></a> - Universally applicable model from Open AI that offers multilingual recognition of speech in audio files and outputs the result as text or translated text.</td>
+<td style="text-align: center;">k.A., open source</td>
 </tr>
 </tbody>
 </table>
@@ -1356,36 +1340,30 @@
 <table>
 <thead>
 <tr>
-<th>Model Name</th>
-<th>Brief Info</th>
+<th>Model</th>
 <th style="text-align: center;">Open Source</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><a href="https://platform.openai.com/docs/models/dall-e"><strong>DALL-E</strong></a></td>
-<td>The Open AI model understands descriptions in natural language in order to create detailed and real-looking photos and works of art. The model is used as a basis in many applications.</td>
-<td style="text-align: center;">N</td>
+<td><a href="https://platform.openai.com/docs/models/dall-e"><strong>DALL-E</strong></a> - The Open AI model understands descriptions in natural language in order to create detailed and real-looking photos and works of art. The model is used as a basis in many applications.</td>
+<td style="text-align: center;">closed source</td>
 </tr>
 <tr>
-<td><a href="https://firefly.adobe.com"><strong>Firefly Image</strong></a></td>
-<td>Adobe's image generation model relies on licensed photos from its own image database and public domain image material. Individual training with your own works is currently being developed for version 2. The model generates similarly high-quality images as DALL-E.</td>
-<td style="text-align: center;">J</td>
+<td><a href="https://firefly.adobe.com"><strong>Firefly Image</strong></a> - Adobe's image generation model relies on licensed photos from its own image database and public domain image material. Individual training with your own works is currently being developed for version 2. The model generates similarly high-quality images as DALL-E.</td>
+<td style="text-align: center;">closed source</td>
 </tr>
 <tr>
-<td><a href="https://huggingface.co/blog/lora"><strong>LoRA Stable Diffusion</strong></a></td>
-<td>The abbreviation stands for <em>Learn On Reconstruction and Attention.</em> The model is a combination of algorithms for the fine-tuning of images and image style training. After training with selected images, the AI recognizes a certain style and then applies it to other image data. </td>
-<td style="text-align: center;">J</td>
+<td><a href="https://huggingface.co/blog/lora"><strong>LoRA Stable Diffusion</strong></a> - The abbreviation stands for <em>Learn On Reconstruction and Attention.</em> The model is a combination of algorithms for the fine-tuning of images and image style training. After training with selected images, the AI recognizes a certain style and then applies it to other image data.</td>
+<td style="text-align: center;">open source</td>
 </tr>
 <tr>
-<td><a href="https://docs.midjourney.com"><strong>Midourney</strong></a></td>
-<td>The Midjourney research lab model generates high-quality, hyper-realistic images based on text input. There are artistic styles and creative filters to customize generated images. The model is appreciated for its unique combination of technical performance, artistic flair and a lively community.</td>
-<td style="text-align: center;">N</td>
+<td><a href="https://docs.midjourney.com"><strong>Midourney</strong></a> - The Midjourney research lab model generates high-quality, hyper-realistic images based on text input. There are artistic styles and creative filters to customize generated images. The model is appreciated for its unique combination of technical performance, artistic flair and a lively community.</td>
+<td style="text-align: center;">closed source</td>
 </tr>
 <tr>
-<td><a href="https://huggingface.co/prompthero/openjourney"><strong>OpenJourney</strong></a></td>
-<td>OpenJourney is a free, open-source text-to-image model developed by PromptHero. It can generate AI art in the style of Midjourney. HuggingFace. Users prefer Openjourney for its ability to generate stunning images with minimal input and its suitability as a base model for fine-tuning.</td>
-<td style="text-align: center;">J</td>
+<td><a href="https://huggingface.co/prompthero/openjourney"><strong>OpenJourney</strong></a> - OpenJourney is a free, open-source text-to-image model developed by PromptHero. It can generate AI art in the style of Midjourney. HuggingFace. Users prefer Openjourney for its ability to generate stunning images with minimal input and its suitability as a base model for fine-tuning.</td>
+<td style="text-align: center;">open source</td>
 </tr>
 </tbody>
 </table>
@@ -1394,7 +1372,7 @@
 <p>This chapter is intended to give you an introduction to the topic of AI models. In addition to the models focused on for text and image generation, there are other models that can be used to generate natural-looking speech. Applications for artificially generated speech output have been in use for a long time, but the results rarely sound like a speaking voice.</p>
 <p>The new AI models take speech synthesis to a new level. Other models can be used to compose music. Models trained on moving images generate smooth, high-quality videos.</p>
 <p>Based on these models, it is possible to generate deepfakes. </p>
-<h3 id="models-in-motion">Models in motion<a id="models-in-motion"></a></h3>
+<h3 id="models-in-motion">Models in motion</h3>
 <p>As the models are the basis for the performance of an AI application, a lot of development is invested in them. This chapter is therefore only a snapshot. Stay tuned to the developments with the blogs of <a href="https://www.deeplearning.ai/the-batch/tag/letters">Andrew Ng</a> or <a href="https://huggingface.co/blog">HuggingFace</a>.</p>
 <p><strong>Note:</strong> Please keep an eye on these discussions about models and their training data: </p>
 <ul>
@@ -1534,7 +1512,7 @@
     <script id="__config" type="application/json">{"base": "..", "features": ["toc.integrate", "search.share"], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../assets/javascripts/bundle.bd41221c.min.js"></script>
+      <script src="../assets/javascripts/bundle.1e8ae164.min.js"></script>
       
     
   </body>
