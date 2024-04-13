@@ -12,7 +12,7 @@ We asked ourselves the following questions when making our selection:
 
 (Registration is often required as a minimum.)
 
-![Overview AI Tools and Services](./images/lernos-ki-tools-services-202402-de.png)
+![Overview AI Tools and Services](./images/ai-tools-services.png)
 
 
 ### Tips & recommendations
