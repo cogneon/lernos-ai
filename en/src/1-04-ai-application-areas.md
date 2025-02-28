@@ -7,13 +7,13 @@ For generative AI, there is unfortunately not yet a nice diagram similar to the 
 | ------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------- |
 | **TEXT**    |   |
 | Create content                                | Communication: Create personalized emails and posts<br/>Personnel: Create interview questions and job descriptions |
-| Chatbots and assistants                         | Kommunikation: Chatbots für Webseiten im Internet und Intranet                                                            |
+| Chatbots and assistants                         | Communication: Chatbots for internet and intranet websites                                                           |
 | Search                                            | Natural language search instead of keyword search                                                                            |
 | Analysis and synthesis                             | Sales: Analyze customer interaction<br/>Legal: Summarize laws and regulatory documents                    |
 | **CODE**    |   |
 | Create code                                   | IT: Application development<br/>IT: Enabling low-code and no-code                                                         |
 | Create prototypes of applications and designs | IT: Design prototypes and user interfaces quickly                                                                   |
-| Datensätze generieren                            | IT: Improving AI model quality through data sets                                                                         |
+| Generate datasets                            | IT: Improving AI model quality through data sets                                                                         |
 | **IMAGE**    |   |
 | Create images                                 | Communication: generate unique images (instead of stock photos)                                                          |
 | Edit images                                | Communication: Remove or change image backgrounds                                                                 |
