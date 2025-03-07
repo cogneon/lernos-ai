@@ -16,9 +16,9 @@ Das sind die Etappen, die im Lernpfad durchlaufen werden:
 * Kata 7: Zusammenarbeit mit KI
 * Kata 8: Reflexion der Lernergebnisse
 * Kata 9: KI als Träumer, Halluzinator oder Lügner
-* Kata 10 Souverän prompten Teil 1
-* Kata 11 Souverän prompten Teil 2
-* Kata 12 Review und Lessons Learned
+* Kata 10: Souverän prompten Teil 1
+* Kata 11: Souverän prompten Teil 2
+* Kata 12: Review und Lessons Learned
 
 Zu jeder Etappe gibt der Leitfaden Hinweise für die inhaltliche Erarbeitung des jeweiligen Themas sowie konkrete Übungsaufgaben. Die nachfolgende Sketchnote von Katrin Mäntele soll darüber hinaus eine visuelle Orientierung über die einzelnen Katas geben (verwendbar unter Creative Commons CC BY-Lizenz):
 
