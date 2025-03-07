@@ -6,19 +6,19 @@ Willkommen im **Lernpfad des lernOS KI-Leitfadens**. Das zentrale **Ziel** für 
 
 Das sind die Etappen, die im Lernpfad durchlaufen werden:
 
-Kata 0: Vorbereiten & Kennenlernen
-Kata 1: Bewusstsein schaffen
-Kata 2: Einstieg mit der KI
-Kata 3: KI als DialogpartnerIn
-Kata 4: Reflexion der Lernergebnisse
-Kata 5: Anwendungsfelder am eigenen Arbeitsplatz
-Kata 6: Vertiefung Deines Lernziels
-Kata 7: Zusammenarbeit mit KI
-Kata 8: Reflexion der Lernergebnisse
-Kata 9: KI als Träumer, Halluzinator oder Lügner
-Kata 10 Souverän prompten Teil 1
-Kata 11 Souverän prompten Teil 2
-Kata 12 Review und Lessons Learned
+* Kata 0: Vorbereiten & Kennenlernen
+* Kata 1: Bewusstsein schaffen
+* Kata 2: Einstieg mit der KI
+* Kata 3: KI als DialogpartnerIn
+* Kata 4: Reflexion der Lernergebnisse
+* Kata 5: Anwendungsfelder am eigenen Arbeitsplatz
+* Kata 6: Vertiefung Deines Lernziels
+* Kata 7: Zusammenarbeit mit KI
+* Kata 8: Reflexion der Lernergebnisse
+* Kata 9: KI als Träumer, Halluzinator oder Lügner
+* Kata 10 Souverän prompten Teil 1
+* Kata 11 Souverän prompten Teil 2
+* Kata 12 Review und Lessons Learned
 
 Zu jeder Etappe gibt der Leitfaden Hinweise für die inhaltliche Erarbeitung des jeweiligen Themas sowie konkrete Übungsaufgaben. Die nachfolgende Sketchnote von Katrin Mäntele soll darüber hinaus eine visuelle Orientierung über die einzelnen Katas geben (verwendbar unter Creative Commons CC BY-Lizenz):
 
