@@ -4,7 +4,7 @@
 
 Willkommen im **Lernpfad des lernOS KI-Leitfadens**. Das zentrale **Ziel** für diesen Lernpfad ist es, mindestens **einen KI-unterstützten Blog-/LinkedIn-Beitrag** zu erstellen und zu veröffentlichen ([Beispiel: mit Zusammenfassung Interview](https://www.linkedin.com/feed/update/urn:li:activity:7110171493103198209/)) oder auch **ein eigenes Lernprojekt** mittels KI zu verfolgen und Ergebnisse zu produzieren. Das Ziel dieses Lernprojekts kann beliebig erweitert werden (mehrere Beiträge, mehrsprachig, Podcast, Video etc.).
 
-Das sind die Etappen, die im Lernpfad durchlaufen werden:
+Das sind die Etappen, die im Lernpfad durchlaufen werden: 
 
 * Kata 0: Vorbereiten & Kennenlernen
 * Kata 1: Bewusstsein schaffen
