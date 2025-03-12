@@ -8,6 +8,7 @@ In der heutigen digitalen Ära stellt die KI eine zentrale Technologie dar, die 
 - Privatsphäre und Datenschutz
 - Digitale Abhängigkeit
 - Ethik und Wertesystem
+- Nachhaltigkeit
 - Regulierung
 
 ### Arbeitsplätze und Automatisierung
@@ -80,11 +81,23 @@ Die ethische Dimension der KI umfasst verschiedene Bedenken wie Fairness und Ver
 
 **Reflexionsfragen:**
 
-- Welche ethischen Richtlinien für KI gibt es in meiner Firma? Wer war an ihrer Erstellung beteiligt?
+- Welche ethischen Richtlinien für KI gibt es in meiner Organisation? Wer war an ihrer Erstellung beteiligt?
 - Spiegeln die Richtlinien auch meine persönlichen Werte wider wie Gerechtigkeit, Verantwortung, Schutz von geistigem Eigentum und Nachhaltigkeit?
 - Sind Prozesse vorhanden, um ethische Fragen interdisziplinär zu diskutieren?
 - Wie lässt sich die Einhaltung ethischer Prinzipien über den gesamten Entwicklungsprozess von KI-Systemen sicherstellen?
 - Welche Schulungen braucht es, um Bewusstsein und Kompetenzen zu Ethik, Verantwortung und KI zu stärken?
+
+### Nachhaltigkeit
+
+Das Training von Large Language Models erfordert in den Rechenzentren viel Energie. Dazu kommt der Verbrauch von Wasser zur Kühlung. Jede Interaktion mit einer KI verbraucht mehr Energie als eine Recherche mit einer klassischen Suchmaschine. Um der steigenden Leistungsanforderung nachzukommen, wurden und werden neue Rechenzentren geplant. Die Standortwahl fällt auf Gegenden mit kühlen Temperaturen und reichlich Wasservorkommen zur Kühlung. Die für neue Computerzentren erforderliche Hardware verbraucht ebenfalls Energie und sauberes Wasser in der Produktion der Computerchips plus Wasser für die Kühlung der Produktionsstätten.
+Gleichzeitig kann KI einen Beitrag leisten, um den Energie- und Ressourcenverbrauch zu reduzieren. Beispiele dafür sind Überwachung, Optimierung und Voraussagen verschiedenster Prozesse in Produktion, Landwirtschaft, Energieversorgung, Bewässerung, Recycling, Transport und Logistik. Auf der Liste der Chancen in punkto Nachhaltigkeit durch KI stehen auch energieeffizientere Hardware, verbesserte Algorithmen, die Rechenzeit einsparen, erneuerbare Energiequellen für den Betrieb von Rechenzentren sowie staatliche Regulierungen, damit Unternehmen ihre KI-Anwendungen nachhaltiger gestalteten.
+
+**Reflexionsfragen** 
+
+- Bestehen bereits Anforderungen in punkto Nachhaltigkeit und Vereinbarkeit mit den Sustainable Development Goals (SDG) in deiner Organisation?
+- Was sind deine eigenen Wertvorstellungen dazu?
+- Was könnt ihr tun, um KI nachhaltiger einzusetzen?
+- Welche Schulungen braucht es, um Kompetenzen zu Nachhaltigkeit bei der KI-Nutzung zu stärken?
 
 ### Regulierung
 
