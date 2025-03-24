@@ -61,7 +61,7 @@ Here is a complete example:
 
 OpenAI (the developers of ChatGPT) also describe in more detail in their article <a href=“https://platform.openai.com/docs/guides/prompt-engineering/prompt-engineering”>Prompt Engineering</a> what they consider to be a “good” prompt:
 
-1 **Be specific**: Make sure requests include any important details or context so the model doesn't have to guess what you mean. The more specific you are in describing the background, your request and the type of output you expect, the better the response will be.
+1. **Be specific**: Make sure requests include any important details or context so the model doesn't have to guess what you mean. The more specific you are in describing the background, your request and the type of output you expect, the better the response will be.
 1. **Be modular**: Break down complex tasks into a series of simpler tasks that can be completed in sequence. Use structure, such as bullet points, to clearly divide aspects.
 1. **Be patient**: Ask the model to describe the path to the answer first instead of answering immediately. You will get better answers if the model first develops a solution ("chain of thought") and then carries it out.
 1. **Be complementary**: When too little information is available, language models tend to invent inaccurate answers. Therefore, provide the model with relevant and up-to-date information so that it can answer better. If you need access to sources (such as documents or books), use AI systems that can process data. 
