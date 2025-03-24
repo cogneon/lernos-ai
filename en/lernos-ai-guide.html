@@ -60,6 +60,10 @@
     img {
       max-width: 100%;
     }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
     h1, h2, h3, h4, h5, h6 {
       margin-top: 1.4em;
     }
@@ -103,8 +107,8 @@
      overflow: visible;
     }
     hr {
-      background-color: #1a1a1a;
       border: none;
+      border-top: 1px solid #1a1a1a;
       height: 1px;
       margin: 1em 0;
     }
@@ -152,17 +156,17 @@
     div.columns{display: flex; gap: min(4vw, 1.5em);}
     div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
     ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
       width: 0.8em;
       margin: 0 0.8em 0.2em -1.6em;
       vertical-align: middle;
     }
     .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
-  <!--[if lt IE 9]>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
-  <![endif]-->
 </head>
 <body>
 <header id="title-block-header">
@@ -279,14 +283,7 @@ class="toc-section-number">5.2</span> Change History</a></li>
 class="header-section-number">1</span> Welcome</h1>
 <p>Welcome to the <strong>lernOS Artificial Intelligence (AI)
 Guide</strong>. The guide is available for testing in a first version
-0.2. In the <a href="https://loscon.lernos.org/">lernOS KI MOOC</a> from
-<strong>6.5.-21.6.2024</strong> we will put the guide to the practical
-test and create a version 1.0 with your feedback. You can already
-register for the AI MOOC <a
-href="https://www.meetup.com/cogneon/events/297769514/">via
-meetup.com</a>. We will share our experiences at the <a
-href="https://loscon.lernos.org/de/">lernOS Convention 2024</a>.</p>
-<p><img src="images/kimooc24-key-visual-1000px.jpg" /></p>
+0.2.</p>
 <p><strong>Aim of the guide:</strong> To introduce people with no prior
 knowledge of AI to the topic of artificial intelligence so that they can
 make an informed decision about how/where they are affected and what
@@ -445,119 +442,119 @@ milestones:</p>
 <col style="width: 95%" />
 </colgroup>
 <thead>
-<tr class="header">
+<tr>
 <th>Year</th>
 <th>Milestone</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><strong>1950</strong></td>
 <td>Alan Turing develops the <a
 href="https://en.wikipedia.org/wiki/Turing_test">Turing Test</a>
 (originally Imitation Game) to test the intelligent behaviour of a
 machine.</td>
 </tr>
-<tr class="even">
+<tr>
 <td><strong>1956</strong></td>
 <td>The <a
 href="https://en.wikipedia.org/wiki/Dartmouth_workshop">Dartmouth
 Workshop</a> is the birth of <strong>artificial intelligence</strong> as
 a specialised field.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><strong>1959</strong></td>
 <td>Allen Newell and Herbert A. Simon develop the <a
 href="https://en.wikipedia.org/wiki/Logic_Theorist">Logic Theorist</a>,
 the first AI programme.</td>
 </tr>
-<tr class="even">
+<tr>
 <td><strong>1966</strong></td>
 <td>Joseph Weizenbaum develops <a
 href="https://en.wikipedia.org/wiki/ELIZA">ELIZA</a>, which enables
 communication between humans and machines in natural language.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><strong>1967</strong></td>
 <td><a href="https://en.wikipedia.org/wiki/Dendral">Dendral</a> is being
 developed, a rule-based system for chemical analysis, a major AI
 achievement.</td>
 </tr>
-<tr class="even">
+<tr>
 <td><strong>1969</strong></td>
 <td><a href="https://en.wikipedia.org/wiki/Shakey_the_robot">Shakey the
 Robot</a> will be the first mobile robot that can think logically and
 solve problems.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><strong>1970er</strong></td>
 <td><a href="https://en.wikipedia.org/wiki/Expert_system">Expert
 systems</a> with manually created rules are being developed.</td>
 </tr>
-<tr class="even">
+<tr>
 <td><strong>1973</strong></td>
 <td>The <a href="https://en.wikipedia.org/wiki/AI_winter">AI winter</a>
 is beginning due to high expectations and unfulfilled goals in AI
 research.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><strong>1980er Jahre</strong></td>
 <td><a href="https://en.wikipedia.org/wiki/Expert_system">Expert
 systems</a> are gaining in popularity. They use rules to imitate human
 expertise in narrow areas.</td>
 </tr>
-<tr class="even">
+<tr>
 <td><strong>1997</strong></td>
 <td>The <a
 href="https://en.wikipedia.org/wiki/Long_short-term_memory">Long
 Short-Term Memory</a> (LSTM) is published as an important algorithm for
 <strong>machine learning</strong>.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><strong>1997</strong></td>
 <td>IBM <a
 href="https://en.wikipedia.org/wiki/Deep_Blue_(chess_computer)">Deep
 Blue</a> defeats world chess champion Garry Kasparov, demonstrating the
 potential of AI.</td>
 </tr>
-<tr class="even">
+<tr>
 <td><strong>2011</strong></td>
 <td><a href="https://en.wikipedia.org/wiki/IBM_Watson">IBM Watson</a>
 wins the game show Jeopardy! and demonstrates the natural language
 processing of AI.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><strong>2011</strong></td>
 <td>Apple’s voice assistant <a
 href="https://en.wikipedia.org/wiki/Siri">Siri</a> comes onto the
 market.</td>
 </tr>
-<tr class="even">
+<tr>
 <td><strong>2012</strong></td>
 <td>Geoffrey Hinton’s <a
 href="https://en.wikipedia.org/wiki/Deep_learning">Deep Learning</a>
 techniques are reviving interest in neural networks.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><strong>2014</strong></td>
 <td><a href="https://en.wikipedia.org/wiki/Google_DeepMind">Google
 DeepMind</a> is developing a neural network that learns to play video
 games.</td>
 </tr>
-<tr class="even">
+<tr>
 <td><strong>2016</strong></td>
 <td><a href="https://en.wikipedia.org/wiki/AlphaGo">AlphaGo</a> from
 DeepMind defeats the Go world champion Lee Sedol and proves the
 strategic thinking of AI.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><strong>2017</strong></td>
 <td>The <strong>Deep Learning</strong> architecture <a
 href="https://en.wikipedia.org/wiki/Transformer_(machine-learning_model)">Transformer</a>
 is proposed, which requires less training time than previous
 architectures (RNN, LSTM)</td>
 </tr>
-<tr class="even">
+<tr>
 <td><strong>2021</strong></td>
 <td>The term <a
 href="https://en.wikipedia.org/wiki/Foundation_models">Foundation
@@ -565,13 +562,13 @@ Model</a> was first used by the Stanford Institute for Human-Centered
 Artificial Intelligence’s (HAI) Center for Research on Foundation Models
 (CRFM).</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><strong>2021</strong></td>
 <td>The <strong>generative AI</strong> <a
 href="https://en.wikipedia.org/wiki/DALL-E">DALL-E</a> for generating
 images from text is published.</td>
 </tr>
-<tr class="even">
+<tr>
 <td><strong>2021</strong></td>
 <td><a href="https://en.wikipedia.org/wiki/Ameca_(robot)">Ameca</a> is a
 humanoid robot developed by Engineered Arts. Ameca is primarily intended
@@ -579,7 +576,7 @@ as a platform for the further development of robotics technologies for
 human-robot interaction. The interaction can be controlled either by
 GPT-3 or human telepresence.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><strong>2022</strong></td>
 <td>The chatbot <a
 href="https://en.wikipedia.org/wiki/ChatGPT">ChatGPT</a>, which uses the
@@ -800,111 +797,111 @@ the future of generative AI?</a> in more detail:</p>
 <col style="width: 71%" />
 </colgroup>
 <thead>
-<tr class="header">
+<tr>
 <th>Modality/Field of application</th>
 <th>Example</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><strong>TEXT</strong></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td>Create content</td>
 <td>Communication: Create personalized emails and posts<br/>Personnel:
 Create interview questions and job descriptions</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Chatbots and assistants</td>
 <td>Kommunikation: Chatbots für Webseiten im Internet und Intranet</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Search</td>
 <td>Natural language search instead of keyword search</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Analysis and synthesis</td>
 <td>Sales: Analyze customer interaction<br/>Legal: Summarize laws and
 regulatory documents</td>
 </tr>
-<tr class="even">
+<tr>
 <td><strong>CODE</strong></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Create code</td>
 <td>IT: Application development<br/>IT: Enabling low-code and
 no-code</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Create prototypes of applications and designs</td>
 <td>IT: Design prototypes and user interfaces quickly</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Datensätze generieren</td>
 <td>IT: Improving AI model quality through data sets</td>
 </tr>
-<tr class="even">
+<tr>
 <td><strong>IMAGE</strong></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Create images</td>
 <td>Communication: generate unique images (instead of stock photos)</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Edit images</td>
 <td>Communication: Remove or change image backgrounds</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><strong>AUDIO</strong></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td>Generate text-to-speech</td>
 <td>Training: Creating voiceover voices</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Generate sounds</td>
 <td>Media: Generate background noise or music</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Edit audio</td>
 <td>Communication: Editing podcasts without a new recording</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><strong>VIDEO</strong></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td>Create video</td>
 <td>Training: create short educational videos with AI avatars</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Edit video</td>
 <td>Marketing: Personalize standard videos<br/>Communication: Remove
 backgrounds from videos</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Translate and adapt language</td>
 <td>Communication: Dubbing, replace original language with
 voiceover<br/>Meetings: Live translation in meetings</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Swapping faces and making adjustments</td>
 <td>Communication: Translation with changes in lip movement for other
 languages</td>
 </tr>
-<tr class="even">
+<tr>
 <td><strong>3D &amp; VR</strong></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Generate 3D objects</td>
 <td>Video games: Create characters and objects</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Designing products and making them tangible</td>
 <td>Product development: speed up the development process</td>
 </tr>
@@ -1047,14 +1044,14 @@ also write software code.</p>
 <col style="width: 8%" />
 </colgroup>
 <thead>
-<tr class="header">
+<tr>
 <th>Model</th>
 <th style="text-align: center;">Modellgröße (Mrd. Parameter),
 Lizenz</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><a
 href="https://blog.google/technology/ai/google-gemini-ai"><strong>Gemini</strong></a> -
 Based on experimental language models, Google designed this model to be
@@ -1064,7 +1061,7 @@ for demanding logical tasks, translations and natural language
 generation.</td>
 <td style="text-align: center;">8.000, closed source</td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="https://openai.com/gpt-4"><strong>GPT</strong></a> - The
 abbreviation of the best-known model stands for <em>Generative
 Pre-trained Transformer.</em> Provider OpenAI trains the model for
@@ -1074,7 +1071,7 @@ through reinforcement learning with human feedback (Reinforcement
 Learning from Human Feedback, RLHF).</td>
 <td style="text-align: center;">1.000 (GPT-4), closed source</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="https://leam.ai"><strong>LEAM</strong></a> - The
 abbreviation stands for <em>Large European AI Models,</em> whose
 development takes particular account of European values and high
@@ -1083,7 +1080,7 @@ same time, the design of the training of AI models is to become more
 sustainable.</td>
 <td style="text-align: center;">k.A., ?</td>
 </tr>
-<tr class="even">
+<tr>
 <td><a
 href="https://laion.ai/blog-de/leo-lm"><strong>LeoLM</strong></a> - The
 abbreviation stands for <em>Linguistically Enhanced Open Language
@@ -1091,14 +1088,14 @@ Model,</em> the first open and commercially available German basic
 language model. It is based on a version of <em>LLaMA</em>.</td>
 <td style="text-align: center;">k.A., ?</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="https://ai.meta.com/llama"><strong>LLaMA</strong></a> -
 Provider Meta trains the model variants <em>LLaMA Chat</em> for dialogs
 and <em>Code LLaMA</em> with code-specific data sets for software
 development.</td>
 <td style="text-align: center;">70 (LLaMA-2), open source</td>
 </tr>
-<tr class="even">
+<tr>
 <td><a
 href="https://docs.aleph-alpha.com/docs/introduction/model-card"><strong>Luminous</strong></a> -
 Aleph Alpha is a language model trained in five European languages:
@@ -1106,7 +1103,7 @@ German, English, French, Italian and Spanish. The input for text
 development can be done with text or combined with images.</td>
 <td style="text-align: center;">200, closed source</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a
 href="https://platform.openai.com/docs/models/whisper"><strong>Whisper</strong></a> -
 Universally applicable model from Open AI that offers multilingual
@@ -1132,13 +1129,13 @@ learned information in order to generate new content.</p>
 <col style="width: 4%" />
 </colgroup>
 <thead>
-<tr class="header">
+<tr>
 <th>Model</th>
 <th style="text-align: center;">Open Source</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><a
 href="https://platform.openai.com/docs/models/dall-e"><strong>DALL-E</strong></a> -
 The Open AI model understands descriptions in natural language in order
@@ -1146,7 +1143,7 @@ to create detailed and real-looking photos and works of art. The model
 is used as a basis in many applications.</td>
 <td style="text-align: center;">closed source</td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="https://firefly.adobe.com"><strong>Firefly
 Image</strong></a> - Adobe’s image generation model relies on licensed
 photos from its own image database and public domain image material.
@@ -1155,7 +1152,7 @@ version 2. The model generates similarly high-quality images as
 DALL-E.</td>
 <td style="text-align: center;">closed source</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="https://huggingface.co/blog/lora"><strong>LoRA Stable
 Diffusion</strong></a> - The abbreviation stands for <em>Learn On
 Reconstruction and Attention.</em> The model is a combination of
@@ -1164,7 +1161,7 @@ training with selected images, the AI recognizes a certain style and
 then applies it to other image data.</td>
 <td style="text-align: center;">open source</td>
 </tr>
-<tr class="even">
+<tr>
 <td><a
 href="https://docs.midjourney.com"><strong>Midourney</strong></a> - The
 Midjourney research lab model generates high-quality, hyper-realistic
@@ -1174,7 +1171,7 @@ unique combination of technical performance, artistic flair and a lively
 community.</td>
 <td style="text-align: center;">closed source</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a
 href="https://huggingface.co/prompthero/openjourney"><strong>OpenJourney</strong></a> -
 OpenJourney is a free, open-source text-to-image model developed by
@@ -2815,7 +2812,7 @@ class="header-section-number">5.2</span> Change History</h2>
 <col style="width: 13%" />
 </colgroup>
 <thead>
-<tr class="header">
+<tr>
 <th>Version</th>
 <th>Edited by</th>
 <th>Description Change</th>
@@ -2823,7 +2820,7 @@ class="header-section-number">5.2</span> Change History</h2>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>0.1</td>
 <td>Benedikt Scheerer, Doris Schuppe, Ellen Braun, Oliver Ewinger, Hans
 Gaertner, Marcel Kirchner, Moritz Meissner, Oliver Pincus, Simon
