@@ -2,8 +2,8 @@
 echo Starting lernOS Guide Generation ...
 
 # Variables
-filename="lernOS-Template-Guide-de"
-chapters="./src/index.md ./src/1-0-Grundlagen.md ./src/1-1-Grundidee.md ./src/1-2-Lebenszyklus.md ./src/1-3-Inhaltsverzeichnis.md ./src/1-4-Inhalt-Schreibstil.md ./src/1-5-Markdown-Syntax.md ./src/1-6-Produktionskette.md ./src/1-7-Github.md ./src/2-0-Lernpfad.md ./src/3-0-Anhang.md"
+filename="lernos-ai-guide"
+chapters="./src/index.md ./src/1-00-basics.md ./src/1-01-ai-machine-learning.md ./src/1-02-neuronal-networks.md ./src/1-03-machine-vs-human-learning.md ./src/1-04-ai-application-areas.md ./src/1-05-ai-models.md ./src/1-06-ai-tools-services.md ./src/1-07-prompts-erstellen.md ./src/1-08-ai-and-society.md ./src/1-09-further-information.md ./src/2-00-learning-pathway.md ./src/2-01-kata-0.md ./src/2-02-kata-1.md ./src/2-03-kata-2.md ./src/2-04-kata-3.md ./src/2-05-kata-4.md ./src/2-06-kata-5.md ./src/2-07-kata-6.md ./src/2-08-kata-7.md ./src/2-09-kata-8.md ./src/2-10-kata-9.md ./src/2-11-kata-10.md ./src/2-11-kata-11.md ./src/2-12-kata-12.md ./src/3-00-appendix.md"
 
 # Delete Old Versions
 echo Deleting old versions ...
@@ -34,10 +34,6 @@ mogrify -size 2500x2500 -resize 2500x2500 ebook-cover.jpg
 mogrify -crop 1563x2500+102+0 ebook-cover.jpg
 pandoc metadata.yaml -s --resource-path="./src" -F mermaid-filter --epub-cover-image=ebook-cover.jpg -N --toc -V lang=de-de -o $filename.epub $chapters
 ebook-convert $filename.epub $filename.mobi
-
-# Create Slides (revealjs)
-# echo Creating Presentation ...
-# pandoc metadata.yaml --from markdown -s --resource-path="./src" -t revealjs -V theme=night -s ./slides/index.md -o ../docs/de-slides/index.html
 
 # Remove Unnecessary Files
 rm mermaid-filter.err
